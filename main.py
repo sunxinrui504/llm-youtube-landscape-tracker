@@ -1,4 +1,4 @@
-# 最终版 main.py
+# main.py  —  LLM YouTube Landscape Tracker 主編排器
 import json
 import os
 from datetime import datetime
@@ -6,7 +6,8 @@ from typing import Dict, Any
 
 from config.settings import TARGET_CHANNELS, DB_FILE_PATH, OUTPUT_DATA_PATH
 from utils.logger import setup_logger
-from core.ingestion import IngestionDispatcher, YtdlpBrokenException
+from core.quota_guard import QuotaGuard
+from core.ingestion import IngestionDispatcher
 from core.transformer import DataTransformer
 from core.transcription import TranscriptionPipeline
 from core.map_reduce_engine import MapReduceTextEngine
@@ -14,148 +15,141 @@ from core.graph_matrix import GraphMatrixAnalyzer
 
 logger = setup_logger("Main_Orchestrator")
 
-def load_json_file(file_path: str, default_factory) -> Any:
-    """加载JSON文件并处理异常"""
-    if os.path.exists(file_path):
+
+def load_json(path: str, default_factory) -> Any:
+    if os.path.exists(path):
         try:
-            with open(file_path, "r", encoding="utf-8") as f:
+            with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
-            logger.error(f"读取文件失败 {file_path}: {e}")
+            logger.error(f"讀取 {path} 失敗: {e}")
     return default_factory()
 
-def save_json_file(file_path: str, data: Any):
-    """保存JSON文件并处理异常"""
+
+def save_json(path: str, data: Any):
     try:
-        with open(file_path, "w", encoding="utf-8") as f:
+        with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
     except Exception as e:
-        logger.error(f"写入文件失败 {file_path}: {e}")
+        logger.error(f"寫入 {path} 失敗: {e}")
+
 
 def main():
-    logger.info("==============================================")
-    logger.info("🚀 LLM YouTube Landscape Tracker Pipeline 启动")
-    logger.info("==============================================")
+    logger.info("=" * 54)
+    logger.info("  LLM YouTube Landscape Tracker Pipeline 啟動")
+    logger.info("=" * 54)
 
-    # 实例化核心模块
-    dispatcher = IngestionDispatcher()
+    # ── 初始化模組 ───────────────────────────────────────────────
+    quota       = QuotaGuard()
+    dispatcher  = IngestionDispatcher(quota_guard=quota)
     transformer = DataTransformer()
-    transcription_pipe = TranscriptionPipeline()
-    mr_engine = MapReduceTextEngine()  # 新增MapReduce引擎
-    analyzer = GraphMatrixAnalyzer()
+    transcriber = TranscriptionPipeline()
+    mr_engine   = MapReduceTextEngine()
+    analyzer    = GraphMatrixAnalyzer()
 
-    # 加载状态数据库
-    processed_db: Dict[str, Any] = load_json_file(DB_FILE_PATH, dict)
-    output_payload: Dict[str, Any] = load_json_file(OUTPUT_DATA_PATH, lambda: {"last_updated": "", "themes_matrix": {}, "videos": []})
-    
+    # ── 載入狀態 ─────────────────────────────────────────────────
+    processed_db: Dict[str, Any] = load_json(DB_FILE_PATH, dict)
+    output_payload: Dict[str, Any] = load_json(
+        OUTPUT_DATA_PATH,
+        lambda: {"last_updated": "", "themes_matrix": {}, "videos": []}
+    )
     current_videos_pool = output_payload.get("videos", [])
-    new_processed_count = 0
+    new_count = 0
 
-    # 处理目标频道
-    for channel_url in TARGET_CHANNELS:
-        logger.info(f"正在扫描频道: {channel_url}")
-        
-        # 优化视频获取逻辑（先API后降级）
-        video_urls = dispatcher.get_latest_videos_via_api(channel_url, max_results=5)
+    # ── 掃描每個頻道 ─────────────────────────────────────────────
+    for channel_info in TARGET_CHANNELS:
+        channel_url = channel_info["url"]
+        logger.info(f"掃描頻道: {channel_url}")
+
+        video_urls = dispatcher.get_channel_videos(channel_info, max_results=10)
         if not video_urls:
-            video_urls = dispatcher.get_channel_videos_ytdlp(channel_url)
-        
+            logger.warning(f"無法獲取頻道影片列表，跳過: {channel_url}")
+            continue
+
         for url in video_urls:
-            video_id = url.split("v=")[-1] if "v=" in url else url.split("/")[-1]
-            
-            # 增量状态检查
+            video_id = IngestionDispatcher._extract_video_id(url)
+
+            # 增量檢查
             if video_id in processed_db:
-                logger.info(f"➔ [1秒跳过] 影片 ID: {video_id} 已在数据库中，跳过重复处理")
+                logger.info(f"[跳過] 已處理: {video_id}")
                 continue
 
-            logger.info(f"➔ 发现新影片！启动处理管线, ID: {video_id}")
-            
-            # 1. 采集元数据（带断路器机制）
-            raw_data = None
-            source_engine = "yt_dlp"
-            try:
-                raw_data = dispatcher.fetch_metadata_via_ytdlp(url)
-            except YtdlpBrokenException as e:
-                logger.warning(f"断路器激活！切换至API v3。ID: {video_id}. 原因: {e}")
-                raw_data = dispatcher.fetch_metadata_via_api(video_id)
-                source_engine = "api_v3"
-            except Exception as e:
-                logger.error(f"非预期采集崩溃，跳过影片: {video_id}. 错误: {e}")
-                continue
+            logger.info(f"[新影片] 開始處理: {video_id}")
+
+            # 1. 採集元數據（兩層異常樹已封裝在 dispatcher.fetch_metadata）
+            raw_data, source_engine = dispatcher.fetch_metadata(url)
 
             if not raw_data or "status_error" in raw_data:
-                logger.error(f"无法获取有效元数据，跳过。ID: {video_id}")
+                logger.error(f"元數據獲取失敗，跳過: {video_id}")
+                processed_db[video_id] = {
+                    "title": "",
+                    "processed_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    "status": "fetch_failed",
+                }
                 continue
 
-            # 2. 数据转换标准化
+            # 2. 數據標準化
             standard_meta = transformer.transform(raw_data, source=source_engine)
             if not standard_meta:
                 continue
 
-            # Shorts视频拦截
-            if dispatcher.is_shorts(standard_meta.get("duration_seconds"), standard_meta.get("url")):
-                logger.info(f"➔ [Shorts 拦截] 检测到短视频，不写入技术矩阵库。ID: {video_id}")
+            # Shorts 攔截
+            if dispatcher.is_shorts(
+                standard_meta.get("duration_seconds"),
+                standard_meta.get("url")
+            ):
+                logger.info(f"[Shorts 攔截] {video_id}")
                 processed_db[video_id] = {
                     "title": standard_meta["title"],
                     "processed_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-                    "status": "filtered_shorts"
+                    "status": "filtered_shorts",
                 }
                 continue
 
-            # 3. 字幕处理
-            media_payload = transcription_pipe.download_subtitles_or_audio(url, video_id, standard_meta)
-            text_stream = ""
-            
-            if media_payload["type"] == "text_stream":
-                text_stream = media_payload["data"]
-                standard_meta["processing_info"]["transcription_source"] = "youtube_captions"
-            elif media_payload["type"] == "audio_file":
-                text_stream = transcription_pipe.transcribe_audio_via_groq(media_payload["data"])
-                standard_meta["processing_info"]["transcription_source"] = "groq_whisper_cloud"
+            # 3. 字幕 / 音訊轉錄
+            text_result = transcriber.get_text_stream(url, video_id, standard_meta)
+            text_stream = text_result["text"]
+            standard_meta["processing_info"]["transcription_source"] = text_result["source"]
 
-            # 4. 使用MapReduce引擎处理文本
+            # 4. Map-Reduce AI 分析
             ai_insights = mr_engine.run_pipeline(text_stream, standard_meta)
-            
-            # 整合处理结果
-            standard_meta.update({
-                "speaker_type": ai_insights.get("speaker_type", "Panel Discussion"),
-                "speakers": ai_insights.get("speakers", ["Unknown"]),
-                "ai_topics": ai_insights.get("ai_topics", ["General"]),
-                "summary": ai_insights.get("summary", ""),
-                "dialogue_script": ai_insights.get("dialogue_script", []),
-                "processing_info": {
-                    **standard_meta["processing_info"],
-                    "processed_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-                }
-            })
 
-            # 添加到视频池并更新数据库
+            standard_meta.update({
+                "speaker_type":    ai_insights.get("speaker_type", "Solo"),
+                "speakers":        ai_insights.get("speakers",     ["Unknown"]),
+                "ai_topics":       ai_insights.get("ai_topics",    ["LLM"]),
+                "summary":         ai_insights.get("summary",      ""),
+                "dialogue_script": ai_insights.get("dialogue_script", []),
+            })
+            standard_meta["processing_info"]["processed_at"] = (
+                datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+            )
+
+            # 寫入影片池
             current_videos_pool.append(standard_meta)
             processed_db[video_id] = {
-                "title": standard_meta["title"],
+                "title":        standard_meta["title"],
                 "processed_at": standard_meta["processing_info"]["processed_at"],
-                "status": "successfully_processed"
+                "status":       "ok",
             }
-            new_processed_count += 1
+            new_count += 1
+            logger.info(f"[完成] {standard_meta['title'][:60]}")
 
-    # 5. 重新计算主题矩阵
-    if new_processed_count > 0 or not output_payload.get("themes_matrix"):
-        logger.info("发现数据更新，正在重建跨创作者主题矩阵与关联链...")
+    # ── 重建主題矩陣 ─────────────────────────────────────────────
+    if new_count > 0 or not output_payload.get("themes_matrix"):
+        logger.info(f"重建全域主題矩陣（新增 {new_count} 支影片）...")
         themes_matrix = analyzer.generate_relations(current_videos_pool)
-        
-        # 组装输出数据
         output_payload = {
             "last_updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
             "themes_matrix": themes_matrix,
-            "videos": current_videos_pool
+            "videos": current_videos_pool,
         }
-        
-        # 持久化保存
-        save_json_file(DB_FILE_PATH, processed_db)
-        save_json_file(OUTPUT_DATA_PATH, output_payload)
-        logger.info(f"✅ 管线运行成功！处理新影片: {new_processed_count} 支。")
+        save_json(DB_FILE_PATH,     processed_db)
+        save_json(OUTPUT_DATA_PATH, output_payload)
+        logger.info(f"Pipeline 完成，共處理 {new_count} 支新影片。Quota 今日已用 {quota.used} 點。")
     else:
-        logger.info("没有检测到新影片，全域矩阵保持最新状态。")
+        logger.info("沒有新影片，全域矩陣保持最新狀態。")
+
 
 if __name__ == "__main__":
     main()
