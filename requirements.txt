@@ -3,3 +3,4 @@ requests
 groq
 google-api-python-client
 isodate
+faster-whisper
