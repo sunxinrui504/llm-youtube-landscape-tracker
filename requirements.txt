@@ -1,6 +1,6 @@
 yt-dlp
 requests
-groq
+curl_cffi
 google-api-python-client
 isodate
 faster-whisper

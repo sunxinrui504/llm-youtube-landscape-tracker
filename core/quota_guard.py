@@ -35,17 +35,23 @@ class QuotaGuard:
 
     def _load(self) -> dict:
         today = str(date.today())
+        default = {"date": today, "used": 0, "paused": False}
         if os.path.exists(QUOTA_STATE_PATH):
             try:
                 with open(QUOTA_STATE_PATH, "r", encoding="utf-8") as f:
                     state = json.load(f)
+                if not isinstance(state, dict):
+                    raise ValueError(f"quota_state.json 頂層不是 dict：{type(state).__name__}")
                 # 新的一天重置計數
                 if state.get("date") != today:
-                    return {"date": today, "used": 0, "paused": False}
+                    return default
+                # 字段兑底：文件残缺時避免後續 KeyError
+                state.setdefault("used", 0)
+                state.setdefault("paused", False)
                 return state
-            except Exception:
-                pass
-        return {"date": today, "used": 0, "paused": False}
+            except Exception as e:
+                logger.warning(f"[QuotaGuard] 讀取 {QUOTA_STATE_PATH} 失敗，使用默認狀態：{e}")
+        return default
 
     def _save(self):
         with open(QUOTA_STATE_PATH, "w", encoding="utf-8") as f:

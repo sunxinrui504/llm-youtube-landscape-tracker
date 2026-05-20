@@ -1,4 +1,4 @@
-{
+window.__TRACKER_DATA__ = {
   "last_updated": "2026-05-20T12:21:15Z",
   "themes_matrix": {
     "LLMs": [
@@ -11113,4 +11113,4 @@
       ]
     }
   ]
-}
+};

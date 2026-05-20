@@ -16,7 +16,7 @@
 import time
 import random
 import re
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional, List, Tuple
 
 import yt_dlp
 from googleapiclient.discovery import build
@@ -24,7 +24,8 @@ from googleapiclient.errors import HttpError
 
 from config.settings import (
     MAX_RETRIES, YOUTUBE_API_KEY,
-    COOL_DOWN_MIN, COOL_DOWN_MAX, GLOBAL_FAIL_THRESH,
+    BACKOFF_BASE, BACKOFF_MAX,
+    GLOBAL_FAIL_THRESH, GLOBAL_FAIL_WINDOW,
 )
 from core.quota_guard import QuotaGuard
 from utils.logger import setup_logger
@@ -47,7 +48,8 @@ class YtdlpGlobalBroken(Exception):
 class IngestionDispatcher:
     def __init__(self, quota_guard: QuotaGuard):
         self.quota = quota_guard
-        self._consecutive_failures = 0   # 全局連續失敗計數器
+        self._consecutive_failures = 0   # 時間窗口內連續失敗計數器
+        self._first_failure_time: Optional[float] = None  # 窗口起始時間戳
         self._global_mode = "ytdlp"       # "ytdlp" | "api_only"
 
         self.api_client = None
@@ -91,19 +93,24 @@ class IngestionDispatcher:
         return []
 
     def _get_channel_videos_ytdlp(self, channel_url: str, max_results: int) -> List[str]:
+        # 強制指向頻道的「影片」標籤頁，避免 yt-dlp 返回 tabs/子播放列表（其 id 是 24 字 channel_id）
+        videos_url = channel_url.rstrip("/") + "/videos"
         ydl_opts = {
             "extract_flat": "in_playlist",
             "playlistend": max_results,
             "quiet": True,
+            "remote_components": "ejs:github",
         }
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                info = ydl.extract_info(channel_url, download=False)
+                info = ydl.extract_info(videos_url, download=False)
                 if info and "entries" in info:
-                    return [
-                        f"https://www.youtube.com/watch?v={e['id']}"
-                        for e in info["entries"] if e
-                    ]
+                    # 雙重過濾：只保留 11 字元的合法 video_id，屏蔽混入的 channel/playlist ID
+                    urls = []
+                    for e in info["entries"]:
+                        if e and self._VIDEO_ID_RE.match(e.get("id", "")):
+                            urls.append(f"https://www.youtube.com/watch?v={e['id']}")
+                    return urls
         except Exception as e:
             logger.warning(f"yt-dlp 頻道列表抓取失敗 {channel_url}: {e}")
         return []
@@ -130,7 +137,7 @@ class IngestionDispatcher:
 
     # ── 單片元數據抓取 ───────────────────────────────────────────────────────
 
-    def fetch_metadata(self, video_url: str) -> Dict[str, Any]:
+    def fetch_metadata(self, video_url: str) -> Tuple[Dict[str, Any], str]:
         """
         主調度入口：根據全局模式決定路線。
         - ytdlp 模式：yt-dlp 抓取，VideoFailed 時降級 API，
@@ -148,36 +155,56 @@ class IngestionDispatcher:
         try:
             raw = self._fetch_via_ytdlp_with_retry(video_url)
             self._consecutive_failures = 0   # 成功後重置計數器
+            self._first_failure_time = None
             return raw, "yt_dlp"
         except YtdlpVideoFailed as e:
+            now = time.time()
+
+            # 時間窗口判定：如果距首次失敗超過 GLOBAL_FAIL_WINDOW，重置計數器
+            if self._first_failure_time is None:
+                self._first_failure_time = now
+            elif (now - self._first_failure_time) > GLOBAL_FAIL_WINDOW:
+                # 跨越窗口的零星失敗不累計，重新開始計數
+                logger.info(
+                    f"距首次失敗已超 {GLOBAL_FAIL_WINDOW}s，重置連續失敗計數器。"
+                )
+                self._consecutive_failures = 0
+                self._first_failure_time = now
+
             self._consecutive_failures += 1
             logger.warning(
-                f"YtdlpVideoFailed: {video_id}（連續失敗 {self._consecutive_failures} 支）。"
+                f"YtdlpVideoFailed: {video_id}（{GLOBAL_FAIL_WINDOW}s 窗口內"
+                f"連續失敗 {self._consecutive_failures} 支）。"
                 f" 降級至 API 獲取此片元數據。原因: {e}"
             )
 
-            # 檢查是否需要觸發全局降級
+            # 檢查是否需要觸發全局降級（窗口內連續失敗達閾值 → IP 被精準阻斷）
             if self._consecutive_failures >= GLOBAL_FAIL_THRESH:
                 self._global_mode = "api_only"
                 logger.error(
-                    f"[YtdlpGlobalBroken] 連續 {self._consecutive_failures} 支影片失敗，"
-                    " yt-dlp 疑似被全局封鎖。Pipeline 切換至 API 全局模式。"
+                    f"[YtdlpGlobalBroken] {GLOBAL_FAIL_WINDOW}s 內連續"
+                    f" {self._consecutive_failures} 支影片失敗，"
+                    "yt-dlp 疑似被全局封鎖。Pipeline 切換至 API 全局模式。"
                 )
 
             return self._fetch_via_api(video_id), "api_v3"
 
     def _fetch_via_ytdlp_with_retry(self, video_url: str) -> Dict[str, Any]:
-        """帶重試的 yt-dlp 單片抓取，連續失敗 MAX_RETRIES 次後拋出 YtdlpVideoFailed"""
+        """帶指數退避重試的 yt-dlp 單片抓取，連續失敗 MAX_RETRIES 次後拋出 YtdlpVideoFailed"""
         ydl_opts = {
             "skip_download": True,
             "writesubtitles": True,
             "writeautomaticsub": True,
             "quiet": True,
+            "remote_components": "ejs:github",
         }
         last_error = None
         for attempt in range(1, MAX_RETRIES + 1):
-            sleep_sec = random.uniform(COOL_DOWN_MIN, COOL_DOWN_MAX)
-            time.sleep(sleep_sec)
+            # 指數退避：首次不等待，重試時 sleep = min(base^attempt + jitter, max)
+            if attempt > 1:
+                backoff = min(BACKOFF_BASE ** attempt + random.uniform(0, 1), BACKOFF_MAX)
+                logger.info(f"指數退避等待 {backoff:.1f}s（第 {attempt} 次重試）")
+                time.sleep(backoff)
             try:
                 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                     info = ydl.extract_info(video_url, download=False)
@@ -212,8 +239,26 @@ class IngestionDispatcher:
 
     # ── 工具函數 ─────────────────────────────────────────────────────────────
 
-    @staticmethod
-    def _extract_video_id(url: str) -> str:
+    # YouTube video_id 固定為 11 個字元：A-Z a-z 0-9 _ -
+    _VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
+
+    @classmethod
+    def _extract_video_id(cls, url: str) -> str:
+        """
+        從 YouTube URL 中提取 11 字元的 video_id，提不出時回傳空字串。
+        舊版本在 channel/playlist URL 誤被傳入時會返回 24 字元頃道 ID，
+        導致 processed_videos.json 記錄被污染；現在加上正則校驗。
+        """
+        if not url:
+            return ""
+        # 標準看片連結：https://www.youtube.com/watch?v=XXXXXXXXXXX
         if "v=" in url:
-            return url.split("v=")[-1].split("&")[0]
-        return url.rstrip("/").split("/")[-1]
+            candidate = url.split("v=")[-1].split("&")[0]
+        else:
+            # youtu.be/XXXXXXXXXXX 或 /shorts/XXXXXXXXXXX 或其他路徑式
+            candidate = url.rstrip("/").split("/")[-1].split("?")[0]
+
+        if cls._VIDEO_ID_RE.match(candidate):
+            return candidate
+        logger.warning(f"_extract_video_id: 無法從 URL 提取合法 video_id: {url}")
+        return ""

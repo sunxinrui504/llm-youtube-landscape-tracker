@@ -33,6 +33,10 @@ jobs:
           pip install -U pip
           pip install -U yt-dlp
           pip install -r requirements.txt
+          pip install pytest
+
+      - name: Run unit tests (fail-fast)
+        run: python -m pytest tests -q --tb=short
 
       - name: Run incremental pipeline
         env:

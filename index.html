@@ -189,29 +189,32 @@
   <div id="no-results">No videos match the current filters.</div>
 </div>
 
+<!-- data.js 由 Pipeline 自動產生，內容為 window.__TRACKER_DATA__ = {...} -->
+<!-- 用 <script src> 而非 fetch()，讓雙擊開啟（file://）和 GitHub Pages（https://）都能正常載入 -->
+<script src="data.js"></script>
+
 <script>
   let allVideos = [];
   let themesMatrix = {};
   let activeTopicFilter = "";
 
-  async function loadData() {
-    try {
-      const res = await fetch("data.json?_=" + Date.now());
-      const payload = await res.json();
-
+  function loadData() {
+    const payload = window.__TRACKER_DATA__;
+    if (!payload) {
       document.getElementById("last-updated").textContent =
-        "Last updated: " + (payload.last_updated || "unknown");
-
-      allVideos = payload.videos || [];
-      themesMatrix = payload.themes_matrix || {};
-
-      buildTopicGrid();
-      buildChannelFilter();
-      renderTable(allVideos);
-    } catch (e) {
-      document.getElementById("last-updated").textContent =
-        "Failed to load data.json — run the pipeline first.";
+        "data.js not found — run the pipeline first.";
+      return;
     }
+
+    document.getElementById("last-updated").textContent =
+      "Last updated: " + (payload.last_updated || "unknown");
+
+    allVideos = payload.videos || [];
+    themesMatrix = payload.themes_matrix || {};
+
+    buildTopicGrid();
+    buildChannelFilter();
+    renderTable(allVideos);
   }
 
   function buildTopicGrid() {

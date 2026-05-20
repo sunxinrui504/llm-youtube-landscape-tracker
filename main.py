@@ -1,11 +1,10 @@
 # main.py  —  LLM YouTube Landscape Tracker 主編排器
-import json
-import os
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, Any
 
 from config.settings import TARGET_CHANNELS, DB_FILE_PATH, OUTPUT_DATA_PATH
 from utils.logger import setup_logger
+from utils.io_helpers import load_json, save_json, save_data_js
 from core.quota_guard import QuotaGuard
 from core.ingestion import IngestionDispatcher
 from core.transformer import DataTransformer
@@ -16,22 +15,9 @@ from core.graph_matrix import GraphMatrixAnalyzer
 logger = setup_logger("Main_Orchestrator")
 
 
-def load_json(path: str, default_factory) -> Any:
-    if os.path.exists(path):
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception as e:
-            logger.error(f"讀取 {path} 失敗: {e}")
-    return default_factory()
-
-
-def save_json(path: str, data: Any):
-    try:
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-    except Exception as e:
-        logger.error(f"寫入 {path} 失敗: {e}")
+def now_iso() -> str:
+    """返回 UTC 現在時間的 ISO 8601 字串（取代 已弃用的 datetime.utcnow()）"""
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def main():
@@ -69,6 +55,10 @@ def main():
         for url in video_urls:
             video_id = IngestionDispatcher._extract_video_id(url)
 
+            # 安全關：URL 無法提取合法 video_id 則跳過，避免 processed_db 以 "" 爲 key 被覆寫
+            if not video_id:
+                continue
+
             # 增量檢查
             if video_id in processed_db:
                 logger.info(f"[跳過] 已處理: {video_id}")
@@ -83,7 +73,7 @@ def main():
                 logger.error(f"元數據獲取失敗，跳過: {video_id}")
                 processed_db[video_id] = {
                     "title": "",
-                    "processed_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    "processed_at": now_iso(),
                     "status": "fetch_failed",
                 }
                 continue
@@ -101,7 +91,7 @@ def main():
                 logger.info(f"[Shorts 攔截] {video_id}")
                 processed_db[video_id] = {
                     "title": standard_meta["title"],
-                    "processed_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    "processed_at": now_iso(),
                     "status": "filtered_shorts",
                 }
                 continue
@@ -121,9 +111,7 @@ def main():
                 "summary":         ai_insights.get("summary",      ""),
                 "dialogue_script": ai_insights.get("dialogue_script", []),
             })
-            standard_meta["processing_info"]["processed_at"] = (
-                datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-            )
+            standard_meta["processing_info"]["processed_at"] = now_iso()
 
             # 寫入影片池
             current_videos_pool.append(standard_meta)
@@ -135,17 +123,27 @@ def main():
             new_count += 1
             logger.info(f"[完成] {standard_meta['title'][:60]}")
 
-    # ── 重建主題矩陣 ─────────────────────────────────────────────
+            # 即時寫入：每處理完一支影片就更新 data.json + data.js，讓前端即時可見
+            output_payload = {
+                "last_updated": now_iso(),
+                "themes_matrix": output_payload.get("themes_matrix", {}),
+                "videos": current_videos_pool,
+            }
+            save_json(DB_FILE_PATH, processed_db)
+            save_data_js(OUTPUT_DATA_PATH, output_payload)
+            logger.info(f"[即時寫入] 已累計處理 {new_count} 支新影片，前端數據已更新")
+
+    # ── 重建主題矩陣（所有新影片處理完後一次性重算） ─────────────
     if new_count > 0 or not output_payload.get("themes_matrix"):
         logger.info(f"重建全域主題矩陣（新增 {new_count} 支影片）...")
         themes_matrix = analyzer.generate_relations(current_videos_pool)
         output_payload = {
-            "last_updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "last_updated": now_iso(),
             "themes_matrix": themes_matrix,
             "videos": current_videos_pool,
         }
         save_json(DB_FILE_PATH,     processed_db)
-        save_json(OUTPUT_DATA_PATH, output_payload)
+        save_data_js(OUTPUT_DATA_PATH, output_payload)
         logger.info(f"Pipeline 完成，共處理 {new_count} 支新影片。Quota 今日已用 {quota.used} 點。")
     else:
         logger.info("沒有新影片，全域矩陣保持最新狀態。")

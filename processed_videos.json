@@ -1,1 +1,352 @@
-[]
+{
+  "EWvNQjAaOHw": {
+    "title": "How I use LLMs",
+    "processed_at": "2026-05-20T08:22:50Z",
+    "status": "ok"
+  },
+  "7xTGNNLPyMI": {
+    "title": "Deep Dive into LLMs like ChatGPT",
+    "processed_at": "2026-05-20T08:23:26Z",
+    "status": "ok"
+  },
+  "l8pRSuU81PU": {
+    "title": "Let's reproduce GPT-2 (124M)",
+    "processed_at": "2026-05-20T08:24:04Z",
+    "status": "ok"
+  },
+  "zduSFxRajkE": {
+    "title": "Let's build the GPT Tokenizer",
+    "processed_at": "2026-05-20T08:24:26Z",
+    "status": "ok"
+  },
+  "zjkBMFhNj_g": {
+    "title": "[1hr Talk] Intro to Large Language Models",
+    "processed_at": "2026-05-20T08:24:47Z",
+    "status": "ok"
+  },
+  "kCc8FmEb1nY": {
+    "title": "Let's build GPT: from scratch, in code, spelled out.",
+    "processed_at": "2026-05-20T08:25:09Z",
+    "status": "ok"
+  },
+  "t3YJ5hKiMQ0": {
+    "title": "Building makemore Part 5: Building a WaveNet",
+    "processed_at": "2026-05-20T08:25:23Z",
+    "status": "ok"
+  },
+  "q8SA3rM6ckI": {
+    "title": "Building makemore Part 4: Becoming a Backprop Ninja",
+    "processed_at": "2026-05-20T08:25:47Z",
+    "status": "ok"
+  },
+  "P6sfmUTpUmc": {
+    "title": "Building makemore Part 3: Activations & Gradients, BatchNorm",
+    "processed_at": "2026-05-20T08:26:13Z",
+    "status": "ok"
+  },
+  "TCH_1BHY58I": {
+    "title": "Building makemore Part 2: MLP",
+    "processed_at": "2026-05-20T08:26:31Z",
+    "status": "ok"
+  },
+  "jz0rNhfAKo8": {
+    "title": "GPT 5.5 Arrives, DeepSeek V4 Drops, and the Compute War Intensifies",
+    "processed_at": "2026-05-20T08:27:53Z",
+    "status": "ok"
+  },
+  "QVJcdfkRpH8": {
+    "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
+    "processed_at": "2026-05-20T08:28:09Z",
+    "status": "ok"
+  },
+  "txx6ec6MLNY": {
+    "title": "Claude Mythos: Highlights from 244-page Release",
+    "processed_at": "2026-05-20T08:28:21Z",
+    "status": "ok"
+  },
+  "s4tptozUJ8Y": {
+    "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
+    "processed_at": "2026-05-20T08:28:34Z",
+    "status": "ok"
+  },
+  "zizoDORjmlQ": {
+    "title": "What the New ChatGPT 5.4 Means for the World",
+    "processed_at": "2026-05-20T08:28:46Z",
+    "status": "ok"
+  },
+  "Cru804JMjPI": {
+    "title": "Deadline Day for Autonomous AI Weapons & Mass Surveillance",
+    "processed_at": "2026-05-20T08:28:56Z",
+    "status": "ok"
+  },
+  "2_DPnzoiHaY": {
+    "title": "Gemini 3.1 Pro and the Downfall of Benchmarks: Welcome to the Vibe Era of AI",
+    "processed_at": "2026-05-20T08:29:07Z",
+    "status": "ok"
+  },
+  "1PxEziv5XIU": {
+    "title": "The Two Best AI Models/Enemies Just Got Released Simultaneously",
+    "processed_at": "2026-05-20T08:29:23Z",
+    "status": "ok"
+  },
+  "Iar4yweKGoI": {
+    "title": "Claude AI Co-founder Publishes 4 Big Claims about Near Future: Breakdown",
+    "processed_at": "2026-05-20T08:29:35Z",
+    "status": "ok"
+  },
+  "wYs6HWZ2FdM": {
+    "title": "Anthropic: Our AI just created a tool that can ‘automate all white collar work’, Me:",
+    "processed_at": "2026-05-20T08:29:52Z",
+    "status": "ok"
+  },
+  "ldxFjLJ3rVY": {
+    "title": "How (and why) to take a logarithm of an image",
+    "processed_at": "2026-05-20T11:24:03Z",
+    "status": "ok"
+  },
+  "fsLh-NYhOoU": {
+    "title": "The most beautiful formula not enough people understand",
+    "processed_at": "2026-05-20T11:25:55Z",
+    "status": "ok"
+  },
+  "BHdbsHFs2P0": {
+    "title": "The Hairy Ball Theorem",
+    "processed_at": "2026-05-20T11:26:54Z",
+    "status": "ok"
+  },
+  "FE-hM1kRK4Y": {
+    "title": "Why Laplace transforms are so useful",
+    "processed_at": "2026-05-20T11:27:47Z",
+    "status": "ok"
+  },
+  "j0wJBEZdwLs": {
+    "title": "But what is a Laplace Transform?",
+    "processed_at": "2026-05-20T11:29:00Z",
+    "status": "ok"
+  },
+  "-j8PzkZ70Lg": {
+    "title": "The Physics of Euler's Formula | Laplace Transform Prelude",
+    "processed_at": "2026-05-20T11:30:36Z",
+    "status": "ok"
+  },
+  "M-MgQC6z3VU": {
+    "title": "What was Euclid really doing? | Guest video by Ben Syversen",
+    "processed_at": "2026-05-20T11:32:08Z",
+    "status": "ok"
+  },
+  "_BrFKp-U8GI": {
+    "title": "Exploration & Epiphany | Guest video by Paul Dancstep",
+    "processed_at": "2026-05-20T11:33:51Z",
+    "status": "ok"
+  },
+  "itRV2jEtV8Q": {
+    "title": "Simulating and understanding phase change | Guest video by Vilas Winstein",
+    "processed_at": "2026-05-20T11:35:10Z",
+    "status": "ok"
+  },
+  "4NlrfOl0l8U": {
+    "title": "The AI that solved IMO Geometry Problems | Guest video by @Aleph0",
+    "processed_at": "2026-05-20T11:35:47Z",
+    "status": "ok"
+  },
+  "xHi8PUIVyoo": {
+    "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+    "processed_at": "2026-05-20T11:36:23Z",
+    "status": "ok"
+  },
+  "taCVT5vDAk0": {
+    "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
+    "processed_at": "2026-05-20T11:37:37Z",
+    "status": "ok"
+  },
+  "v67plFw1nMw": {
+    "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
+    "processed_at": "2026-05-20T11:38:44Z",
+    "status": "ok"
+  },
+  "Nao16-6l6dQ": {
+    "title": "[Paper Analysis] The Free Transformer (and some Variational Autoencoder stuff)",
+    "processed_at": "2026-05-20T11:39:51Z",
+    "status": "ok"
+  },
+  "0bpYCxv2qhw": {
+    "title": "[Video Response] What Cloudflare's code mode misses about MCP and tool calling",
+    "processed_at": "2026-05-20T11:40:28Z",
+    "status": "ok"
+  },
+  "zKohTkN0Fyk": {
+    "title": "[Paper Analysis] On the Theoretical Limitations of Embedding-Based Retrieval (Warning: Rant)",
+    "processed_at": "2026-05-20T11:41:44Z",
+    "status": "ok"
+  },
+  "hkAH7-u7t5k": {
+    "title": "AGI is not coming!",
+    "processed_at": "2026-05-20T11:42:20Z",
+    "status": "ok"
+  },
+  "hpC4qjWu_aY": {
+    "title": "Context Rot: How Increasing Input Tokens Impacts LLM Performance (Paper Analysis)",
+    "processed_at": "2026-05-20T11:43:32Z",
+    "status": "ok"
+  },
+  "RAEy3JZmIaA": {
+    "title": "Energy-Based Transformers are Scalable Learners and Thinkers (Paper Review)",
+    "processed_at": "2026-05-20T11:44:51Z",
+    "status": "ok"
+  },
+  "V71AJoYAtBQ": {
+    "title": "On the Biology of a Large Language Model (Part 2)",
+    "processed_at": "2026-05-20T11:55:59Z",
+    "status": "ok"
+  },
+  "4wC8hnQawiA": {
+    "title": "NVIDIA New AI Is An Efficiency Monster",
+    "processed_at": "2026-05-20T11:56:35Z",
+    "status": "ok"
+  },
+  "4nQnhjimB4Y": {
+    "title": "OpenAI's ChatGPT 5.5 Instant: The Good, The Bad And The Insane",
+    "processed_at": "2026-05-20T11:57:09Z",
+    "status": "ok"
+  },
+  "p7K3xfViWCE": {
+    "title": "DeepSeek V4 AI Beats Billion Dollar Systems…For Free",
+    "processed_at": "2026-05-20T11:57:41Z",
+    "status": "ok"
+  },
+  "eCw33snvoNI": {
+    "title": "NVIDIA's New AI Turns One Photo Into A World That Never Breaks",
+    "processed_at": "2026-05-20T11:58:14Z",
+    "status": "ok"
+  },
+  "QzZ4VwDHAT4": {
+    "title": "Sakana AI’s God Simulator Is Brilliant",
+    "processed_at": "2026-05-20T11:58:47Z",
+    "status": "ok"
+  },
+  "yzajLZXh9JU": {
+    "title": "Solved: The Bug That Haunted AI Video For Years",
+    "processed_at": "2026-05-20T11:59:25Z",
+    "status": "ok"
+  },
+  "Xf_v62TQOx4": {
+    "title": "NVIDIA's New AI Broke My Brain",
+    "processed_at": "2026-05-20T12:00:00Z",
+    "status": "ok"
+  },
+  "Sk9tvyRSCgY": {
+    "title": "DeepMind’s New AI: A Gift To Humanity",
+    "processed_at": "2026-05-20T12:00:46Z",
+    "status": "ok"
+  },
+  "Ersv1ogj7Jo": {
+    "title": "Anthropic’s New AI Solves Problems…By Cheating",
+    "processed_at": "2026-05-20T12:01:19Z",
+    "status": "ok"
+  },
+  "mFSFvKquXwI": {
+    "title": "NVIDIA’s New AI Shouldn’t Work…But It Does",
+    "processed_at": "2026-05-20T12:02:10Z",
+    "status": "ok"
+  },
+  "nEaljlUlqKk": {
+    "title": "MiniCPM-V 4.6: The Agent Vision Model",
+    "processed_at": "2026-05-20T12:03:10Z",
+    "status": "ok"
+  },
+  "Tymq54Mn8SU": {
+    "title": "Granite 4.1 - The Fastest ASR?",
+    "processed_at": "2026-05-20T12:03:54Z",
+    "status": "ok"
+  },
+  "V-djAkt0t-M": {
+    "title": "How Claude's Design Agents Work",
+    "processed_at": "2026-05-20T12:04:34Z",
+    "status": "ok"
+  },
+  "XNaI4Xd4qXc": {
+    "title": "NVIDIA's NEW All-in-One: Nemotron 3 Nano Omni for Multimodal Agents",
+    "processed_at": "2026-05-20T12:05:10Z",
+    "status": "ok"
+  },
+  "voWCwpibLZM": {
+    "title": "The Era of Agents is Here: Logan Kilpatrick on Why Everyone Is Now a Builder",
+    "processed_at": "2026-05-20T12:07:30Z",
+    "status": "ok"
+  },
+  "aIy85-gIDzI": {
+    "title": "Must Haves For Agents in Production",
+    "processed_at": "2026-05-20T12:08:17Z",
+    "status": "ok"
+  },
+  "7vkybiVRSm0": {
+    "title": "Muse Spark - Meta's NEW Llama Replacement",
+    "processed_at": "2026-05-20T12:09:21Z",
+    "status": "ok"
+  },
+  "5aqF1HVpjdc": {
+    "title": "Gemma 4 Has Landed!",
+    "processed_at": "2026-05-20T12:10:28Z",
+    "status": "ok"
+  },
+  "IjiaCOt7bP8": {
+    "title": "Agent Skills: Code Beats Markdown (Here's Why)",
+    "processed_at": "2026-05-20T12:11:25Z",
+    "status": "ok"
+  },
+  "_lpYx03VVBM": {
+    "title": "LiteParse - The Local Document Parser",
+    "processed_at": "2026-05-20T12:12:05Z",
+    "status": "ok"
+  },
+  "u2MFautDjuM": {
+    "title": "OpenAI’s Daybreak and Mistral’s Mythos competitor",
+    "processed_at": "2026-05-20T12:13:34Z",
+    "status": "ok"
+  },
+  "KVFrBtkLg4I": {
+    "title": "How Agentic AI Transforms Maintenance and Asset Decisions",
+    "processed_at": "2026-05-20T12:14:07Z",
+    "status": "ok"
+  },
+  "BedAaB1RKgE": {
+    "title": "MCP vs ADK: How Modern AI Agents Connect and Work Together",
+    "processed_at": "2026-05-20T12:14:45Z",
+    "status": "ok"
+  },
+  "SbrEk_tXZaE": {
+    "title": "Why AI Agents Break Zero Trust at the Last Mile",
+    "processed_at": "2026-05-20T12:15:18Z",
+    "status": "ok"
+  },
+  "YCWwh70FZtQ": {
+    "title": "AI skills security, Open AI Deployment Company & zero days",
+    "processed_at": "2026-05-20T12:17:16Z",
+    "status": "ok"
+  },
+  "D37Ijn2o5U0": {
+    "title": "Why Agentic AI Fails: Infinite Loops, Planning Errors, and More",
+    "processed_at": "2026-05-20T12:18:02Z",
+    "status": "ok"
+  },
+  "oRZK7fcBQIg": {
+    "title": "LLMjacking: How hackers steal your AI API keys and stick you with the bill",
+    "processed_at": "2026-05-20T12:19:15Z",
+    "status": "ok"
+  },
+  "IVGjBxqygmI": {
+    "title": "Why AI Agents Need an Operating System",
+    "processed_at": "2026-05-20T12:19:49Z",
+    "status": "ok"
+  },
+  "phOhGqpXss4": {
+    "title": "Predictive vs Generative AI: How They Work and When to Use Each",
+    "processed_at": "2026-05-20T12:20:39Z",
+    "status": "ok"
+  },
+  "V_qJIrvWyRQ": {
+    "title": "Agentic Consent Explained: How AI Agents Act Safely and Responsibly",
+    "processed_at": "2026-05-20T12:21:15Z",
+    "status": "ok"
+  }
+}

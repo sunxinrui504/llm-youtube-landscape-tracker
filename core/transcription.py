@@ -2,9 +2,11 @@
 """
 轉錄 Pipeline（三級策略 + SEGMENT BREAK 硬邊界預處理）
 
-優先級 1：YouTube 手動字幕（Manual Captions）
-優先級 2：YouTube 自動字幕（Auto-generated Captions）
-優先級 3（保底）：faster-whisper 本地 ASR（不需要外部 API，免費）
+優先級 1：YouTube 手動字幕（Manual Captions）—— 最快且免費，直接下載 .vtt 檔案
+優先級 2：YouTube 自動字幕（Auto-generated Captions）—— 同樣快速免費
+優先級 3（保底）：faster-whisper 本地 ASR
+  ── 當字幕不存在或下載失敗時，用 yt-dlp 下載低位元率音訊，
+  並調用 faster-whisper（完全本地免費）在 GitHub Actions 中運行轉錄
 
 SEGMENT BREAK 預處理：
   在把字幕文本餵給 LLM 之前，對每段超過 30 秒間隔的連續字幕
@@ -49,7 +51,7 @@ class TranscriptionPipeline:
         has_manual = standard_meta.get("processing_info", {}).get("has_manual_sub", False)
         has_auto   = standard_meta.get("processing_info", {}).get("has_auto_sub",   False)
 
-        # 優先級 1 & 2：下載字幕
+        # 優先級 1 & 2：下載 YouTube 字幕（最快，僅下載幾 KB 的 .vtt，零 API 開銷）
         if has_manual or has_auto:
             result = self._download_subtitles(video_url, video_id, prefer_manual=has_manual)
             if result:
@@ -57,7 +59,7 @@ class TranscriptionPipeline:
                 preprocessed = self._inject_segment_breaks(result)
                 return {"text": preprocessed, "source": source}
 
-        # 優先級 3：faster-whisper 本地 ASR
+        # 優先級 3（保底）：faster-whisper 本地 ASR（當字幕不存在時）
         if FASTER_WHISPER_AVAILABLE:
             audio_path = self._download_audio(video_url, video_id)
             if audio_path:
@@ -84,6 +86,7 @@ class TranscriptionPipeline:
             "subtitleslangs":    ["en", "en-US"],
             "outtmpl":           output_template,
             "quiet":             True,
+            "remote_components":  "ejs:github",
         }
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -93,7 +96,7 @@ class TranscriptionPipeline:
             return ""
 
         # 尋找已下載的 .vtt 文件
-        for suffix in [f".en.vtt", f".en-US.vtt", f".vtt"]:
+        for suffix in [".en.vtt", ".en-US.vtt", ".vtt"]:
             vtt_path = os.path.join(temp_dir, f"tracker_{video_id}{suffix}")
             if os.path.exists(vtt_path):
                 text = self._parse_vtt(vtt_path)
@@ -161,7 +164,7 @@ class TranscriptionPipeline:
         result = []
         prev_sec = None
 
-        ts_pattern = re.compile(r"^\[(\d{2}):(\d{2})\]")
+        ts_pattern = re.compile(r"^\[(\d{1,3}):(\d{2})\]")
 
         for line in lines:
             m = ts_pattern.match(line)
@@ -193,6 +196,7 @@ class TranscriptionPipeline:
                 "preferredquality": "64",
             }],
             "quiet": True,
+            "remote_components": "ejs:github",
         }
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:

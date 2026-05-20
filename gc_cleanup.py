@@ -1,24 +1,19 @@
 # gc_cleanup.py 為了徹底清理死連結，這段腳本每週日單獨運行。它使用 videos.list 批量接口（傳入 50 個 ID 僅扣 1 點 Quota），高效核對數據庫。如果發現影片已被刪除或設為私享，會將其從數據庫中抹除，並自動重新計算其餘存活影片的全量標籤矩陣，確保前端絕對沒有死引用。
-import json
-import os
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
+
 from config.settings import DB_FILE_PATH, OUTPUT_DATA_PATH, YOUTUBE_API_KEY
 from utils.logger import setup_logger
+from utils.io_helpers import load_json, save_json
 from core.graph_matrix import GraphMatrixAnalyzer
 
 logger = setup_logger("Garbage_Collector")
 
-def load_json(path, df):
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f: return json.load(f)
-    return df()
-
-def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f: json.dump(data, f, ensure_ascii=False, indent=2)
 
 def chunk_list(lst, n):
-    for i in range(0, len(lst), n): yield lst[i:i + n]
+    """將 list 切成每段 n 個的生成器。"""
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
 
 def run_garbage_collection():
     logger.info("🧼 啟動每週定期異步死鏈清理機制 (GC)...")
@@ -27,7 +22,11 @@ def run_garbage_collection():
         return
 
     processed_db = load_json(DB_FILE_PATH, dict)
-    output_payload = load_json(OUTPUT_DATA_PATH, dict)
+    # 与 main.py 保持同一份 schema，避免 io_helpers 回退 {} 後后續讀取 "videos" 重示鍍誤
+    output_payload = load_json(
+        OUTPUT_DATA_PATH,
+        lambda: {"last_updated": "", "themes_matrix": {}, "videos": []},
+    )
     
     if "videos" not in output_payload or not output_payload["videos"]:
         logger.info("數據庫為空，無需清理。")
@@ -78,7 +77,7 @@ def run_garbage_collection():
         analyzer = GraphMatrixAnalyzer()
         new_themes_matrix = analyzer.generate_relations(survived_videos)
         
-        output_payload["last_updated"] = datetime.utcnow().isoformat()
+        output_payload["last_updated"] = datetime.now(timezone.utc).isoformat()
         output_payload["themes_matrix"] = new_themes_matrix
         output_payload["videos"] = survived_videos
         

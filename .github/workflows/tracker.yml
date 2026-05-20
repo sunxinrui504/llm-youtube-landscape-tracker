@@ -33,8 +33,11 @@ jobs:
       - name: 📦 安裝核心依賴組件
         run: |
           python -m pip install --upgrade pip
-          # 安裝封裝好的 yt-dlp、requests 以及 groq 支援組件
-          pip install yt-dlp requests groq
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: ✅ 單元測試關卡 (fail-fast)
+        run: python -m pytest tests -q --tb=short
 
       - name: 🚀 驅動主管線 (增量追蹤 + Map-Reduce 劇本還原 + 關係矩陣重組)
         env:
