@@ -1,0 +1,5 @@
+yt-dlp
+requests
+groq
+google-api-python-client
+isodate

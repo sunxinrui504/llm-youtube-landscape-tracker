@@ -1,0 +1,62 @@
+name: Weekly Garbage Collection & Link Sanitizer
+
+on:
+  schedule:
+    # 🎯 每週日凌晨 03:00 (UTC) 執行全量健康檢查
+    - cron: '0 3 * * 0'
+  workflow_dispatch: # 允許手動點擊觸發
+
+# 🛠️ 核心細節：使用與主流程相同的 Concurrency Group
+# 確保當週日 GC 運行時，主追蹤管線必須排隊等待，反之亦然，徹底隔絕讀寫衝突
+concurrency:
+  group: youtube_tracker_pipeline
+  cancel-in-progress: false
+
+jobs:
+  garbage_collector:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 檢出儲存庫代碼
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 配置 Python 執行環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 📦 安裝核心依賴組件
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: 🧼 執行死鏈垃圾回收 (1點 Quota 批量盤點 + 關聯鏈重置)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python gc_cleanup.py
+
+      - name: 🛠️ 線性安全合流與 Git 自動提交
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "檢測到死鏈剔除與關係矩陣刷新，準備同步..."
+            
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action Bot"
+            
+            git add processed_videos.json data.json
+            git commit -m "fix(gc): 🧼 每週死鏈自動清理與關係矩陣重建 [skip ci]"
+            
+            # 線性合流防護
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "盤點完畢，無任何私享或被刪除的影片，歷史死鏈數量為 0。"
+          fi

@@ -1,0 +1,70 @@
+name: LLM YouTube Landscape Tracker Pipeline
+
+on:
+  schedule:
+    # 🎯 每 6 小時自動輪詢一次，追蹤創作者動態
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # 允許手動點擊觸發測試
+
+# 🛠️ 核心細節 1：排隊鎖定機制 (Concurrency Lock)
+# 確保同一時間只有一個工作流能執行，後續觸發會進入排隊排程，防止多個 Action 同時讀寫 JSON 造成 Race Condition
+concurrency:
+  group: youtube_tracker_pipeline
+  cancel-in-progress: false # 設為 false，讓排隊中的任務依序執行，不強行殺掉進行中的任務
+
+jobs:
+  track_and_build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 賦予 Action 對儲存庫的寫入權限，用以持久化狀態
+
+    steps:
+      - name: 📥 檢出儲存庫代碼
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 獲取完整 Git 歷史紀錄，確保 rebase 能順利尋找共同祖先
+
+      - name: 🐍 配置 Python 執行環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip' # 開啟快取機制，縮短後續執行時下載依賴的時間
+
+      - name: 📦 安裝核心依賴組件
+        run: |
+          python -m pip install --upgrade pip
+          # 安裝封裝好的 yt-dlp、requests 以及 groq 支援組件
+          pip install yt-dlp requests groq
+
+      - name: 🚀 驅動主管線 (增量追蹤 + Map-Reduce 劇本還原 + 關係矩陣重組)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python main.py
+
+      - name: 🛠️ 核心細節 2：線性安全合流與 Git 自動提交 (Safe Push with Rebase)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 檢查是否有數據增量更動 (processed_videos.json 或 data.json)
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "檢測到數據庫增量變更，準備推送至遠端..."
+            
+            # 設定 Git 操作指紋
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action Bot"
+            
+            # 暫存變更文件
+            git add processed_videos.json data.json
+            git commit -m "chore(data): 🤖 GitOps 自動狀態同步 [skip ci]"
+            
+            # 防禦核心：在 Push 前強行執行 rebase 拉取遠端最新變更
+            # 如果在當前管線運行期間有其他排隊任務提早提交了，此操作會將本地改動安全地「嫁接」在最新提交之上
+            git pull --rebase origin main
+            
+            # 推回遠端，完成 GitOps 閉環
+            git push origin main
+          else
+            echo "無新片發布，數據庫保持最新，跳過 Git 提交。"
+          fi

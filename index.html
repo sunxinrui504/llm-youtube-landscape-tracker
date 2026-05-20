@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLM YouTube Landscape Tracker</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    header {
+      max-width: 1400px;
+      margin: 0 auto 24px;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 700; color: #58a6ff; }
+    header p  { margin-top: 6px; color: #8b949e; font-size: 0.9rem; }
+    #last-updated { margin-top: 4px; font-size: 0.8rem; color: #6e7681; }
+
+    /* Controls */
+    .controls {
+      max-width: 1400px;
+      margin: 0 auto 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .controls input, .controls select {
+      background: #161b22;
+      border: 1px solid #30363d;
+      color: #e6edf3;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 0.875rem;
+      outline: none;
+    }
+    .controls input:focus, .controls select:focus { border-color: #58a6ff; }
+    .controls input { width: 280px; }
+
+    /* Topics matrix */
+    .matrix-section {
+      max-width: 1400px;
+      margin: 0 auto 28px;
+    }
+    .matrix-section h2 { font-size: 1.1rem; color: #58a6ff; margin-bottom: 12px; }
+    .topic-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .topic-chip {
+      background: #1c2128;
+      border: 1px solid #30363d;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .topic-chip:hover, .topic-chip.active {
+      background: #388bfd26;
+      border-color: #58a6ff;
+      color: #58a6ff;
+    }
+    .topic-chip .count {
+      background: #30363d;
+      border-radius: 10px;
+      padding: 1px 7px;
+      margin-left: 6px;
+      font-size: 0.75rem;
+    }
+
+    /* Table */
+    .table-wrap {
+      max-width: 1400px;
+      margin: 0 auto;
+      overflow-x: auto;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    thead { background: #161b22; position: sticky; top: 0; z-index: 1; }
+    thead th {
+      padding: 12px 16px;
+      text-align: left;
+      color: #8b949e;
+      font-weight: 600;
+      border-bottom: 1px solid #21262d;
+      white-space: nowrap;
+    }
+    tbody tr { border-bottom: 1px solid #21262d; transition: background 0.1s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: #161b22; }
+    tbody td { padding: 12px 16px; vertical-align: top; }
+
+    .channel-badge {
+      display: inline-block;
+      background: #1c2128;
+      border: 1px solid #30363d;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 0.78rem;
+      white-space: nowrap;
+    }
+    .speaker-type {
+      display: inline-block;
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .st-solo     { background: #1a3b1e; color: #3fb950; border: 1px solid #238636; }
+    .st-interview{ background: #1a2f4a; color: #58a6ff; border: 1px solid #1f6feb; }
+    .st-group    { background: #3a2a10; color: #d29922; border: 1px solid #9e6a03; }
+
+    .topics-cell { display: flex; flex-wrap: wrap; gap: 4px; }
+    .topic-tag {
+      background: #21262d;
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-size: 0.75rem;
+      color: #8b949e;
+    }
+
+    .summary-text { color: #8b949e; font-size: 0.82rem; line-height: 1.5; max-width: 320px; }
+    .video-link { color: #58a6ff; text-decoration: none; font-weight: 500; }
+    .video-link:hover { text-decoration: underline; }
+
+    .related-list { list-style: none; padding: 0; }
+    .related-list li { font-size: 0.78rem; color: #8b949e; margin-bottom: 3px; }
+    .related-list a { color: #58a6ff; }
+
+    #no-results { text-align: center; padding: 48px; color: #6e7681; font-size: 1rem; display: none; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .controls input { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LLM YouTube Landscape Tracker</h1>
+  <p>AI-powered analysis of top LLM channels — transcription, speaker identification & topic mapping.</p>
+  <div id="last-updated">Loading...</div>
+</header>
+
+<div class="controls">
+  <input type="text" id="search-input" placeholder="Search title, channel, speaker or topic..." />
+  <select id="channel-filter">
+    <option value="">All Channels</option>
+  </select>
+  <select id="speaker-filter">
+    <option value="">All Speaker Types</option>
+    <option value="Solo">Solo</option>
+    <option value="Interview">Interview</option>
+    <option value="Group">Group / Panel</option>
+  </select>
+</div>
+
+<div class="matrix-section">
+  <h2>Topic Matrix — click to filter</h2>
+  <div class="topic-grid" id="topic-grid"></div>
+</div>
+
+<div class="table-wrap">
+  <table id="video-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Video</th>
+        <th>Channel</th>
+        <th>Date</th>
+        <th>Speaker Type</th>
+        <th>Speakers</th>
+        <th>AI Topics</th>
+        <th>Summary</th>
+        <th>Related Videos</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+  <div id="no-results">No videos match the current filters.</div>
+</div>
+
+<script>
+  let allVideos = [];
+  let themesMatrix = {};
+  let activeTopicFilter = "";
+
+  async function loadData() {
+    try {
+      const res = await fetch("data.json?_=" + Date.now());
+      const payload = await res.json();
+
+      document.getElementById("last-updated").textContent =
+        "Last updated: " + (payload.last_updated || "unknown");
+
+      allVideos = payload.videos || [];
+      themesMatrix = payload.themes_matrix || {};
+
+      buildTopicGrid();
+      buildChannelFilter();
+      renderTable(allVideos);
+    } catch (e) {
+      document.getElementById("last-updated").textContent =
+        "Failed to load data.json — run the pipeline first.";
+    }
+  }
+
+  function buildTopicGrid() {
+    const grid = document.getElementById("topic-grid");
+    grid.innerHTML = "";
+
+    const sorted = Object.entries(themesMatrix)
+      .sort((a, b) => b[1].length - a[1].length);
+
+    sorted.forEach(([topic, vids]) => {
+      const chip = document.createElement("div");
+      chip.className = "topic-chip";
+      chip.innerHTML = `${topic} <span class="count">${vids.length}</span>`;
+      chip.addEventListener("click", () => {
+        if (activeTopicFilter === topic) {
+          activeTopicFilter = "";
+          chip.classList.remove("active");
+        } else {
+          activeTopicFilter = topic;
+          document.querySelectorAll(".topic-chip").forEach(c => c.classList.remove("active"));
+          chip.classList.add("active");
+        }
+        applyFilters();
+      });
+      grid.appendChild(chip);
+    });
+  }
+
+  function buildChannelFilter() {
+    const sel = document.getElementById("channel-filter");
+    const channels = [...new Set(allVideos.map(v => v.channel).filter(Boolean))].sort();
+    channels.forEach(ch => {
+      const opt = document.createElement("option");
+      opt.value = ch;
+      opt.textContent = ch;
+      sel.appendChild(opt);
+    });
+  }
+
+  function applyFilters() {
+    const q = document.getElementById("search-input").value.toLowerCase();
+    const ch = document.getElementById("channel-filter").value;
+    const st = document.getElementById("speaker-filter").value;
+
+    let filtered = allVideos.filter(v => {
+      const matchSearch = !q ||
+        (v.title || "").toLowerCase().includes(q) ||
+        (v.channel || "").toLowerCase().includes(q) ||
+        (v.speakers || []).some(s => s.toLowerCase().includes(q)) ||
+        (v.ai_topics || []).some(t => t.toLowerCase().includes(q));
+      const matchChannel = !ch || v.channel === ch;
+      const matchSpeaker = !st || (v.speaker_type || "").toLowerCase().includes(st.toLowerCase());
+      const matchTopic = !activeTopicFilter ||
+        (v.ai_topics || []).map(t => t.toLowerCase()).includes(activeTopicFilter.toLowerCase());
+      return matchSearch && matchChannel && matchSpeaker && matchTopic;
+    });
+
+    renderTable(filtered);
+  }
+
+  function renderTable(videos) {
+    const tbody = document.getElementById("table-body");
+    const noResults = document.getElementById("no-results");
+    tbody.innerHTML = "";
+
+    if (videos.length === 0) {
+      noResults.style.display = "block";
+      return;
+    }
+    noResults.style.display = "none";
+
+    videos.forEach((v, i) => {
+      const stClass = {
+        "solo": "st-solo",
+        "interview": "st-interview",
+        "group": "st-group",
+        "co-host": "st-interview",
+        "panel discussion": "st-group"
+      }[(v.speaker_type || "").toLowerCase()] || "st-solo";
+
+      const topicsHtml = (v.ai_topics || [])
+        .map(t => `<span class="topic-tag">${escape(t)}</span>`).join("");
+
+      const speakersText = (v.speakers || []).join(", ") || "—";
+
+      const relatedHtml = (v.related_videos || []).slice(0, 3)
+        .map(r => `<li><a href="https://youtu.be/${r.video_id}" target="_blank">${escape(r.title || r.video_id)}</a></li>`)
+        .join("");
+
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td style="color:#6e7681">${i + 1}</td>
+        <td style="max-width:260px">
+          <a class="video-link" href="${v.url || '#'}" target="_blank">${escape(v.title || "Untitled")}</a>
+          <div style="font-size:0.75rem;color:#6e7681;margin-top:3px">${formatDuration(v.duration_seconds)}</div>
+        </td>
+        <td><span class="channel-badge">${escape(v.channel || "—")}</span></td>
+        <td style="white-space:nowrap;color:#8b949e">${v.published_at || "—"}</td>
+        <td><span class="speaker-type ${stClass}">${escape(v.speaker_type || "—")}</span></td>
+        <td style="max-width:140px;color:#c9d1d9;font-size:0.82rem">${escape(speakersText)}</td>
+        <td><div class="topics-cell">${topicsHtml}</div></td>
+        <td><p class="summary-text">${escape((v.summary || "—").substring(0, 200))}</p></td>
+        <td><ul class="related-list">${relatedHtml || '<li style="color:#6e7681">—</li>'}</ul></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function formatDuration(secs) {
+    if (!secs) return "";
+    const h = Math.floor(secs / 3600);
+    const m = Math.floor((secs % 3600) / 60);
+    const s = secs % 60;
+    return h > 0
+      ? `${h}h ${String(m).padStart(2,"0")}m`
+      : `${m}m ${String(s).padStart(2,"0")}s`;
+  }
+
+  function escape(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  document.getElementById("search-input").addEventListener("input", applyFilters);
+  document.getElementById("channel-filter").addEventListener("change", applyFilters);
+  document.getElementById("speaker-filter").addEventListener("change", applyFilters);
+
+  loadData();
+</script>
+</body>
+</html>

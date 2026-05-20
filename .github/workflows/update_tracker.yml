@@ -1,0 +1,50 @@
+name: Update LLM Tracker
+
+on:
+  schedule:
+    # 每 6 小時執行一次增量更新
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # 允許手動觸發
+
+# 排隊鎖：防止兩個 workflow 同時 Push 產生 Race Condition
+concurrency:
+  group: production_deploy
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies (with latest yt-dlp)
+        run: |
+          pip install -U pip
+          pip install -U yt-dlp
+          pip install -r requirements.txt
+
+      - name: Run incremental pipeline
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python main.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add data.json processed_videos.json
+          git diff --staged --quiet || git commit -m "chore: auto-update tracker data [$(date -u +'%Y-%m-%dT%H:%M:%SZ')]"
+          git push

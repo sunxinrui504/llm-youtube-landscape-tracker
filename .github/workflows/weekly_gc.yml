@@ -1,0 +1,47 @@
+name: Weekly Garbage Collection
+
+on:
+  schedule:
+    # 每週日 UTC 00:00 執行一次死鏈清理
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+concurrency:
+  group: production_deploy
+  cancel-in-progress: false
+
+jobs:
+  run-gc:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install -r requirements.txt
+
+      - name: Run weekly GC cleanup
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python gc_cleanup.py
+
+      - name: Commit and push cleaned data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add data.json processed_videos.json
+          git diff --staged --quiet || git commit -m "chore: weekly GC cleanup [$(date -u +'%Y-%m-%dT%H:%M:%SZ')]"
+          git push
