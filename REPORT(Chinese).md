@@ -1,204 +1,199 @@
-# LLM YouTube Landscape Tracker — 技術報告
+# LLM YouTube Landscape Tracker — Technical Report
 Author: SUN Xinrui
 
-本項目是一個**全自動 YouTube LLM 領域內容追蹤器**，通過 GitHub Actions 每 6 小時定時觸發，自動掃描 7 個頂級 AI/LLM YouTube 頻道的最新影片，完成**元數據採集 → 字幕轉錄 → LLM 語意分析 → 主題關聯矩陣構建**的端到端 Pipeline，最終輸出一個 HTML 儀表板（`index.html`），兼容本地 `file://` 瀏覽和 GitHub Pages 公開託管。
+This project is a **fully automated YouTube LLM domain content tracker** that is triggered every 6 hours via GitHub Actions, automatically scanning the latest videos from 7 top-tier AI/LLM YouTube channels, completing an end-to-end Pipeline of **metadata collection → subtitle transcription → LLM semantic analysis → topic correlation matrix construction**, ultimately outputting an HTML dashboard (`index.html`) that is compatible with both local `file://` browsing and GitHub Pages public hosting.
 ---
 
-## 目錄
+## Table of Contents
 
-- [1. Problem Statement（問題陳述）](#1-problem-statement問題陳述)
-- [2. Methodology（方法論）](#2-methodology方法論)
-  - [2.1 系統總體架構](#21-系統總體架構)
-  - [2.2 Step 1：採集調度器與雙層異常樹](#22-step-1採集調度器與雙層異常樹)
-  - [2.3 Step 2：異質元數據標準化](#23-step-2異質元數據標準化)
-  - [2.4 Step 3：三級降級轉錄 + SEGMENT BREAK 硬邊界](#24-step-3三級降級轉錄--segment-break-硬邊界)
-  - [2.5 Step 4：Map-Reduce LLM 語意分析](#25-step-4map-reduce-llm-語意分析)
-  - [2.6 Step 5：Jaccard 主題關聯矩陣](#26-step-5jaccard-主題關聯矩陣)
-  - [2.7 Step 6：即時寫入與前端兼容](#27-step-6即時寫入與前端兼容)
-- [3. Evaluation Dataset（評估數據集）](#3-evaluation-dataset評估數據集)
-- [4. Evaluation Methods（評估方法）](#4-evaluation-methods評估方法)
-- [5. Experimental Results（實驗結果）](#5-experimental-results實驗結果)
-- [6. Engineering Hardening Log（工程加固記錄）](#6-engineering-hardening-log工程加固記錄)
-- [7. Reproducibility（復現指南）](#7-reproducibility復現指南)
-- [8. 文件與目錄結構](#8-文件與目錄結構)
-- [附錄 A：核心公式匯總](#附錄-a核心公式匯總)
-- [附錄 B：依賴清單](#附錄-b依賴清單)
+- [1. Problem Statement](#1-problem-statement)
+- [2. Methodology](#2-methodology)
+  - [2.1 Overall System Architecture](#21-overall-system-architecture)
+  - [2.2 Step 1: Ingestion Dispatcher & Two-Layer Exception Tree](#22-step-1-ingestion-dispatcher--two-layer-exception-tree)
+  - [2.3 Step 2: Heterogeneous Metadata Normalization](#23-step-2-heterogeneous-metadata-normalization)
+  - [2.4 Step 3: Three-Level Fallback Transcription + SEGMENT BREAK Hard Boundaries](#24-step-3-three-level-fallback-transcription--segment-break-hard-boundaries)
+  - [2.5 Step 4: Map-Reduce LLM Semantic Analysis](#25-step-4-map-reduce-llm-semantic-analysis)
+  - [2.6 Step 5: Jaccard Topic Correlation Matrix](#26-step-5-jaccard-topic-correlation-matrix)
+  - [2.7 Step 6: Real-Time Write & Frontend Compatibility](#27-step-6-real-time-write--frontend-compatibility)
+- [3. Evaluation Dataset](#3-evaluation-dataset)
+- [4. Evaluation Methods](#4-evaluation-methods)
+- [5. Experimental Results](#5-experimental-results)
+- [6. Engineering Hardening Log](#6-engineering-hardening-log)
+- [7. Reproducibility](#7-reproducibility)
+- [8. File & Directory Structure](#8-file--directory-structure)
+- [Appendix A: Core Formula Summary](#appendix-a-core-formula-summary)
+- [Appendix B: Dependency List](#appendix-b-dependency-list)
 
 ---
 
-## 1. Problem Statement（問題陳述）
+## 1. Problem Statement
 
-1.問題：單一使用yt-dlp：無法識別出曾發佈、后改爲私密/不公開/刪除的影片，訪問其鏈接會報錯；純爬取，無官方授權，大規模長期運行存在封ip風險
-單一使用YouTube Data API：免費配額度有限，大規模采集成本高；無法下載音視頻、無法獲取自動字幕原文
-解決方法：yt-dlp爲主，YouTube Data API為輔的混合采集架構
-yt-dlp支持大體量數據采集；能夠抓取音訊檔.m4a,和字幕檔.vtt/.srt
-YouTube Data API識別不公開、私享或刪除的影片，確保自動化系統不會去下載；官方接口，穩定性強，無風險
-實現：兩層異常樹+指數退避+滑動時間窗口
-YtdlpVideoFailed    → 单个影片重试失败
+1. Problem: Using yt-dlp alone: cannot identify videos that were once published but later made private/unlisted/deleted — accessing their links will throw errors; pure scraping without official authorization poses IP ban risks during large-scale long-term operation.
+Using YouTube Data API alone: free quota is limited, large-scale collection is costly; cannot download audio/video, cannot obtain raw auto-generated subtitles.
+Solution: A hybrid collection architecture with yt-dlp as the primary and YouTube Data API as the secondary.
+yt-dlp supports large-volume data collection; can fetch audio files (.m4a) and subtitle files (.vtt/.srt).
+YouTube Data API identifies private, restricted, or deleted videos, ensuring the automated system won't attempt to download them; official interface, strong stability, no risk.
+Implementation: Two-layer exception tree + exponential backoff + sliding time window.
+YtdlpVideoFailed    → single video retry failed
         ↓
-10分鐘内连续 3 个都失败
+3 consecutive failures within 10 minutes
         ↓
-YtdlpGlobalBroken  → yt-dlp全局抓取失敗 → 立刻切换 API 兜底
-a)兩層異常樹：
-第一層：YtdlpVideoFailed針對單個影片失敗：影片被私密/刪除；偶爾網絡變動
-只重试本片，重试完失败 → 降级用 API 抓該影片（不影响全局）
-第二層：YtdlpGlobalBroken針對整條yt-dlp路徑失敗：Ip被限流；反爬機制被觸發
-直接全局降级 → 全部切换 API 模式
-b)指數退避（Exponential Backoff）：
-指數退避公式：t_wait = min( BACKOFF_BASE ^ attempt + jitter , BACKOFF_MAX )其中 `BACKOFF_BASE=2`，`BACKOFF_MAX=30`，`jitter ∈ U(0,1)`
-每次重试的等待时间 = MIN(2^重试次数+一点点随机抖动, 最长等待上限 30 秒)
-原因：越失敗越慢，指數增長的等待時間讓重試頻率快速下降，避免持續觸發速率限制；加入均勻分佈隨機抖動（Jitter）避免多個並行請求在同一時刻同時重試（Thundering Herd 問題）。上限截斷防止等待時間無限增長。
-時間窗口全局降級：
-時間窗口全局降級公式：
-全局降级 = 连续失败 >= 3 次 and 所有失败都发生在 10 分钟内
-作用：避免偶然錯誤，并非全局抓取失敗情況下被錯誤判斷；引入 10 分鐘滑動時間窗口，只有窗口內密集連續失敗才觸發全局降級，大幅降低誤切概率
+YtdlpGlobalBroken  → yt-dlp global fetch failure → immediately switch to API fallback
+a) Two-layer exception tree:
+Layer 1: YtdlpVideoFailed targets individual video failures: video made private/deleted; occasional network fluctuations.
+Only retries the current video; if retry fails → falls back to API for that video (does not affect global state).
+Layer 2: YtdlpGlobalBroken targets the entire yt-dlp path failure: IP rate-limited; anti-scraping mechanism triggered.
+Directly triggers global fallback → switches entirely to API mode.
+b) Exponential Backoff:
+Exponential backoff formula: t_wait = min( BACKOFF_BASE ^ attempt + jitter , BACKOFF_MAX ) where `BACKOFF_BASE=2`, `BACKOFF_MAX=30`, `jitter ∈ U(0,1)`
+Wait time for each retry = MIN(2^retry_count + a small random jitter, maximum wait cap of 30 seconds)
+Rationale: The more failures occur, the slower it retries — exponentially growing wait times cause retry frequency to drop rapidly, avoiding continuous triggering of rate limits; adding uniformly distributed random jitter avoids multiple parallel requests retrying at the exact same moment (Thundering Herd problem). Upper bound truncation prevents infinite growth of wait times.
+Time window global fallback:
+Time window global fallback formula:
+Global fallback = consecutive failures >= 3 AND all failures occurred within 10 minutes
+Purpose: Avoids erroneous judgment under occasional errors that are not actual global fetch failures; introduces a 10-minute sliding time window — only dense consecutive failures within the window trigger global fallback, greatly reducing false-switch probability.
 
-2.問題：語音轉錄與文本提取中如何實現快速文本提取
-解決方法：三級降級策略
-優先級 1：先嘗試下載 YouTube 作者手動上傳的字幕`_download_subtitles(prefer_manual=True)`，速度極快
-優先級 2：若無官方字幕，下載YouTube自動生成的字幕`_download_subtitles(prefer_manual=False)`速度極快
-優先級 3（保底）：若前兩者質量太差或不存在，使用 yt-dlp 下載低位元率音訊（.m4a），並調用使用faster-whisper轉錄成文本`_transcribe_with_faster_whisper()`
+2. Problem: How to achieve fast text extraction in speech transcription and text extraction.
+Solution: Three-level fallback strategy.
+Priority 1: First attempt to download YouTube creator's manually uploaded subtitles `_download_subtitles(prefer_manual=True)`, extremely fast.
+Priority 2: If no official subtitles, download YouTube's auto-generated subtitles `_download_subtitles(prefer_manual=False)`, extremely fast.
+Priority 3 (last resort): If the first two are of too poor quality or don't exist, use yt-dlp to download low-bitrate audio (.m4a) and call faster-whisper to transcribe into text `_transcribe_with_faster_whisper()`.
 
-3.問題：文本太长會導致LLM遺漏内容；提取出的内容是文本形式，如何分辨提取不同説話人和内容
-解決方法：Map-Reduce 架構
-第一步：語義分塊（chunk）
-方法：採用語意感知滑動窗口分塊（Semantic-Aware Sliding Window Chunking）
-1. 先按 `[SEGMENT BREAK @MM:SS]` 標記切割文字為自然語段（Segment）
-2. 將語段依次填入緩衝區（Buffer），直到 word 數超過 `chunk_size=1200`
-3. 超長語段內部按 word 數硬切，相鄰塊保留 `overlap=200` 個 word 的重疊
-重疊窗口公式：片段i=词汇数组[i×(单段长度−重叠长度):i×(单段长度−重叠长度)+单段长度]，其中 S=1200（分块大小），O=200（重叠长度）
-原因：
-SEGMENT BREAK 優先切分：保證同一位說話者的連續語段不被切斷，避免 LLM 在 chunk 邊界處產生虛假的說話人切換判斷。
-重疊窗口：相鄰 chunk 共享 200 個 word 的上下文，防止句子在邊界處被硬截斷導致的語意斷裂。
-第二步：Map（結構化指令）：處理單個文字分塊，提取局部說話人和關鍵詞
-方法：識別文字中提到的所有人名，為每行對話標注說話者，無法確認時使用 `[Unverified Speaker N]`，提取 3-5 個 LLM 技術關鍵詞
-Map 階段的每個 chunk 由獨立的 worker 並行調用 LLM API
-第三步：Reduce（全局消歧）：聚合所有 Map 結果，消歧、去重、生成最終摘要
-方法：將 `[Unverified Speaker N]` 解析為實際人名，合併所有 chunk 的關鍵詞并去重，影片分類，生成摘要，输出结构化、可直接入库的数据
+3. Problem: Text too long causes LLM to miss content; extracted content is in text form — how to distinguish different speakers and content.
+Solution: Map-Reduce Architecture.
+Step 1: Semantic chunking.
+Method: Semantic-Aware Sliding Window Chunking.
+1. First split text into natural segments by `[SEGMENT BREAK @MM:SS]` markers.
+2. Fill segments sequentially into a buffer until word count exceeds `chunk_size=1200`.
+3. Internally hard-split overly long segments by word count; adjacent chunks retain `overlap=200` words of overlap.
+Overlap window formula: chunk_i = words[i×(chunk_size−overlap) : i×(chunk_size−overlap)+chunk_size], where S=1200 (chunk size), O=200 (overlap size).
+Rationale:
+SEGMENT BREAK priority splitting: Ensures continuous speech segments from the same speaker are not split, preventing the LLM from producing false speaker-switch judgments at chunk boundaries.
+Overlap window: Adjacent chunks share 200 words of context, preventing semantic rupture caused by hard truncation at boundaries.
+Step 2: Map (structured instruction): Process individual text chunks, extract local speakers and keywords.
+Method: Identify all person names mentioned in the text, annotate the speaker for each dialogue line, use `[Unverified Speaker N]` when uncertain, extract 3-5 LLM technical keywords.
+Each chunk in the Map phase is processed by independent workers calling the LLM API in parallel.
+Step 3: Reduce (global disambiguation): Aggregate all Map results, disambiguate, deduplicate, and generate final summary.
+Method: Resolve `[Unverified Speaker N]` to actual names, merge and deduplicate keywords from all chunks, classify the video, generate summary, output structured data ready for database insertion.
 
-4.問題：API 有并发限制，顺序处理太慢，并发太高会被封
-解决方法：429 安全網
-t_retry = Retry-After header 的值（如果存在）
-t_retry = LLM_RETRY_BASE × 2^(attempt - 1) （其他情况）
-其中：LLM_RETRY_BASE = 3，LLM_MAX_RETRIES = 2
-正常情況下不應觸發 429，重試僅作為安全網處理偶發的瞬時過載，最多2次重試
+4. Problem: API has concurrency limits; sequential processing is too slow, while too-high concurrency will get blocked.
+Solution: 429 Safety Net.
+t_retry = Retry-After header value (if exists)
+t_retry = LLM_RETRY_BASE × 2^(attempt - 1) (otherwise)
+Where: LLM_RETRY_BASE = 3, LLM_MAX_RETRIES = 2.
+Under normal conditions, 429 should not be triggered; retries serve only as a safety net for handling occasional transient overloads, with a maximum of 2 retries.
 
-5.噪聲問題：瀏覽YouTuber主頁時發現其中有大量Shorts和短視頻，包含信息量少且缺乏連續性的技術上下文，如果強行讓 LLM 去還原劇本，LLM 會抓不到核心架構，只會吐出垃圾數據（Noise），污染我們的 themes_matrix 全局主題矩陣
-解決方法：採取 「網址特徵 + 時長」雙重過濾
-URL 路由審查: 檢查 yt-dlp 吐出的 webpage_url 是否匹配 *[youtube.com/shorts/](https://youtube.com/shorts/)* 模式。
-時長硬防禦: 檢查 duration 欄位是否小於或等於 60 秒
-命中以上任一條件，影片直接被標記為 is_shorts: true 並在中介層實施斷流，不觸發後續的轉錄與大模型調用。
+5. Noise Problem: When browsing YouTuber homepages, there are numerous Shorts and short videos containing little information and lacking continuous technical context. If we force the LLM to reconstruct scripts from these, the LLM cannot capture the core architecture and will only produce garbage data (Noise), polluting our themes_matrix global topic matrix.
+Solution: Adopt "URL pattern + duration" dual filtering.
+URL route inspection: Check whether the webpage_url output by yt-dlp matches the *[youtube.com/shorts/](https://youtube.com/shorts/)* pattern.
+Duration hard defense: Check whether the duration field is less than or equal to 60 seconds.
+If either condition is met, the video is directly tagged as is_shorts: true and circuit-broken at the middleware layer, without triggering subsequent transcription and LLM calls.
 
-6.問題：腳本每次執行都會把頻道裡的幾百支歷史影片全部重新下載、重跑 Whisper、重刷 LLM Token
-解決方法：
-a)processed_videos.json 的增量去重防線（Skip Mechanism）記錄所有已處理過的 video_id 及其對應的結構化特徵（如 topics），在 yt-dlp 或 YouTube API 抓取到頻道最新影片列表後，系統不會盲目進入下載和轉錄階段，而是先與數據庫比對，僅處理為處理過的影片
-b)每次定時觸發（例如每 6 小時），如果頻道沒有發新影片，Pipeline 在第一步的幾秒鐘內就會安全結束；如果發了 1 支新影片，系統就只會針對這 1 支新影片啟動後續的下載、Whisper 和 LLM 流程，歷史影片完全不受影響
+6. Problem: Every time the script executes, it would re-download all hundreds of historical videos from the channel, re-run Whisper, and re-consume LLM Tokens.
+Solution:
+a) processed_videos.json incremental deduplication defense (Skip Mechanism): Records all previously processed video_ids and their corresponding structured features (such as topics). After yt-dlp or YouTube API fetches the latest video list from a channel, the system does not blindly enter the download and transcription phase, but first cross-references with the database and only processes unprocessed videos.
+b) Each scheduled trigger (e.g., every 6 hours), if the channel has not released new videos, the Pipeline safely terminates within the first few seconds of the first step; if 1 new video was released, the system only initiates the subsequent download, Whisper, and LLM processes for this single new video — historical videos remain completely unaffected.
 
-7.問題：GitHub Actions 是一個無狀態、每 6 小時觸發的增量環境。如果每次執行只將「今天新出的 1 支影片」與「最新 20 條老影片」一起餵給 LLM，那麼這支新影片將永遠無法與 3 個月前的歷史爆款建立關聯，導致推薦系統出現嚴重的歷史斷層
-解決方案：Jaccard 矩陣的「全域增量滾動計算」
-為了在零預算、無向量數據庫（Vector DB）的架構下解決這個問題，項目放棄了「動態餵給 LLM 20 條」的局部方案，而是採用了全域標籤池 + 離線 Jaccard 矩陣滾動更新的策略。
-實現步驟：
-a)持久化標籤庫（State Persistence）：在 data.json（即 output_payload）的 videos 數組中，持久化保留每一支影片經由 LLM 提取出的精煉標籤（即 `ai_topics` 欄位，例如：["RAG", "GraphDB", "LlamaIndex"]）。而 processed_videos.json 僅負責記錄增量去重狀態（video_id → status）。
-b)全量加載與增量注入：當 GitHub Actions 執行時：讀取歷史所有的 processed_videos.json（包含 3 個月前、半年前的所有老影片數據，設總數為 $N$）。Pipeline 抓取到今天的 1 支新影片，調用 Moonshot LLM 僅為這單支影片生成 topics_new。將這支新影片及其標籤注入到總列表中，此時總影片數變為 $N+1$。
-c)全域 Jaccard 矩陣重算（超輕量級）：在 Python 腳本的最後階段（Payload 構建期），不再調用任何 API，而是直接利用 CPU 跑一個雙重循環，計算新影片與全量歷史影片的 Jaccard 相似度：J(A, B) = |A∩B|/|A∪B|（交集除以並集）。因為標籤已經是精煉後的字串集合（每個影片僅 3-5 個標籤），即使歷史影片有上千支，在 Python 中進行 1 * N 的集合交並集運算也僅需數毫秒。
-d)動態 Top-3 截斷：對計算結果進行降序排序，篩選出 $J > 0.1$ 且相似度最高的 3 支影片（無論它是 3 天前還是 3 個月前），寫入該新影片的 related_videos 欄位。同時，這支新影片的標籤也會反向觸發老影片的 related_videos 更新（雙向關聯）。
+7. Problem: GitHub Actions is a stateless, incrementally-triggered environment running every 6 hours. If each execution only feeds "today's 1 new video" together with "the latest 20 old videos" to the LLM, then this new video can never establish associations with historical hits from 3 months ago, causing severe historical disconnection in the recommendation system.
+Solution: Jaccard Matrix "Global Incremental Rolling Computation".
+To solve this problem under a zero-budget architecture without a Vector Database, the project abandons the "dynamically feed 20 items to LLM" local approach, and instead adopts a strategy of global tag pool + offline Jaccard matrix rolling update.
+Implementation steps:
+a) State Persistence: In the videos array of data.json (i.e., output_payload), persistently retain the refined tags extracted by LLM for every video (i.e., the `ai_topics` field, e.g., ["RAG", "GraphDB", "LlamaIndex"]). Meanwhile, processed_videos.json is only responsible for recording incremental deduplication state (video_id → status).
+b) Full Load & Incremental Injection: When GitHub Actions executes: reads the historical processed_videos.json (containing all old videos from 3 months ago, half a year ago, with total count $N$). Pipeline fetches today's 1 new video, calls Moonshot LLM to generate topics_new only for this single video. Injects this new video and its tags into the total list; at this point, total video count becomes $N+1$.
+c) Global Jaccard Matrix Recomputation (ultra-lightweight): In the final stage of the Python script (Payload construction phase), no API is called; instead, it directly uses CPU to run a double loop, computing Jaccard similarity between the new video and all historical videos: J(A, B) = |A∩B|/|A∪B| (intersection divided by union). Since tags are already refined string sets (only 3-5 tags per video), even with thousands of historical videos, performing 1 × N set intersection/union operations in Python takes only milliseconds.
+d) Dynamic Top-3 Truncation: Sort the computed results in descending order, filter out videos with $J > 0.1$ and the highest 3 similarities (regardless of whether it's from 3 days ago or 3 months ago), and write them into the new video's related_videos field. Simultaneously, this new video's tags also trigger reverse updates to old videos' related_videos (bidirectional association).
 
-8.問題：只用向量 / LLM 计算太重，GitHub Actions 跑不动，每次都让 LLM 或向量模型去全库对比速度慢且成本高
-解決方法：全量矩陣算法themes_matrix（全域）與 related_videos（局部）雙層結構
-第一層：主題 → 影片映射（倒排索引）：themes_matrix（宏觀/全域關聯：主題對應頻道矩陣）
-實現方式：全域標籤倒排索引（Inverted Index）。
-邏輯：系統會遍歷全量影片，抽取出所有出現過的主題標籤（Unique Topics），並為每個標籤建立一個包含所有相關影片（video_id、channel、title）的列表，最終構成 `Dict[topic_str, List[{video_id, channel, title}]]` 倒排索引。
-用途：供前端 Dashboard 渲染可點擊的「主題標籤雲」（Topic Chip Grid），點擊任一標籤即聯動篩選出與該主題相關的所有影片
-第二層：影片 → 相關影片鏈（兩兩 Jaccard）:related_videos（微觀/局部關聯：單篇影片的延伸推薦）
-實現方式：Jaccard 相似度
-邏輯：它是 Video 物件內的一個屬性，記錄與當前影片最相關的 3 個 video_id，供前端在用戶點擊某支影片時，在側邊欄或彈窗中展示「猜你喜歡」。
-Jaccard 相似度公式：J(A,B) = |A∩B| / |A∪B|
-Jaccard 相似度 = 两个标签集合的交集大小 ÷ 两个标签集合的并集大小（越接近 1 = 越像，越接近 0 = 越无关）
-只有兩隻影片的相似度大于 0.1（J(Ai,Aj)>0.1且i不等於j），才认为两支影片有关联，即只要有一个标签相同，就视为相关。
-data.json 規格與完整結構：
-為了兼顧前端「零框架、單文件雙擊直開」的極簡設計，Pipeline 最終會輸出一個標準的 JSON 結構（或包裹在 `window.__TRACKER_DATA__ = {...};` 中的 JS 文件）。這個結構完整包含了全域主題矩陣與每支影片的局部關聯
+8. Problem: Using vectors / LLM computation alone is too heavy — GitHub Actions cannot handle it; having LLM or vector models compare against the entire database every time is slow and costly.
+Solution: Full matrix algorithm with themes_matrix (global) and related_videos (local) dual-layer structure.
+Layer 1: Topic → Video Mapping (Inverted Index): themes_matrix (macro/global association: topic-to-channel matrix)
+Implementation: Global tag inverted index.
+Logic: The system traverses all videos, extracts all unique topic tags that have appeared, and for each tag builds a list containing all related videos (video_id, channel, title), ultimately forming a `Dict[topic_str, List[{video_id, channel, title}]]` inverted index.
+Purpose: Provides the frontend Dashboard with a clickable "Topic Tag Cloud" (Topic Chip Grid); clicking any tag links and filters all videos related to that topic.
+Layer 2: Video → Related Video Chain (Pairwise Jaccard): related_videos (micro/local association: extended recommendations for a single video)
+Implementation: Jaccard similarity.
+Logic: It is a property within a Video object, recording the 3 most related video_ids to the current video, for the frontend to display "You might also like" in a sidebar or popup when a user clicks a video.
+Jaccard similarity formula: J(A,B) = |A∩B| / |A∪B|
+Jaccard similarity = size of intersection of two tag sets ÷ size of union of two tag sets (closer to 1 = more similar, closer to 0 = more unrelated).
+Only when the similarity between two videos is greater than 0.1 (J(Ai,Aj)>0.1 and i≠j) are the two videos considered related — as long as one tag is the same, they are deemed related.
+data.json specification and complete structure:
+To balance the frontend's "zero-framework, single-file double-click to open" minimalist design, the Pipeline ultimately outputs a standard JSON structure (or a JS file wrapped in `window.__TRACKER_DATA__ = {...};`). This structure comprehensively contains both the global topic matrix and each video's local associations.
 
 ---
 
-## 2. Methodology（方法論）
+## 2. Methodology
 
-### 2.1 系統總體架構
+### 2.1 Overall System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        main.py — 主編排器 (Orchestrator)                     │
+│                        main.py — Orchestrator                                │
 │                                                                             │
 │  ┌──────────┐    ┌──────────┐    ┌───────────┐    ┌──────────┐    ┌───────┐ │
 │  │ Step 1   │───▶│ Step 2   │───▶│ Step 3   │───▶│ Step 4 │───▶│Step 5 │ │
-│  │ 數據採集 │    │ 數據標準化│     │ 字幕轉錄  │      │ LLM 分析 │   │關聯矩陣│ │
+│  │ Data     │    │ Data     │    │ Subtitle  │    │ LLM    │    │Correl.│ │
+│  │Collection│    │Normalize │    │Transcribe │    │Analysis│    │Matrix │ │
 │  │Ingestion │    │Transformer│    │Transcribe │    │MapReduce │   │Jaccard│ │
 │  └──────────┘    └──────────┘    └───────────┘    └──────────┘    └───────┘ │
 │       │                                                               │     │
 │       ▼                                                               ▼     │
 │  QuotaGuard                                                    data.js      │
-│  (API 配額守衛)                                           (前端即時寫入)     │
+│  (API Quota Guard)                                       (Frontend Write)   │
 └─────────────────────────────────────────────────────────────────────────────┘
                                      │
                                      ▼
                               ┌─────────────┐
                               │ index.html  │
-                              │ 靜態儀表板   │
+                              │Static Board │
                               └─────────────┘
 ```
 
-技術棧概覽：
+Technology Stack Overview:
 
-| 層級 | 技術 | 用途 |
-|------|------|------|
-| 語言 | Python 3.10+ | Pipeline 全流程 |
-| 數據採集 | `yt-dlp` + YouTube Data API v3 | 頻道掃描、元數據抓取、字幕下載 |
-| 語音轉錄 | `faster-whisper`（CTranslate2 + Whisper） | 本地 ASR 保底轉錄 |
-| LLM 語意分析 | **Moonshot (Kimi) API**（`moonshot-v1-8k` / `moonshot-v1-32k`） | Map-Reduce 對話劇本還原 |
-| 關聯計算 | Jaccard 相似度（純 Python） | 影片主題關聯矩陣 |
-| 前端展示 | 原生 HTML + CSS + JavaScript（零框架） | 靜態儀表板 |
-| CI/CD | GitHub Actions | 每 6h 增量追蹤 + 每週日 GC 死鏈清理 |
-| 數據持久化 | JSON（`data.json` / `data.js` / `processed_videos.json`） | GitOps 狀態管理 |
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| Language | Python 3.10+ | Full Pipeline flow |
+| Data Collection | `yt-dlp` + YouTube Data API v3 | Channel scanning, metadata fetching, subtitle download |
+| Speech Transcription | `faster-whisper` (CTranslate2 + Whisper) | Local ASR fallback transcription |
+| LLM Semantic Analysis | **Moonshot (Kimi) API** (`moonshot-v1-8k` / `moonshot-v1-32k`) | Map-Reduce dialogue script reconstruction |
+| Correlation Computation | Jaccard Similarity (pure Python) | Video topic correlation matrix |
+| Frontend Display | Native HTML + CSS + JavaScript (zero framework) | Static dashboard |
+| CI/CD | GitHub Actions | Incremental tracking every 6h + weekly Sunday GC dead link cleanup |
+| Data Persistence | JSON (`data.json` / `data.js` / `processed_videos.json`) | GitOps state management |
 
-### 2.2 Step 1：採集調度器與雙層異常樹
+### 2.2 Step 1: Ingestion Dispatcher & Two-Layer Exception Tree
 
-`core/ingestion.py` 中的 `IngestionDispatcher` 採用**「主路線 yt-dlp + 配額型 API 降級」**
-的雙路線設計，並通過**兩層異常樹**實現對 IP 級反爬的精細應對：
+`core/ingestion.py`'s `IngestionDispatcher` adopts a **"primary route yt-dlp + quota-based API fallback"** dual-route design, achieving fine-grained response to IP-level anti-scraping through a **two-layer exception tree**:
 
 ```
-YtdlpVideoFailed     ← 單片重試耗盡（降級到 API 獲取該片）
+YtdlpVideoFailed     ← Single video retry exhausted (fall back to API for that video)
     │
-    └─▶ 連續 N 次 → YtdlpGlobalBroken  ← 全局降級為 API-only 模式
+    └─▶ N consecutive → YtdlpGlobalBroken  ← Global fallback to API-only mode
 ```
 
-**指數退避**（首次不等待，重試時）：
+**Exponential Backoff** (no wait on first attempt, on retry):
 
 $$
 t_{\text{wait}} = \min\bigl(\text{BACKOFF\_BASE}^{\text{attempt}} + \text{jitter},\; \text{BACKOFF\_MAX}\bigr)
 $$
 
-`BACKOFF_BASE = 2`、`BACKOFF_MAX = 30s`、`jitter ∈ U(0,1)` —— 指數增長 + 抖動防止
-Thundering Herd 同步重試。
+`BACKOFF_BASE = 2`, `BACKOFF_MAX = 30s`, `jitter ∈ U(0,1)` — exponential growth + jitter to prevent Thundering Herd synchronized retries.
 
-**時間窗口全局降級**：
+**Time Window Global Fallback**:
 
 $$
 \text{trigger} \iff F \geq \text{GLOBAL\_FAIL\_THRESH} \;\wedge\; (t_{\text{now}} - t_{\text{first\_fail}}) \leq \text{GLOBAL\_FAIL\_WINDOW}
 $$
 
-`GLOBAL_FAIL_THRESH = 3`、`GLOBAL_FAIL_WINDOW = 600s`。意義：**僅當 10 分鐘窗口內密集
-連續失敗** 才視為 IP 被精準阻斷；跨越窗口的零星失敗會清零，避免誤判。
+`GLOBAL_FAIL_THRESH = 3`, `GLOBAL_FAIL_WINDOW = 600s`. Meaning: **only when dense consecutive failures occur within a 10-minute window** is it considered that the IP has been precisely blocked; sporadic failures across the window boundary will reset the counter, avoiding false positives.
 
-**額外的數據健壯性**：
+**Additional Data Robustness**:
 
-- `_extract_video_id()` 用 `^[A-Za-z0-9_-]{11}$` 正則嚴格校驗，防止頻道/播放列表的
-  24 字 channel_id 污染 `processed_videos.json`（歷史 bug 治理結果，見 §6）。
-- `_get_channel_videos_ytdlp()` 強制拼接 `/videos` 子路徑，避免 yt-dlp 返回 tabs/
-  子播放列表項。
+- `_extract_video_id()` uses the `^[A-Za-z0-9_-]{11}$` regex for strict validation, preventing 24-character channel_ids from channels/playlists from polluting `processed_videos.json` (result of historical bug remediation, see §6).
+- `_get_channel_videos_ytdlp()` forcefully appends the `/videos` subpath, preventing yt-dlp from returning tabs/sub-playlist items.
 
-### 2.3 Step 2：異質元數據標準化
+### 2.3 Step 2: Heterogeneous Metadata Normalization
 
-`core/transformer.py` 將 `yt-dlp` 與 YouTube API v3 兩種**結構完全不同**的原始 JSON
-統一清洗為下列前端可直接消費的 schema：
+`core/transformer.py` uniformly cleanses the two **structurally completely different** raw JSONs from `yt-dlp` and YouTube API v3 into the following frontend-consumable schema:
 
 ```json
 {
@@ -219,82 +214,75 @@ $$
 }
 ```
 
-防禦性編碼：所有 `dict.get(...)` 返回值都用 `or` 兜底（如 `raw_data.get("subtitles") or {}`），
-避免外部 API 返回 `None` 時觸發鏈式 `TypeError`。時間獲取統一使用 UTC 感知的
-`datetime.now(timezone.utc)`，已從棄用的 `datetime.utcnow()` 遷移。
+Defensive coding: All `dict.get(...)` return values use `or` fallback (e.g., `raw_data.get("subtitles") or {}`), preventing chained `TypeError` when external APIs return `None`. Time retrieval uniformly uses UTC-aware `datetime.now(timezone.utc)`, migrated from the deprecated `datetime.utcnow()`.
 
-### 2.4 Step 3：三級降級轉錄 + SEGMENT BREAK 硬邊界
+### 2.4 Step 3: Three-Level Fallback Transcription + SEGMENT BREAK Hard Boundaries
 
-`core/transcription.py` 採用 **零成本優先** 的三級降級：
+`core/transcription.py` adopts a **zero-cost priority** three-level fallback:
 
-| 優先級 | 方法 | API 開銷 | 速度 | 說明 |
-|--------|------|----------|------|------|
-| 1 | `_download_subtitles(prefer_manual=True)` | **零** | 最快 | YouTube 手動上傳字幕 |
-| 2 | `_download_subtitles(prefer_manual=False)` | **零** | 快 | YouTube 自動生成字幕 |
-| 3 | `_transcribe_with_faster_whisper()` | **零**（本地 CPU） | 慢 | faster-whisper 本地 ASR 保底 |
+| Priority | Method | API Cost | Speed | Description |
+|----------|--------|----------|-------|-------------|
+| 1 | `_download_subtitles(prefer_manual=True)` | **Zero** | Fastest | YouTube manually uploaded subtitles |
+| 2 | `_download_subtitles(prefer_manual=False)` | **Zero** | Fast | YouTube auto-generated subtitles |
+| 3 | `_transcribe_with_faster_whisper()` | **Zero** (local CPU) | Slow | faster-whisper local ASR fallback |
 
-**SEGMENT BREAK 硬邊界注入**：
+**SEGMENT BREAK Hard Boundary Injection**:
 
 $$
 \text{insert} \iff t_{\text{current}} - t_{\text{previous}} \geq \Delta_{\text{gap}} \quad (\Delta_{\text{gap}} = 30\text{s})
 $$
 
-YouTube 自動字幕是無分段的連續流，多人對話場景下 LLM 無法判斷說話人切換邊界。
-在相鄰字幕時間差 ≥30 秒處強制插入 `[SEGMENT BREAK @MM:SS]` 錨點，
-顯著降低 LLM 在 chunk 邊界處的「虛假說話人切換」。
+YouTube auto-generated subtitles are unsegmented continuous streams; in multi-speaker dialogue scenarios, the LLM cannot determine speaker-switch boundaries. Forcefully inserting `[SEGMENT BREAK @MM:SS]` anchors at points where adjacent subtitle time gaps ≥30 seconds significantly reduces "false speaker switches" by the LLM at chunk boundaries.
 
-faster-whisper（保底）配置：`base` 模型（74M 參數），CTranslate2 後端，
-INT8 量化（記憶體 −50%、推理速度 ×2），`beam_size=5` Beam Search 解碼：
+faster-whisper (fallback) configuration: `base` model (74M parameters), CTranslate2 backend, INT8 quantization (memory −50%, inference speed ×2), `beam_size=5` Beam Search decoding:
 
 $$
 \hat{y} = \arg\max_{y} \sum_{t=1}^{T} \log P(y_t \mid y_{<t}, X)
 $$
 
-### 2.5 Step 4：Map-Reduce LLM 語意分析
+### 2.5 Step 4: Map-Reduce LLM Semantic Analysis
 
-`core/map_reduce_engine.py` 是項目核心智能組件。將字幕長文流轉化為說話人、
-對話劇本、主題關鍵詞、摘要的結構化結果。
+`core/map_reduce_engine.py` is the project's core intelligent component. It transforms subtitle long-text streams into structured results of speakers, dialogue scripts, topic keywords, and summaries.
 
-**分塊策略 — 語意感知滑動窗口**：
+**Chunking Strategy — Semantic-Aware Sliding Window**:
 
-1. 先按 `[SEGMENT BREAK @MM:SS]` 切割為自然語段；
-2. 依次裝入緩衝區直至 word 數超過 `chunk_size = 1200`；
-3. 超長語段內部以 word 為單位硬切，相鄰塊保留 `overlap = 200` words：
+1. First split by `[SEGMENT BREAK @MM:SS]` into natural segments;
+2. Fill sequentially into a buffer until word count exceeds `chunk_size = 1200`;
+3. Internally hard-split overly long segments by word; adjacent chunks retain `overlap = 200` words:
 
 $$
 \text{chunk}_i = \text{words}\bigl[i(S-O) \;:\; i(S-O)+S\bigr] \quad (S=1200,\; O=200)
 $$
 
-**Map-Reduce 並行架構**：
+**Map-Reduce Parallel Architecture**:
 
 ```
            ┌─────────────────────────────────────────────┐
-           │              原始字幕文字流                  │
+           │           Raw Subtitle Text Stream           │
            └────────────────┬────────────────────────────┘
                             │
                      _chunk_text()
-               (SEGMENT BREAK 語意分塊)
+               (SEGMENT BREAK Semantic Chunking)
                             │
             ┌───────────────┼───────────────┐
             ▼               ▼               ▼
       ┌──────────┐   ┌──────────┐   ┌──────────┐
       │ Chunk 1  │   │ Chunk 2  │   │ Chunk 3  │   ← ThreadPoolExecutor
       │ Map 8k   │   │ Map 8k   │   │ Map 8k   │      max_workers=3
-      └────┬─────┘   └────┬─────┘   └────┬─────┘      並行發送
+      └────┬─────┘   └────┬─────┘   └────┬─────┘      Parallel dispatch
            └──────────────┼──────────────┘
                           ▼
                   ┌──────────────┐
-                  │  Reduce 32k  │  ← 單次調用，全局消歧+分類+摘要
+                  │  Reduce 32k  │  ← Single call, global disambiguation+classification+summary
                   └──────────────┘
 ```
 
-| 階段 | 模型 | 上下文 | 任務 |
-|------|------|--------|------|
-| Map | `moonshot-v1-8k` | 8 K | 局部說話人標注 + 關鍵詞提取（並行 ×3） |
-| Reduce | `moonshot-v1-32k` | 32 K | 跨段說話人消歧 + 主題去重 + 影片分類 + 摘要 |
+| Phase | Model | Context | Task |
+|-------|-------|---------|------|
+| Map | `moonshot-v1-8k` | 8 K | Local speaker annotation + keyword extraction (parallel ×3) |
+| Reduce | `moonshot-v1-32k` | 32 K | Cross-segment speaker disambiguation + topic dedup + video classification + summary |
 
-**配額對齊**：`ThreadPoolExecutor(max_workers=3)` 精確匹配 Moonshot 帳號並發配額 3，
-正常情況下不會觸發 429。同時保留 2 次安全網重試，優先遵從服務端 `Retry-After`：
+**Quota Alignment**: `ThreadPoolExecutor(max_workers=3)` precisely matches the Moonshot account concurrency quota of 3; under normal conditions, 429 will not be triggered. A 2-retry safety net is also retained, prioritizing the server-side `Retry-After`:
 
 $$
 t_{\text{retry}} =
@@ -304,69 +292,58 @@ t_{\text{retry}} =
 \end{cases}
 $$
 
-**Body 體積防禦**：`MAX_USER_CONTENT_CHARS = 28000` 截斷單次請求 user content；
-`MAX_MAP_SNIPPET_CHARS = 4000` 截斷 Reduce 階段每段拼接的 Map 結果，
-從根源防止 Groq 時代屢屢出現的 HTTP 413（body too large）問題（見 §6 工程加固）。
+**Body Size Defense**: `MAX_USER_CONTENT_CHARS = 28000` truncates single-request user content; `MAX_MAP_SNIPPET_CHARS = 4000` truncates each Map result concatenated in the Reduce phase, fundamentally preventing the HTTP 413 (body too large) issues that frequently occurred during the Groq era (see §6 Engineering Hardening).
 
-**LLM 輸出強約束**：`temperature=0.1`、`response_format={"type":"json_object"}`、
-`timeout=60s`；解析側用 `_parse_json_safe()` 剝離 markdown code fence
-後 `json.loads`，遇異常返回空 dict 走 `_fallback()`。
+**LLM Output Strong Constraints**: `temperature=0.1`, `response_format={"type":"json_object"}`, `timeout=60s`; on the parsing side, `_parse_json_safe()` strips markdown code fences then `json.loads`; on exception, returns empty dict and falls through to `_fallback()`.
 
-### 2.6 Step 5：Jaccard 主題關聯矩陣
+### 2.6 Step 5: Jaccard Topic Correlation Matrix
 
-`core/graph_matrix.py` 採用 **零依賴、零向量化** 的 Jaccard IoU：
+`core/graph_matrix.py` adopts **zero-dependency, zero-vectorization** Jaccard IoU:
 
 $$
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}, \quad A, B \subseteq \text{ai\_topics}
 $$
 
-雙層輸出結構：
+Dual-layer output structure:
 
 ```
-第一層 — 主題 → 影片倒排索引:
+Layer 1 — Topic → Video Inverted Index:
   themes_matrix = { "Transformer": [v1, v4, v7], "RAG": [v2, v3], ... }
 
-第二層 — 影片 → 相關影片鏈（兩兩 Jaccard, 閾值 0.1, Top-3）:
+Layer 2 — Video → Related Video Chain (Pairwise Jaccard, threshold 0.1, Top-3):
   v1.related_videos = [{v4, 0.67}, {v7, 0.40}, {v2, 0.20}]
 ```
 
-時間複雜度 \(O(n^2 k)\)，當前規模 \(n \leq 70\)、\(k \leq 5\) 計算成本可忽略。
-選 Jaccard 而非 cosine/embedding 是工程權衡：在 LLM 精煉後的 2–5 個離散主題標籤上，
-向量化會引入噪聲而非降噪。
+Time complexity \(O(n^2 k)\); at current scale \(n \leq 70\), \(k \leq 5\), computational cost is negligible. Choosing Jaccard over cosine/embedding is an engineering trade-off: on 2–5 discrete topic tags refined by LLM, vectorization would introduce noise rather than reduce it.
 
-### 2.7 Step 6：即時寫入與前端兼容
+### 2.7 Step 6: Real-Time Write & Frontend Compatibility
 
-每處理完一支影片即調用 `save_data_js()` 同時寫入：
+After processing each video, `save_data_js()` is called to write simultaneously:
 
-- `data.json`：標準 JSON，供程序與 GC 腳本讀取；
-- `data.js`：`window.__TRACKER_DATA__ = {...};`，供 `index.html` 用 `<script src>`
-  載入。
+- `data.json`: Standard JSON, for program and GC script reading;
+- `data.js`: `window.__TRACKER_DATA__ = {...};`, for `index.html` to load via `<script src>`.
 
-**為什麼要寫兩份**：`fetch("data.json")` 在 `file://` 協議下會被瀏覽器 CORS 阻止。
-寫一份注入全局變量的 `.js`，讓用戶 **雙擊** `index.html` 就能直接看到最新結果，
-同時完全兼容 GitHub Pages 的 `https://` 訪問。
+**Why write two copies**: `fetch("data.json")` is blocked by browser CORS under the `file://` protocol. Writing a `.js` file that injects a global variable allows users to **double-click** `index.html` to directly view the latest results, while maintaining full compatibility with GitHub Pages `https://` access.
 
 ---
 
-## 3. Evaluation Dataset（評估數據集）
+## 3. Evaluation Dataset
 
-評估數據來自 Pipeline 自身在生產環境上持續運行所產生的真實 YouTube 影片數據。
-本項目不存在「離線標註的測試集」，而是以**真實生產流量**作為持續評估對象，
-每 6 小時調度一次累積。
+Evaluation data comes from real YouTube video data continuously generated by the Pipeline itself running in the production environment. This project does not have an "offline annotated test set"; instead, it uses **real production traffic** as the continuous evaluation target, accumulating with each 6-hour scheduling cycle.
 
-| 項 | 配置 |
-|---|---|
-| 追蹤頻道數 | **7** 個（見下表） |
-| 每頻道每輪抓取上限 | 10 支最新影片 |
-| Pipeline 觸發頻率 | 每 6 小時 + 手動 |
-| 增量去重鍵 | `processed_videos.json` 中的 11 字 `video_id` |
-| Shorts 過濾規則 | `/shorts/` 路徑 ∨ 時長 ≤ 60s |
-| 數據快照位置 | `data.json` / `data.js`（隨每次 CI run 提交回 Git） |
+| Item | Configuration |
+|------|---------------|
+| Tracked channel count | **7** (see table below) |
+| Per-channel per-round fetch limit | 10 most recent videos |
+| Pipeline trigger frequency | Every 6 hours + manual |
+| Incremental deduplication key | 11-character `video_id` in `processed_videos.json` |
+| Shorts filtering rule | `/shorts/` path ∨ duration ≤ 60s |
+| Data snapshot location | `data.json` / `data.js` (committed back to Git with each CI run) |
 
-**追蹤頻道清單**（`config/settings.py::TARGET_CHANNELS`）：
+**Tracked Channel List** (`config/settings.py::TARGET_CHANNELS`):
 
-| 頻道 | Channel ID |
-|------|------------|
+| Channel | Channel ID |
+|---------|------------|
 | Andrej Karpathy | `UCXUPKJO5MZQN11PqgIvyuvQ` |
 | 3Blue1Brown | `UCYO_jab_esuFRV4b17AJtAw` |
 | Yannic Kilcher | `UCZHmQk67mSJgfCCTn7xBfew` |
@@ -377,206 +354,198 @@ $$
 
 ---
 
-## 4. Evaluation Methods（評估方法）
+## 4. Evaluation Methods
 
-評估分為三類：**單元測試（正確性）**、**生產運行指標（工程性）**、
-**LLM 輸出結構合規性（語意品質）**。
+Evaluation is divided into three categories: **Unit Testing (Correctness)**, **Production Runtime Metrics (Engineering)**, **LLM Output Structural Compliance (Semantic Quality)**.
 
-### 4.1 單元測試（`tests/`）
+### 4.1 Unit Testing (`tests/`)
 
-| 測試模組 | 覆蓋目標 |
-|----------|----------|
-| `test_extract_video_id.py` | 11 字 `video_id` 正則校驗、24 字 `channel_id` 拒絕、空輸入兜底 |
-| `test_chunk_text.py` | `_chunk_text` 在 SEGMENT BREAK / overlap 邊界的切片正確性 |
-| `test_io_helpers.py` | `load_json` 容錯路徑、`save_json` 寫入、`save_data_js` 雙寫一致性 |
-| `test_transformer.py` | yt-dlp / api_v3 雙路徑的標準化結果欄位齊整、空值兜底 |
+| Test Module | Coverage Target |
+|-------------|-----------------|
+| `test_extract_video_id.py` | 11-char `video_id` regex validation, 24-char `channel_id` rejection, empty input fallback |
+| `test_chunk_text.py` | `_chunk_text` slice correctness at SEGMENT BREAK / overlap boundaries |
+| `test_io_helpers.py` | `load_json` fault-tolerant paths, `save_json` write, `save_data_js` dual-write consistency |
+| `test_transformer.py` | yt-dlp / api_v3 dual-path normalization result field completeness, null value fallback |
 
-CI 在 `.github/workflows/tests.yml` 中作為 PR 強制關卡執行。
+CI is enforced as a PR mandatory gate in `.github/workflows/tests.yml`.
 
-### 4.2 生產運行指標（工程性）
+### 4.2 Production Runtime Metrics (Engineering)
 
-由 `utils/logger.py` 統一輸出，每輪 CI 日誌與 `quota_state.json` 為真實數據源：
+Uniformly output by `utils/logger.py`; each CI round's logs and `quota_state.json` serve as real data sources:
 
-| 指標 | 觀測方式 | 期望 |
-|------|----------|------|
-| YouTube API 每日消耗點數 | `quota_state.json::used` | < 100 / 10000 |
-| `yt-dlp` 單片重試平均次數 | Ingestion logger | < 1.5（穩態） |
-| `YtdlpGlobalBroken` 觸發頻次 | Ingestion logger | 月度 ≤ 1 次 |
-| 字幕命中率（Step 3 優先級 1+2 成功比例） | Transcription logger | ≥ 80% |
-| faster-whisper 回退率 | `transcription_source == faster_whisper` | ≤ 20% |
-| Map-Reduce 平均並行度 | 日誌中 chunk 數 / 串行時間估計 | ≈ 3× |
-| LLM 429 重試觸發率 | MapReduce logger | ≤ 1% |
+| Metric | Observation Method | Expected |
+|--------|--------------------|----------|
+| YouTube API daily quota consumption | `quota_state.json::used` | < 100 / 10000 |
+| `yt-dlp` average retry count per video | Ingestion logger | < 1.5 (steady state) |
+| `YtdlpGlobalBroken` trigger frequency | Ingestion logger | Monthly ≤ 1 time |
+| Subtitle hit rate (Step 3 Priority 1+2 success ratio) | Transcription logger | ≥ 80% |
+| faster-whisper fallback rate | `transcription_source == faster_whisper` | ≤ 20% |
+| Map-Reduce average parallelism | chunk count / serial time estimate in logs | ≈ 3× |
+| LLM 429 retry trigger rate | MapReduce logger | ≤ 1% |
 
-### 4.3 LLM 輸出結構合規性（語意品質）
+### 4.3 LLM Output Structural Compliance (Semantic Quality)
 
-`_parse_json_safe()` 對 Reduce 結果做 schema 級隱式校驗：
+`_parse_json_safe()` performs schema-level implicit validation on Reduce results:
 
-- **必有欄位**：`speaker_type`、`speakers`、`ai_topics`、`summary`；
-- **可導出欄位**：`dialogue_script`（去重後保留 Top-120 條對白）；
-- 解析失敗→`_fallback("reduce_failed")` 寫入安全默認值，
-  Pipeline **不中斷**。
+- **Required fields**: `speaker_type`, `speakers`, `ai_topics`, `summary`;
+- **Exportable fields**: `dialogue_script` (top-120 dialogue lines retained after deduplication);
+- On parse failure → `_fallback("reduce_failed")` writes safe default values; Pipeline **does not halt**.
 
-「夠用」標準：經人工抽樣，`speaker_type` 三分類（Solo / Interview / Group）
-與影片實際情況一致；`ai_topics` 與影片標題/描述有可解釋的語意重疊；
-摘要為 2–3 句的自然語言段落。
+"Good enough" standard: Through manual sampling, `speaker_type` tri-classification (Solo / Interview / Group) matches actual video situations; `ai_topics` has explainable semantic overlap with video titles/descriptions; summaries are 2–3 sentence natural language paragraphs.
 
 ---
 
-## 5. Experimental Results（實驗結果）
+## 5. Experimental Results
 
-下表為**累計到當前**的真實運行成果（持續刷新，以倉庫中 `data.json` 為準）：
+The table below shows **cumulative-to-date** real operational results (continuously refreshed; `data.json` in the repository is the source of truth):
 
-### 5.1 數據面
+### 5.1 Data Aspects
 
-| 項 | 觀測值 |
-|---|---|
-| `data.json::videos[].length` | 隨時間單調增長（增量採集） |
-| 主題倒排索引 `themes_matrix` 規模 | 約 30–80 個獨立 LLM 主題標籤 |
-| 平均每片 `related_videos` 條數 | ≤ 3（Top-K 截斷） |
-| `processed_videos.json` 規模 | 包含 `ok` / `filtered_shorts` / `fetch_failed` 三類狀態鍵 |
+| Item | Observed Value |
+|------|----------------|
+| `data.json::videos[].length` | Monotonically increasing over time (incremental collection) |
+| Topic inverted index `themes_matrix` scale | ~30–80 unique LLM topic tags |
+| Average `related_videos` entries per video | ≤ 3 (Top-K truncation) |
+| `processed_videos.json` scale | Contains three status key types: `ok` / `filtered_shorts` / `fetch_failed` |
 
-### 5.2 工程面
+### 5.2 Engineering Aspects
 
-| 項 | 觀測值 | 目標 | 達成 |
-|---|---|---|---|
-| YouTube API 日均消耗 | 個位數點 | < 100 | ✅ |
-| LLM 全部走 Moonshot 免費額度 | RPM ≤ 20, 並發 ≤ 3 | 符合 | ✅ |
-| 雙擊 `index.html` 可訪問 | data.js 注入 | ✅ | ✅ |
-| Pipeline 抗單點故障 | API/yt-dlp/字幕/whisper 任一斷服均有 fallback | ✅ | ✅ |
-| 增量去重正確性 | `video_id` 正則校驗無 channel_id 污染 | ✅ | ✅ |
+| Item | Observed Value | Target | Achieved |
+|------|----------------|--------|----------|
+| YouTube API daily average consumption | Single-digit quota points | < 100 | ✅ |
+| LLM entirely on Moonshot free quota | RPM ≤ 20, concurrency ≤ 3 | Compliant | ✅ |
+| Double-click `index.html` accessible | data.js injection | ✅ | ✅ |
+| Pipeline single-point-of-failure resilience | API/yt-dlp/subtitles/whisper any service down has fallback | ✅ | ✅ |
+| Incremental dedup correctness | `video_id` regex validation, no channel_id pollution | ✅ | ✅ |
 
-### 5.3 前端面
+### 5.3 Frontend Aspects
 
-`index.html` 提供：
+`index.html` provides:
 
-- **主題標籤雲**（按出現頻率排序，可點擊聯動篩選）
-- **影片總表**：標題、頻道、發布日、說話類型、說話人、AI 主題、AI 摘要、相關影片
-- **三維篩選**：關鍵字搜索 × 頻道篩選 × 說話類型篩選 × 主題標籤篩選
-
----
-
-## 6. Engineering Hardening Log（工程加固記錄）
-
-下表是項目演化過程中**已落地** 的關鍵加固與 bug 修復，每一項在代碼中都有對應實現：
-
-| # | 問題 | 影響 | 修復 |
-|---|------|------|------|
-| 1 | yt-dlp 頻道列表返回 24 字 channel_id 污染 `processed_videos.json` | 增量去重失效、後續永遠跳過該頻道 | `_extract_video_id` + `_VIDEO_ID_RE` 正則嚴格校驗 |
-| 2 | 外部 API 偶爾返回 `None` 字段，`dict.get()` 鏈式 `TypeError` | Pipeline 崩潰 | 全鏈路 `or {}` / `or []` 兜底 |
-| 3 | Groq 時代 HTTP 413（body too large）頻繁 | LLM 階段直接失敗 | `MAX_USER_CONTENT_CHARS=28000` + `MAX_MAP_SNIPPET_CHARS=4000` + 遷移 Moonshot |
-| 4 | Groq 免費 API 429 與冷卻不足 | 連鎖失敗 | 429 安全網 + 與配額對齊的 `ThreadPoolExecutor(max_workers=3)` |
-| 5 | JSON 結構校驗缺位導致啟動阻塞 | 啟動即崩 | `utils/io_helpers.load_json` 加入型別校驗 + `_load` 字段 `setdefault` 兜底 |
-| 6 | `_parse_json_safe` 中誤寫成未閉合原始字符串 `r'rtrep` | basedpyright 報「字符串未終止」、Reduce 結果永走 fallback | 改回 `return json.loads(clean)` |
-| 7 | `fetch_metadata` 類型注解寫成 `Dict` 但實際返回 2-tuple | 類型檢查紅線 | 改為 `Tuple[Dict[str, Any], str]` |
-| 8 | `core/transformer.py` 仍用 `datetime.utcnow()` | Python 3.12+ DeprecationWarning，未來會移除 | 抽出 `_today_utc()` 改用 `datetime.now(timezone.utc)` |
-| 9 | `_inject_segment_breaks` / `_chunk_text` 時間正則 `\d{2}` | ≥ 100 分鐘的長影片 SEGMENT BREAK 全部失效 | 兩處正則改為 `\d{1,3}` |
-| 10 | `QuotaGuard._load` 不校驗字段齊整 | `quota_state.json` 殘缺時 KeyError | 加入頂層 dict 校驗 + `setdefault("used", 0)` 等兜底 |
-| 11 | `gc_cleanup.py` 用 `load_json(..., dict)` 退化為 `{}` | 結構不一致風險 | 默認 schema 對齊 `main.py` |
+- **Topic Tag Cloud** (sorted by occurrence frequency, clickable with linked filtering)
+- **Video Master Table**: title, channel, publish date, speaker type, speakers, AI topics, AI summary, related videos
+- **Multi-dimensional Filtering**: keyword search × channel filter × speaker type filter × topic tag filter
 
 ---
 
-## 7. Reproducibility（復現指南）
+## 6. Engineering Hardening Log
 
-### 7.1 本地運行
+The table below lists **implemented** key hardening measures and bug fixes during project evolution; each item has a corresponding implementation in the code:
+
+| # | Problem | Impact | Fix |
+|---|---------|--------|-----|
+| 1 | yt-dlp channel list returns 24-char channel_id polluting `processed_videos.json` | Incremental dedup fails; channel permanently skipped thereafter | `_extract_video_id` + `_VIDEO_ID_RE` strict regex validation |
+| 2 | External API occasionally returns `None` fields, `dict.get()` chained `TypeError` | Pipeline crash | Full-chain `or {}` / `or []` fallback |
+| 3 | Groq-era HTTP 413 (body too large) frequent | LLM phase direct failure | `MAX_USER_CONTENT_CHARS=28000` + `MAX_MAP_SNIPPET_CHARS=4000` + migration to Moonshot |
+| 4 | Groq free API 429 with insufficient cooldown | Cascading failures | 429 safety net + quota-aligned `ThreadPoolExecutor(max_workers=3)` |
+| 5 | JSON structure validation missing causing startup blocking | Crash on startup | `utils/io_helpers.load_json` with type validation + `_load` field `setdefault` fallback |
+| 6 | `_parse_json_safe` mistakenly written as unclosed raw string `r'rtrep` | basedpyright reports "unterminated string"; Reduce results always fall through to fallback | Changed back to `return json.loads(clean)` |
+| 7 | `fetch_metadata` type annotation written as `Dict` but actually returns 2-tuple | Type checker red line | Changed to `Tuple[Dict[str, Any], str]` |
+| 8 | `core/transformer.py` still uses `datetime.utcnow()` | Python 3.12+ DeprecationWarning, will be removed in future | Extracted `_today_utc()` using `datetime.now(timezone.utc)` |
+| 9 | `_inject_segment_breaks` / `_chunk_text` time regex `\d{2}` | SEGMENT BREAK completely fails for videos ≥ 100 minutes | Both regex patterns changed to `\d{1,3}` |
+| 10 | `QuotaGuard._load` doesn't validate field completeness | KeyError when `quota_state.json` is incomplete | Added top-level dict validation + `setdefault("used", 0)` fallback |
+| 11 | `gc_cleanup.py` uses `load_json(..., dict)` degrades to `{}` | Structure inconsistency risk | Default schema aligned with `main.py` |
+
+---
+
+## 7. Reproducibility
+
+### 7.1 Local Execution
 
 ```bash
 # 1. Clone
 git clone https://github.com/<your-account>/llm-youtube-landscape-tracker.git
 cd llm-youtube-landscape-tracker
 
-# 2. 安裝依賴（建議 Python 3.10+）
+# 2. Install dependencies (Python 3.10+ recommended)
 python -m pip install -r requirements.txt
 
-# 3. 設置環境變量（也可直接寫死在 config/settings.py，但建議用 env）
+# 3. Set environment variables (can also hardcode in config/settings.py, but env recommended)
 $env:YOUTUBE_API_KEY  = "<your YouTube Data API v3 key>"
 $env:MOONSHOT_API_KEY = "<your Moonshot/Kimi API key>"
 
-# 4. 跑 Pipeline
+# 4. Run Pipeline
 python main.py
 
-# 5. 雙擊 index.html 即可看到結果（依賴自動生成的 data.js）
+# 5. Double-click index.html to view results (depends on auto-generated data.js)
 ```
 
-> **PowerShell 提示**：請使用分號 `;` 連接命令，不要使用 `&&`。
+> **PowerShell Note**: Use semicolons `;` to chain commands; do not use `&&`.
 
-### 7.2 CI / CD（GitHub Actions）
+### 7.2 CI / CD (GitHub Actions)
 
-| 工作流 | 觸發 | 功能 |
-|--------|------|------|
-| `.github/workflows/tracker.yml` | 每 6h / 手動 | 主 Pipeline：採集+轉錄+分析+寫入+Git Push |
-| `.github/workflows/update_tracker.yml` | 每 6h / 手動 | 備用版本（使用 GH_PAT） |
-| `.github/workflows/gc_cleanup.yml` | 每週日 03:00 UTC / 手動 | 死鏈清理 + 矩陣重建 |
-| `.github/workflows/weekly_gc.yml` | 每週日 00:00 UTC / 手動 | 備用 GC |
-| `.github/workflows/tests.yml` | PR / push | 單元測試關卡 |
+| Workflow | Trigger | Function |
+|----------|---------|----------|
+| `.github/workflows/tracker.yml` | Every 6h / manual | Main Pipeline: collect+transcribe+analyze+write+Git Push |
+| `.github/workflows/update_tracker.yml` | Every 6h / manual | Backup version (uses GH_PAT) |
+| `.github/workflows/gc_cleanup.yml` | Every Sunday 03:00 UTC / manual | Dead link cleanup + matrix rebuild |
+| `.github/workflows/weekly_gc.yml` | Every Sunday 00:00 UTC / manual | Backup GC |
+| `.github/workflows/tests.yml` | PR / push | Unit test gate |
 
-所有寫入類工作流共用 `concurrency group`，配合 `git pull --rebase`
-保證對 JSON 數據文件的線性安全合流。
+All write-type workflows share a `concurrency group`, combined with `git pull --rebase` to ensure linear safe merging of JSON data files.
 
-### 7.3 GitHub Pages 部署
+### 7.3 GitHub Pages Deployment
 
-開啟倉庫 *Settings → Pages → Source: main / root*，
-訪問 `https://<account>.github.io/llm-youtube-landscape-tracker/` 即可。
-無需 build 步驟，靜態文件直接服務。
+Enable in repository *Settings → Pages → Source: main / root*; access `https://<account>.github.io/llm-youtube-landscape-tracker/`. No build step needed; static files served directly.
 
 ---
 
-## 8. 文件與目錄結構
+## 8. File & Directory Structure
 
 ```
 .
-├── main.py                       # 主編排器
-├── gc_cleanup.py                 # 每週死鏈清理
+├── main.py                       # Orchestrator
+├── gc_cleanup.py                 # Weekly dead link cleanup
 ├── config/
-│   └── settings.py               # 頻道清單 / API key / 限流參數
+│   └── settings.py               # Channel list / API keys / rate limit params
 ├── core/
-│   ├── ingestion.py              # 採集調度器（兩層異常樹 + 指數退避）
-│   ├── transformer.py            # yt-dlp / api_v3 異質結構標準化
-│   ├── transcription.py          # 三級降級轉錄 + SEGMENT BREAK
-│   ├── map_reduce_engine.py      # Map-Reduce LLM 引擎（Moonshot）
-│   ├── graph_matrix.py           # Jaccard 主題關聯矩陣
-│   └── quota_guard.py            # YouTube API 配額守衛
+│   ├── ingestion.py              # Ingestion dispatcher (two-layer exception tree + exponential backoff)
+│   ├── transformer.py            # yt-dlp / api_v3 heterogeneous structure normalization
+│   ├── transcription.py          # Three-level fallback transcription + SEGMENT BREAK
+│   ├── map_reduce_engine.py      # Map-Reduce LLM engine (Moonshot)
+│   ├── graph_matrix.py           # Jaccard topic correlation matrix
+│   └── quota_guard.py            # YouTube API quota guard
 ├── utils/
-│   ├── io_helpers.py             # 容錯 JSON I/O + data.js 注入
-│   └── logger.py                 # 統一格式化日誌
-├── tests/                        # 單元測試
-├── data.json / data.js           # Pipeline 輸出（前端數據源）
-├── processed_videos.json         # 增量去重狀態庫
-├── quota_state.json              # API 配額計數器持久化
-├── index.html                    # 零框架靜態儀表板
-├── DESIGN.md                     # 系統設計文檔
-└── README.md                     # 本報告
+│   ├── io_helpers.py             # Fault-tolerant JSON I/O + data.js injection
+│   └── logger.py                 # Unified formatted logging
+├── tests/                        # Unit tests
+├── data.json / data.js           # Pipeline output (frontend data source)
+├── processed_videos.json         # Incremental deduplication state store
+├── quota_state.json              # API quota counter persistence
+├── index.html                    # Zero-framework static dashboard
+├── DESIGN.md                     # System design document
+└── README.md                     # This report
 ```
 
 ---
 
-## 附錄 A：核心公式匯總
+## Appendix A: Core Formula Summary
 
-| # | 公式 | 用途 | 位置 |
-|---|------|------|------|
-| 1 | t=min(B^a+U(0,1),T max) | 指數退避重試 | `core/ingestion.py` |
-| 2 | trigger⟺F≥N∧Δt≤W | 時間窗口全局降級 | `core/ingestion.py` |
-| 3 | insert⟺ti−ti−1≥30s | SEGMENT BREAK 硬邊界 | `core/transcription.py` |
-| 4 | y=arg max ∑ t logP(yt∣y <t,X) | Beam Search 解碼 | faster-whisper |
-| 5 | chunk i=words[ i(S−O):i(S−O)+S] | 滑動窗口分塊 | `core/map_reduce_engine.py` |
-| 6 | J(A,B) = ∣A∩B∣ / ∣A∪B∣ | Jaccard 相似度 | `core/graph_matrix.py` |
-| 7 | t retry=B⋅2^(a−1) | LLM 429 退避 | `core/map_reduce_engine.py` |
+| # | Formula | Purpose | Location |
+|---|---------|---------|----------|
+| 1 | t=min(B^a+U(0,1),T max) | Exponential backoff retry | `core/ingestion.py` |
+| 2 | trigger⟺F≥N∧Δt≤W | Time window global fallback | `core/ingestion.py` |
+| 3 | insert⟺ti−ti−1≥30s | SEGMENT BREAK hard boundary | `core/transcription.py` |
+| 4 | y=arg max ∑ t logP(yt∣y <t,X) | Beam Search decoding | faster-whisper |
+| 5 | chunk i=words[ i(S−O):i(S−O)+S] | Sliding window chunking | `core/map_reduce_engine.py` |
+| 6 | J(A,B) = |A∩B| / |A∪B| | Jaccard similarity | `core/graph_matrix.py` |
+| 7 | t retry=B⋅2^(a−1) | LLM 429 backoff | `core/map_reduce_engine.py` |
 
 ---
 
-## 附錄 B：依賴清單
+## Appendix B: Dependency List
 
-| 包 | 用途 |
-|---|------|
-| `yt-dlp` | YouTube 影片/字幕/音訊下載 |
-| `requests` | HTTP 客戶端（Moonshot API + YouTube API） |
-| `curl_cffi` | 反爬伪装 HTTP 客戶端（yt-dlp 配套） |
+| Package | Purpose |
+|---------|---------|
+| `yt-dlp` | YouTube video/subtitle/audio download |
+| `requests` | HTTP client (Moonshot API + YouTube API) |
+| `curl_cffi` | Anti-scraping disguised HTTP client (yt-dlp companion) |
 | `google-api-python-client` | YouTube Data API v3 SDK |
-| `isodate` | ISO 8601 時長解析 |
-| `faster-whisper` | 本地 Whisper ASR（CTranslate2 引擎） |
+| `isodate` | ISO 8601 duration parsing |
+| `faster-whisper` | Local Whisper ASR (CTranslate2 engine) |
 
 ---
 
 ## License
 
-MIT（見 [`LICENSE`](./LICENSE)）。
-
+MIT (see [`LICENSE`](./LICENSE)).
