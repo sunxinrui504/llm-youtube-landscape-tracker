@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-05-20T12:21:15Z",
+  "last_updated": "2026-05-22T07:25:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -129,6 +129,26 @@ window.__TRACKER_DATA__ = {
         "video_id": "7vkybiVRSm0",
         "channel": "Sam Witteveen",
         "title": "Muse Spark - Meta's NEW Llama Replacement"
+      },
+      {
+        "video_id": "LpXhy2iiaQE",
+        "channel": "Two Minute Papers",
+        "title": "DeepSeek’s New AI Is A Game Changer"
+      },
+      {
+        "video_id": "o_av1b9rs2g",
+        "channel": "AI Explained",
+        "title": "Two Rival Bets on AGI: Google I/O Highlights"
+      },
+      {
+        "video_id": "0zHNyGFSelA",
+        "channel": "Sam Witteveen",
+        "title": "OpenShell Agents"
+      },
+      {
+        "video_id": "B_RrXwDupIg",
+        "channel": "IBM Technology",
+        "title": "CAG vs Long Context: How AI Models Use and Remember Information"
       }
     ],
     "Large Language Models": [
@@ -11109,6 +11129,251 @@ window.__TRACKER_DATA__ = {
           "video_id": "QzZ4VwDHAT4",
           "title": "Sakana AI’s God Simulator Is Brilliant",
           "reason": "Shared profile overlap (20% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "LpXhy2iiaQE",
+      "url": "https://www.youtube.com/watch?v=LpXhy2iiaQE",
+      "title": "DeepSeek’s New AI Is A Game Changer",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-05-22",
+      "duration_seconds": 463,
+      "metrics": {
+        "views": 26247,
+        "likes": 2036,
+        "comments": 125
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://github.com/ailuntx/Thinking-with-Visual-Primitives\nhttps://huggingface.co/datasets/NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo/blob/main/Thinking_with_Visual_Primitives.pdf\n\nOur Patreon if you wish to support us: https://www.patreon.com/TwoMinutePapers\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nMy research: https://cg.tuwien.ac.at/~zsolnai/\nThumbnail design: https://felicia.hu\n\n#deepseek",
+        "tags": [
+          "ai",
+          "deepseek",
+          "deepseek ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-22T07:25:22Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "o_av1b9rs2g",
+      "url": "https://www.youtube.com/watch?v=o_av1b9rs2g",
+      "title": "Two Rival Bets on AGI: Google I/O Highlights",
+      "channel": "AI Explained",
+      "published_at": "2026-05-20",
+      "duration_seconds": 1291,
+      "metrics": {
+        "views": 50829,
+        "likes": 1946,
+        "comments": 242
+      },
+      "metadata": {
+        "description": "The biggest Google AI push of the year, but what is the bigger story? Why is Google pursuing a different fork in the road than OpenAI or Anthropic? \n\nhttps://assemblyai.com/aiexplained\n\nWhat does Gemini 3.5 Flash mean for the near-term future of AI? Plus the highlights from a provocative new paper on AI, 8 key moments you may have missed, and the signal from 5+ hours of AI lab interviews.\n\n\n\nCheck out my free app, code INSIDER15 for paid tiers: https://lmcouncil.ai\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n00:38 - Vibes and Google Goal\n02:18 - Omni, again?\n06:57 - Taking the same road\n07:44 - Gemini 3 Flash\n12:37 - Pitching on Cost?\n13:55 - Agentic Task Search\n14:30 - 1-shot OS but jagged, negation paper\n20:02 - The Karpathy Moonshot \n\nMostafa Deghani Interview: https://www.youtube.com/watch?v=Bo19sXssYXI\n\nNegation Neglect Paper: https://arxiv.org/pdf/2605.13829\n\nGemini 3.5 Flash Headline Scores: https://deepmind.google/models/model-cards/gemini-3-5-flash/\n\nSors original AGI Path: https://www.theguardian.com/commentisfree/2024/feb/24/openai-video-generation-tool-sora-babies-ai-artificial-intelligence\n\nHassabis Helped Set-up Anthropic: https://archive.fo/20260519070857/https://www.ft.com/content/8f2a529e-7a1b-4d8e-95be-338d0c4c98f5\n\nIntelligence to Output Speed: https://artificialanalysis.ai/models?intelligence-comparison=intelligence-vs-output-speed#intelligence\n\nVibeCodeBench + Finance Agent: https://www.vals.ai/home\n\nOpenAI Needs Ads: https://archive.ph/20260409123153/https://www.reuters.com/business/media-telecom/openai-projects-25-billion-ad-revenue-this-year-100-billion-by-2030-axios-2026-04-09/\n\nAnthropic Core Views: https://www.anthropic.com/news/core-views-on-ai-safety\n\nKarpathy Move: https://x.com/karpathy/status/2056753169888334312\nhttps://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude\n\nRecursive Self-Improvement: https://www.patreon.com/posts/ineffably-smart-156866417\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-22T07:25:39Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "0zHNyGFSelA",
+      "url": "https://www.youtube.com/watch?v=0zHNyGFSelA",
+      "title": "OpenShell Agents",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-05-21",
+      "duration_seconds": 790,
+      "metrics": {
+        "views": 3112,
+        "likes": 179,
+        "comments": 19
+      },
+      "metadata": {
+        "description": "In this video, we look at OpenShell, the layer that runs the protection in NemoClaw Blueprints, but we actually do it with a LangChain DeepAgents harness to show how you can use a number of different agent options.\n\n🔗 Links:\nOpenShell Docs: https://nvda.ws/3Pvfn6w\nNVIDIA Guide to OpenShell: https://nvda.ws/3RpuvTo\nLangChain Eample: https://github.com/langchain-ai/openshell-deepagent\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:39 Quick Recap: NemoClaw\n01:47 3 Flavors of NemoClaw\n02:47 LangChain Deep Agent Framework\n03:07 Deep Agent Architecture\n04:26 Deep Agents+NemoClaw+OpenShell\n04:52 Deep Agent Project\n05:51 OpenShell: The Core Idea - Out-of-Process Enforcement\n07:52 4 Things Supervisor Controls\n10:14 End-to-end Walkthrough\n\n#NVIDIAAI #langchain",
+        "tags": [
+          "Claude responded: NVIDIA OpenShell",
+          "OpenShell",
+          "NemoClaw",
+          "NVIDIA NemoClaw",
+          "OpenClaw",
+          "LangChain",
+          "LangChain Deep Agents",
+          "Deep Agents",
+          "AI agents",
+          "agentic AI",
+          "autonomous agents",
+          "secu…\nNVIDIA OpenShell",
+          "secure AI agents",
+          "AI agent sandbox",
+          "AI runtime",
+          "sandboxed AI",
+          "AI agent security",
+          "Nemotron",
+          "DGX Spark",
+          "NVIDIA AI",
+          "open source AI",
+          "local LLM",
+          "Ollama",
+          "Hermes",
+          "Nous Research",
+          "LangGraph",
+          "AI tutorial",
+          "build AI agent",
+          "self improving AI",
+          "AI safety",
+          "kernel sandbox",
+          "agent harness",
+          "multi agent"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-22T07:25:55Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "B_RrXwDupIg",
+      "url": "https://www.youtube.com/watch?v=B_RrXwDupIg",
+      "title": "CAG vs Long Context: How AI Models Use and Remember Information",
+      "channel": "IBM Technology",
+      "published_at": "2026-05-21",
+      "duration_seconds": 659,
+      "metrics": {
+        "views": 8907,
+        "likes": 393,
+        "comments": 17
+      },
+      "metadata": {
+        "description": "Learn more about AI Models here → https://ibm.biz/~Yk0OZilIN\n\nLong context and CAG are two powerful ways to give AI access to external knowledge. Martin Keen explains how long context, CAG, KV cache, and prompt caching let LLMs process documents faster and more efficiently 🤖. Learn when each method is best for real-world AI workloads.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~0Z28hPp8U\n\n#ai #llm #aimodel #cag",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-22T07:25:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
         }
       ]
     }
