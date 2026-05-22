@@ -58,8 +58,8 @@ jobs:
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action Bot"
             
-            # 暫存變更文件
-            git add processed_videos.json data.json
+            # 暫存所有 Pipeline 產生的數據文件（含 data.js、quota_state.json）
+            git add processed_videos.json data.json data.js quota_state.json
             git commit -m "chore(data): 🤖 GitOps 自動狀態同步 [skip ci]"
             
             # 防禦核心：在 Push 前強行執行 rebase 拉取遠端最新變更
