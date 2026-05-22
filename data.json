@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T07:25:56Z",
+  "last_updated": "2026-05-22T14:20:01Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -149,6 +149,11 @@
         "video_id": "B_RrXwDupIg",
         "channel": "IBM Technology",
         "title": "CAG vs Long Context: How AI Models Use and Remember Information"
+      },
+      {
+        "video_id": "1h6e5MFg9I0",
+        "channel": "IBM Technology",
+        "title": "AI at college graduations and why Claude blackmails"
       }
     ],
     "Large Language Models": [
@@ -11348,6 +11353,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-22T07:25:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "1h6e5MFg9I0",
+      "url": "https://www.youtube.com/watch?v=1h6e5MFg9I0",
+      "title": "AI at college graduations and why Claude blackmails",
+      "channel": "IBM Technology",
+      "published_at": "2026-05-22",
+      "duration_seconds": 3026,
+      "metrics": {
+        "views": 804,
+        "likes": 61,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~huHg7Rfm7\n\nAI isn’t just a tool anymore—it’s forcing us to rethink ownership, trust and creativity. This week on Mixture of Experts, the team explores a wave of stories highlighting both the promise and the perils of AI adoption. We start with a surprising shift in public sentiment, as younger generations question AI’s impact on their futures—raising questions about control, opportunity and where humans fit in. Next, we dig into new Microsoft research showing that even top-tier models can corrupt data in complex workflows, and what that reveals about how (and when) to trust AI systems. \n\nThen, we explore Anthropic’s fix for Claude’s strange “blackmail” behavior, and why better data—not just better models—may be the key to safer AI. Finally, we debate whether AI may have quietly crossed a cultural milestone by helping win a literary prize—or whether humans are simply starting to sound more like machines. \n\nJoin host Tim Hwang and AI experts Marina Danilevsky, Gabe Goodhart and Chris Hay to break it all down.\n\n00:00 – Introduction\n1:05 – AI at graduation\n14:46 – LLMs corrupt documents\n30:46 – Why Claude blackmails\n43:09– ChatGPT-generated story wins literary prize\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~FM37Pek6q\n\n#claude #anthropic #graduation",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-22T14:20:01Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
