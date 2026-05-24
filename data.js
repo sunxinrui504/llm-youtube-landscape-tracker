@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-05-22T14:20:01Z",
+  "last_updated": "2026-05-24T13:03:12Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -154,6 +154,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "1h6e5MFg9I0",
         "channel": "IBM Technology",
         "title": "AI at college graduations and why Claude blackmails"
+      },
+      {
+        "video_id": "1m55T8xST9s",
+        "channel": "IBM Technology",
+        "title": "Five AI Risks That Can Get You Fired—And How to Avoid Them"
       }
     ],
     "Large Language Models": [
@@ -11407,6 +11412,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-22T14:20:01Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "1m55T8xST9s",
+      "url": "https://www.youtube.com/watch?v=1m55T8xST9s",
+      "title": "Five AI Risks That Can Get You Fired—And How to Avoid Them",
+      "channel": "IBM Technology",
+      "published_at": "2026-05-24",
+      "duration_seconds": 658,
+      "metrics": {
+        "views": 1650,
+        "likes": 154,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Governance here → https://ibm.biz/~VYNci8Vwo\n\n'Here are five ways that AI can get you fired.’ Martin Keen explains the real risks behind shadow AI, data leakage, hallucinations, prompt injection, and unauthorized AI agents. Learn how AI governance and safer workflows protect your data, your work, and your career 🚀\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~qgbmfOyim\n\n#aiagents #aisecurity #aigovernance",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-24T13:03:12Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
