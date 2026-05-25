@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T13:03:12Z",
+  "last_updated": "2026-05-25T14:36:36Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -159,6 +159,11 @@
         "video_id": "1m55T8xST9s",
         "channel": "IBM Technology",
         "title": "Five AI Risks That Can Get You Fired—And How to Avoid Them"
+      },
+      {
+        "video_id": "eGoszzMkGfU",
+        "channel": "IBM Technology",
+        "title": "Graph Neural Networks Explained: A Clear Guide to GNN Basics & Models"
       }
     ],
     "Large Language Models": [
@@ -11466,6 +11471,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-24T13:03:12Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "eGoszzMkGfU",
+      "url": "https://www.youtube.com/watch?v=eGoszzMkGfU",
+      "title": "Graph Neural Networks Explained: A Clear Guide to GNN Basics & Models",
+      "channel": "IBM Technology",
+      "published_at": "2026-05-25",
+      "duration_seconds": 1007,
+      "metrics": {
+        "views": 1499,
+        "likes": 153,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Graph Neural Networks here → https://ibm.biz/~Jnyh8Bu8W\n\nWorld runs on networks—social circles, molecules, even the web 🌐. Anna Gutowska breaks down Graph Neural Networks with clear explanations of GNN basics, message passing, embeddings, GCN, GAT, GraphSAGE, GIN, and graph transformers. Learn how modern AI and ML models understand complex graph data.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~eKIbLYMRg\n\n#gnn #machinelearning #ai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-25T14:36:36Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
