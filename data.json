@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T19:17:07Z",
+  "last_updated": "2026-05-26T14:47:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -169,6 +169,11 @@
         "video_id": "huAwz_BR8WM",
         "channel": "Two Minute Papers",
         "title": "Insane AI Breakthroughs With Demis Hassabis"
+      },
+      {
+        "video_id": "BacJ6sEhqMo",
+        "channel": "IBM Technology",
+        "title": "The Four Types of Memory Every AI Agent Needs"
       }
     ],
     "Large Language Models": [
@@ -11587,6 +11592,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-25T19:17:06Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "BacJ6sEhqMo",
+      "url": "https://www.youtube.com/watch?v=BacJ6sEhqMo",
+      "title": "The Four Types of Memory Every AI Agent Needs",
+      "channel": "IBM Technology",
+      "published_at": "2026-05-26",
+      "duration_seconds": 641,
+      "metrics": {
+        "views": 4049,
+        "likes": 385,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "Learn more about AI Agents here → https://ibm.biz/~OSlmklt3a\n\nAI agents remember in more than one way. Martin Keen explains the four types of memory AI agents use, from context windows to learned experience. See how working, semantic, procedural, and episodic memory power real agentic systems.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~RcPTLwx76\n\n#aiagents #aimemory #contextwindow #aiarchitecture",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-26T14:47:45Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
