@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-05-26T14:47:45Z",
+  "last_updated": "2026-05-26T19:57:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -174,6 +174,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "BacJ6sEhqMo",
         "channel": "IBM Technology",
         "title": "The Four Types of Memory Every AI Agent Needs"
+      },
+      {
+        "video_id": "PEg08OAht2s",
+        "channel": "Sam Witteveen",
+        "title": "Running Local AI on AMD"
       }
     ],
     "Large Language Models": [
@@ -11646,6 +11651,88 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-26T14:47:45Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "PEg08OAht2s",
+      "url": "https://www.youtube.com/watch?v=PEg08OAht2s",
+      "title": "Running Local AI on AMD",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-05-26",
+      "duration_seconds": 873,
+      "metrics": {
+        "views": 1034,
+        "likes": 92,
+        "comments": 28
+      },
+      "metadata": {
+        "description": "In this video, we look at running local AI work jobs for LLMs, images and video models, but running it on an AMD GPUs and processors.  Find out more details below.\n\nJoin the AMD AI Developer Program for free cloud credits, expert access, and premium AI training—everything you need to build, optimize, and scale on AMD.\n\nStart building today → https://www.amd.com/en/developer/ai-dev-program.html\n\nTwitter: https://x.com/Sam_Witteveen  \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:05 Hardware Overview\n01:31 Open Weights Models\n02:04 Token Cost Problem\n03:18 Hardware Used when Running Local AI\n04:26 LM Studio\n06:38 ROCm\n08:18 Unsloth\n08:56 Demo: ComfyUI\n11:00 Better with Linux",
+        "tags": [
+          "AMD",
+          "Radeon R9700",
+          "local AI",
+          "ROCm",
+          "Ollama",
+          "LM Studio",
+          "AMD GPU",
+          "local LLM",
+          "Threadripper 9980X",
+          "Xidax",
+          "open weight models",
+          "AI hardware",
+          "Qwen 3",
+          "Gemma 4",
+          "DeepSeek",
+          "AI workstation",
+          "PyTorch ROCm",
+          "Unsloth",
+          "fine-tuning LLM",
+          "Comfy UI AMD",
+          "image generation",
+          "AI agents",
+          "private AI",
+          "run LLM locally",
+          "AMD deep learning",
+          "Transformers library",
+          "vLLM",
+          "local AI 2026",
+          "AI PC",
+          "ROCm PyTorch"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-26T19:57:55Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
