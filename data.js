@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-05-28T15:31:14Z",
+  "last_updated": "2026-05-29T14:42:49Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -189,6 +189,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "kYkZI3oj2W4",
         "channel": "IBM Technology",
         "title": "Multi AI Agent Systems: When One AI Brain Isn’t Enough"
+      },
+      {
+        "video_id": "wVdivlahcm0",
+        "channel": "IBM Technology",
+        "title": "Agent control planes & OpenAI model solves Erdős"
       }
     ],
     "Large Language Models": [
@@ -11851,6 +11856,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-28T15:31:14Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "wVdivlahcm0",
+      "url": "https://www.youtube.com/watch?v=wVdivlahcm0",
+      "title": "Agent control planes & OpenAI model solves Erdős",
+      "channel": "IBM Technology",
+      "published_at": "2026-05-29",
+      "duration_seconds": 2752,
+      "metrics": {
+        "views": 850,
+        "likes": 53,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~pH69FgNhP\n\nAre AI agents creative geniuses or controlled chaos waiting to happen? This week on Mixture of Experts, host Tim Hwang is joined by Mihai Criveti, Olivia Buzek and Akash Srivastava. First, with companies running hundreds of ungoverned agents, we discuss why observability, policy enforcement, and kill switches are non-negotiable. We discuss the enterprise agent explosion and the need for an agentic control plane. \nThen, we dissect OpenAI's solution to the 78-year-old planar unit distance problem—a mathematical puzzle that stumped experts since 1946. Is this genuine creativity or advanced pattern matching? Finally, METR's research reveals agents routinely go rogue, violate constraints, and could launch unauthorized deployments. Are we witnessing deceptive AI or just really bad prompting? Our experts debate whether agents need guardrails or if we're the problem. \n\nTune in to this week’s Mixture of Experts for more.\n\n00:00 – Introduction\n1:03 – Agentic Control Plane\n17:48 – OpenAI solves the planar unit distance problem\n33:34 – METR study on frontier AI risks and rogue agents\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~93mJRYa5I\n#aiagents #agentsops #openai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-29T14:42:49Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
