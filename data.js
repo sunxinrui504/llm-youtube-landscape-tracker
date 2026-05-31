@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-05-29T15:46:13Z",
+  "last_updated": "2026-05-31T13:17:32Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -199,6 +199,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "aJvP3nXWkwM",
         "channel": "AI Explained",
         "title": "New Claude Opus 4.8: 15 Things You May’ve Missed"
+      },
+      {
+        "video_id": "V7EgIMWOqgw",
+        "channel": "IBM Technology",
+        "title": "Your Certs Are Expiring: Digital Certificate Management Explained"
       }
     ],
     "Large Language Models": [
@@ -11966,6 +11971,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-29T15:46:12Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "V7EgIMWOqgw",
+      "url": "https://www.youtube.com/watch?v=V7EgIMWOqgw",
+      "title": "Your Certs Are Expiring: Digital Certificate Management Explained",
+      "channel": "IBM Technology",
+      "published_at": "2026-05-31",
+      "duration_seconds": 581,
+      "metrics": {
+        "views": 901,
+        "likes": 93,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about New Password Rules here → https://ibm.biz/~r0ryWgN3x\n\nExpired certificates can shut down websites, APIs, and entire enterprises. Jeff Crume explains what digital certificates are, why shorter lifetimes increase risk, and how certificate lifecycle management is becoming a critical cybersecurity discipline.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~PZWhGzC4j\n\n#cybersecurity #pki #digitalcertificates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-05-31T13:17:32Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
