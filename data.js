@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-05-31T13:17:32Z",
+  "last_updated": "2026-06-01T11:11:42Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -204,6 +204,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "V7EgIMWOqgw",
         "channel": "IBM Technology",
         "title": "Your Certs Are Expiring: Digital Certificate Management Explained"
+      },
+      {
+        "video_id": "DAlC8mL5ZlI",
+        "channel": "IBM Technology",
+        "title": "Why AI Models Pause to Think: Test Time Compute Explained"
       }
     ],
     "Large Language Models": [
@@ -12025,6 +12030,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-05-31T13:17:32Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "DAlC8mL5ZlI",
+      "url": "https://www.youtube.com/watch?v=DAlC8mL5ZlI",
+      "title": "Why AI Models Pause to Think: Test Time Compute Explained",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-01",
+      "duration_seconds": 632,
+      "metrics": {
+        "views": 147,
+        "likes": 14,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Models here → https://ibm.biz/~NE5Wjh0tm\n\nChances are when you've seen a chatbot pause and say 'thinking,' a lot more is happening beneath the surface. Martin Keen explains how test time compute, chain of thought, and reasoning models help AI solve harder problems 🤖. Learn how LLMs use deliberate thinking to boost accuracy.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~HQSOEQ7pF\n\n#aimodel #llm #testtime",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-01T11:11:42Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
