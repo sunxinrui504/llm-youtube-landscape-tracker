@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-01T17:19:56Z",
+  "last_updated": "2026-06-02T16:03:38Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -219,6 +219,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "2zDtIWeyqYs",
         "channel": "Sam Witteveen",
         "title": "Cosmos 3 - NVIDIA's World Foundation Model"
+      },
+      {
+        "video_id": "aCOsqL-jIOo",
+        "channel": "IBM Technology",
+        "title": "The Most Important Gates in Quantum Computing Explained"
       }
     ],
     "Large Language Models": [
@@ -12233,6 +12238,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-01T17:19:55Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "aCOsqL-jIOo",
+      "url": "https://www.youtube.com/watch?v=aCOsqL-jIOo",
+      "title": "The Most Important Gates in Quantum Computing Explained",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-02",
+      "duration_seconds": 630,
+      "metrics": {
+        "views": 1699,
+        "likes": 161,
+        "comments": 12
+      },
+      "metadata": {
+        "description": "Learn more about Quantum Computing here → https://ibm.biz/~BYtAhhOvk\n\nQuantum computing starts with just a few powerful gates. Olivia Lanes explains qubits, superposition, and entanglement through key quantum gates. Understand how Hadamard and CNOT gates shape quantum circuits and why they matter.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~7ZWayE0wB\n\n#quantumcomputing #qubits #superposition #entanglement",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-02T16:03:38Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
