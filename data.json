@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T16:19:45Z",
+  "last_updated": "2026-06-04T14:38:37Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -234,6 +234,16 @@
         "video_id": "ypL7kUiw_LM",
         "channel": "Two Minute Papers",
         "title": "Claude Opus 4.8: Lying Machine No More?"
+      },
+      {
+        "video_id": "QF50fdpiIOc",
+        "channel": "Sam Witteveen",
+        "title": "Nemotron 3 Ultra NVIDIA's 550B Open Model"
+      },
+      {
+        "video_id": "7qZH3D7u-z8",
+        "channel": "IBM Technology",
+        "title": "OpenClaw Security Risks: 6 Dangers of Autonomous AI Agents"
       }
     ],
     "Large Language Models": [
@@ -12413,6 +12423,141 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-03T16:19:44Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "QF50fdpiIOc",
+      "url": "https://www.youtube.com/watch?v=QF50fdpiIOc",
+      "title": "Nemotron 3 Ultra NVIDIA's 550B Open Model",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-06-04",
+      "duration_seconds": 959,
+      "metrics": {
+        "views": 327,
+        "likes": 24,
+        "comments": 12
+      },
+      "metadata": {
+        "description": "In this video, we look at the latest Nemotron model from NVIDIA, Nemotron 3 Ultra. This is a 550 billion parameter model with 55 billion parameters active. #NVIDIAAI #Nemotron3Ultra \n\nBlog: https://nvda.ws/3PTkjlQ\nHF: https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4\nPaper: https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00: 00 Intro\n00:13 Nemotron 3 Ultra\n00:52 NVIDIA's Nemotron 3 Family - Nano, Super, Ultra\n01:28 Model Specs - 550B, MoE, Agentic Focus\n04:05 Multi-Teacher Distillation\n05:29 Post-Training for Agent Harnesses\n06:17 RL Environments\n08:07 Benchmarks\n08:56 Pinchbench\n10:14 Live Demo - NVIDIA Cloud API Walkthrough\n10:34 Reasoning Modes\n12:50 Tool Calling",
+        "tags": [
+          "Nemotron Ultra",
+          "NVIDIA Nemotron",
+          "Nemotron 3 Ultra",
+          "open weights LLM",
+          "NVIDIA AI",
+          "agentic AI",
+          "open source LLM",
+          "AI agents",
+          "NVIDIA open model",
+          "Nemotron benchmark",
+          "LLM agents",
+          "AI reasoning model",
+          "mixture of experts",
+          "open weights model",
+          "NVIDIA NIM",
+          "AI tool calling",
+          "multi-agent AI",
+          "RL training LLM",
+          "post training AI",
+          "AI fine tuning",
+          "enterprise AI",
+          "open LLM 2025",
+          "NVIDIA developer",
+          "AI",
+          "LLM benchmark",
+          "AI coding agent",
+          "OpenAI alternative",
+          "Anthropic alternative",
+          "frontier AI model"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-04T14:38:20Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "7qZH3D7u-z8",
+      "url": "https://www.youtube.com/watch?v=7qZH3D7u-z8",
+      "title": "OpenClaw Security Risks: 6 Dangers of Autonomous AI Agents",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-04",
+      "duration_seconds": 886,
+      "metrics": {
+        "views": 2122,
+        "likes": 218,
+        "comments": 7
+      },
+      "metadata": {
+        "description": "Learn more about What OpenClaw Reveals About Agentic AI Security Risks here → https://ibm.biz/~S29jyA638\n\nOpenClaw security risks are bigger than you think. ⚠️ Jeff Crume breaks down OpenClaw security risks across AI agents, from prompt injection to credential exposure. Learn how agent autonomy, tools, and memory create real-world vulnerabilities—and how to think about using them safely.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~58WSWq3SF\n\n#aiagents #openclaw #aisecurity",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-04T14:38:37Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
