@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T14:27:27Z",
+  "last_updated": "2026-06-05T19:43:14Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -249,6 +249,11 @@
         "video_id": "EKULOf_Cy0w",
         "channel": "IBM Technology",
         "title": "The future of software engineering, tokenmaxxing and AI in higher education"
+      },
+      {
+        "video_id": "Dkqzqw8rxXI",
+        "channel": "Two Minute Papers",
+        "title": "DeepMind’s New AI Found A Strange New Way To Think"
       }
     ],
     "Large Language Models": [
@@ -12617,6 +12622,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-05T14:27:27Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Dkqzqw8rxXI",
+      "url": "https://www.youtube.com/watch?v=Dkqzqw8rxXI",
+      "title": "DeepMind’s New AI Found A Strange New Way To Think",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-06-05",
+      "duration_seconds": 450,
+      "metrics": {
+        "views": 17044,
+        "likes": 1800,
+        "comments": 155
+      },
+      "metadata": {
+        "description": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://github.com/google-deepmind/alphaproof-nexus-results\nhttps://arxiv.org/html/2605.22763v1\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nMy research: https://cg.tuwien.ac.at/~zsolnai/\nThumbnail design: https://felicia.hu",
+        "tags": [
+          "ai",
+          "deepmind"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-05T19:43:13Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
