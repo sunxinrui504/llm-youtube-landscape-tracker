@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T14:38:37Z",
+  "last_updated": "2026-06-05T14:27:27Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -244,6 +244,11 @@
         "video_id": "7qZH3D7u-z8",
         "channel": "IBM Technology",
         "title": "OpenClaw Security Risks: 6 Dangers of Autonomous AI Agents"
+      },
+      {
+        "video_id": "EKULOf_Cy0w",
+        "channel": "IBM Technology",
+        "title": "The future of software engineering, tokenmaxxing and AI in higher education"
       }
     ],
     "Large Language Models": [
@@ -12558,6 +12563,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-04T14:38:37Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "EKULOf_Cy0w",
+      "url": "https://www.youtube.com/watch?v=EKULOf_Cy0w",
+      "title": "The future of software engineering, tokenmaxxing and AI in higher education",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-05",
+      "duration_seconds": 2751,
+      "metrics": {
+        "views": 905,
+        "likes": 38,
+        "comments": 3
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  →https://ibm.biz/~zPlBtHycQ\n\nHow is the role of a software engineer changing? This week on Mixture of Experts, we are live from IBM's One Madison office for New York Tech Week, guest host Aili McConnon is joined by Neil Sundaresan, Kaoutar El Maghraoui and Thiru Venkatachalam. First, we dissect how software engineering is changing in the era of AI. Next, tokenmaxxing is back in the headlines as companies blow through annual AI budgets in months. Then, NVIDIA' new RTX Spark superchip brings 120-billion-parameter models to personal PCs. Finally, we are joined by Justina Nixon-Santil, IBM's Chief Impact Officer, to discuss universities' unprecedented challenges with AI as students graduate into unrecognizable workplaces and making AI literacy courses mandatory for all students. \n\nAll that and more on today’s special edition of Mixture of Experts!\n\n00:00 – Introduction\n1:13 - The future of software engineering\n14:24 - Tokenmaxxing\n26:00 - NVIDIA RTX Spark\n31:46 - AI in higher education\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~9nEIjy6YC\n#aiagents #nvidia #aieducation",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-05T14:27:27Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
