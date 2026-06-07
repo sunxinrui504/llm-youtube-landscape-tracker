@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-07T13:24:16Z",
+  "last_updated": "2026-06-07T14:01:29Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -264,6 +264,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "TcE56uuB1Qc",
         "channel": "IBM Technology",
         "title": "Kubernetes vs. OpenShift: Choosing DevOps and CI/CD Workflows"
+      },
+      {
+        "video_id": "7BwSG_r9Jxg",
+        "channel": "Sam Witteveen",
+        "title": "The NEW Best ASR - NVIDIA Nemotron 3.5 ASR"
       }
     ],
     "Large Language Models": [
@@ -12799,6 +12804,82 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-07T13:24:16Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "7BwSG_r9Jxg",
+      "url": "https://www.youtube.com/watch?v=7BwSG_r9Jxg",
+      "title": "The NEW Best ASR - NVIDIA Nemotron 3.5 ASR",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-06-07",
+      "duration_seconds": 1251,
+      "metrics": {
+        "views": 1,
+        "likes": 1,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "In this video, we look at the latest ASR release from NVIDIA, Nemotron 3.5 ASR. This can be used in live multilingual streaming, word boosting and diarization pipelines.\n\nBlog: https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/\nHF: https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:05 Nemotron 3.5 ASR\n01:57 Cache-aware\n03:42 Nemotron 3.5 ASR Quantized versions\n05:04 Model Card\n06:47 Word Boosting\n10:06 Demo\n18:20 Speaker Diarization",
+        "tags": [
+          "NVIDIA Nemotron 3.5 ASR",
+          "Nemotron 3 Ultra",
+          "streaming speech recognition",
+          "multilingual ASR",
+          "fine-tune ASR",
+          "Cache-Aware FastConformer",
+          "RNNT decoder",
+          "word boosting",
+          "NeMo ASR",
+          "speech to text",
+          "low latency ASR",
+          "open weights ASR",
+          "agentic AI",
+          "AI agents",
+          "NeMo toolkit",
+          "ASR customization",
+          "real-time transcription",
+          "NVIDIA NeMo",
+          "LLM reasoning",
+          "multi-agent AI",
+          "NVIDIA AI",
+          "on-device ASR",
+          "voice AI 2026",
+          "fine-tune speech model"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-07T14:01:28Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
