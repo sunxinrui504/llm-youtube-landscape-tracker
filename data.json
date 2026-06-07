@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T19:43:14Z",
+  "last_updated": "2026-06-07T13:24:16Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -254,6 +254,16 @@
         "video_id": "Dkqzqw8rxXI",
         "channel": "Two Minute Papers",
         "title": "DeepMind’s New AI Found A Strange New Way To Think"
+      },
+      {
+        "video_id": "l6DKRf-fAAM",
+        "channel": "3Blue1Brown",
+        "title": "Reinventing Entropy | Compression & Intelligence Part 1"
+      },
+      {
+        "video_id": "TcE56uuB1Qc",
+        "channel": "IBM Technology",
+        "title": "Kubernetes vs. OpenShift: Choosing DevOps and CI/CD Workflows"
       }
     ],
     "Large Language Models": [
@@ -12676,6 +12686,119 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-05T19:43:13Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "l6DKRf-fAAM",
+      "url": "https://www.youtube.com/watch?v=l6DKRf-fAAM",
+      "title": "Reinventing Entropy | Compression & Intelligence Part 1",
+      "channel": "3Blue1Brown",
+      "published_at": "2026-06-07",
+      "duration_seconds": 1940,
+      "metrics": {
+        "views": 21378,
+        "likes": 2924,
+        "comments": 238
+      },
+      "metadata": {
+        "description": "What is the fundamental compressibility of language?\nCheck out our virtual career fair: https://3b1b.co/talent\nSee new projects before they go live: https://3b1b.co/support\n\nAnimation credit:\nManim scenes by Aaron Gostein and Grant Sanderson\nShannon’s story, as well as those for various pi creatures, by Mitchell Zemil.\nLunar robot and prediction/compression coin by Paul Dancstep\nNanoGPT animations by Clayton Rabideau\n\nShannon’s “A Mathematical Theory of Communication”\nhttps://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf\n\nShannon’s “Prediction and Entropy of Printed English”\nhttps://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf\n\nScientific American article that mentions the story with Von Neumann suggesting the name Entropy:\nhttps://www.esalq.usp.br/lepse/imgs/conteudo_thumb/Energy-and-Information.pdf\n\n\nTimestamps:\n\n0:00 - On “Compression is intelligence.”\n3:28 - The warmup example\n10:46 - What perfect compression looks like\n14:47 - Defining information\n17:40 - Information of language\n24:29 - Defining Entropy\n31:14 - 3b1b Talent\n\n------------------\n\nThese animations are largely made using a custom Python library, manim.  See the FAQ comments here:\nhttps://3b1b.co/faq#manim\n\nMusic by Vincent Rubinetti.\nhttps://vincerubinetti.bandcamp.com/album/the-music-of-3blue1brown\nhttps://open.spotify.com/album/1dVyjwS8FBqXhRunaG5W5u\n\n------------------\n\n3blue1brown is a channel about animating math, in all senses of the word animate. If you're reading the bottom of a video description, I'm guessing you're more interested than the average viewer in lessons here. It would mean a lot to me if you chose to stay up to date on new ones, either by subscribing here on YouTube or otherwise following on whichever platform below you check most regularly.\n\nMailing list: https://3blue1brown.substack.com\nTwitter: https://twitter.com/3blue1brown\nBluesky: https://bsky.app/profile/3blue1brown.com\nInstagram: https://www.instagram.com/3blue1brown\nReddit: https://www.reddit.com/r/3blue1brown\nFacebook: https://www.facebook.com/3blue1brown\nPatreon: https://patreon.com/3blue1brown\nWebsite: https://www.3blue1brown.com",
+        "tags": [
+          "Mathematics",
+          "three blue one brown",
+          "3 blue 1 brown",
+          "3b1b",
+          "3brown1blue",
+          "3 brown 1 blue",
+          "three brown one blue"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-07T13:23:58Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "TcE56uuB1Qc",
+      "url": "https://www.youtube.com/watch?v=TcE56uuB1Qc",
+      "title": "Kubernetes vs. OpenShift: Choosing DevOps and CI/CD Workflows",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-07",
+      "duration_seconds": 181,
+      "metrics": {
+        "views": 757,
+        "likes": 53,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about OpenShift vs. Kubernetes here → https://ibm.biz/~M0d6elRQP\n\nWhat if your container platform defined how teams truly move? Ray Abaid breaks down Kubernetes or OpenShift through DevOps and CI/CD workflows. Discover how platform choices shape pipelines, operations, and delivery speed.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~7IEFW6PMc\n\n#kubernetes #openshift #devops #containers",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-07T13:24:16Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
