@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T14:01:29Z",
+  "last_updated": "2026-06-08T11:03:24Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -269,6 +269,11 @@
         "video_id": "7BwSG_r9Jxg",
         "channel": "Sam Witteveen",
         "title": "The NEW Best ASR - NVIDIA Nemotron 3.5 ASR"
+      },
+      {
+        "video_id": "PjrXaC5UsIw",
+        "channel": "IBM Technology",
+        "title": "What Is Agentic Coding? How AI Agents Modernize Code"
       }
     ],
     "Large Language Models": [
@@ -12880,6 +12885,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-07T14:01:28Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "PjrXaC5UsIw",
+      "url": "https://www.youtube.com/watch?v=PjrXaC5UsIw",
+      "title": "What Is Agentic Coding? How AI Agents Modernize Code",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-08",
+      "duration_seconds": 621,
+      "metrics": {
+        "views": 60,
+        "likes": 4,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Agentic Coding here → https://ibm.biz/~aGxquxVMS\n\nDevelopers spend most time understanding code, not building it. Katie McDonald explains agentic coding, legacy code modernization, and how AI accelerates software development workflows. Learn how AI development tools reduce risk and improve DevSecOps outcomes in complex systems.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~e5zuclZWJ\n\n#agenticcoding #aiagents #legacycode #aitools",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-08T11:03:24Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
