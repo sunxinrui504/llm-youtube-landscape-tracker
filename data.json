@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T11:03:24Z",
+  "last_updated": "2026-06-09T14:29:10Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -274,6 +274,11 @@
         "video_id": "PjrXaC5UsIw",
         "channel": "IBM Technology",
         "title": "What Is Agentic Coding? How AI Agents Modernize Code"
+      },
+      {
+        "video_id": "fCHe_fOqlYA",
+        "channel": "IBM Technology",
+        "title": "Building AI Agent Systems and Scaling Challenges in Agentic AI"
       }
     ],
     "Large Language Models": [
@@ -12939,6 +12944,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-08T11:03:24Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "fCHe_fOqlYA",
+      "url": "https://www.youtube.com/watch?v=fCHe_fOqlYA",
+      "title": "Building AI Agent Systems and Scaling Challenges in Agentic AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-09",
+      "duration_seconds": 785,
+      "metrics": {
+        "views": 2340,
+        "likes": 235,
+        "comments": 11
+      },
+      "metadata": {
+        "description": "Learn more about Agentic AI here → https://ibm.biz/~6aANCV7hW\n\nScaling AI agents sounds easy - until everything breaks. ⚠️ Sam Anthony explains why scaling agentic AI systems increases cost, latency, and failure risk. Learn how multi-agent design, coordination, and system architecture shape real-world scalability.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~c87KW8VoF\n\n#aiagents #agenticai #scaling #aisystems",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-09T14:29:10Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
