@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-09T19:57:53Z",
+  "last_updated": "2026-06-10T10:09:11Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -284,6 +284,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "PkYwtQcGIsU",
         "channel": "Sam Witteveen",
         "title": "Mythos 5 & Fable 5 Launched"
+      },
+      {
+        "video_id": "JHDsM8ER7tk",
+        "channel": "IBM Technology",
+        "title": "Can you social engineer an AI? Plus: AI worms and the nonhuman identity problem"
       }
     ],
     "Large Language Models": [
@@ -13058,6 +13063,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-09T19:57:53Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "JHDsM8ER7tk",
+      "url": "https://www.youtube.com/watch?v=JHDsM8ER7tk",
+      "title": "Can you social engineer an AI? Plus: AI worms and the nonhuman identity problem",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-10",
+      "duration_seconds": 1969,
+      "metrics": {
+        "views": 42,
+        "likes": 6,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Explore the podcast →https://ibm.biz/~5hi5oUNaW\n\nIf you just ask an AI nicely enough, you can get it to hand over the keys to a total stranger’s Instagram account. But people can be tricked, too. So what’s the difference? Is there any?\n\nThis week on IBM’s Security Intelligence, Jeff Crume, Claire Nunez and Nick Bradley join host Matt Kosinski to dig into what happens when social engineering meets AI. We cover the Meta/Instagram prompt injection attack, a new self-replicating AI worm out of the University of Toronto that can reason its way through a network and the Sophos State of Identity Security 2026 report, which found that nonhuman identities (NHIs) are responsible for a sizable chunk of identity-based data breaches.\nAre AI agents more gullible than humans? Is the AI worm a genuine leap forward for attackers, or just another proof-of-concept? And why are so few organizations bothering to audit and rotate their nonhuman credentials? \n\nAll that and more on Security Intelligence.\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~tXAGoyaqb\n#aiagents #aimalware #aiengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-10T10:09:11Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
