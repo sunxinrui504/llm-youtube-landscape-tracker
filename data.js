@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-10T20:14:21Z",
+  "last_updated": "2026-06-11T15:37:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -294,6 +294,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "haK1KoQWm18",
         "channel": "AI Explained",
         "title": "Claude Fable 5 - Full 319 page Breakdown"
+      },
+      {
+        "video_id": "UE_vuadQrJ0",
+        "channel": "IBM Technology",
+        "title": "AI That’s Too Dangerous For You? What we learned from S.A.T.A.N"
       }
     ],
     "Large Language Models": [
@@ -13173,6 +13178,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-10T20:14:20Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "UE_vuadQrJ0",
+      "url": "https://www.youtube.com/watch?v=UE_vuadQrJ0",
+      "title": "AI That’s Too Dangerous For You? What we learned from S.A.T.A.N",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-11",
+      "duration_seconds": 779,
+      "metrics": {
+        "views": 2496,
+        "likes": 191,
+        "comments": 18
+      },
+      "metadata": {
+        "description": "Learn more about Zero-Day Exploit here → https://ibm.biz/~2lAtr9uM2\n\nAI is uncovering vulnerabilities faster than ever before. Jeff Crume explains how AI detects zero-day vulnerabilities, impacts cybersecurity risk, and reshapes defense strategies. Learn why AI-driven vulnerability scanning and DevSecOps could make systems safer.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~tNArsgaLG\n\n#aisecurity #zeroday #ai #cybersecurity",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-11T15:37:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
