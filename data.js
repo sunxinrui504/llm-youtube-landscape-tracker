@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-11T15:37:23Z",
+  "last_updated": "2026-06-12T10:20:30Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -299,6 +299,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "UE_vuadQrJ0",
         "channel": "IBM Technology",
         "title": "AI That’s Too Dangerous For You? What we learned from S.A.T.A.N"
+      },
+      {
+        "video_id": "aByPOYCEH6I",
+        "channel": "IBM Technology",
+        "title": "Claude Fable 5 & Apple’s NVIDIA deal"
       }
     ],
     "Large Language Models": [
@@ -13232,6 +13237,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-11T15:37:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "aByPOYCEH6I",
+      "url": "https://www.youtube.com/watch?v=aByPOYCEH6I",
+      "title": "Claude Fable 5 & Apple’s NVIDIA deal",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-12",
+      "duration_seconds": 2102,
+      "metrics": {
+        "views": 196,
+        "likes": 12,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~r8dEac3ai\n\nIs Claude Fable 5 worth the hype? This week on Mixture of Experts, host Tim Hwang is joined by Christopher Hay, Kaoutar El Maghraoui and Volkmar Uhlig to debrief about Anthropic’s new releases. Our experts analyze the tier routing system inn Claude’s Fable 5, a Mythos-class model. Next, at WWDC 2026, Apple announced it’s abandoning on-device AI promise to partner with NVIDIA for cloud compute. What does this mean for the consumer? Finally, can AI models actually detect sarcasm? We debate the multimodal inputs necessary or if context alone can determine whether a query is sarcastic. \n\nAll that and more on this week’s Mixture of Experts.\n\n00:00 – Introduction\n00:56 – Anthropic Fable V release and routing controversy\n17:55 – Apple WWDC: NVIDIA partnership and cloud AI shift\n27:09 – Can AI models detect sarcasm?\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~i55JgUA61\n#claudeai #anthropic #aimodel",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-12T10:20:30Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
