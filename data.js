@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-14T13:30:23Z",
+  "last_updated": "2026-06-14T19:11:33Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -309,6 +309,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "Gh1E9VgXZWs",
         "channel": "IBM Technology",
         "title": "Bridging Design Systems and Code with MCP and AI Agents"
+      },
+      {
+        "video_id": "zJvN8PDX1is",
+        "channel": "Two Minute Papers",
+        "title": "NVIDIA's New Free Al - A Gift To All Of Us"
+      },
+      {
+        "video_id": "Qj71N0tBzRo",
+        "channel": "AI Explained",
+        "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next"
       }
     ],
     "Large Language Models": [
@@ -13350,6 +13360,110 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-14T13:30:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "zJvN8PDX1is",
+      "url": "https://www.youtube.com/watch?v=zJvN8PDX1is",
+      "title": "NVIDIA's New Free Al - A Gift To All Of Us",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-06-14",
+      "duration_seconds": 471,
+      "metrics": {
+        "views": 11385,
+        "likes": 723,
+        "comments": 50
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The Nemotron 3 Ultra paper is available here:\nhttps://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/\n\nFree Rendering course and source code:\nhttps://users.cg.tuwien.ac.at/zsolnai/gfx/rendering-course/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nThumbnail design: https://felicia.hu\n\n#nvidia",
+        "tags": [
+          "ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-14T19:11:15Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Qj71N0tBzRo",
+      "url": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
+      "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
+      "channel": "AI Explained",
+      "published_at": "2026-06-14",
+      "duration_seconds": 801,
+      "metrics": {
+        "views": 19743,
+        "likes": 1375,
+        "comments": 286
+      },
+      "metadata": {
+        "description": "Claude Fable 5 banned, but what’s the bigger story. We go through 11 under-reported details, so you have the context to see what’s coming next for your use of AI. From whether the ban will last, what the possible motives are, what the model can actually do, and some wild over-extrapolations going on.\n\n\nCheck out my fast-growing (!) app, free to use, and code INSIDER15 for paid tiers: https://lmcouncil.ai\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n00:51 - Came from an Anthropic Investor ‘and other tech leaders’\n01:47 - Govt pressured by CEOs like Jamie Dimon\n03:01 - ‘Already decided’\n04:02 - Prompt Injection Robustness Comparison\n05:15 - Wellness?\n06:36 - “Overreach”\n08:17 - Anthropic Did Admit it would cause Difficulty\n09:32 - 90 Minutes\n10:02 - Equity Absence \n10:31 - Lobbying and OpenAI\n\n‘Already Decided’ - https://www.theinformation.com/articles/amazons-jassy-raised-concerns-anthropic-model-trump-crackdown?rc=sy0ihq\n\nNot for Other Models: https://www.theinformation.com/briefings/u-s-government-unlikely-extend-anthropic-export-control-ai-companies?rc=sy0ihq\n\n90 Minutes: https://archive.fo/20260614001605/https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519#selection-807.1-807.219\n\nAnthropic Statement: https://www.anthropic.com/news/fable-mythos-access\n\nLife Comes at you Fast: https://x.com/etbrooking/status/2065638276388495742\n\nAnthropic Deputy CISO: https://x.com/TheTranscript_/status/2065883670053847324\n\nHegseth Gloat: https://x.com/PeteHegseth/status/2065897156226015690\n\nRoon Speculation: https://x.com/tszzl/status/2065939227167392147\n\nMythos System Card: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\n\nSachs Statement: https://x.com/DavidSacks/status/2065853007619588171\n\n\nOpenAI Lobbying: https://thehill.com/policy/technology/5912720-altman-openai-get-bogged-down-in-political-spending-fight/\n\nAbsent from Equity Talks: https://finance.yahoo.com/sectors/technology/articles/trump-ai-ownership-plan-could-131053732.html\n\nPliny Jaibreak: https://x.com/elder_plinius/status/2064776322979676227\n\nFusion: https://x.com/OpenRouter/status/2065856871215329545\n\nhttps://lmcouncil.ai \n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-14T19:11:32Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
