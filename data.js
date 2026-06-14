@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-12T10:20:30Z",
+  "last_updated": "2026-06-14T13:30:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -304,6 +304,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "aByPOYCEH6I",
         "channel": "IBM Technology",
         "title": "Claude Fable 5 & Apple’s NVIDIA deal"
+      },
+      {
+        "video_id": "Gh1E9VgXZWs",
+        "channel": "IBM Technology",
+        "title": "Bridging Design Systems and Code with MCP and AI Agents"
       }
     ],
     "Large Language Models": [
@@ -13291,6 +13296,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-12T10:20:30Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Gh1E9VgXZWs",
+      "url": "https://www.youtube.com/watch?v=Gh1E9VgXZWs",
+      "title": "Bridging Design Systems and Code with MCP and AI Agents",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-14",
+      "duration_seconds": 227,
+      "metrics": {
+        "views": 1182,
+        "likes": 112,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Context Engineering here → https://ibm.biz/~Ep1sRClsw\n\nAI agents are changing how modern software gets designed. Will Scott explains how design systems and context engineering guide intelligent agents. Learn how MCP and AI agents work together to build consistent, correct applications.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~rUUielRbR\n\n#designsystems #contextengineering #aiagents #agenticai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-14T13:30:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
