@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T19:11:33Z",
+  "last_updated": "2026-06-15T11:47:55Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -319,6 +319,11 @@
         "video_id": "Qj71N0tBzRo",
         "channel": "AI Explained",
         "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next"
+      },
+      {
+        "video_id": "MTmhgIVhpag",
+        "channel": "IBM Technology",
+        "title": "What Is AI Pair Programming? AI Coding Tools for Developers"
       }
     ],
     "Large Language Models": [
@@ -13464,6 +13469,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-14T19:11:32Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "MTmhgIVhpag",
+      "url": "https://www.youtube.com/watch?v=MTmhgIVhpag",
+      "title": "What Is AI Pair Programming? AI Coding Tools for Developers",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-15",
+      "duration_seconds": 436,
+      "metrics": {
+        "views": 448,
+        "likes": 42,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Pair Programming here → https://ibm.biz/~TKifmoii8\n\nAI might be the teammate you didn’t know you needed 🤖💡. Sam Anthony breaks down AI pair programming, AI coding, and developer tools in action. Discover how AI transforms debugging, code review, and developer productivity in real workflows 🚀.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~mTrs2CMKc\n\n#ai #aicoding #pairprogramming #developertools",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-15T11:47:55Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
