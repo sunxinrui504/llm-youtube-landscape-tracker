@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-16T11:18:57Z",
+  "last_updated": "2026-06-16T16:26:10Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -329,6 +329,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "4vfvvzzwcwI",
         "channel": "IBM Technology",
         "title": "Kagenti’s Approach to Multi-Agent Security for AI Agents"
+      },
+      {
+        "video_id": "l72ufA-4SzE",
+        "channel": "Two Minute Papers",
+        "title": "Claude AI Knows More Than It Tells You"
       }
     ],
     "Large Language Models": [
@@ -13582,6 +13587,61 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-16T11:18:57Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "l72ufA-4SzE",
+      "url": "https://www.youtube.com/watch?v=l72ufA-4SzE",
+      "title": "Claude AI Knows More Than It Tells You",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-06-16",
+      "duration_seconds": 417,
+      "metrics": {
+        "views": 2244,
+        "likes": 213,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/natural-language-autoencoders\nhttps://transformer-circuits.pub/2026/nla/index.html\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nMy research: https://cg.tuwien.ac.at/~zsolnai/\nThumbnail design: https://felicia.hu",
+        "tags": [
+          "ai",
+          "anthropic",
+          "claude"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-16T16:26:09Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
