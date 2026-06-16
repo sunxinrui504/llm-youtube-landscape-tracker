@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-15T11:47:55Z",
+  "last_updated": "2026-06-16T11:18:57Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -324,6 +324,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "MTmhgIVhpag",
         "channel": "IBM Technology",
         "title": "What Is AI Pair Programming? AI Coding Tools for Developers"
+      },
+      {
+        "video_id": "4vfvvzzwcwI",
+        "channel": "IBM Technology",
+        "title": "Kagenti’s Approach to Multi-Agent Security for AI Agents"
       }
     ],
     "Large Language Models": [
@@ -13523,6 +13528,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-15T11:47:55Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4vfvvzzwcwI",
+      "url": "https://www.youtube.com/watch?v=4vfvvzzwcwI",
+      "title": "Kagenti’s Approach to Multi-Agent Security for AI Agents",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-16",
+      "duration_seconds": 523,
+      "metrics": {
+        "views": 245,
+        "likes": 18,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Agent security here → https://ibm.biz/~ev730VA3X\n\nConfused agents can leak data without anyone noticing. Legare Kerrison explains how Kagenti secures multi‑agent systems using identity, delegation chains, and open source infrastructure. Learn why agentic AI needs identity‑based security to prevent invisible breaches in production.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~4BCQane2m\n\n#aiagents #agenticai #multiagentsystems #zerotrust",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-16T11:18:57Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
