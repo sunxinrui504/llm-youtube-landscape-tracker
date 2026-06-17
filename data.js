@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-16T16:26:10Z",
+  "last_updated": "2026-06-17T10:27:43Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -334,6 +334,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "l72ufA-4SzE",
         "channel": "Two Minute Papers",
         "title": "Claude AI Knows More Than It Tells You"
+      },
+      {
+        "video_id": "ATIwByZ4nUA",
+        "channel": "IBM Technology",
+        "title": "AI agents can manage your passwords. Should we let them? Plus: The biggest Patch Tuesday ever."
       }
     ],
     "Large Language Models": [
@@ -13642,6 +13647,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-16T16:26:09Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "ATIwByZ4nUA",
+      "url": "https://www.youtube.com/watch?v=ATIwByZ4nUA",
+      "title": "AI agents can manage your passwords. Should we let them? Plus: The biggest Patch Tuesday ever.",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-17",
+      "duration_seconds": 1822,
+      "metrics": {
+        "views": 150,
+        "likes": 10,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Explore the podcast →https://ibm.biz/~1RGiVfNK3\n\nApple unveiled an AI agent that can detect if your password’s been compromised and change it for you. \n\nThe question is: Should you let it?\n\nOn this episode of Security Intelligence, Michelle Alvarez, Erblind Morina and Austin Zeizel join host Matt Kosinski to discuss the promise and pitfalls of using AI agents to address the pernicious issue of cybersecurity hygiene. As people, we’re not great at it. But are the agents ready for primetime?\n\nThen, we talk about Microsoft’s biggest Patch Tuesday ever: more than 200 distinct CVEs were covered in the June 2026 release. We talk about why this might just be the beginning of a new era in vulnerability management, and why it matters. Spoiler: It’s not really about the numbers.\n\nFinally, we get into a report that C-suite executives are increasingly willing to take on greater cyber risk in exchange for innovation. Some say it’s a reaction after years of security spending with low ROI—but are they overcorrecting?\n\nAll that and more on Security Intelligence.\n\n00:00 -- Intro\n1:13 -- AI agents can fix your passwords\n10:36 -- The biggest Patch Tuesday ever\n19:46 -- Executives embrace cyber risk\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~q8Z4caXTi\n#aiagentsecurity #cybersecurity #accessmanagement",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-17T10:27:43Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
