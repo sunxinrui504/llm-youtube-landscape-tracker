@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T14:53:18Z",
+  "last_updated": "2026-06-18T14:48:54Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -344,6 +344,11 @@
         "video_id": "10C8VMN3hjU",
         "channel": "Sam Witteveen",
         "title": "GLM 5.2 - The Top NEW Open Weights Model"
+      },
+      {
+        "video_id": "4Vg2aVtrX8k",
+        "channel": "IBM Technology",
+        "title": "Building AI Agents for Real-World Problems & Workflows"
       }
     ],
     "Large Language Models": [
@@ -13791,6 +13796,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-17T14:53:18Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4Vg2aVtrX8k",
+      "url": "https://www.youtube.com/watch?v=4Vg2aVtrX8k",
+      "title": "Building AI Agents for Real-World Problems & Workflows",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-18",
+      "duration_seconds": 473,
+      "metrics": {
+        "views": 1631,
+        "likes": 127,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Learn more about Building and evaluating AI agents that work in the real world here → https://ibm.biz/~M1R5rMq8K\n\nAI agents are powerful, but production is different. Shailaja Patel-Pranav explains how AI agents operate in real-world systems with workflows, policies, and orchestration. Learn how agents coordinate tasks, enforce rules, and stay aligned with human decision-making.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~qsdkJnIan\n\n#aiagents #aiproduction #workflowautomation #agenticai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-18T14:48:54Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
