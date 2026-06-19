@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-18T14:48:54Z",
+  "last_updated": "2026-06-19T10:14:05Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -349,6 +349,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "4Vg2aVtrX8k",
         "channel": "IBM Technology",
         "title": "Building AI Agents for Real-World Problems & Workflows"
+      },
+      {
+        "video_id": "SvBheXuKY8s",
+        "channel": "IBM Technology",
+        "title": "Microsoft’s new AI models & bots dominate the internet"
       }
     ],
     "Large Language Models": [
@@ -13850,6 +13855,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-18T14:48:54Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "SvBheXuKY8s",
+      "url": "https://www.youtube.com/watch?v=SvBheXuKY8s",
+      "title": "Microsoft’s new AI models & bots dominate the internet",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-19",
+      "duration_seconds": 2382,
+      "metrics": {
+        "views": 124,
+        "likes": 11,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~P2MwO1Liq\n\nAre AI agents taking over the internet? This week on Mixture of Experts, Tim Hwang is joined by Ambhi Ganesan, Rynne Whitnah and Sandi Besen. First, a Cloudflare study reveals that agentic AI bots now generate 57.4% of web requests globally, with humans accounting for just 42.6%. Our experts debate whether this signals a fundamental shift in how we interact with the web—or if bots have dominated internet traffic all along. Next, Microsoft makes a major play in the AI model race, releasing MAI-Thinking-1, a trillion-parameter mixture of experts model, and MAI-Image-1 for image generation. Finally, AI-generated films debut at the Tribeca Film Festival. Our experts discuss the evolution of filmmaking, the role of AI as a creative tool, and whether we’ll see AI films win critical awards in the future. All that and more on this week’s Mixture of Experts.\n\n00:00 – Introduction\n00:55 – AI bots generate 57% of web traffic\n10:49 – Microsoft releases MAI-Thinking-1 and MAI-Image-1\n26:10 - AI at Tribeca Film Festival\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~9dbpd1XUA\n#aimodel #microsoftai #aiagent",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-19T10:14:05Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
