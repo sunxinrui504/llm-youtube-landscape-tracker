@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-19T10:14:05Z",
+  "last_updated": "2026-06-19T14:45:24Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -354,6 +354,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "SvBheXuKY8s",
         "channel": "IBM Technology",
         "title": "Microsoft’s new AI models & bots dominate the internet"
+      },
+      {
+        "video_id": "dUmT0OIGoqE",
+        "channel": "Two Minute Papers",
+        "title": "This is OpenClaw On Steroids"
+      },
+      {
+        "video_id": "_a9Vv5dfW24",
+        "channel": "Sam Witteveen",
+        "title": "VibeThinker 3B - Taking on Giant Models"
       }
     ],
     "Large Language Models": [
@@ -13909,6 +13919,131 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-19T10:14:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "dUmT0OIGoqE",
+      "url": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
+      "title": "This is OpenClaw On Steroids",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-06-19",
+      "duration_seconds": 417,
+      "metrics": {
+        "views": 2414,
+        "likes": 175,
+        "comments": 18
+      },
+      "metadata": {
+        "description": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper  is available here:\nhttps://recursivemas.github.io/\nhttps://github.com/RecursiveMAS/RecursiveMAS\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nThumbnail design: https://felicia.hu",
+        "tags": [
+          "ai",
+          "openclaw"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-19T14:45:07Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "_a9Vv5dfW24",
+      "url": "https://www.youtube.com/watch?v=_a9Vv5dfW24",
+      "title": "VibeThinker 3B - Taking on Giant Models",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-06-19",
+      "duration_seconds": 1097,
+      "metrics": {
+        "views": 514,
+        "likes": 38,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "In this video, I look at VibeCoder 3b and how it is beating some models that are 300x its size on certain benchmarks by improving its reasoning and chain of thought to be better for specific use cases.  While the model is not for production it shows what could be done with these techniques.\n\nThanks to Dell for Sponsoring the Compute\n#DellProPrecision #DellProMax \n\nPaper: https://arxiv.org/abs/2606.16140\nWeights: https://huggingface.co/WeiboAI/VibeThinker-3B\nGithub: https://github.com/WeiboAI/VibeThinker\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:16 VibeThinker-3B\n03:33 Benchmarks\n05:16 VibeThinker-3B Paper\n05:46 Architecture\n09:00 Demo",
+        "tags": [
+          "VibeThinker-3B",
+          "small language model",
+          "SLM reasoning",
+          "verifiable reasoning",
+          "compact AI model",
+          "small model reasoning",
+          "WeiboAI",
+          "Qwen2.5 Coder",
+          "reinforcement learning",
+          "AIME 2026",
+          "math reasoning",
+          "code reasoning",
+          "STEM AI",
+          "efficient AI",
+          "AI benchmarks",
+          "open source AI",
+          "small AI model",
+          "post training",
+          "AI scaling"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-19T14:45:24Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
