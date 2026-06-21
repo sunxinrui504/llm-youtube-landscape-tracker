@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-19T14:45:24Z",
+  "last_updated": "2026-06-21T13:49:48Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -364,6 +364,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "_a9Vv5dfW24",
         "channel": "Sam Witteveen",
         "title": "VibeThinker 3B - Taking on Giant Models"
+      },
+      {
+        "video_id": "WJzsX32qMJY",
+        "channel": "IBM Technology",
+        "title": "3‑2‑1 Backup Rule Explained: Protect Your Data from Disaster"
       }
     ],
     "Large Language Models": [
@@ -14044,6 +14049,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-19T14:45:24Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "WJzsX32qMJY",
+      "url": "https://www.youtube.com/watch?v=WJzsX32qMJY",
+      "title": "3‑2‑1 Backup Rule Explained: Protect Your Data from Disaster",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-21",
+      "duration_seconds": 633,
+      "metrics": {
+        "views": 983,
+        "likes": 100,
+        "comments": 7
+      },
+      "metadata": {
+        "description": "Learn more about Data Resiliency here → https://ibm.biz/~AJvRqYRiS\n\nThree, two, one—liftoff or disaster? 🚀 Jeff Crume breaks down backups, immutability, and disaster recovery so you can build resilient systems. Learn how the 3‑2‑1 backup rule protects your data from failures and ransomware. \n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~iZn1Qdpvy\n\n#cybersecurity #datarecovery #databackup",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-21T13:49:48Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
