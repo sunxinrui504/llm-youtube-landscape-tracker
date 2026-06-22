@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-21T13:49:48Z",
+  "last_updated": "2026-06-22T11:36:58Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -369,6 +369,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "WJzsX32qMJY",
         "channel": "IBM Technology",
         "title": "3‑2‑1 Backup Rule Explained: Protect Your Data from Disaster"
+      },
+      {
+        "video_id": "4wMRXmLpdA8",
+        "channel": "IBM Technology",
+        "title": "AI in the SDLC: Rethinking AI Coding Tools & AI Agents"
       }
     ],
     "Large Language Models": [
@@ -14103,6 +14108,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-21T13:49:48Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4wMRXmLpdA8",
+      "url": "https://www.youtube.com/watch?v=4wMRXmLpdA8",
+      "title": "AI in the SDLC: Rethinking AI Coding Tools & AI Agents",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-22",
+      "duration_seconds": 568,
+      "metrics": {
+        "views": 479,
+        "likes": 36,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI in the SDLC here → https://ibm.biz/~naNTyKNWO\n\nAI promises speed, but where are the real gains? Cedric Clyburn breaks down why productivity stalls across the software development lifecycle despite faster coding. Learn how redesigning SDLC workflows with AI agents improves outcomes, testing, and delivery.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~nBt0HFgxR\n\n#aifordevelopers #sdlc #aicodingtools #softwaredevelopment",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-22T11:36:57Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
