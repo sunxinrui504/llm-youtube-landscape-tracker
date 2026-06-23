@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T16:30:19Z",
+  "last_updated": "2026-06-23T14:29:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -379,6 +379,11 @@
         "video_id": "mG4SmhWyeFA",
         "channel": "Two Minute Papers",
         "title": "DeepSeek Just Solved AI's Billion Dollar Problem"
+      },
+      {
+        "video_id": "k5jYwyhDMxA",
+        "channel": "IBM Technology",
+        "title": "5 AI Agent Terms You Need to Know"
       }
     ],
     "Large Language Models": [
@@ -14221,6 +14226,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-22T16:30:17Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "k5jYwyhDMxA",
+      "url": "https://www.youtube.com/watch?v=k5jYwyhDMxA",
+      "title": "5 AI Agent Terms You Need to Know",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-23",
+      "duration_seconds": 667,
+      "metrics": {
+        "views": 2781,
+        "likes": 276,
+        "comments": 11
+      },
+      "metadata": {
+        "description": "Learn more about AI Agents here → https://ibm.biz/~dXkrYnDwR\n\nFrontier AI agents rely on more than just large language models to function effectively. Martin Keen explains five essential concepts in agentic AI, including agents.md, agent skills, MCP, agent‑to‑agent communication, and sub‑agents. These terms define how modern AI agents actually work.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~R5QxgtWK0\n\n#aiagents #agenticai #aiarchitecture #mcp",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-23T14:29:56Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
