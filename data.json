@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T14:29:56Z",
+  "last_updated": "2026-06-24T14:08:36Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -384,6 +384,11 @@
         "video_id": "k5jYwyhDMxA",
         "channel": "IBM Technology",
         "title": "5 AI Agent Terms You Need to Know"
+      },
+      {
+        "video_id": "10XtOi4Lbes",
+        "channel": "IBM Technology",
+        "title": "Have we finally solved social engineering? Plus: World Cup fraud, AI IDs and an IBM/OpenAI collab"
       }
     ],
     "Large Language Models": [
@@ -14280,6 +14285,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-23T14:29:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "10XtOi4Lbes",
+      "url": "https://www.youtube.com/watch?v=10XtOi4Lbes",
+      "title": "Have we finally solved social engineering? Plus: World Cup fraud, AI IDs and an IBM/OpenAI collab",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-24",
+      "duration_seconds": 2351,
+      "metrics": {
+        "views": 674,
+        "likes": 51,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Read more about IBM joining OpenAI Daybreak  → https://ibm.biz/~GzeMjCEBd\n\nSocial engineering has plagued human beings since time immemorial. We’ve simply never been able to stop it. Until now. Maybe.\n\nOn this episode of Security Intelligence, panelists Dave Bales, Kimmie Farrington and JR Rao dig into the idea that AI-native operating systems could do to phishing what endpoint protection did to viruses.\n\nThen: the World Cup is here, and so are the scammers. We discuss Operation FanTrap, Cyble Research and Intelligence Labs’ deep dive into 4,000 malicious domains using fraudulent FIFA branding to steal credentials, drain wallets and spread malware.\n\nPlus, Estonia wants to give AI agents their own personal IDs, and IBM joins OpenAI’s Daybreak Cyber Partner Program.\n \nAll that and more on Security Intelligence.\n\n00:00 -- Introduction\n1:30 -- The end of social engineering?\n14:53 -- World Cup fraud\n25:08 -- IDs for AI agents\n33:02 -- IBM joins OpenAI Daybreak\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~fmgby2kVi\n#IDsforAIagents #socialengineering #openai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-24T14:08:36Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
