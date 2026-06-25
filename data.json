@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T14:08:36Z",
+  "last_updated": "2026-06-25T14:05:59Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -389,6 +389,16 @@
         "video_id": "10XtOi4Lbes",
         "channel": "IBM Technology",
         "title": "Have we finally solved social engineering? Plus: World Cup fraud, AI IDs and an IBM/OpenAI collab"
+      },
+      {
+        "video_id": "VzmMQWRhlBw",
+        "channel": "Sam Witteveen",
+        "title": "Qwen-AgentWorld The World Model for RL Environments"
+      },
+      {
+        "video_id": "12lB1Cz7gUw",
+        "channel": "IBM Technology",
+        "title": "Data Science Periodic Table Explained: ML, ETL, Analytics & Workflow"
       }
     ],
     "Large Language Models": [
@@ -14339,6 +14349,139 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-24T14:08:36Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "VzmMQWRhlBw",
+      "url": "https://www.youtube.com/watch?v=VzmMQWRhlBw",
+      "title": "Qwen-AgentWorld The World Model for RL Environments",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-06-25",
+      "duration_seconds": 991,
+      "metrics": {
+        "views": 448,
+        "likes": 33,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "In this video, I look at Qwen-AgentWorld, which is a world model built to simulate RL environments for agents to get better at training.\n\n📑 Paper: https://arxiv.org/abs/2606.24597\n📖 Blog: https://qwen.ai/blog?id=qwen-agentworld\n💻 GitHub: https://github.com/QwenLM/Qwen-AgentWorld\n🤗 HuggingFace: https://huggingface.co/collections/Qwen/qwen-agentworld\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n03:01 Qwen-AgentWorld Blog\n03:14 Paper\n03:23 Benchmarks\n06:15 Before and After Language World Model RL Training\n07:37 Qwen-AgentWorld Pipeline\n10:58 Demo",
+        "tags": [
+          "Qwen AgentWorld",
+          "world model",
+          "AI agents",
+          "reinforcement learning",
+          "RL training",
+          "Qwen model",
+          "language world model",
+          "agent benchmark",
+          "SWEBench",
+          "TerminalBench",
+          "MoE model",
+          "mixture of experts",
+          "continual pre-training",
+          "supervised fine-tuning",
+          "LLM judge",
+          "adversarial training",
+          "chain of thought",
+          "agent reasoning",
+          "MCP tools",
+          "open source AI",
+          "AI research 2025",
+          "AI paper explained",
+          "SFT",
+          "AI research explained",
+          "AI paper breakdown",
+          "RLHF",
+          "reward hacking"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-25T14:05:42Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "12lB1Cz7gUw",
+      "url": "https://www.youtube.com/watch?v=12lB1Cz7gUw",
+      "title": "Data Science Periodic Table Explained: ML, ETL, Analytics & Workflow",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-25",
+      "duration_seconds": 531,
+      "metrics": {
+        "views": 1142,
+        "likes": 116,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Learn more about Data Science here → https://ibm.biz/~KwNQPSByh\n\nData science feels complex—until you see the whole system. Aaron Baughman breaks down data science concepts using a “periodic table” to connect workflows, models, and techniques. Learn how data science flows from raw data to insights and how each method fits into real systems.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~HD4DeklYe\n\n#datascience #machinelearning #dataanalytics #periodictable",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-25T14:05:58Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
