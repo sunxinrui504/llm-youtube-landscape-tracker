@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-25T14:05:59Z",
+  "last_updated": "2026-06-26T14:05:33Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -399,6 +399,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "12lB1Cz7gUw",
         "channel": "IBM Technology",
         "title": "Data Science Periodic Table Explained: ML, ETL, Analytics & Workflow"
+      },
+      {
+        "video_id": "uD4-uy0GmHE",
+        "channel": "Sam Witteveen",
+        "title": "Introducing Ornith 1.0"
+      },
+      {
+        "video_id": "d-hJa-yDJmQ",
+        "channel": "IBM Technology",
+        "title": "New AI models, token minimization and IBM’s new sub-1nm chip"
       }
     ],
     "Large Language Models": [
@@ -14482,6 +14492,137 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-25T14:05:58Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "uD4-uy0GmHE",
+      "url": "https://www.youtube.com/watch?v=uD4-uy0GmHE",
+      "title": "Introducing Ornith 1.0",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-06-26",
+      "duration_seconds": 995,
+      "metrics": {
+        "views": 41,
+        "likes": 2,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "In this video, I look at the Ornith 1.0 family of agentic coding models.  Both what they can do and how they were created.\n\n📖 Blog: https://deep-reinforce.com/ornith_1_0.html\n🤗 HF: https://huggingface.co/collections/deepreinforce-ai/ornith-10\n\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:18 Blog\n01:55 The Ornith 1.0 Family\n02:17 Architecture\n02:43 Benchmarks\n08:27 PAL paper\n09:25 Demos\n09:35 SVG Pelican Demo\n09:59 RAG\n10:25 Creating Weather Harness\n13:15 Get the Latest AI News on Twitter",
+        "tags": [
+          "Ornith 1.0",
+          "Ornith",
+          "DeepReinforce",
+          "Ornith AI model",
+          "self-scaffolding LLM",
+          "agentic coding model",
+          "open source coding model",
+          "coding LLM",
+          "AI coding agent",
+          "self-improving AI",
+          "reinforcement learning",
+          "RL scaffold",
+          "SWE-bench Verified",
+          "Terminal-Bench",
+          "Claude Opus 4.8",
+          "run LLM locally",
+          "local LLM",
+          "GGUF",
+          "open source LLM",
+          "best open source coding model",
+          "Gemma 4",
+          "Qwen 3.5",
+          "DeepSeek V4",
+          "AI news",
+          "reward hacking"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-26T14:05:15Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "d-hJa-yDJmQ",
+      "url": "https://www.youtube.com/watch?v=d-hJa-yDJmQ",
+      "title": "New AI models, token minimization and IBM’s new sub-1nm chip",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-26",
+      "duration_seconds": 3062,
+      "metrics": {
+        "views": 1184,
+        "likes": 80,
+        "comments": 3
+      },
+      "metadata": {
+        "description": "Learn more about IBM’s new chip technology →https://ibm.biz/~Grs0J3yK2\n\nIBM debuts world’s first 0.7nm chip technology! This week on Mixture of Experts, Sascha Brodsky sits down with Huiming Bu, VP of Silicon Technology R&D for a special segment diving into a major semiconductor breakthrough. Then, host Tim Hwang is joined by Abraham Daniels, Gabe Goodhart and Martin Keen. Our expert panel debriefs the new AI models: Sakana Fugu, which reports higher performance than Claude’s Mythos, and Z.ai’s GLM-5.2. Next, we discuss Google DeepMind’s recent collaboration with A24 and what this means for the future of AI in the entertainment industry. \nFinally, we’ve talked tokenmaxxing and now there is a new phenomenon: tokenminning. What’s the most important outcome with using AI, and how should we measure it? \n\nAll that and more on today’s packed Mixture of Experts!\n\n00:00 -- Introduction\n1:11 -- IBM's new sub-1 nm chip\n14:02 -- New AI models: GLM-5.2 & Sakana Fugu\n29:48 -- AI in the film industry\n38:41 -- Tokenminning\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. \n\nTokenmaxxing is dead, learn more here → https://ibm.biz/~LbSK1BDAs\n#aichip #tokenminning #aimodels",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-26T14:05:33Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
