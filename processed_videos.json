@@ -628,5 +628,10 @@
     "title": "New AI models, token minimization and IBM’s new sub-1nm chip",
     "processed_at": "2026-06-26T14:05:33Z",
     "status": "ok"
+  },
+  "K68sqG18270": {
+    "title": "The Promptware Kill Chain: How Prompt Injection Becomes AI Malware",
+    "processed_at": "2026-06-28T13:19:02Z",
+    "status": "ok"
   }
 }
