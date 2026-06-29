@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T13:19:02Z",
+  "last_updated": "2026-06-29T11:07:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -414,6 +414,11 @@
         "video_id": "K68sqG18270",
         "channel": "IBM Technology",
         "title": "The Promptware Kill Chain: How Prompt Injection Becomes AI Malware"
+      },
+      {
+        "video_id": "0-YCleDw-Po",
+        "channel": "IBM Technology",
+        "title": "What Is AI Code Review? Fixing Slow PRs & Broken Workflows with AI"
       }
     ],
     "Large Language Models": [
@@ -14682,6 +14687,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-28T13:19:02Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "0-YCleDw-Po",
+      "url": "https://www.youtube.com/watch?v=0-YCleDw-Po",
+      "title": "What Is AI Code Review? Fixing Slow PRs & Broken Workflows with AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-29",
+      "duration_seconds": 653,
+      "metrics": {
+        "views": 76,
+        "likes": 7,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Code Review here → https://ibm.biz/~k5pZG4Et6\n\nCode reviews are slow, but they don’t have to be. Anna Gutowska explains how AI code review improves software development workflows, consistency, and code quality. Learn how AI tools and human oversight work together to reduce technical debt and accelerate delivery.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~vNHekC9WU\n\n#aicoding #softwaredevelopment #codequality #developertools",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-29T11:07:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
