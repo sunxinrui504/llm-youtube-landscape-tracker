@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T11:07:23Z",
+  "last_updated": "2026-06-30T13:58:07Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -419,6 +419,11 @@
         "video_id": "0-YCleDw-Po",
         "channel": "IBM Technology",
         "title": "What Is AI Code Review? Fixing Slow PRs & Broken Workflows with AI"
+      },
+      {
+        "video_id": "o0gkdZBtwEg",
+        "channel": "IBM Technology",
+        "title": "How KV Cache Speeds Up LLMs for Faster AI Models on GPUs"
       }
     ],
     "Large Language Models": [
@@ -14741,6 +14746,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-29T11:07:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "o0gkdZBtwEg",
+      "url": "https://www.youtube.com/watch?v=o0gkdZBtwEg",
+      "title": "How KV Cache Speeds Up LLMs for Faster AI Models on GPUs",
+      "channel": "IBM Technology",
+      "published_at": "2026-06-30",
+      "duration_seconds": 675,
+      "metrics": {
+        "views": 2176,
+        "likes": 234,
+        "comments": 8
+      },
+      "metadata": {
+        "description": "Learn more about LLM inference here → https://ibm.biz/~Ewjm0UejN\n\nWhy do LLMs crawl when traffic spikes? 🤔 Legare Kerrison explains how KV cache and paged attention reshape GPU memory across prefill and decode to speed up LLM inference. Learn how smarter context handling unlocks faster AI models, lower latency, and better GPU throughput. 🚀\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~nnmLUPhCs\n\n#llm #aiinfrastructure #gpu #machinelearning",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-30T13:58:07Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
