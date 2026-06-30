@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-06-30T13:58:07Z",
+  "last_updated": "2026-06-30T19:43:48Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -424,6 +424,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "o0gkdZBtwEg",
         "channel": "IBM Technology",
         "title": "How KV Cache Speeds Up LLMs for Faster AI Models on GPUs"
+      },
+      {
+        "video_id": "4v8ORjEmec4",
+        "channel": "Sam Witteveen",
+        "title": "Introducing the Gemini Omni Flash API"
       }
     ],
     "Large Language Models": [
@@ -14800,6 +14805,76 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-30T13:58:07Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4v8ORjEmec4",
+      "url": "https://www.youtube.com/watch?v=4v8ORjEmec4",
+      "title": "Introducing the Gemini Omni Flash API",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-06-30",
+      "duration_seconds": 1316,
+      "metrics": {
+        "views": 995,
+        "likes": 76,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "In this video, we look at the release of Gemini Omni Flash and how it is now available on the API. This model is state of the art at video conversational video editing and having the API available allows you to access all of its features via code. Check out a full walkthrough of what the model can do, both with and without code\n\n📖 Blog: \n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:",
+        "tags": [
+          "Gemini Omni Flash",
+          "Google DeepMind Gemini Omni",
+          "Gemini video generation AI",
+          "AI video editing conversational",
+          "multimodal AI model 2026",
+          "Gemini Omni Flash model card",
+          "text to video AI Google",
+          "video generation from any input",
+          "Google Flow AI video",
+          "Gemini multimodal video audio",
+          "AI video creation tool",
+          "conversational video editing",
+          "Google AI video model",
+          "Gemini transformer video model",
+          "AI video generation 2026",
+          "Google DeepMind new model",
+          "image to video AI",
+          "Gemini app video"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-06-30T19:43:47Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
