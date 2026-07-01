@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T09:30:53Z",
+  "last_updated": "2026-07-01T14:09:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -434,6 +434,11 @@
         "video_id": "qks6dGQFd_c",
         "channel": "Two Minute Papers",
         "title": "This New AI Model Changes Everything"
+      },
+      {
+        "video_id": "RYUR9BdDgyI",
+        "channel": "IBM Technology",
+        "title": "The new post-quantum cryptography executive order. Plus: What is Q-Day, really?"
       }
     ],
     "Large Language Models": [
@@ -14936,6 +14941,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-01T09:30:52Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "RYUR9BdDgyI",
+      "url": "https://www.youtube.com/watch?v=RYUR9BdDgyI",
+      "title": "The new post-quantum cryptography executive order. Plus: What is Q-Day, really?",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-01",
+      "duration_seconds": 2652,
+      "metrics": {
+        "views": 726,
+        "likes": 54,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Q-Day  → https://ibm.biz/~Ki7XKK3qT\n\nOn June 22, US President Donald Trump signed a pair of executive orders for the quantum computing, and post-quantum future. \n\nOn this episode, Mason Molesky breaks down the post-quantum EOs: “Securing the Nation Against Advanced Cryptographic Attack,” which establishes a government‑wide mandate to accelerate the United States’ transition to post‑quantum cryptography. Mason covers what it is, why you should care and what you should do.\n\nThen: Suja Visewesan and Mark Hughes join host Matt Kosinski to discuss Q-Day, the anticipated future day when quantum computing will become “cryptographically relevant” — or put another way: powerful, reliable and accessible enough to make our current approach to public key cryptography obsolete.\n\nBut what if Q-Day isn’t a day at all? What if it’s a process—a long, slow evolution rather than a sudden leap? And what if it’s already happening right now, under our noses?\n\nWe chat about the risks—and benefits!—of quantum computing to cybersecurity, the reality of and post-quantum cryptography and how organizations can become “crypto-agile” to keep up with the rapid pace of change.\n\nAll that and more on Security Intelligence.\n\n00:00 – Introduction \n01:23 – Post-quantum cryptography executive order\n13:30 – What is Q-Day?\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nRead Suja and Mark’s article  → https://ibm.biz/~kyq7lK8EH\n#quantumcomputing #cryptography #quantumsafe",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-01T14:09:56Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
