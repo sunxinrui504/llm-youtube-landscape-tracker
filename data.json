@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T19:43:48Z",
+  "last_updated": "2026-07-01T09:30:53Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -429,6 +429,11 @@
         "video_id": "4v8ORjEmec4",
         "channel": "Sam Witteveen",
         "title": "Introducing the Gemini Omni Flash API"
+      },
+      {
+        "video_id": "qks6dGQFd_c",
+        "channel": "Two Minute Papers",
+        "title": "This New AI Model Changes Everything"
       }
     ],
     "Large Language Models": [
@@ -14875,6 +14880,62 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-06-30T19:43:47Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "qks6dGQFd_c",
+      "url": "https://www.youtube.com/watch?v=qks6dGQFd_c",
+      "title": "This New AI Model Changes Everything",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-07-01",
+      "duration_seconds": 447,
+      "metrics": {
+        "views": 15304,
+        "likes": 1085,
+        "comments": 130
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nGLM 5.2: https://z.ai/blog/glm-5.2\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "glm",
+          "claude fable",
+          "glm 5.2"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-01T09:30:52Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
