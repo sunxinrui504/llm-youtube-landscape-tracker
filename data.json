@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T14:09:56Z",
+  "last_updated": "2026-07-02T13:40:19Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -439,6 +439,11 @@
         "video_id": "RYUR9BdDgyI",
         "channel": "IBM Technology",
         "title": "The new post-quantum cryptography executive order. Plus: What is Q-Day, really?"
+      },
+      {
+        "video_id": "Qw8qVSZEWBc",
+        "channel": "IBM Technology",
+        "title": "What Is an API? Types, Uses, & AI Integration"
       }
     ],
     "Large Language Models": [
@@ -14995,6 +15000,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-01T14:09:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Qw8qVSZEWBc",
+      "url": "https://www.youtube.com/watch?v=Qw8qVSZEWBc",
+      "title": "What Is an API? Types, Uses, & AI Integration",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-02",
+      "duration_seconds": 497,
+      "metrics": {
+        "views": 1091,
+        "likes": 127,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Learn more about APIs here → https://ibm.biz/~ALwlgUzvT\n\nAPIs are powering more of your world than you realize. Amanda Downie explains APIs, types, architectures, and their role in AI. Learn how APIs connect apps, enable innovation, and shape modern software.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~cbYZguRKq\n\n#api #aiintegration #machinelearning #softwaredevelopment",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-02T13:40:19Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
