@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-02T13:40:19Z",
+  "last_updated": "2026-07-02T19:11:00Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -444,6 +444,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "Qw8qVSZEWBc",
         "channel": "IBM Technology",
         "title": "What Is an API? Types, Uses, & AI Integration"
+      },
+      {
+        "video_id": "y24lF1q4SFY",
+        "channel": "AI Explained",
+        "title": "Fable 5 vs GPT 5.6 Sol: The Early Results"
       }
     ],
     "Large Language Models": [
@@ -15054,6 +15059,57 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-02T13:40:19Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "y24lF1q4SFY",
+      "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
+      "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
+      "channel": "AI Explained",
+      "published_at": "2026-07-02",
+      "duration_seconds": 1083,
+      "metrics": {
+        "views": 14437,
+        "likes": 857,
+        "comments": 162
+      },
+      "metadata": {
+        "description": "Fable 5 (newly re-released) vs GPT 5.6 Sol, what comparisons can we unearth? Plus, Sonnet 5, a 5% equity seizure by US Govt, the ‘largest heist’, Beetlejuice and more…\n\n\n\nExclusive Vids in AI Insiders ($9!): https://www.patreon.com/AIExplained\n\n\nChapters:\n00:00 - Introduction\n01:06 - Fable Timeline\n02:59 - Sol Release?\n06:01 - the Chinese Angle\n07:35 - 5% Stake\n09:10 - Fable vs Sol - the numbers\n13:57 - Sol Misalignment\n15:27 - Claude Sonnet 5\n16:24 - GLM 5.2 + New Paper on Large Model Learning\n\nGPT 5.6 Sol Release: https://openai.com/index/previewing-gpt-5-6-sol/\nAltman on Concentrated Power: https://x.com/giacomomiolo/status/2070609506925478352\nSystem Card: https://deploymentsafety.openai.com/gpt-5-6-preview/gpt-5-6-preview.pdf\n\nGLM 5.2: https://www.patreon.com/AIExplained/posts/glm-5-2-and-nsa-161869508\n\nAltman Memo: https://www.theinformation.com/articles/trump-administration-asks-openai-stagger-release-new-model-security-concerns?rc=sy0ihq\n\nFable 5 Revised Timeline: https://www.anthropic.com/news/redeploying-fable-5\n\nClaude Sonnet 5: https://www.anthropic.com/news/claude-sonnet-5\n\nMythose 5 System Card: https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf\n\nAnthropic Accuse Alibaba Cloud / Qwen: https://www.bbc.co.uk/news/articles/cwyklykn5dwo\n\nBetelgeuse: https://upload.wikimedia.org/wikipedia/commons/6/69/Well_known_stars_2.png\n\nOpenAI 5%: https://edition.cnn.com/2026/07/02/business/openai-trump-stake-intl\n\nWhy Larger Models Learn More: https://arxiv.org/pdf/2605.29548\n\nPatreon Post: https://www.patreon.com/AIExplained/posts/glm-5-2-and-nsa-161869508\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-02T19:10:59Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
