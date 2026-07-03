@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-03T13:44:40Z",
+  "last_updated": "2026-07-03T19:03:51Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -454,6 +454,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "tV5zXS78HzU",
         "channel": "IBM Technology",
         "title": "GPT-5.6 Sol, FIFA AI & Wall Street’s AI nerves"
+      },
+      {
+        "video_id": "uO5cvkzh3P0",
+        "channel": "Two Minute Papers",
+        "title": "They Said This Will Never Run In Real Time"
       }
     ],
     "Large Language Models": [
@@ -15169,6 +15174,57 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-03T13:44:39Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "uO5cvkzh3P0",
+      "url": "https://www.youtube.com/watch?v=uO5cvkzh3P0",
+      "title": "They Said This Will Never Run In Real Time",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-07-03",
+      "duration_seconds": 378,
+      "metrics": {
+        "views": 2361,
+        "likes": 337,
+        "comments": 17
+      },
+      "metadata": {
+        "description": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://arxiv.org/abs/2506.06494\n\nSources:\nhttps://www.youtube.com/shorts/Tx7167DXr8U\nhttps://www.youtube.com/watch?v=55F9dY2Y1zc\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-03T19:03:49Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
