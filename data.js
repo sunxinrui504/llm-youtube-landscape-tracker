@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-02T19:11:00Z",
+  "last_updated": "2026-07-03T13:44:40Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -449,6 +449,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "y24lF1q4SFY",
         "channel": "AI Explained",
         "title": "Fable 5 vs GPT 5.6 Sol: The Early Results"
+      },
+      {
+        "video_id": "tV5zXS78HzU",
+        "channel": "IBM Technology",
+        "title": "GPT-5.6 Sol, FIFA AI & Wall Street’s AI nerves"
       }
     ],
     "Large Language Models": [
@@ -15110,6 +15115,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-02T19:10:59Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "tV5zXS78HzU",
+      "url": "https://www.youtube.com/watch?v=tV5zXS78HzU",
+      "title": "GPT-5.6 Sol, FIFA AI & Wall Street’s AI nerves",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-03",
+      "duration_seconds": 2431,
+      "metrics": {
+        "views": 914,
+        "likes": 45,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~WCwz6FqZD\n\nAre the new safety guardrails on GPT-5.6 Sol a breakthrough? This week Tim Hwang is joined by Chris Hay, Lauren McHugh Olende and Kush Varshney to debrief OpenAI’s new GPT-5.6 Sol. The panel compares the new generation of models to Anthropic’s Mythos. Next, there’s growing skepticism from Wall Street around AI, we unpack the concerns about infrastructure costs, memory shortages and long-term economics of frontier AI models. Then, AI made it to the FIFA World Cup, but is it actually scoring? Finally, we analyze a new paper comparing LLMs to goats in Age of Empires II. \n\nAll that and more on this week’s Mixture of Experts.\n\n00:00 – Introduction\n01:04 -- GPT-5.6 Sol\n12:50 – Wall Street and AI IPOs \n22:16 -- AI at the World Cup \n30:21 – Goats vs. Agentic AI\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\n\nRead more about AI Anthropomorphism: Goats and Age of Empires  → https://ibm.biz/~mvSIs7ZEr\n#aimodel #aisecurity #claudeai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-03T13:44:39Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
