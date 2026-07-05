@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T19:03:51Z",
+  "last_updated": "2026-07-05T13:10:15Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -459,6 +459,11 @@
         "video_id": "uO5cvkzh3P0",
         "channel": "Two Minute Papers",
         "title": "They Said This Will Never Run In Real Time"
+      },
+      {
+        "video_id": "1ItQnh3LWeg",
+        "channel": "IBM Technology",
+        "title": "AI Gave You A Promotion: Why AI Isn’t Replacing Jobs"
       }
     ],
     "Large Language Models": [
@@ -15225,6 +15230,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-03T19:03:49Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "1ItQnh3LWeg",
+      "url": "https://www.youtube.com/watch?v=1ItQnh3LWeg",
+      "title": "AI Gave You A Promotion: Why AI Isn’t Replacing Jobs",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-05",
+      "duration_seconds": 834,
+      "metrics": {
+        "views": 1354,
+        "likes": 173,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI And The Future of Work here → https://ibm.biz/~BHZdWmnJZ\n\nAI isn’t replacing jobs—it’s changing them completely. Jeff Crume explains how AI shifts job roles into higher-value work using a new “diamond” model. Learn how AI, productivity, and new skills will reshape your career in the future of work.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~2Sm1pZ3SE\n\n#ai #aijobs #futureofwork #aiworkforce",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-05T13:10:15Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
