@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-05T13:10:15Z",
+  "last_updated": "2026-07-05T19:03:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -464,6 +464,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "1ItQnh3LWeg",
         "channel": "IBM Technology",
         "title": "AI Gave You A Promotion: Why AI Isn’t Replacing Jobs"
+      },
+      {
+        "video_id": "ox1mW2N9Z_Y",
+        "channel": "Sam Witteveen",
+        "title": "MiniCPM5 - The 1B Cognitive Core?"
       }
     ],
     "Large Language Models": [
@@ -15284,6 +15289,90 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-05T13:10:15Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "ox1mW2N9Z_Y",
+      "url": "https://www.youtube.com/watch?v=ox1mW2N9Z_Y",
+      "title": "MiniCPM5 - The 1B Cognitive Core?",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-07-05",
+      "duration_seconds": 1254,
+      "metrics": {
+        "views": 4671,
+        "likes": 330,
+        "comments": 25
+      },
+      "metadata": {
+        "description": "In this video, I look at MiniCPM5 from OpenBMB.  This 1B model is certainly punching above its weight for agentic use cases and is a good fit for many on device projects.\n\nCheckout the Evomap Grant Program: https://evomap.ai/api-grant?invite=CUUQ4NFR\n\nFor More info about Evomap: https://evomap.ai/?utm_source=sam&utm_medium=youtube&utm_id=01&utm_content=integration\n\nGH: https://github.com/openbmb/minicpm\nHF Collection: https://huggingface.co/collections/openbmb/minicpm5\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps: \n00:00 Intro\n02:53 MiniCPM5-1B\n04:00 Artificial Analysis Benchmark\n04:25 Model Information\n05:02 MiniCPM5-1B HF\n05:20 Datasets\n07:15 Benchmark\n10:20 MiniCPM Desk Pet Demo\n11:36 Demo\n17:30 Evals",
+        "tags": [
+          "MiniCPM5",
+          "MiniCPM5-1B",
+          "OpenBMB",
+          "on-device AI",
+          "local LLM",
+          "small language models",
+          "1B parameter model",
+          "edge AI",
+          "open source LLM",
+          "tiny LLM",
+          "run LLM locally",
+          "llama.cpp",
+          "Ollama",
+          "LM Studio",
+          "MLX",
+          "vLLM",
+          "SGLang",
+          "hybrid reasoning",
+          "tool calling LLM",
+          "local AI agents",
+          "coding agents",
+          "Qwen3.5 comparison",
+          "Artificial Analysis",
+          "quantized models",
+          "GGUF",
+          "on-device inference",
+          "AI on phone",
+          "small model big potential",
+          "densing law",
+          "open weights",
+          "Apache 2.0",
+          "local AI assistant"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-05T19:03:45Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
