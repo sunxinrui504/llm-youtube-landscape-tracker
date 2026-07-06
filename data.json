@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T19:03:45Z",
+  "last_updated": "2026-07-06T15:01:05Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -469,6 +469,11 @@
         "video_id": "ox1mW2N9Z_Y",
         "channel": "Sam Witteveen",
         "title": "MiniCPM5 - The 1B Cognitive Core?"
+      },
+      {
+        "video_id": "f84XbvASkk4",
+        "channel": "IBM Technology",
+        "title": "What Is AI Code Refactoring? Agentic AI & Safe Code Changes"
       }
     ],
     "Large Language Models": [
@@ -15373,6 +15378,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-05T19:03:45Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "f84XbvASkk4",
+      "url": "https://www.youtube.com/watch?v=f84XbvASkk4",
+      "title": "What Is AI Code Refactoring? Agentic AI & Safe Code Changes",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-06",
+      "duration_seconds": 696,
+      "metrics": {
+        "views": 2124,
+        "likes": 151,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "Learn more about AI Code Refactoring here → https://ibm.biz/~QvKeWQY26\n\nAI can rewrite code, but can you trust it? Martin Keen explains how AI code refactoring works, from inline edits to autonomous agentic systems. Learn how guardrails, testing loops, and human oversight make AI-driven changes safe in production.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~bbtIppdAE\n\n#ai #developertools #aicoding #CICD",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-06T15:01:05Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
