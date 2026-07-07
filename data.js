@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-06T15:01:05Z",
+  "last_updated": "2026-07-07T14:09:41Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -474,6 +474,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "f84XbvASkk4",
         "channel": "IBM Technology",
         "title": "What Is AI Code Refactoring? Agentic AI & Safe Code Changes"
+      },
+      {
+        "video_id": "IjjrfnuwhCg",
+        "channel": "Sam Witteveen",
+        "title": "Hy3 from Tencent - The NEW GLM Competitor"
+      },
+      {
+        "video_id": "goU9VIXA8II",
+        "channel": "IBM Technology",
+        "title": "MCP vs Skills: Which Is Right for Your AI Agent and LLMs?"
       }
     ],
     "Large Language Models": [
@@ -15432,6 +15442,139 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-06T15:01:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "IjjrfnuwhCg",
+      "url": "https://www.youtube.com/watch?v=IjjrfnuwhCg",
+      "title": "Hy3 from Tencent - The NEW GLM Competitor",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-07-07",
+      "duration_seconds": 923,
+      "metrics": {
+        "views": 2151,
+        "likes": 116,
+        "comments": 22
+      },
+      "metadata": {
+        "description": "In this video, I look at a really interesting new model, which is a mixture of experts model from Tencent Hy. It's in the sweet spot of being half the size of GLM 5.2 , and t very powerful for most tasks beyond code.\n\n📖 Blog: https://hy.tencent.com/research/hy3\n🤗 HF: https://huggingface.co/tencent/Hy3\n\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:03 Tencent Overview\n01:47 Hy3\n02:25 Benchmarks\n03:16 Model card\n04:12 Hy3 on OpenRouter\n05:00 Hy3 Features\n06:23 Demo",
+        "tags": [
+          "Tencent Hy3",
+          "Hunyuan Hy3",
+          "Tencent Hunyuan",
+          "Hy3",
+          "Tencent AI",
+          "MoE model",
+          "mixture of experts",
+          "open source LLM",
+          "agentic AI",
+          "AI coding",
+          "Apache 2.0",
+          "256K context",
+          "open weights",
+          "WorkBuddy",
+          "CodeBuddy",
+          "Yuanbao",
+          "SWE-bench",
+          "tool calling",
+          "Chinese AI",
+          "LLM benchmarks",
+          "GLM-5.2",
+          "DeepSeek V4",
+          "Qwen",
+          "cost-efficient AI",
+          "OpenRouter",
+          "AI agents",
+          "AI news 2026"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-07T14:09:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "goU9VIXA8II",
+      "url": "https://www.youtube.com/watch?v=goU9VIXA8II",
+      "title": "MCP vs Skills: Which Is Right for Your AI Agent and LLMs?",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-07",
+      "duration_seconds": 483,
+      "metrics": {
+        "views": 2220,
+        "likes": 236,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Learn more about AI Agents here → https://ibm.biz/~TjxCNJCU3\n\nChoosing how to extend an AI agent isn’t always obvious. Cedric Clyburn explains when to use Model Context Protocol versus Skills for agents. Learn how context engineering helps you decide the right approach for your AI workloads.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~CeRTD6fZ0\n\n#mcp #aiagents #contextengineering #llms",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-07T14:09:41Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
