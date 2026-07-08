@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-07T19:43:18Z",
+  "last_updated": "2026-07-08T13:42:43Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -489,6 +489,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "1yBU41auQhw",
         "channel": "Two Minute Papers",
         "title": "DeepSeek's New AI Speed Hack Is Amazing"
+      },
+      {
+        "video_id": "HQDT_1OXUuU",
+        "channel": "IBM Technology",
+        "title": "Fable 5, GPT-5.6 and the high stakes of AI safeguards. Agentic ransomware, ClickFix reigns supreme"
       }
     ],
     "Large Language Models": [
@@ -15634,6 +15639,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-07T19:43:16Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "HQDT_1OXUuU",
+      "url": "https://www.youtube.com/watch?v=HQDT_1OXUuU",
+      "title": "Fable 5, GPT-5.6 and the high stakes of AI safeguards. Agentic ransomware, ClickFix reigns supreme",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-08",
+      "duration_seconds": 2522,
+      "metrics": {
+        "views": 985,
+        "likes": 82,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Explore the podcast → https://ibm.biz/~gP3tYd3Ta\n\nWhen it comes to Fable 5, Mythos 5, and GPT-5.6 Sol, the real story is in the safeguards.\n\nLast week, Anthropic and OpenAI both rolled out some powerful new models. And for perhaps the first time, the protections surrounding these models got almost as much airtime as the models’ themselves. \n\nOn this week’s episode of IBM Security Intelligence, Sophie Cunningham, Diego Matos Martins and Jeff Crume join host Matt Kosinski to talk about an emerging paradigm in frontier models: Safety first. What’s gained and what’s lost when security controls take center stage? And just how effective are the ones we’ve developed?\n\nThen, we dive into Sysdig’s report on JADEPUFFER, the first agentic ransomware. But not every security expert agrees with that conclusion. So where do we land? \nPlus: ClickFix is the new king of social engineering schemes—and it’s coming for your developers.\n\nFinally, Senior Threat Researcher Itzhak Chimino shares his technical research into UnregStealer, a credential-theft campaign targeting Latin American banks. \n\nTo read the full research for yourself, visit: https://ibm.biz/~MH4GhJUhb\n\nAll that and more on Security Intelligence.\n\nSegments:\n• 00:00 Intro\n• 01:38 Fable 5 and GPT-5.6 \n• 13:26 Agentic ransomware. Maybe. \n• 24:08 ClickFix: top social engineering attack\n• 32:51 Analyzing UnregStealer\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~VYurE9Gr3\n#aisecurity #aicybersecurity #llmsecurity",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-08T13:42:43Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
