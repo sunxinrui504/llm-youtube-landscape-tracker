@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T13:42:43Z",
+  "last_updated": "2026-07-09T14:33:12Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -494,6 +494,11 @@
         "video_id": "HQDT_1OXUuU",
         "channel": "IBM Technology",
         "title": "Fable 5, GPT-5.6 and the high stakes of AI safeguards. Agentic ransomware, ClickFix reigns supreme"
+      },
+      {
+        "video_id": "ZVPlLaehjLk",
+        "channel": "IBM Technology",
+        "title": "Agentic AI Frameworks Explained: Workflows, Multi-Agent, & Production"
       }
     ],
     "Large Language Models": [
@@ -15693,6 +15698,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-08T13:42:43Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "ZVPlLaehjLk",
+      "url": "https://www.youtube.com/watch?v=ZVPlLaehjLk",
+      "title": "Agentic AI Frameworks Explained: Workflows, Multi-Agent, & Production",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-09",
+      "duration_seconds": 714,
+      "metrics": {
+        "views": 2380,
+        "likes": 207,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Agent Frameworks here → https://ibm.biz/~M1qnwGHnE\n\nToo many agentic AI frameworks and no clear starting point. 🤯 Meenakshi Kodati breaks down agentic AI frameworks like LangChain, AutoGen, and CrewAI across workflows, multi-agent systems, and production use cases. Learn how to choose the right framework based on your system design and real-world needs.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~YOhBiYsX4\n\n#agenticai #aiagents #langchain #aiframeworks",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-09T14:33:12Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
