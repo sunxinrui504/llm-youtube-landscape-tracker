@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-09T14:33:12Z",
+  "last_updated": "2026-07-10T14:01:53Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -499,6 +499,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "ZVPlLaehjLk",
         "channel": "IBM Technology",
         "title": "Agentic AI Frameworks Explained: Workflows, Multi-Agent, & Production"
+      },
+      {
+        "video_id": "mWlCituW7wo",
+        "channel": "AI Explained",
+        "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules"
       }
     ],
     "Large Language Models": [
@@ -15752,6 +15757,57 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-09T14:33:12Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "mWlCituW7wo",
+      "url": "https://www.youtube.com/watch?v=mWlCituW7wo",
+      "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
+      "channel": "AI Explained",
+      "published_at": "2026-07-10",
+      "duration_seconds": 1054,
+      "metrics": {
+        "views": 7251,
+        "likes": 540,
+        "comments": 74
+      },
+      "metadata": {
+        "description": "What a week in AI, for real. GPT 5.6 may actually beat Claude Fable, in what you get for your money, while the new Grok 4.5 and Meta Muse Spark 1.1 make the choice even harder. Uncovering a dozen nuggets of gold you may have missed from all the viral headlines, I can also assure you you’ll learn something you didn’t know before.\n\nFor Exclusive Videos, go to AI Insiders (less than $9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:03 - GPT 5.6 Sol Reveals\n05:08 - Missing benches, plus Grok 4.5\n07:17 - Gaming as the new frontier?\n08:31 - Muse Spark 1.1\n10:03 - SimpleBench Upgrade\n11:17 - Ultra Sol + Self-Improvement\n13:44 - well, this is awkward\n15:41 - Why model improvement will not plateau anytime soon\n\n\nAI Consciousness: https://www.patreon.com/AIExplained/posts/anthropics-quite-163360718\n\n\nI Smell Fear: https://x.com/thsottiaux/status/2075287108680601929\nGPT 5.6: https://openai.com/index/gpt-5-6/\n\nGrok 4.5: https://x.ai/news/grok-4-5?twclid=2ezs408o0z23pw07tmxcwbzibd\nMeta Muse Spark 1.1: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\n\nProliferating GPT Toggles: https://x.com/rasbt/status/2075369179817902176/photo/1\nAnthropic Call-out: https://x.com/Mononofu\nAI Security Institute Finding: https://x.com/alxndrdavies/status/2075279480331874306\nCompetitive Coding: https://x.com/FakePsyho/status/2075128093891801305/photo/1\n\nAgents Last Exam: https://agents-last-exam.org/\nDawn Song: https://x.com/dawnsongtweets/status/2065095757988868190\n\nhttps://simple-bench.com/\n\nSWE-Marathon: https://www.swe-marathon.org/\nhttps://www.frontierswe.com/\nARC-AGI 3: https://x.com/arcprize/status/2075270869992264003\nAutomation Bench: https://zapier.com/benchmarks\nVibeCode Bench: https://www.vals.ai/benchmarks/vibe-code\n\n‘Post-Train Claim’: https://posttrainbench.com/\n\nRedwall Game: https://redwall-bellmaker-7e03e4.surge.sh/\n\n\n\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-10T14:01:52Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
