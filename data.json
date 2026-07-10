@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T14:01:53Z",
+  "last_updated": "2026-07-10T19:17:15Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -504,6 +504,11 @@
         "video_id": "mWlCituW7wo",
         "channel": "AI Explained",
         "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules"
+      },
+      {
+        "video_id": "WHFLWrnFc1E",
+        "channel": "IBM Technology",
+        "title": "Reddit cracks down on AI slop & the future of AI compute"
       }
     ],
     "Large Language Models": [
@@ -15808,6 +15813,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-10T14:01:52Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "WHFLWrnFc1E",
+      "url": "https://www.youtube.com/watch?v=WHFLWrnFc1E",
+      "title": "Reddit cracks down on AI slop & the future of AI compute",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-10",
+      "duration_seconds": 2764,
+      "metrics": {
+        "views": 927,
+        "likes": 52,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~mTLxSXeSX\n\nCan you trade GPU compute like oil futures? This week on Mixture of Experts, host Tim Hwang is joined by Mihai Criveti, Rynne Whitnah and Gabe Goodhart. First, we explore Reddit's aggressive new strategy to combat AI-generated spam and bots threatening platform authenticity. Next, we dive deep into Anthropic's Economic Index from June 2026. The report reveals how people actually use AI assistant Claude throughout their day, from homework help to weekend game development. \nThen, we analyze Orn's $33 million raise to create a liquid marketplace for buying and selling compute power. Is GPU compute the new commodity market? Finally, Anthropic enters the chip race with potential Samsung partnership. We debate whether frontier labs can successfully build their own hardware and reduce NVIDIA dependency.\n \nListen to this week’s Mixture of Experts for more!\n\n00:00 – Introduction\n01:09 – Reddit's AI spam detection strategy\n12:00 – Anthropic Economic Index: How people really use Claude\n23:55 – Orn raises $33M for GPU compute marketplace\n35:18 – Anthropic's chip ambitions with Samsung\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~ibYelNRza\n#anthropic #claudeai #aislop",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-10T19:17:15Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
