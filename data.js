@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-10T19:17:15Z",
+  "last_updated": "2026-07-12T12:58:19Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -509,6 +509,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "WHFLWrnFc1E",
         "channel": "IBM Technology",
         "title": "Reddit cracks down on AI slop & the future of AI compute"
+      },
+      {
+        "video_id": "SVAwzodyFUo",
+        "channel": "IBM Technology",
+        "title": "How to Manage Your AI Before It Makes the Wrong Decision"
       }
     ],
     "Large Language Models": [
@@ -15867,6 +15872,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-10T19:17:15Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "SVAwzodyFUo",
+      "url": "https://www.youtube.com/watch?v=SVAwzodyFUo",
+      "title": "How to Manage Your AI Before It Makes the Wrong Decision",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-12",
+      "duration_seconds": 530,
+      "metrics": {
+        "views": 947,
+        "likes": 126,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Management here → https://ibm.biz/~6alSV2Ho4\n\nManaging AI requires more than trusting models blindly. Jeff Crume explains how to manage your AI using structured governance systems. Learn how ISO 42001 helps organizations control AI risk and accountability.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~MreqmjjRt\n\n#aigovernance #iso42001 #aimanagement #airisk",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-12T12:58:19Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
