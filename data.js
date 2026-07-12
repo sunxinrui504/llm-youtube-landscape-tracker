@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-12T13:27:23Z",
+  "last_updated": "2026-07-12T18:52:44Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -519,6 +519,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "tt9UJ0NiOzU",
         "channel": "Sam Witteveen",
         "title": "Cactus Needle - The 26M Function Calling Model"
+      },
+      {
+        "video_id": "Ae9q7KsRbuI",
+        "channel": "Two Minute Papers",
+        "title": "Minecraft Was Missing One Brilliant Idea"
       }
     ],
     "Large Language Models": [
@@ -16015,6 +16020,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-12T13:27:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Ae9q7KsRbuI",
+      "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
+      "title": "Minecraft Was Missing One Brilliant Idea",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-07-12",
+      "duration_seconds": 413,
+      "metrics": {
+        "views": 16555,
+        "likes": 1911,
+        "comments": 99
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://xandergos.github.io/terrain-diffusion/\nhttps://modrinth.com/mod/terrain-diffusion\nhttps://github.com/xandergos/terrain-diffusion\n\nSource video for some parts of the footage: https://www.youtube.com/watch?v=irE4tcDtUIg\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "minecraft"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-12T18:52:43Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
