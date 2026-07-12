@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T12:58:19Z",
+  "last_updated": "2026-07-12T13:27:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -514,6 +514,11 @@
         "video_id": "SVAwzodyFUo",
         "channel": "IBM Technology",
         "title": "How to Manage Your AI Before It Makes the Wrong Decision"
+      },
+      {
+        "video_id": "tt9UJ0NiOzU",
+        "channel": "Sam Witteveen",
+        "title": "Cactus Needle - The 26M Function Calling Model"
       }
     ],
     "Large Language Models": [
@@ -15926,6 +15931,90 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-12T12:58:19Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "tt9UJ0NiOzU",
+      "url": "https://www.youtube.com/watch?v=tt9UJ0NiOzU",
+      "title": "Cactus Needle - The 26M Function Calling Model",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-07-12",
+      "duration_seconds": 870,
+      "metrics": {
+        "views": 376,
+        "likes": 38,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "In this video, I look at Needle by the company Cactus. This is a 26 million parameter function calling model with a very unique architecture that is outperforming a lot of models much bigger than itself. \n\nBlog: https://cactuscompute.com/blog/needle\nDemo:  https://huggingface.co/spaces/shreyask/needle-playground\nGithub: https://github.com/cactus-compute/needle \n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:00 Cactus Needle\n01:21 Blog\n03:39 Baseline Transformer\n04:00 Architecture\n05:23 GitHub Repo\n07:00 Demo",
+        "tags": [
+          "Cactus Needle tags: Cactus Needle",
+          "Needle model",
+          "Cactus",
+          "function calling",
+          "tool calling",
+          "small language model",
+          "26M parameters",
+          "edge AI",
+          "on-device AI",
+          "open source AI",
+          "Hugging Face",
+          "simple attention network",
+          "no MLP",
+          "transformer architecture",
+          "Gemini 3.1 Flash Lite",
+          "distillation",
+          "JAX",
+          "Flax",
+          "Optax",
+          "quantization aware training",
+          "fine-tuning on CPU",
+          "Raspberry Pi AI",
+          "tiny models",
+          "specialized models",
+          "agentic AI",
+          "MiniCPM",
+          "Qwen",
+          "Granite",
+          "LFM",
+          "Cactus Compute",
+          "local AI",
+          "AI news 2026"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-12T13:27:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
