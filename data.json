@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T18:52:44Z",
+  "last_updated": "2026-07-13T14:08:17Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -524,6 +524,11 @@
         "video_id": "Ae9q7KsRbuI",
         "channel": "Two Minute Papers",
         "title": "Minecraft Was Missing One Brilliant Idea"
+      },
+      {
+        "video_id": "oanQrXEiCy4",
+        "channel": "IBM Technology",
+        "title": "What is an AI Code Generator? LLM Coding, Productivity, & Risk"
       }
     ],
     "Large Language Models": [
@@ -16074,6 +16079,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-12T18:52:43Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "oanQrXEiCy4",
+      "url": "https://www.youtube.com/watch?v=oanQrXEiCy4",
+      "title": "What is an AI Code Generator? LLM Coding, Productivity, & Risk",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-13",
+      "duration_seconds": 768,
+      "metrics": {
+        "views": 1358,
+        "likes": 114,
+        "comments": 11
+      },
+      "metadata": {
+        "description": "Learn more about Code Generator here → https://ibm.biz/~LHD1dHK4l\n\nAI can write code but can you trust what it generates? Bri Kopecki explains how AI code generators work and why developers are both more productive and more cautious. Learn how to evaluate AI coding tools for security, reliability, and real-world production use.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~gkh3TmuPg\n\n#aicode #aicoding #softwareengineering #developertools",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-13T14:08:17Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
