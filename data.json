@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T13:11:03Z",
+  "last_updated": "2026-07-15T13:14:48Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -534,6 +534,11 @@
         "video_id": "OWPRU_Pc4Ng",
         "channel": "IBM Technology",
         "title": "5 More AI Myths & The Truth Behind Them: ML, Context, Agents & More"
+      },
+      {
+        "video_id": "qXGJ7pi-XOo",
+        "channel": "IBM Technology",
+        "title": "GLM-5.2: The real security risk? Plus: Vibe hunting, the end of CVSS and updates on Lightwell"
       }
     ],
     "Large Language Models": [
@@ -16192,6 +16197,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-14T13:11:03Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "qXGJ7pi-XOo",
+      "url": "https://www.youtube.com/watch?v=qXGJ7pi-XOo",
+      "title": "GLM-5.2: The real security risk? Plus: Vibe hunting, the end of CVSS and updates on Lightwell",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-15",
+      "duration_seconds": 2106,
+      "metrics": {
+        "views": 1107,
+        "likes": 59,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Explore the podcast → https://ibm.biz/~UaTgKXYP5\n\nZ.ai’s GLM-5.2 is, according to some, as good at finding vulnerabilities as Mythos. Or at least, close to it. And it’s open weight.\n\nOn this episode of Security Intelligence, we dig into how powerful, open AI models are bringing frontier-style capabilities to more people, all while the proprietary models are emphasizing safeguards. What does it mean for cybersecurity pros? Security emergency, or a whole lot of hype?\n\nThen, we explore how CISA’s new BOD 26-04 ditches the old CVSS scoring system for a four-variable model that could reshape how every security team prioritizes vulnerabilities. We also unpack “vibe hunting,” the AI-assisted evolution of threat hunting, and break down the commercial launch of Red Hat and IBM’s Lightwell.\nSecuring open-source software in the AI era requires new approaches. \nLearn how Lightwell does it: https://ibm.biz/~fJaPqPXz3\n\n\nSegments:\n00:00 – Intro\n01:13 - GLM-5.2 \n10:26 - The end of CVSS? \n19:25 - Vibe hunting \n28:01 - Lightwell’s commercial launch\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~t8bvtICbL\n#aisecurity #opensourcesecurity #cvss",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-15T13:14:48Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
