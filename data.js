@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-15T13:14:48Z",
+  "last_updated": "2026-07-15T18:56:34Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -539,6 +539,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "qXGJ7pi-XOo",
         "channel": "IBM Technology",
         "title": "GLM-5.2: The real security risk? Plus: Vibe hunting, the end of CVSS and updates on Lightwell"
+      },
+      {
+        "video_id": "0CqLVnx-2UM",
+        "channel": "Two Minute Papers",
+        "title": "Claude's Brain Has A Secret... And Scientists Found It"
       }
     ],
     "Large Language Models": [
@@ -16251,6 +16256,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-15T13:14:48Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "0CqLVnx-2UM",
+      "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
+      "title": "Claude's Brain Has A Secret... And Scientists Found It",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-07-15",
+      "duration_seconds": 369,
+      "metrics": {
+        "views": 13934,
+        "likes": 1040,
+        "comments": 80
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://transformer-circuits.pub/2025/linebreaks/index.html\n\nPaper for reindeer vision change - https://royalsocietypublishing.org/rspb/article/280/1773/20132451/50765/Shifting-mirrors-adaptive-changes-in-retinal\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-15T18:56:33Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
