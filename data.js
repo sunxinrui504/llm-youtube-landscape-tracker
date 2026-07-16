@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-16T13:22:40Z",
+  "last_updated": "2026-07-16T18:57:21Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -554,6 +554,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "3G6AVkp4Rf0",
         "channel": "IBM Technology",
         "title": "Why Risk Should Determine Your AI Architecture"
+      },
+      {
+        "video_id": "axOcn--n_lM",
+        "channel": "Two Minute Papers",
+        "title": "The Dangerous Illusion of AI Coding Skills"
       }
     ],
     "Large Language Models": [
@@ -16432,6 +16437,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-16T13:22:39Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "axOcn--n_lM",
+      "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
+      "title": "The Dangerous Illusion of AI Coding Skills",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-07-16",
+      "duration_seconds": 235,
+      "metrics": {
+        "views": 9386,
+        "likes": 977,
+        "comments": 128
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/AI-assistance-coding-skills\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "chatgpt"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-16T18:57:19Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
