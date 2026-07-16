@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-15T18:56:34Z",
+  "last_updated": "2026-07-16T13:22:40Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -544,6 +544,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "0CqLVnx-2UM",
         "channel": "Two Minute Papers",
         "title": "Claude's Brain Has A Secret... And Scientists Found It"
+      },
+      {
+        "video_id": "GlYgs6v2YfU",
+        "channel": "3Blue1Brown",
+        "title": "But what is cross-entropy? | Compression is Intelligence Part 2"
+      },
+      {
+        "video_id": "3G6AVkp4Rf0",
+        "channel": "IBM Technology",
+        "title": "Why Risk Should Determine Your AI Architecture"
       }
     ],
     "Large Language Models": [
@@ -16309,6 +16319,119 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-15T18:56:33Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "GlYgs6v2YfU",
+      "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+      "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
+      "channel": "3Blue1Brown",
+      "published_at": "2026-07-16",
+      "duration_seconds": 2031,
+      "metrics": {
+        "views": 14278,
+        "likes": 1558,
+        "comments": 158
+      },
+      "metadata": {
+        "description": "Where the loss function for training LLMs comes from.\nJob opportunities aligned to this audience: https://3b1b.co/talent\nEarly views and other perks for supporters: https://3b1b.co/support\nHome page: https://www.3blue1brown.com\n\nManim animations by Aaron Gostein and Grant Sanderson\nNanoGPT animation by Clayton Rabideau\n3d black-box model by Paul Dancstep\nMusic by Vince Rubinetti\n\nTimestamps\n\n0:00 - Language trees and zipping\n3:02 - Recap optimal codes\n5:20 - Defining cross-entropy\n8:26 - Intuition and examples\n12:59 - Application to language trees\n14:55 - Pre-training LLMs\n20:38 - What makes this loss function best?\n26:13 - Distillation\n30:12 - 3b1b Talent\n31:35 - KL Divergence\n\n------------------\n\nThese animations are largely made using a custom Python library, manim.  See the FAQ comments here:\nhttps://3b1b.co/faq#manim\n\nMusic by Vincent Rubinetti.\nhttps://vincerubinetti.bandcamp.com/album/the-music-of-3blue1brown\nhttps://open.spotify.com/album/1dVyjwS8FBqXhRunaG5W5u\n\n------------------\n\n3blue1brown is a channel about animating math, in all senses of the word animate. If you're reading the bottom of a video description, I'm guessing you're more interested than the average viewer in lessons here. It would mean a lot to me if you chose to stay up to date on new ones, either by subscribing here on YouTube or otherwise following on whichever platform below you check most regularly.\n\nMailing list: https://3blue1brown.substack.com\nTwitter: https://twitter.com/3blue1brown\nBluesky: https://bsky.app/profile/3blue1brown.com\nInstagram: https://www.instagram.com/3blue1brown\nReddit: https://www.reddit.com/r/3blue1brown\nFacebook: https://www.facebook.com/3blue1brown\nPatreon: https://patreon.com/3blue1brown\nWebsite: https://www.3blue1brown.com",
+        "tags": [
+          "Mathematics",
+          "three blue one brown",
+          "3 blue 1 brown",
+          "3b1b",
+          "3brown1blue",
+          "3 brown 1 blue",
+          "three brown one blue"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-16T13:22:20Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "3G6AVkp4Rf0",
+      "url": "https://www.youtube.com/watch?v=3G6AVkp4Rf0",
+      "title": "Why Risk Should Determine Your AI Architecture",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-16",
+      "duration_seconds": 516,
+      "metrics": {
+        "views": 731,
+        "likes": 106,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Trustworthy AI here → https://ibm.biz/~4LxgbWosL\n\nMost AI systems are built in the wrong order. Phaedra Boinodiris explains why AI risk should shape requirements, architecture, and governance from the very beginning. Learn how explainability, accountability, and risk-driven design create trustworthy AI systems.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~tu56OGQgp\n\n#aiarchitecture #airisk #responsibleai #explainableai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-16T13:22:39Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
