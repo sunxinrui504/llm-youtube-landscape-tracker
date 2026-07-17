@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T18:57:21Z",
+  "last_updated": "2026-07-17T13:07:04Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -559,6 +559,11 @@
         "video_id": "axOcn--n_lM",
         "channel": "Two Minute Papers",
         "title": "The Dangerous Illusion of AI Coding Skills"
+      },
+      {
+        "video_id": "8rGYGFmytQs",
+        "channel": "IBM Technology",
+        "title": "Thinking Machines Lab drops Inkling & Meta’s Muse Spark 1.1"
       }
     ],
     "Large Language Models": [
@@ -16491,6 +16496,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-16T18:57:19Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "8rGYGFmytQs",
+      "url": "https://www.youtube.com/watch?v=8rGYGFmytQs",
+      "title": "Thinking Machines Lab drops Inkling & Meta’s Muse Spark 1.1",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-17",
+      "duration_seconds": 2342,
+      "metrics": {
+        "views": 869,
+        "likes": 53,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~KwWVYq9Sw\n\nIs customizable intelligence the future of AI? This week on Mixture of Experts, Tim Hwang is joined by Aaron Baughman, Chris Hay and Merve Unuvar to analyze Thinking Machines’ first model release, Inkling. Next, Meta makes its comeback with Muse Spark 1.1, positioning itself as the most economical model built for scale. Then, OpenAI’s GPT-5.6 Sol achieves an 8% score on ARC-AGI-3, sparking debate about if we’re approaching AGI. Finally, we dissect Anthropic’s latest paper on the “J-space”—claiming to reveal a subconscious-like layer inside Claude. \n\nAll that and more on this week’s Mixture of Experts.\n\n00:00 – Introduction\n00:50 – Thinking Machines Inkling model release\n19:48 – GPT-5.6 Sol ARC-AGI-3 performance\n29:03 – Anthropic’s J-space consciousness debate\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~x704WfT0B\n#claudeai #openai #machinelearning",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-17T13:07:04Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
