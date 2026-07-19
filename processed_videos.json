@@ -783,5 +783,10 @@
     "title": "Thinking Machines Lab drops Inkling & Meta’s Muse Spark 1.1",
     "processed_at": "2026-07-17T13:07:04Z",
     "status": "ok"
+  },
+  "xc63tFIIfeA": {
+    "title": "Why RAG Solutions Fail with Complex Documents & Vector Databases",
+    "processed_at": "2026-07-19T12:56:33Z",
+    "status": "ok"
   }
 }
