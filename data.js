@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-19T12:56:33Z",
+  "last_updated": "2026-07-20T13:49:50Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -569,6 +569,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "xc63tFIIfeA",
         "channel": "IBM Technology",
         "title": "Why RAG Solutions Fail with Complex Documents & Vector Databases"
+      },
+      {
+        "video_id": "9LfJq4xXifg",
+        "channel": "IBM Technology",
+        "title": "6 Ways to Enhance Developer Productivity with AI"
       }
     ],
     "Large Language Models": [
@@ -16609,6 +16614,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-19T12:56:33Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "9LfJq4xXifg",
+      "url": "https://www.youtube.com/watch?v=9LfJq4xXifg",
+      "title": "6 Ways to Enhance Developer Productivity with AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-20",
+      "duration_seconds": 773,
+      "metrics": {
+        "views": 1121,
+        "likes": 126,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about 6 Ways To Enhance Developer Productivity With AI here → https://ibm.biz/~OjbzPemDU\n\nNot all teams see productivity gains from AI tools. Bri Kopecki breaks down six proven ways to enhance developer productivity using AI and better engineering practices. Learn how top teams use flow, automation, and design to improve performance at scale.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~lvZ9HEYLt\n\n#developertools #developerproductivity #aicoding #softwareengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-20T13:49:50Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
