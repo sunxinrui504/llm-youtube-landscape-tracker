@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-20T13:49:50Z",
+  "last_updated": "2026-07-21T13:18:54Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -574,6 +574,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "9LfJq4xXifg",
         "channel": "IBM Technology",
         "title": "6 Ways to Enhance Developer Productivity with AI"
+      },
+      {
+        "video_id": "ogVSqcVxv28",
+        "channel": "Sam Witteveen",
+        "title": "AMD Ryzen AI Halo - 100% Local AI"
+      },
+      {
+        "video_id": "-W2JdSl1v48",
+        "channel": "IBM Technology",
+        "title": "Is Fine-Tuning Still Needed? LLMs, RAG, & LoRA"
       }
     ],
     "Large Language Models": [
@@ -16668,6 +16678,137 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-20T13:49:50Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "ogVSqcVxv28",
+      "url": "https://www.youtube.com/watch?v=ogVSqcVxv28",
+      "title": "AMD Ryzen AI Halo - 100% Local AI",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-07-21",
+      "duration_seconds": 1528,
+      "metrics": {
+        "views": 212,
+        "likes": 14,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "#AMD_Partner. This video is sponsored by AMD.\n\nIn this video I look at using the latest Ryzen AI Halo from AMD for local AI tasks.\n\nFind out more about the AMD RYZEN AI HALO:  https://www.amd.com/en/products/processors/desktops/ryzen/ryzen-ai-halo.html\n\nAlso checkout the AMD AI Developer Program: https://developer.amd.com/ai-developer-program/\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:33 AMD Ryzen AI Halo\n02:23 Specs\n05:12 Playbook\n07:22 Demo: LM Studio\n10:32 Demo: ComfyUI\n17:03 Demo: Hermes-Agent\n21:31 Demo: Unsloth",
+        "tags": [
+          "AMD Ryzen AI Halo",
+          "Ryzen AI Max 395",
+          "AMD Ryzen AI Halo review",
+          "AMD AI mini PC",
+          "128GB unified memory",
+          "local AI",
+          "local LLM",
+          "run LLM locally",
+          "AMD Strix Halo",
+          "DGX Spark alternative",
+          "NVIDIA DGX Spark vs AMD",
+          "AI developer workstation",
+          "LM Studio AMD",
+          "ComfyUI AMD",
+          "Unsloth fine-tuning",
+          "local AI agents",
+          "fine-tune LLM locally",
+          "AMD ROCm",
+          "mini PC for AI",
+          "best PC for local AI",
+          "AI hardware 2026",
+          "Ryzen AI Max PRO 495",
+          "AMD vs NVIDIA AI",
+          "self hosted AI",
+          "on device AI"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-21T13:18:37Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "-W2JdSl1v48",
+      "url": "https://www.youtube.com/watch?v=-W2JdSl1v48",
+      "title": "Is Fine-Tuning Still Needed? LLMs, RAG, & LoRA",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-21",
+      "duration_seconds": 652,
+      "metrics": {
+        "views": 1732,
+        "likes": 200,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Fine-Tuning here → https://ibm.biz/~c5OKNxoyO\n\nIs fine-tuning still needed for modern AI workflows? Martin Keen explains how LLM fine tuning compares to RAG, LoRA, and generative AI techniques. Learn when to customize machine learning models and how to design efficient AI systems.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~zn4aDcdla\n\n#finetuning #llm #generativeai #machinelearning",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-21T13:18:54Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
