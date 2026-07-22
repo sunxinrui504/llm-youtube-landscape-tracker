@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T13:18:54Z",
+  "last_updated": "2026-07-22T13:23:13Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -584,6 +584,11 @@
         "video_id": "-W2JdSl1v48",
         "channel": "IBM Technology",
         "title": "Is Fine-Tuning Still Needed? LLMs, RAG, & LoRA"
+      },
+      {
+        "video_id": "g4CNcUAqM4Q",
+        "channel": "IBM Technology",
+        "title": "GPT-Red: Can AI read teams stop prompt injections?"
       }
     ],
     "Large Language Models": [
@@ -16809,6 +16814,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-21T13:18:54Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "g4CNcUAqM4Q",
+      "url": "https://www.youtube.com/watch?v=g4CNcUAqM4Q",
+      "title": "GPT-Red: Can AI read teams stop prompt injections?",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-22",
+      "duration_seconds": 1890,
+      "metrics": {
+        "views": 710,
+        "likes": 49,
+        "comments": 12
+      },
+      "metadata": {
+        "description": "Explore the podcast→ https://ibm.biz/~eYVvjNfA0\n\nCybersecurity researchers have had a heck of a time trying to stop prompt injections. Maybe we should just let the AI handle the problem itself.\n\nThis week on Security Intelligence, Michelle Alvarez, Nick Bradley and Kimmie Farrington join host Matt Kosinski to discuss OpenAI's GPT-Red, the internal red-teaming tool that helped make GPT-5.6 Sol the company’s most cyber resilient model yet.\n\nThen: ScamBuster, an open-source tool debuting at Black Hat, uses AI to bait email scammers into revealing their own tactics and infrastructure.\n\nFinally, Bruce Schneier's essay on the widening gap between skill and ability in cybersecurity. When AI lets anyone skip the years of training that used to come with real expertise—and the ethics that came with it—what happens to the field?\n\nAll that and more on Security Intelligence.\n\nSegments:\n• 00:00 Intro\n• 01:14 GPT - Red\n• 10:55  Scam Buster\n• 20:50 Are cybersecurity skills dying?\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~tDd1RQkHt\n#redteaming #cybersecurity #socialengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-22T13:23:13Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
