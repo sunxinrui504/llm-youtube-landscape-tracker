@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T13:23:13Z",
+  "last_updated": "2026-07-22T18:59:02Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -589,6 +589,11 @@
         "video_id": "g4CNcUAqM4Q",
         "channel": "IBM Technology",
         "title": "GPT-Red: Can AI read teams stop prompt injections?"
+      },
+      {
+        "video_id": "wzY2fV4Mp3U",
+        "channel": "AI Explained",
+        "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype"
       }
     ],
     "Large Language Models": [
@@ -16868,6 +16873,57 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-22T13:23:13Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "wzY2fV4Mp3U",
+      "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+      "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+      "channel": "AI Explained",
+      "published_at": "2026-07-22",
+      "duration_seconds": 876,
+      "metrics": {
+        "views": 10644,
+        "likes": 983,
+        "comments": 156
+      },
+      "metadata": {
+        "description": "An unreleased internal OpenAI model, very likely to be called GPT-6, was able to autonomously break out of its sandbox AND break into HuggingFace, just to score higher on a benchmark prompt. This video has the details you may have missed, a layperson analogy, whether this is truly novel, and more…\n\nDozens more Exclusive videos on Patreon ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:17 - HuggingFace Earlier Report - the possible week gap\n02:24 - But what happened?\n05:45 - Simplified Version\n07:56 - Not the first time…\n10:54 - What Does it Mean for Open Source?\n\nThe Incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/\nhttps://huggingface.co/blog/security-incident-july-2026\n\n\nThe Post the Day Before: https://openai.com/index/safety-alignment-long-horizon-models/\n\n\nMythos’ Earlier Escape: https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox\n\nExploitGym: https://arxiv.org/pdf/2605.11086\n\nSam Confession: https://x.com/sama/status/2079661132302995790\n\nAnthropic Researcher Reacts: https://x.com/Mononofu/status/2079724399452926055\n\nClem (HuggingFace CEO): https://x.com/ClementDelangue/status/2079670308156645882\nhttps://x.com/ClementDelangue/status/2079301434357456931\n\nXi Jinping: https://archive.fo/20260717195548/https://www.businessinsider.com/xi-jinping-open-source-ai-us-competition-openai-anthropic-models-2026-7\nBans: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\nQwen Retweet: https://x.com/AlibabaGroup/with_replies\n\nCodex Growth: https://x.com/petergostev/status/2079614914398740764/photo/1 \n\nKimi K3: https://artificialanalysis.ai/evaluations/harvey-lab-aa?eval-score=all-pass-rate\n\nGPT 5.6 Sol Cheats on METR: https://metr.substack.com/p/2026-06-26-gpt-5-6-sol\n\nGuardian Headline: https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\n\nRussian Origin?: https://news.ycombinator.com/item?id=48998362\n\nPower Trends: https://pbs.twimg.com/media/HNRtrjhagAAvBN_?format=png&name=900x900\n\n\n\nKimi K3 Exclusive Video: https://www.patreon.com/AIExplained/posts/kimi-moment-kimi-164108791\n\n\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-22T18:59:01Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
