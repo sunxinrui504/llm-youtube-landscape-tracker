@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T13:25:52Z",
+  "last_updated": "2026-07-24T13:19:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -599,6 +599,11 @@
         "video_id": "_ZqSFVi6UDY",
         "channel": "IBM Technology",
         "title": "Knowing When Not to Use AI: AI Agents vs Rules vs ML"
+      },
+      {
+        "video_id": "7eCM7jsfbeA",
+        "channel": "IBM Technology",
+        "title": "Hugging Face breach: OpenAI’s model breaks containment"
       }
     ],
     "Large Language Models": [
@@ -16983,6 +16988,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-23T13:25:52Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "7eCM7jsfbeA",
+      "url": "https://www.youtube.com/watch?v=7eCM7jsfbeA",
+      "title": "Hugging Face breach: OpenAI’s model breaks containment",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-24",
+      "duration_seconds": 2867,
+      "metrics": {
+        "views": 1342,
+        "likes": 100,
+        "comments": 21
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~TrulX65PE\n\nAI can escape its sandbox, should we be worried? This week on Mixture of Experts, join host Tim Hwang and panelists Olivia Buzek, Kaoutar El Maghraoui, and Ambhi Ganesan. First, we unpack a stunning security incident where OpenAI's model broke containment during testing, exploited zero-day vulnerabilities, and compromised Hugging Face's production database. Next, Claude’s Fable casually disproves the decades-old Jacobian conjecture during a World Cup final. What does this tell us about the future of mathematics with AI models? Then, Moonshot AI drops Kimi K3, a massive 2.8 trillion parameter open-source model, but who can actually run it? Finally, Google releases Gemini 3.6 Flash—smaller, faster, more efficient. Why is Google going small while Moonshot AI goes big? \n\nAll that and more on this week’s Mixture of Experts.\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~pcND0e43U\n#AIsecurity #OpenAI#HuggingFace",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-24T13:19:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
