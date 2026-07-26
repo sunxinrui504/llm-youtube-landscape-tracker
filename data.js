@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-24T13:19:23Z",
+  "last_updated": "2026-07-26T13:00:14Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -604,6 +604,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "7eCM7jsfbeA",
         "channel": "IBM Technology",
         "title": "Hugging Face breach: OpenAI’s model breaks containment"
+      },
+      {
+        "video_id": "l-QPwk_f4eE",
+        "channel": "IBM Technology",
+        "title": "Why AI Makes the Humanities More Important Than Ever"
       }
     ],
     "Large Language Models": [
@@ -17042,6 +17047,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-24T13:19:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "l-QPwk_f4eE",
+      "url": "https://www.youtube.com/watch?v=l-QPwk_f4eE",
+      "title": "Why AI Makes the Humanities More Important Than Ever",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-26",
+      "duration_seconds": 872,
+      "metrics": {
+        "views": 1533,
+        "likes": 221,
+        "comments": 35
+      },
+      "metadata": {
+        "description": "Learn more about Human Centered AI here → https://ibm.biz/~tQF2ZHKWO\n\nAI can generate answers, but judgment still matters. Jeff Crume explores why the humanities remain essential in an AI-driven world filled with powerful language models and automation. Learn how ethics, interpretation, and critical thinking help us use AI responsibly.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~r3J4xS2nu\n\n#humanities #ai #aieducation #aiandsociety #responsibleai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-26T13:00:14Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
