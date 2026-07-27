@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-26T13:00:14Z",
+  "last_updated": "2026-07-27T14:12:08Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -609,6 +609,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "l-QPwk_f4eE",
         "channel": "IBM Technology",
         "title": "Why AI Makes the Humanities More Important Than Ever"
+      },
+      {
+        "video_id": "fWZylhIHF9w",
+        "channel": "IBM Technology",
+        "title": "What Is an AI IDE? How AI Is Changing Developer & Coding Tools"
       }
     ],
     "Large Language Models": [
@@ -17101,6 +17106,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-26T13:00:14Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "fWZylhIHF9w",
+      "url": "https://www.youtube.com/watch?v=fWZylhIHF9w",
+      "title": "What Is an AI IDE? How AI Is Changing Developer & Coding Tools",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-27",
+      "duration_seconds": 527,
+      "metrics": {
+        "views": 2491,
+        "likes": 172,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "Learn more about Integrated Development Environment (IDE) here → https://ibm.biz/~J9S6W8pvo\n\nSoftware development is becoming increasingly AI-powered. Katie McDonald explains what an AI IDE is, how integrated development environments work, and how AI coding tools fit into modern workflows. Learn how AI assists with coding, debugging, refactoring, and developer productivity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~tKygrP9N8\n\n#ai #aicoding #softwaredevelopment #developertools",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-27T14:12:08Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
