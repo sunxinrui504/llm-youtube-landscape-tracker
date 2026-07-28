@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-27T14:12:08Z",
+  "last_updated": "2026-07-28T13:41:32Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -614,6 +614,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "fWZylhIHF9w",
         "channel": "IBM Technology",
         "title": "What Is an AI IDE? How AI Is Changing Developer & Coding Tools"
+      },
+      {
+        "video_id": "0ujh7hfutq0",
+        "channel": "IBM Technology",
+        "title": "Llama.cpp vs vLLM: Which Local LLM Engine Actually Scales?"
       }
     ],
     "Large Language Models": [
@@ -17160,6 +17165,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-27T14:12:08Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "0ujh7hfutq0",
+      "url": "https://www.youtube.com/watch?v=0ujh7hfutq0",
+      "title": "Llama.cpp vs vLLM: Which Local LLM Engine Actually Scales?",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-28",
+      "duration_seconds": 636,
+      "metrics": {
+        "views": 2550,
+        "likes": 294,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Large Language Models (LLMs) here → https://ibm.biz/~uLCBj5HLQ\n\nChoosing a local LLM engine can make or break performance. Cedric Clyburn breaks down Llama.cpp versus vLLM for real‑world local inference. Learn which tool fits personal hardware, production scale, and AI agent workloads.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~L7AEwTWo5\n\n#localllm #llama #vllm #aiagents #opensourceai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-28T13:41:32Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
