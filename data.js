@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-28T13:41:32Z",
+  "last_updated": "2026-07-29T13:47:35Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -619,6 +619,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "0ujh7hfutq0",
         "channel": "IBM Technology",
         "title": "Llama.cpp vs vLLM: Which Local LLM Engine Actually Scales?"
+      },
+      {
+        "video_id": "Xj-QdEUxJkE",
+        "channel": "Two Minute Papers",
+        "title": "Kimi K3 Just Broke The Economics Of AI"
+      },
+      {
+        "video_id": "lx41qvj80Jo",
+        "channel": "IBM Technology",
+        "title": "The Cost of a Data Breach 2026, and what we can learn from the Hugging Face hack"
       }
     ],
     "Large Language Models": [
@@ -17219,6 +17229,113 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-28T13:41:32Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Xj-QdEUxJkE",
+      "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+      "title": "Kimi K3 Just Broke The Economics Of AI",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-07-29",
+      "duration_seconds": 300,
+      "metrics": {
+        "views": 5237,
+        "likes": 460,
+        "comments": 45
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://arxiv.org/abs/2607.24653\n\nTry Kimi K3 (subject to availability): https://www.kimi.com/\n\nLinks:\nhttps://macos27.kimi.page/\nhttps://x.com/mweinbach/status/2077878247920951400\nhttps://x.com/intheworldofai/status/2077838911494336681\nhttps://x.com/chetaslua/status/2077829183989072281\nhttps://x.com/hqmank/status/2078104317027094907\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-29T13:47:16Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "lx41qvj80Jo",
+      "url": "https://www.youtube.com/watch?v=lx41qvj80Jo",
+      "title": "The Cost of a Data Breach 2026, and what we can learn from the Hugging Face hack",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-29",
+      "duration_seconds": 1928,
+      "metrics": {
+        "views": 843,
+        "likes": 72,
+        "comments": 10
+      },
+      "metadata": {
+        "description": "Explore the podcast → https://ibm.biz/~AzuQjmL4k\n\nWe’re in an AI arms race, and the bad guys might be winning.\n\nOn this episode of Security Intelligence, Suja Viswesan, Dave McGinnis and Jeff Crume join host Matt Kosinski to dig into IBM’s 2026 Cost of a Data Breach report. This year’s findings suggest that attackers are weaponizing AI faster than defenders can deploy it, leading to some very troubling capability gaps.\n\nBut it’s not all doom and gloom. We also look at the very real steps organizations can take to start closing those gaps today. They’re not as hard as you might think!\n\nThen: Hugging Face got hacked. By a rogue AI agent. From OpenAI. It was trying to cheat on a test. We talk about the lessons we can learn, including the vital importance of open-source AI tools and how coalitional approaches to cybersecurity can unlock institutional knowledge that no training dataset can ever bestow on even the most diligent LLM.\n\nRead the Cost of a Data Breach report → https://ibm.biz/~VfpvexmPK\n\nThe opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~NBqlFPpZ2\n#aiagent #aisecurity #databreach",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-29T13:47:35Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
