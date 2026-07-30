@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T13:47:35Z",
+  "last_updated": "2026-07-30T13:29:15Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -629,6 +629,16 @@
         "video_id": "lx41qvj80Jo",
         "channel": "IBM Technology",
         "title": "The Cost of a Data Breach 2026, and what we can learn from the Hugging Face hack"
+      },
+      {
+        "video_id": "m1gQu9ApmRQ",
+        "channel": "Sam Witteveen",
+        "title": "ThinkingCap - The Local Coding Model"
+      },
+      {
+        "video_id": "b2PESRl7De4",
+        "channel": "IBM Technology",
+        "title": "2026 Cost of a Data Breach Report: AI Is Changing Cybersecurity"
       }
     ],
     "Large Language Models": [
@@ -17336,6 +17346,138 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-29T13:47:35Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "m1gQu9ApmRQ",
+      "url": "https://www.youtube.com/watch?v=m1gQu9ApmRQ",
+      "title": "ThinkingCap - The Local Coding Model",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-07-30",
+      "duration_seconds": 860,
+      "metrics": {
+        "views": 174,
+        "likes": 19,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "In this video, I look at ThinkingCap, which is a fine-tune of the Qwen3.6-27B model. \n\n📖 Blog: https://bottlecapai.com/post/thinkingcap-qwen3-6-27b/\n🤗 HF: https://huggingface.co/bottlecapai\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:27 Time Horizon chart\n01:06 Long Chain of Thought Reasoning\n03:37 Intelligence Index vs Output Tokens\n05:06 BottleCap AI\n05:18 ThinkingCap\n06:56 The Objective\n07:23 Training Approach\n07:53 Benchmark\n14:18 Demo",
+        "tags": [
+          "chain of thought reasoning",
+          "LLM reasoning",
+          "AI reasoning",
+          "inference scaling",
+          "reasoning models",
+          "process reward model",
+          "outcome reward model",
+          "verify step by step",
+          "GPT-5",
+          "GPT 5.1",
+          "OpenAI o1",
+          "AI chain of thought",
+          "token efficiency",
+          "reasoning tokens",
+          "local coding model",
+          "local LLM",
+          "open source LLM",
+          "AI coding assistant",
+          "machine learning explained",
+          "deep learning",
+          "artificial intelligence",
+          "neural networks",
+          "transformer models",
+          "AI explained",
+          "ThinkingCap",
+          "BottleCap AI"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-30T13:28:57Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "b2PESRl7De4",
+      "url": "https://www.youtube.com/watch?v=b2PESRl7De4",
+      "title": "2026 Cost of a Data Breach Report: AI Is Changing Cybersecurity",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-30",
+      "duration_seconds": 1051,
+      "metrics": {
+        "views": 1333,
+        "likes": 129,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Learn more about the 2026 Cost of a Data Breach Report here → https://ibm.biz/~eavIBfqJG\n\nAI is accelerating both cyberattacks and cyber defense. Jeff Crume breaks down the key findings from the 2026 Cost of a Data Breach Report, including ransomware, AI-driven attacks, and security automation. Learn how organizations are using AI to reduce breach costs, improve response times, and strengthen security.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~wLklfPklY\n\n#cybersecurity #ai #databreach #aisecurity",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-30T13:29:14Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
