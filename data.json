@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T13:29:15Z",
+  "last_updated": "2026-07-31T13:42:18Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -639,6 +639,11 @@
         "video_id": "b2PESRl7De4",
         "channel": "IBM Technology",
         "title": "2026 Cost of a Data Breach Report: AI Is Changing Cybersecurity"
+      },
+      {
+        "video_id": "yb8Chvj--3c",
+        "channel": "IBM Technology",
+        "title": "AI Security Costs Rise: Cost of a Data Breach Report & Claude Opus 5"
       }
     ],
     "Large Language Models": [
@@ -17478,6 +17483,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-30T13:29:14Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "yb8Chvj--3c",
+      "url": "https://www.youtube.com/watch?v=yb8Chvj--3c",
+      "title": "AI Security Costs Rise: Cost of a Data Breach Report & Claude Opus 5",
+      "channel": "IBM Technology",
+      "published_at": "2026-07-31",
+      "duration_seconds": 2257,
+      "metrics": {
+        "views": 938,
+        "likes": 64,
+        "comments": 8
+      },
+      "metadata": {
+        "description": "Read the 2026 Cost of a Data Breach Report → https://ibm.biz/~rQKxmFpBi\n\nAre AI-powered cyberattacks getting cheaper while defenses get more expensive? This week on Mixture of Experts Tim Hwang is joined by Nathalie Baracaldo, Kush Varshney, and Mihai Criveti to break down IBM's Cost of a Data Breach Report 2026, and AI dominates this year’s report. Next, Anthropic dropped Claude Opus 5, a cost-effective alternative to Fable, but is it better? Next, we analyze David Zax’s feature on “What does AI look like,” and how it could help you describe what AI is doing to parents, children and just anyone wondering! Finally, the astrology app Co-Star was acquired by Midjourney. Will your daily horoscope get better or face some hallucinations? \n\nAll that and more on this week’s Mixture of Experts.\n\n00:00 – Introduction\n00:56 - Cost of a Data Breach Report 2026\n11:55 - Claude Opus 5\n22:48 - What does AI look like?\n31:48 - Midjourney acquires CoStar\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~8Jp3fHfBx\n#cybersecurity #claudeai #enterprisesecurity",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-07-31T13:42:18Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
