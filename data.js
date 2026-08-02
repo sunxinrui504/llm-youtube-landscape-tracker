@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-07-31T13:42:18Z",
+  "last_updated": "2026-08-02T13:01:11Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -644,6 +644,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "yb8Chvj--3c",
         "channel": "IBM Technology",
         "title": "AI Security Costs Rise: Cost of a Data Breach Report & Claude Opus 5"
+      },
+      {
+        "video_id": "bNRhppHct54",
+        "channel": "IBM Technology",
+        "title": "Understanding AI Agent Hallucination in AI Systems"
       }
     ],
     "Large Language Models": [
@@ -17537,6 +17542,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-07-31T13:42:18Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "bNRhppHct54",
+      "url": "https://www.youtube.com/watch?v=bNRhppHct54",
+      "title": "Understanding AI Agent Hallucination in AI Systems",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-02",
+      "duration_seconds": 651,
+      "metrics": {
+        "views": 1072,
+        "likes": 117,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Hallucinations here → https://ibm.biz/~UAoGwgNhw\n\nConfident AI answers are not always grounded in truth. Brianne Zavala explains what agent hallucination is and why it still happens. Learn how tools, data grounding, and design choices reduce hallucination risk.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~mOAD4HcZb\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aiagents #aihallucinations #agenticai #aitools #humanintheloop",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-02T13:01:11Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
