@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-03T14:17:34Z",
+  "last_updated": "2026-08-04T13:49:19Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -664,6 +664,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "FgaBdwSvOGM",
         "channel": "IBM Technology",
         "title": "Agentic Engineering vs Software Engineering: Beyond Vibe Coding"
+      },
+      {
+        "video_id": "uU1EP9_4qBU",
+        "channel": "IBM Technology",
+        "title": "What Are Large Database Models? AI for SQL Data"
       }
     ],
     "Large Language Models": [
@@ -17771,6 +17776,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-03T14:17:34Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "uU1EP9_4qBU",
+      "url": "https://www.youtube.com/watch?v=uU1EP9_4qBU",
+      "title": "What Are Large Database Models? AI for SQL Data",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-04",
+      "duration_seconds": 835,
+      "metrics": {
+        "views": 1644,
+        "likes": 158,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Large Database Models here → https://ibm.biz/~LdYkjFu30\n\nAI isn’t reaching most of your data, until now 🤯. Martin Keen introduces large database models (LDMs) and how they bring AI directly into SQL and relational databases.\nLearn how embeddings and semantic queries unlock faster insights without moving your data.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~KAqghpd9O\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #sql #data #dataengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-04T13:49:19Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
