@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-04T13:49:19Z",
+  "last_updated": "2026-08-05T13:44:59Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -669,6 +669,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "uU1EP9_4qBU",
         "channel": "IBM Technology",
         "title": "What Are Large Database Models? AI for SQL Data"
+      },
+      {
+        "video_id": "A9nnvw2wqmE",
+        "channel": "IBM Technology",
+        "title": "Oh look. Anthropic’s AI models also broke containment."
       }
     ],
     "Large Language Models": [
@@ -17830,6 +17835,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-04T13:49:19Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "A9nnvw2wqmE",
+      "url": "https://www.youtube.com/watch?v=A9nnvw2wqmE",
+      "title": "Oh look. Anthropic’s AI models also broke containment.",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-05",
+      "duration_seconds": 2071,
+      "metrics": {
+        "views": 1451,
+        "likes": 141,
+        "comments": 41
+      },
+      "metadata": {
+        "description": "Explore the podcast  → https://ibm.biz/~jDjLVwwSn \n\nLast week, OpenAI’s models broke out of their sandboxes to cause chaos. This week, it’s Anthropic’s turn. \n\nOn this episode of Security Intelligence, Diego Matos Martins, Kimmie Farrington and Jeff Crume join host Matt Kosinski to discuss the results of Anthropic’s internal review of testing procedures following the Hugging Face incident last month. Anthropic uncovered three instances of Claude models escaping containment and hacking real companies during what were supposed to be simulations. \n\nGranted, that’s three incidents out of 141,000 reviewed tests, which raises the question: \nJust how big a deal is this really?\n\nThen, we talk about research from Zenity into PleaseFix, a class of vulnerabilities that affects every agentic browser on the market. Zenity’s take: In the rush toward agentic functionality, these tools stripped away decades’ worth of browser security fundamentals.\n\nFinally, a so-called “security researcher” has a public GitHub repo of 200+ zero-day exploits. They say it’s to encourage more interest in cybersecurity.\n\nYeah. Okay. Sure.\n\nAll that and more on Security Intelligence.\n\nSegments:\n\n00:00 - Intro\n1:12 - Claude breaks containment\n13:13 - Agentic browsers: security nightmares\n21:56 - The Exploitarium\n\nListen to the latest bonus episode: Your data breach plan is missing something major: people. https://ibm.biz/~aw5t7blWy\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~4AzzXA8Gk\n#agenticai #claudeai #aisecurity \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-05T13:44:59Z"
       },
       "chapters": [],
       "speaker_type": "Solo",

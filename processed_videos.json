@@ -888,5 +888,10 @@
     "title": "What Are Large Database Models? AI for SQL Data",
     "processed_at": "2026-08-04T13:49:19Z",
     "status": "ok"
+  },
+  "A9nnvw2wqmE": {
+    "title": "Oh look. Anthropic’s AI models also broke containment.",
+    "processed_at": "2026-08-05T13:44:59Z",
+    "status": "ok"
   }
 }
