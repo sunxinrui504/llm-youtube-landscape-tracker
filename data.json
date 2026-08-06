@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T13:43:29Z",
+  "last_updated": "2026-08-06T23:51:06Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -684,6 +684,11 @@
         "video_id": "uhWFLmr7xao",
         "channel": "IBM Technology",
         "title": "What Is AI Model Collapse? Why AI Could Forget Reality"
+      },
+      {
+        "video_id": "xGzseSSStnw",
+        "channel": "AI Explained",
+        "title": "AI is getting a little out of control"
       }
     ],
     "Large Language Models": [
@@ -18010,6 +18015,57 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-06T13:43:29Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "xGzseSSStnw",
+      "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
+      "title": "AI is getting a little out of control",
+      "channel": "AI Explained",
+      "published_at": "2026-08-06",
+      "duration_seconds": 1903,
+      "metrics": {
+        "views": 32029,
+        "likes": 2034,
+        "comments": 355
+      },
+      "metadata": {
+        "description": "Wow. Mathematical breakthroughs that would be called genius if done by humans. A secret message-board w/ AI agent swarms leaving notes read by future versions. Hassabis leaves CEO position, or was pushed out? Not to mention news of constitutional breakdowns, Gemini 4 and Jeff Dean…\n\nhttps://80000hours.org/aiexplained\n\n\nExclusive Videos - AI Insiders ($7/month if annual!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:16 - 10 Autonomous Discoveries\n08:20 - The Security ‘Incident’\n15:29 - MessageBoard\n19:50 - Constitutional Failure\n24:30 - Google Explosion\n29:12 - Closing Thoughts\n\nSecurity Incident: Paper: https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf\nPost: https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing\nhttps://www.theguardian.com/technology/2026/aug/05/ai-models-have-been-going-rogue-in-tests-how-worried-should-we-be\nMeta too: https://www.theinformation.com/articles/meta-ai-model-hacked-another-company-cybersecurity-testing?rc=sy0ihq\nBlatantly Misaligned: https://x.com/yonashav/status/2085167279893795022\nNo Excuses: https://x.com/boazbaraktcs/status/2085034783541964945\nSurreal Moment: https://x.com/mobav0/status/2084341687883841732\nWired Article: https://archive.is/20260806002210/https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/\nChunky Post-training: https://x.com/johnschulman2/status/2084835800899076313\nWatershed Moment: https://www.groundlevel-ai.com/p/openai-gives-first-detailed-debrief?has_completed_unsubscribed_unlock=true\nHedgeFund Hack: https://finance.yahoo.com/technology/ai/articles/major-hedge-funds-targeted-wave-154044981.html\n\n10 Discoveries:\nPaper: https://cdn.openai.com/pdf/ten-proofs-oai.pdf\nPost: https://openai.com/index/ten-advances-in-mathematics/\nHaven’t Solved Math: https://x.com/polynoamial/status/2083476852216369294\nHalf with Fable: https://x.com/__alpoge__/status/2083855298239078748\nPivot to Safety: https://www.understandingai.org/p/mathematicians-are-grappling-with\n\n\nAmodei Essay: https://darioamodei.com/essay/the-adolescence-of-technology?utm_source=chatgpt.com\nConstitution: https://www.anthropic.com/constitution\nMidtraining: https://arxiv.org/pdf/2605.02087\n\nDroneBench: https://andonlabs.com/evals/drone-bench\nhttps://x.com/andonlabs/status/2085125235188310445\n\nBook Deal: https://x.com/venturetwins/status/2085185278378222054\nMaking Marble: https://x.com/Rainmaker1973/status/2084560915404382685\n\nGoogle News:\nHassabis Move: https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/\nResignation: https://x.com/Turn_Trout/status/2077448610157891734\nPeriodic Labs: https://periodic.com/\nJeff Dean: https://x.com/JeffDean/status/2085034604172603724\n14 Challenges: https://gcsp.engineering.asu.edu/apply/become-a-grand-challenge-scholar/the-14-grand-challenges-for-engineering/\nGoing Places for Sure: https://x.com/thsottiaux/status/2085223189555126579\nGemini 4: https://x.com/firstadopter/status/2085215060532535449\n\n\nPacing Frontier Patreon Video: https://www.patreon.com/AIExplained/posts/opus-5-amodei-165170363\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-06T23:51:05Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
