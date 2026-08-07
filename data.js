@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-06T23:51:06Z",
+  "last_updated": "2026-08-07T12:42:02Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -689,6 +689,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "xGzseSSStnw",
         "channel": "AI Explained",
         "title": "AI is getting a little out of control"
+      },
+      {
+        "video_id": "vO6SWG-jxvE",
+        "channel": "Two Minute Papers",
+        "title": "DeepMind Just Changed How AI Sees The World"
+      },
+      {
+        "video_id": "W0wXevMkdMM",
+        "channel": "IBM Technology",
+        "title": "Anthropic’s sandbox breach, EU’s AI transparency push and DeepSeek’s cost-cutting model"
       }
     ],
     "Large Language Models": [
@@ -18066,6 +18076,113 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-06T23:51:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "vO6SWG-jxvE",
+      "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
+      "title": "DeepMind Just Changed How AI Sees The World",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-08-07",
+      "duration_seconds": 323,
+      "metrics": {
+        "views": 20163,
+        "likes": 1798,
+        "comments": 145
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The Gemma4 paper and some more is available here:\nhttps://arxiv.org/abs/2607.02770\nhttps://x.com/googlegemma/status/2077449152062247219\nhttps://x.com/UnslothAI/status/2078118183085731843\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-07T12:41:44Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "W0wXevMkdMM",
+      "url": "https://www.youtube.com/watch?v=W0wXevMkdMM",
+      "title": "Anthropic’s sandbox breach, EU’s AI transparency push and DeepSeek’s cost-cutting model",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-07",
+      "duration_seconds": 2422,
+      "metrics": {
+        "views": 712,
+        "likes": 45,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~1cu3BYWak\n\nIt seems OpenAI isn’t the only AI company dealing with badly behaving models. On this week’s episode of Mixture of Experts, host Tim Hwang, joined by Bri Kopecki, Olivia Buzek, and Gabe Goodhart, discusses the latest sandbox breaches by both Anthropic and Meta, all stemming from misconfigurations during evaluation tests. Are these covert attacks from AI companies simple accidents or a growing concern as models become more capable? \n\nNext, the EU’s new transparency guidelines for AI usage have arrived and want to make it easier to spot AI-created content. How effective will labeling be in the long run? And at what point does something become “AI-generated?” \n\nFinally, will DeepSeek’s inexpensive V4-Flash change the way we see AI—and push users to reconsider paying for the industry’s more capable models? All that and more on this week’s Mixture of Experts.\n\n00:00 – Introduction\n01:01 – Anthropic’s AI model data breaches\n15:12 – EU AI transparency rules\n28:32 – DeepSeek V4-Flash \n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~fbuVbraFj\n#anthropic #claudeai #deepseek \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-07T12:42:02Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
