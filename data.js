@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-07T12:42:02Z",
+  "last_updated": "2026-08-09T12:30:48Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -699,6 +699,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "W0wXevMkdMM",
         "channel": "IBM Technology",
         "title": "Anthropic’s sandbox breach, EU’s AI transparency push and DeepSeek’s cost-cutting model"
+      },
+      {
+        "video_id": "vRZNJWw78BQ",
+        "channel": "IBM Technology",
+        "title": "What Is Chunkless RAG? How Docling & AI Agents Navigate Documents"
       }
     ],
     "Large Language Models": [
@@ -18183,6 +18188,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-07T12:42:02Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "vRZNJWw78BQ",
+      "url": "https://www.youtube.com/watch?v=vRZNJWw78BQ",
+      "title": "What Is Chunkless RAG? How Docling & AI Agents Navigate Documents",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-09",
+      "duration_seconds": 420,
+      "metrics": {
+        "views": 1019,
+        "likes": 122,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Chunkless RAG here → https://ibm.biz/~H2I4LXkTq\n\nRAG may be throwing away valuable document context. Ming Zhao explains how Chunkless RAG uses document structure and AI agents instead of relying only on chunking and similarity search. Learn when structure-aware retrieval improves accuracy, context, and document understanding.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~52zZXGAYu\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#retrievalaugmentedgeneration #aiagents #llm #documentretrieval",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-09T12:30:48Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
