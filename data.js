@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-10T12:45:51Z",
+  "last_updated": "2026-08-10T18:43:27Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -709,6 +709,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "qYNs80FKIVc",
         "channel": "IBM Technology",
         "title": "5 Best Practices for Building AI Agent Skills"
+      },
+      {
+        "video_id": "Wjh6wx2dl3Q",
+        "channel": "Sam Witteveen",
+        "title": "Meta's Open Weight - Muse Glimmer 30B"
       }
     ],
     "Large Language Models": [
@@ -18307,6 +18312,86 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-10T12:45:50Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Wjh6wx2dl3Q",
+      "url": "https://www.youtube.com/watch?v=Wjh6wx2dl3Q",
+      "title": "Meta's Open Weight - Muse Glimmer 30B",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-08-10",
+      "duration_seconds": 456,
+      "metrics": {
+        "views": 2818,
+        "likes": 202,
+        "comments": 31
+      },
+      "metadata": {
+        "description": "In this big week of open model releases. Meta kicks it off with the open release of Muse Glimmer 30B.\n\n📖 Blog: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\n🤗 HF: https://huggingface.co/collections/meta-models/muse-glimmer\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n\n00:00 Intro\n00:10 Meta: Muse Glimmer\n00:18 Meta: Muse Spark\n01:10 Mark Zuckerberge Tweet\n02:06 Benchmarks\n03:14 Training\n05:57 Muse Glimmer on Hugging Face",
+        "tags": [
+          "Meta AI",
+          "Muse Glimmer",
+          "Muse Glimmer 30B",
+          "Meta Muse Spark",
+          "Muse Spark 1.2",
+          "Meta open source",
+          "open weights model",
+          "Mark Zuckerberg AI",
+          "Alexandr Wang",
+          "Meta Superintelligence Labs",
+          "MSL",
+          "local LLM",
+          "agentic AI model",
+          "run LLM locally",
+          "consumer GPU AI",
+          "GGUF",
+          "quantized model",
+          "4-bit quantization",
+          "Apache 2.0 license",
+          "open source LLM",
+          "AI agents",
+          "tool use AI",
+          "dense model",
+          "HuggingFace",
+          "on device AI",
+          "small language model",
+          "coding AI model",
+          "offline AI agent"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-10T18:43:27Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
