@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T12:42:55Z",
+  "last_updated": "2026-08-11T13:12:40Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -719,6 +719,11 @@
         "video_id": "Qx0fCqpkBus",
         "channel": "IBM Technology",
         "title": "What Is Context Engineering? Why It Matters for AI Agents"
+      },
+      {
+        "video_id": "9hDyXi5cbQw",
+        "channel": "Sam Witteveen",
+        "title": "Switchyard NVIDIA's Local Agent Router"
       }
     ],
     "Large Language Models": [
@@ -18463,6 +18468,88 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-11T12:42:54Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "9hDyXi5cbQw",
+      "url": "https://www.youtube.com/watch?v=9hDyXi5cbQw",
+      "title": "Switchyard NVIDIA's Local Agent Router",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-08-11",
+      "duration_seconds": 637,
+      "metrics": {
+        "views": 81,
+        "likes": 10,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "NeMo Switchyard is the newest open source library from NVIDIA. Its goal is to be the router that picks the right model for each step of an agent run.\n\nBlog: https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard?ncid=ref-inor-845739\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:21 Router Workflow\n00:50 NVIDIA Switchyard\n01:11 Problems encountered in long-running Agents\n02:30 Switchyard: Faster Response and Token Efficiency\n02:56 Switchyard is Open Source\n03:10 Switchyard Architecture\n03:35 Wire Formats\n04:52 Built-in Observability\n05:12 Routing Algorithms\n08:26 Takeaways",
+        "tags": [
+          "nemo switchyard",
+          "switchyard",
+          "nvidia switchyard",
+          "nvidia nemo",
+          "nvidia ai",
+          "llm router",
+          "llm routing",
+          "model routing",
+          "llm orchestration",
+          "system of models",
+          "multi model agents",
+          "per request routing",
+          "ai agents",
+          "agentic ai",
+          "production agents",
+          "agent frameworks",
+          "open source ai",
+          "open models",
+          "llm cost optimization",
+          "reduce llm costs",
+          "save on tokens",
+          "openai api",
+          "anthropic api",
+          "responses api",
+          "openrouter",
+          "api translation",
+          "llm judge",
+          "model escalation",
+          "llm classifier",
+          "ai engineering"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-11T13:12:40Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
