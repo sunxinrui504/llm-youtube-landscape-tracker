@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-11T13:12:40Z",
+  "last_updated": "2026-08-11T18:49:10Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -724,6 +724,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "9hDyXi5cbQw",
         "channel": "Sam Witteveen",
         "title": "Switchyard NVIDIA's Local Agent Router"
+      },
+      {
+        "video_id": "JQ97GiDwPxc",
+        "channel": "Two Minute Papers",
+        "title": "OpenAI’s AI Agents Just Crossed A Line"
+      },
+      {
+        "video_id": "fonbmFSmuRk",
+        "channel": "Sam Witteveen",
+        "title": "Nemotron Lightning - NVIDIA's Super Fast Agent MoE"
       }
     ],
     "Large Language Models": [
@@ -18550,6 +18560,145 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-11T13:12:40Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "JQ97GiDwPxc",
+      "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
+      "title": "OpenAI’s AI Agents Just Crossed A Line",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-08-11",
+      "duration_seconds": 438,
+      "metrics": {
+        "views": 8984,
+        "likes": 960,
+        "comments": 171
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 More reports are available here:\nhttps://openai.com/index/hugging-face-model-evaluation-security-incident/\nhttps://huggingface.co/blog/security-incident-july-2026\nhttps://huggingface.co/blog/agent-intrusion-technical-timeline\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "openai",
+          "openai hack",
+          "hugging face",
+          "ai hack"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-11T18:48:51Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "fonbmFSmuRk",
+      "url": "https://www.youtube.com/watch?v=fonbmFSmuRk",
+      "title": "Nemotron Lightning - NVIDIA's Super Fast Agent MoE",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-08-11",
+      "duration_seconds": 562,
+      "metrics": {
+        "views": 3465,
+        "likes": 204,
+        "comments": 12
+      },
+      "metadata": {
+        "description": "Nemotron Lightning is the latest model from NVIDIA. It 's goal is to be the super fast Agent MoE of the Nemotron family. \n\nBlog: https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/?ncid=ref-inor-573833 \nHugging Face\nNVFP4 DFlash: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DFlash\nNVFP4 DSpark: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark\nNVFP4: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:16 NVIDIA Nemotron 3.5 - Lightning\n02:22 Blog\n02:32 Pinchbench Benchmark\n03:55 Two Versions\n04:15 Customization Play\n05:35 Demo",
+        "tags": [
+          "nemotron 3.5 lightning",
+          "nvidia nemotron",
+          "nemotron",
+          "nvidia ai",
+          "nvidia open model",
+          "nemotron lightning",
+          "nvidia llm",
+          "speculative decoding",
+          "multi token prediction",
+          "mtp",
+          "draft model",
+          "dspark",
+          "dflash",
+          "llm inference speed",
+          "fast llm",
+          "nvfp4",
+          "mamba transformer",
+          "ai agents",
+          "agentic ai",
+          "open weight llm",
+          "open source llm",
+          "local llm",
+          "dgx spark",
+          "fine tuning llm",
+          "deepseek",
+          "nemotron nano omni",
+          "multimodal llm",
+          "ai news",
+          "new ai model",
+          "llm news"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-11T18:49:10Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
