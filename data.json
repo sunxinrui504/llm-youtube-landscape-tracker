@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T18:43:27Z",
+  "last_updated": "2026-08-11T12:42:55Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -714,6 +714,11 @@
         "video_id": "Wjh6wx2dl3Q",
         "channel": "Sam Witteveen",
         "title": "Meta's Open Weight - Muse Glimmer 30B"
+      },
+      {
+        "video_id": "Qx0fCqpkBus",
+        "channel": "IBM Technology",
+        "title": "What Is Context Engineering? Why It Matters for AI Agents"
       }
     ],
     "Large Language Models": [
@@ -18392,6 +18397,72 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-10T18:43:27Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Qx0fCqpkBus",
+      "url": "https://www.youtube.com/watch?v=Qx0fCqpkBus",
+      "title": "What Is Context Engineering? Why It Matters for AI Agents",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-11",
+      "duration_seconds": 597,
+      "metrics": {
+        "views": 915,
+        "likes": 127,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Context Engineering here → https://ibm.biz/~P5lLLBd7u\n\nMore data doesn’t always mean better AI. Anna Gutowska explains how context engineering improves LLM and AI agent performance beyond prompt engineering. Learn how structuring context reduces hallucinations and enables smarter, more reliable AI systems.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~hrgTJ2Q3i\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#contextengineering #promptengineering #aiagents #llm",
+        "tags": [
+          "IBM",
+          "context engineering",
+          "LLM",
+          "prompt engineering",
+          "working memory",
+          "context processing",
+          "context management",
+          "agentic AI",
+          "healthcare scheduling",
+          "context rot",
+          "information retrieval",
+          "reasoning",
+          "large language models",
+          "AI agents"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-11T12:42:54Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
