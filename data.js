@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-12T12:46:25Z",
+  "last_updated": "2026-08-13T12:47:52Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -739,6 +739,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "auS34nm9VAc",
         "channel": "IBM Technology",
         "title": "The OWASP LLM Top 10 has a few surprises for you"
+      },
+      {
+        "video_id": "jAkB_qeATag",
+        "channel": "IBM Technology",
+        "title": "AI & Data Science Periodic Tables: How They Work Together"
       }
     ],
     "Large Language Models": [
@@ -18758,6 +18763,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-12T12:46:25Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "jAkB_qeATag",
+      "url": "https://www.youtube.com/watch?v=jAkB_qeATag",
+      "title": "AI & Data Science Periodic Tables: How They Work Together",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-13",
+      "duration_seconds": 801,
+      "metrics": {
+        "views": 794,
+        "likes": 91,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Learn more about Artificial Intelligence (AI) here → https://ibm.biz/~XmOXmQOix\n\nLearn more about Data Science here → https://ibm.biz/~L2ex6PDTu\n\nAI and data science use different frameworks, this brings them together. Aaron Baughman and Martin Keen combine the AI and data science periodic tables into one system view. Learn how pipelines, embeddings, and RAG work together to power real-world AI applications.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~H9ZIaiRnS\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #datascience #machinelearning #dataengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-13T12:47:52Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
