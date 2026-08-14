@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T12:47:52Z",
+  "last_updated": "2026-08-14T12:43:21Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -744,6 +744,16 @@
         "video_id": "jAkB_qeATag",
         "channel": "IBM Technology",
         "title": "AI & Data Science Periodic Tables: How They Work Together"
+      },
+      {
+        "video_id": "QnGNF8k_uoc",
+        "channel": "Two Minute Papers",
+        "title": "Claude AI Failed 650 Times…Then Beat The Human Record"
+      },
+      {
+        "video_id": "FVXDXi4es8E",
+        "channel": "IBM Technology",
+        "title": "IBM’s cloud collab, Meta’s Muse Glimmer & OpenAI’s upcoming Astra model"
       }
     ],
     "Large Language Models": [
@@ -18817,6 +18827,115 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-13T12:47:52Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "QnGNF8k_uoc",
+      "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+      "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-08-14",
+      "duration_seconds": 269,
+      "metrics": {
+        "views": 10963,
+        "likes": 749,
+        "comments": 88
+      },
+      "metadata": {
+        "description": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/riemann-zeta\n\nSource:\nhttps://www.scientificamerican.com/article/no-ai-didnt-just-solve-the-thorniest-problem-in-math/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "claude",
+          "claude ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-14T12:43:03Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "FVXDXi4es8E",
+      "url": "https://www.youtube.com/watch?v=FVXDXi4es8E",
+      "title": "IBM’s cloud collab, Meta’s Muse Glimmer & OpenAI’s upcoming Astra model",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-14",
+      "duration_seconds": 2193,
+      "metrics": {
+        "views": 223,
+        "likes": 16,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content \n→ https://ibm.biz/~YOqgkKvh7\n\nThis week on Mixture of Experts, our team of panelists talk about big infrastructure changes and small models. IBM is teaming up with Together AI on a multi-year deal to build a massive inference cluster on IBM Cloud, powered by NVIDIA's newest chips. The goal: cheaper, faster access to open-source AI models for enterprises, with the cluster expected to go live in early 2027.\n\nThen there's Meta, which just open-sourced Muse Glimmer—a 30B-parameter model small enough to run locally on your laptop's GPU. Think coding, function calling, and agent tasks, all without needing the cloud. But as models get smaller, what does it mean for larger AI providers? \n\nAnd finally, the story that's got everyone talking: OpenAI says its upcoming Astra model might be hitting \"Critical\" cybersecurity capability levels, meaning it could potentially find and exploit zero-days on its own. We dig into what that actually means and what guardrails OpenAI is putting up.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n1:03 - IBM AI Partnership\n11:43 - Meta Muse Glimmer\n24:10 - OpenAI’s Astra model\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~NEVRq9OsZ\n#MetaMuseGlimmer #IBMAIPartnership #openai \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-14T12:43:21Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
