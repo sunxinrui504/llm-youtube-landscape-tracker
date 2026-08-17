@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-16T12:20:09Z",
+  "last_updated": "2026-08-17T12:23:59Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -759,6 +759,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "BHGTA6ZEls4",
         "channel": "IBM Technology",
         "title": "5 Ways to Connect AI Agents to Tools: From APIs to MCP"
+      },
+      {
+        "video_id": "J0zbWsutyA8",
+        "channel": "IBM Technology",
+        "title": "What Is RAD? Why It Matters in the Age of AI Coding"
       }
     ],
     "Large Language Models": [
@@ -18995,6 +19000,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-16T12:20:09Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "J0zbWsutyA8",
+      "url": "https://www.youtube.com/watch?v=J0zbWsutyA8",
+      "title": "What Is RAD? Why It Matters in the Age of AI Coding",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-17",
+      "duration_seconds": 653,
+      "metrics": {
+        "views": 1477,
+        "likes": 126,
+        "comments": 13
+      },
+      "metadata": {
+        "description": "Learn more about Rapid Application Development (RAD) here → https://ibm.biz/~t01xtWgB8\n\nAI coding feels new, but the ideas aren't. Martin Keen explores how Rapid Application Development (RAD) predicted many of the workflows now emerging with vibe coding and AI agents. Learn how prototyping, user feedback, and specifications help turn AI-generated code into production software.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~QvDUizRu8\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#vibecoding #aicoding #softwaredevelopment #aiagents",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-17T12:23:59Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
