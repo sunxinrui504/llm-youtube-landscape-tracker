@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-17T12:23:59Z",
+  "last_updated": "2026-08-18T12:26:16Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -764,6 +764,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "J0zbWsutyA8",
         "channel": "IBM Technology",
         "title": "What Is RAD? Why It Matters in the Age of AI Coding"
+      },
+      {
+        "video_id": "OvjccOrr-iw",
+        "channel": "IBM Technology",
+        "title": "What Is the AI Security Trilemma? Smart, Fast, or Secure AI?"
       }
     ],
     "Large Language Models": [
@@ -19054,6 +19059,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-17T12:23:59Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "OvjccOrr-iw",
+      "url": "https://www.youtube.com/watch?v=OvjccOrr-iw",
+      "title": "What Is the AI Security Trilemma? Smart, Fast, or Secure AI?",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-18",
+      "duration_seconds": 543,
+      "metrics": {
+        "views": 688,
+        "likes": 73,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "Learn more about AI Security here → https://ibm.biz/~B0pp9rU0b\n\nCan AI be smart, fast, and secure at once? Jeff Crume explains the AI Security Trilemma and why improving AI capability often increases risk and complexity. Learn how AI security proxies, guardrails, and architecture help balance speed, intelligence, and security.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~YLZNNOb2i\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #cybersecurity #aisecurity #aiagents",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-18T12:26:16Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
