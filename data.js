@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-18T12:26:16Z",
+  "last_updated": "2026-08-18T18:23:43Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -769,6 +769,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "OvjccOrr-iw",
         "channel": "IBM Technology",
         "title": "What Is the AI Security Trilemma? Smart, Fast, or Secure AI?"
+      },
+      {
+        "video_id": "PTuGGdDuyPI",
+        "channel": "Sam Witteveen",
+        "title": "Qwen3.8-27B & How to Serve it Fast"
       }
     ],
     "Large Language Models": [
@@ -19113,6 +19118,92 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-18T12:26:16Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "PTuGGdDuyPI",
+      "url": "https://www.youtube.com/watch?v=PTuGGdDuyPI",
+      "title": "Qwen3.8-27B & How to Serve it Fast",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-08-18",
+      "duration_seconds": 1080,
+      "metrics": {
+        "views": 12277,
+        "likes": 644,
+        "comments": 69
+      },
+      "metadata": {
+        "description": "In this video, I look at the long awaited Qwen3.8-27B model.  Both what it can do and how to serve it at the maximum tokens per second\n\nThanks to Dell for Sponsoring the Compute\n#DellProPrecision #DellProMax #DellTech #NVIDIA\n\n📖 Website: https://qwen.ai/\n🤗 HF: https://huggingface.co/collections/Qwen/qwen38\nSGLang: https://lmsysorg.mintlify.app/cookbook/autoregressive/Qwen/Qwen3.8-27B\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:50 ThinkingCap\n01:25 Qwen3.8 - 27B\n01:59 Different Versions on Hugging Face\n02:12 Benchmarks\n03:14 Artificial Analysis Benchmark\n04:10 Qwen3.8-27B on Hugging Face\n06:40 Demo\n14:17 SGLang",
+        "tags": [
+          "Qwen 3.8-27B",
+          "Qwen3.8-27B",
+          "Qwen 3.8",
+          "Qwen",
+          "Qwen 27B",
+          "Alibaba Qwen",
+          "new Qwen model",
+          "local AI",
+          "local LLM",
+          "run LLM locally",
+          "open weights",
+          "self hosted AI",
+          "best local LLM",
+          "Muse Glimmer 30B",
+          "Meta Muse Glimmer",
+          "Qwen 3.6-27B",
+          "Opus 4.6 Max",
+          "best open source LLM",
+          "local coding model",
+          "agentic coding",
+          "computer use AI",
+          "LLM benchmarks",
+          "Artificial Analysis",
+          "LLM quantization",
+          "GGUF",
+          "AWQ",
+          "MLX",
+          "fine tunes",
+          "tokens per second",
+          "how to run Qwen",
+          "Hugging Face",
+          "DGX Spark",
+          "GB10",
+          "AI workstation"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-18T18:23:43Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
