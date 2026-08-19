@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T18:23:43Z",
+  "last_updated": "2026-08-19T12:25:58Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -774,6 +774,11 @@
         "video_id": "PTuGGdDuyPI",
         "channel": "Sam Witteveen",
         "title": "Qwen3.8-27B & How to Serve it Fast"
+      },
+      {
+        "video_id": "3zhveTN1VzE",
+        "channel": "IBM Technology",
+        "title": "What should security leaders do with AI? They don’t know."
       }
     ],
     "Large Language Models": [
@@ -19204,6 +19209,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-18T18:23:43Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "3zhveTN1VzE",
+      "url": "https://www.youtube.com/watch?v=3zhveTN1VzE",
+      "title": "What should security leaders do with AI? They don’t know.",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-19",
+      "duration_seconds": 1755,
+      "metrics": {
+        "views": 481,
+        "likes": 53,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "Explore the podcast  → https://ibm.biz/~msEZOskFL\n\nCybersecurity leaders are flush with cash—earmarked for AI, mind you—and eager to spend it. What they don’t have is a plan for how.\n\nThis week on Security Intelligence, Claire Nuñez, Curtis Pitts and Dave Bales join host Matt Kosinski to talk about why so many security teams are experience AI decision fatigue—and what to do about it.\n\nThen, we discuss Tenet Security’s DEFCON presentation on ghostjacking, a new method for sneaking malicious prompts into some of our most trusted data sources (logs, alerts, error reports). Because regular prompt injections are just too vanilla.\n\nOh, and speaking of how to deploy AI in cybersecurity: Research from 1Password shows LLMs are a lot better at exploiting vulnerabilities than patching them. What does that mean for defenders?\n\nFind out all this—and more—on Security Intelligence.\n\n00:00 - Introduction\n1:04 - Cybersecurity’s AI paralysis\n10:45 - Ghostjacking\n20:53 - Is AI bad at patching?\n\nAgentic AI identity management with IBM: https://ibm.biz/~gvpIcoshy\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~lu8duZfmT\n#nonhumanidentity #aisecurity #patchmanagement \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-19T12:25:58Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
