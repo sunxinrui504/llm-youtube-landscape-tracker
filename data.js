@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-19T12:25:58Z",
+  "last_updated": "2026-08-19T18:20:29Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -779,6 +779,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "3zhveTN1VzE",
         "channel": "IBM Technology",
         "title": "What should security leaders do with AI? They don’t know."
+      },
+      {
+        "video_id": "kyYepbhe1g8",
+        "channel": "Two Minute Papers",
+        "title": "DeepSeek Just Made Closed AI Look Ridiculous"
+      },
+      {
+        "video_id": "erQnRkMrpls",
+        "channel": "Sam Witteveen",
+        "title": "Docker Sandboxes - Building Safe Agents"
       }
     ],
     "Large Language Models": [
@@ -19263,6 +19273,142 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-19T12:25:58Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "kyYepbhe1g8",
+      "url": "https://www.youtube.com/watch?v=kyYepbhe1g8",
+      "title": "DeepSeek Just Made Closed AI Look Ridiculous",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-08-19",
+      "duration_seconds": 329,
+      "metrics": {
+        "views": 1884,
+        "likes": 157,
+        "comments": 21
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nDeepSeek V4 Pro 0813:\nhttps://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813\n\nDSpark full episode: https://www.youtube.com/watch?v=1yBU41auQhw\n\nSources:\nhttps://x.com/cline/status/2087602193205694891\nhttps://x.com/TypingMindApp/status/2088214938754167263\nhttps://x.com/stevibe/status/2047546592530747561\nhttps://x.com/voidfreud/status/2087701887327887543\nhttps://x.com/exploraX_/status/2079197387860435360\nhttps://x.com/AiHubMix/status/2087869896483057758\nhttps://x.com/BruceBlue/status/2087833177155117304\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-19T18:20:11Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "erQnRkMrpls",
+      "url": "https://www.youtube.com/watch?v=erQnRkMrpls",
+      "title": "Docker Sandboxes - Building Safe Agents",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-08-19",
+      "duration_seconds": 1406,
+      "metrics": {
+        "views": 1455,
+        "likes": 86,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "Docker Sandboxes is an easy way to secure you agents for coding and general use. That includes locking down the their network access and their read/write permissions. It makes it easy for you to no longer worry about coding agents wiping your drive or leaking your keys etc.  \n\nSite: https://www.docker.com/products/docker-sandboxes/\n📖  Docs: https://docs.docker.com/ai/sandboxes/\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:58 What is a Docker Sandbox\n02:36 Docker Sandboxes Documentation\n03:20 Hypervisor\n04:44 Setup Docker Sandbox\n05:52 What's running inside the sandbox\n06:13 Writing inside the Sandbox folder\n07:57 Setting up a Policy\n09:12 Network Rules\n10:10 Installing packages\n12:52 Setting up Secret keys\n14:45 Pre-made Templates",
+        "tags": [
+          "docker sandboxes",
+          "docker sandbox",
+          "ai agent security",
+          "agent sandboxing",
+          "sandbox ai agents",
+          "claude code",
+          "codex",
+          "coding agents",
+          "microvm",
+          "sbx cli",
+          "docker kits",
+          "agent isolation",
+          "secure ai agents",
+          "prompt injection",
+          "api key security",
+          "openrouter",
+          "lm studio",
+          "deep agents",
+          "langchain",
+          "local llm agent",
+          "run agents safely",
+          "agent permissions",
+          "network policy",
+          "skip permissions",
+          "opencode",
+          "docker for ai",
+          "autonomous agents",
+          "ai dev tools",
+          "local ai agents",
+          "agent safety",
+          "agentic coding"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-19T18:20:28Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
