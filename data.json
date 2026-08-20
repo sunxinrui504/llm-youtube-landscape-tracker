@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T18:20:29Z",
+  "last_updated": "2026-08-20T12:28:07Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -789,6 +789,11 @@
         "video_id": "erQnRkMrpls",
         "channel": "Sam Witteveen",
         "title": "Docker Sandboxes - Building Safe Agents"
+      },
+      {
+        "video_id": "i1ZmNUbRGD4",
+        "channel": "IBM Technology",
+        "title": "AI Agents vs Business Rules: Which Should Make Decisions?"
       }
     ],
     "Large Language Models": [
@@ -19409,6 +19414,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-19T18:20:28Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "i1ZmNUbRGD4",
+      "url": "https://www.youtube.com/watch?v=i1ZmNUbRGD4",
+      "title": "AI Agents vs Business Rules: Which Should Make Decisions?",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-20",
+      "duration_seconds": 625,
+      "metrics": {
+        "views": 708,
+        "likes": 75,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Agents here → https://ibm.biz/~gNNWReB6j\n\nLearn more about Business Rules here → https://ibm.biz/~lrQSK6oLV\n\nShould AI agents replace business rules engines? Martin Keen explains the difference between deterministic business rules and probabilistic AI agents in enterprise decision making. Learn when to use rules, agents, guardrails, and human oversight to automate decisions effectively.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~rNV9L2AzL\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #aiagents #businessrules #llm #aiautomation",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-20T12:28:07Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
