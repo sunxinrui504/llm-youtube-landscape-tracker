@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-21T12:27:49Z",
+  "last_updated": "2026-08-23T12:21:04Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -799,6 +799,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "8LNH7TxvD14",
         "channel": "IBM Technology",
         "title": "Stripe buys OpenRouter, Ramp’s AI Index & IBM’s OpenAI deal"
+      },
+      {
+        "video_id": "eFf2OvkZxEM",
+        "channel": "IBM Technology",
+        "title": "What Is a Digital Librarian AI Agent? Connecting SQL & Vector Database"
       }
     ],
     "Large Language Models": [
@@ -19527,6 +19532,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-21T12:27:48Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "eFf2OvkZxEM",
+      "url": "https://www.youtube.com/watch?v=eFf2OvkZxEM",
+      "title": "What Is a Digital Librarian AI Agent? Connecting SQL & Vector Database",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-23",
+      "duration_seconds": 321,
+      "metrics": {
+        "views": 484,
+        "likes": 59,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "Learn more about Types of AI agents here → https://ibm.biz/~CybnjCGya\n\nYour data may know what happened, but not always why. Shad Griffin explains how a Digital Librarian AI Agent combines SQL databases, vector databases, and semantic search to answer complex questions. Learn how agentic workflows connect structured and unstructured data into grounded insights.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~X8FmdLGYs\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aiagents #sql #vectordatabases #agenticai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-23T12:21:04Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
