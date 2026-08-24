@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-24T12:28:36Z",
+  "last_updated": "2026-08-24T18:26:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -809,6 +809,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "zAe-sau06io",
         "channel": "IBM Technology",
         "title": "How AI Coding Agents Understand Your Codebase & Developer Tools"
+      },
+      {
+        "video_id": "wMl6c_r0ubw",
+        "channel": "Two Minute Papers",
+        "title": "This Small AI Will Change Everything"
       }
     ],
     "Large Language Models": [
@@ -19645,6 +19650,62 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-24T12:28:36Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "wMl6c_r0ubw",
+      "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw",
+      "title": "This Small AI Will Change Everything",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-08-24",
+      "duration_seconds": 201,
+      "metrics": {
+        "views": 8683,
+        "likes": 727,
+        "comments": 112
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The Qwen3.8-27b is available here:\nhttps://huggingface.co/Qwen/Qwen3.8-27B\n\nSources:\nhttps://www.reddit.com/r/unsloth/comments/1vogva0/share_your_results_from_qwen3827b/\nhttps://www.reddit.com/r/LocalLLaMA/comments/1voer8u/qwen_38_27b_aquarium_burst_sample_test/\nhttps://x.com/KyleHessling1/status/2088327667733180637\nhttps://www.reddit.com/r/LocalLLaMA/comments/1vqme4y/qwen3827b_q8_0_on_strix_halo_is_seriously/\nhttps://forums.developer.nvidia.com/t/qwen3-8-27b-nvfp4-on-a-single-dgx-spark-up-to-1m-context-vllm-mtp-measurements/380244\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "qwen",
+          "openai",
+          "chatgpt"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-24T18:26:54Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
