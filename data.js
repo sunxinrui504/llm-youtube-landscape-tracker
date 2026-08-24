@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-23T12:21:04Z",
+  "last_updated": "2026-08-24T12:28:36Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -804,6 +804,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "eFf2OvkZxEM",
         "channel": "IBM Technology",
         "title": "What Is a Digital Librarian AI Agent? Connecting SQL & Vector Database"
+      },
+      {
+        "video_id": "zAe-sau06io",
+        "channel": "IBM Technology",
+        "title": "How AI Coding Agents Understand Your Codebase & Developer Tools"
       }
     ],
     "Large Language Models": [
@@ -19586,6 +19591,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-23T12:21:04Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "zAe-sau06io",
+      "url": "https://www.youtube.com/watch?v=zAe-sau06io",
+      "title": "How AI Coding Agents Understand Your Codebase & Developer Tools",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-24",
+      "duration_seconds": 414,
+      "metrics": {
+        "views": 826,
+        "likes": 78,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "Learn more about AI for Code here → https://ibm.biz/~ggidEPSQb\n\nGood code is not just code that runs. Prachi Modi explains how AI coding agents use repository awareness, architectural context, and developer tools to make better coding decisions. Learn why planning, verification, and understanding matter before AI writes code.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~s4PSVufNO\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aicoding #developertools #aicodingtools #softwaredevelopment",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-24T12:28:36Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
