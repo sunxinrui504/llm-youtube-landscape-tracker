@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-24T18:26:56Z",
+  "last_updated": "2026-08-25T12:29:05Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -814,6 +814,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "wMl6c_r0ubw",
         "channel": "Two Minute Papers",
         "title": "This Small AI Will Change Everything"
+      },
+      {
+        "video_id": "ZELPNFXJ4_o",
+        "channel": "IBM Technology",
+        "title": "AI Model vs Agentic Harness: What Actually Drives AI"
       }
     ],
     "Large Language Models": [
@@ -19706,6 +19711,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-24T18:26:54Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "ZELPNFXJ4_o",
+      "url": "https://www.youtube.com/watch?v=ZELPNFXJ4_o",
+      "title": "AI Model vs Agentic Harness: What Actually Drives AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-25",
+      "duration_seconds": 510,
+      "metrics": {
+        "views": 1038,
+        "likes": 118,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about AI Models here → https://ibm.biz/~fAH1kt7jT\n\nAI models alone aren’t what makes systems powerful. Martin Keen explains the difference between AI models and agentic harness components like tools, memory, and loops. Learn how generative AI agents work and what drives real system performance.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~P9xI7zlIY\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#generativeai #aimodel #aitools",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-25T12:29:05Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
