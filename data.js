@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-26T12:31:57Z",
+  "last_updated": "2026-08-26T19:39:25Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -824,6 +824,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "nWgvobB4hcw",
         "channel": "IBM Technology",
         "title": "Who’s afraid of an open-weight model? GLM, context bombing and post-Black Hat attacks"
+      },
+      {
+        "video_id": "L9mMfAFwbl4",
+        "channel": "Two Minute Papers",
+        "title": "DeepSeek’s New AI System Shouldn’t Be Possible"
       }
     ],
     "Large Language Models": [
@@ -19824,6 +19829,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-26T12:31:57Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "L9mMfAFwbl4",
+      "url": "https://www.youtube.com/watch?v=L9mMfAFwbl4",
+      "title": "DeepSeek’s New AI System Shouldn’t Be Possible",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-08-26",
+      "duration_seconds": 284,
+      "metrics": {
+        "views": 34827,
+        "likes": 1952,
+        "comments": 153
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 DeepSeek Harness + paper are available here:\nhttps://deepseek.com/harness/en/\nhttps://github.com/cordiverse/paper\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "deepseek"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-26T19:39:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
