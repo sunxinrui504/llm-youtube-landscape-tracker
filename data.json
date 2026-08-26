@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T12:29:05Z",
+  "last_updated": "2026-08-26T12:31:57Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -819,6 +819,11 @@
         "video_id": "ZELPNFXJ4_o",
         "channel": "IBM Technology",
         "title": "AI Model vs Agentic Harness: What Actually Drives AI"
+      },
+      {
+        "video_id": "nWgvobB4hcw",
+        "channel": "IBM Technology",
+        "title": "Who’s afraid of an open-weight model? GLM, context bombing and post-Black Hat attacks"
       }
     ],
     "Large Language Models": [
@@ -19765,6 +19770,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-25T12:29:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "nWgvobB4hcw",
+      "url": "https://www.youtube.com/watch?v=nWgvobB4hcw",
+      "title": "Who’s afraid of an open-weight model? GLM, context bombing and post-Black Hat attacks",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-26",
+      "duration_seconds": 1603,
+      "metrics": {
+        "views": 497,
+        "likes": 47,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Explore the podcast → https://ibm.biz/~lbxDSQuvq\n\nGLM-5.3 is, by some measures, better than GPT Sol and Anthropic’s Mythos at vulnerability discovery and validation. On episode 48 of Security Intelligence, Erblind Morina, Kimmie Farrington and Patrick Fussell join host Matt Kosinski to debate whether this is really cool or really scary, or maybe a little of both.\n\nThen: Tracebit researchers have developed a way to use prompt injections as a defensive measure. Called “context bombing,” the technique plants malicious prompts alongside the very assets that attacking AI agents are likely to target. \n\nFinally, Huntress reports on a rash of social engineering attacks on Black Hat conference attendees. They’re not terribly sophisticated, but any concentrated offensive against the cybersecurity community is worth paying attention to. You never know who might be on the other side of those phishing emails.\n\nFind out all this—and more—on Security Intelligence.\n\n00:00 - Intro\n1:14 - GLM-5.3\n11:46 - Context bombing\n19:12 - Black Hat conference attacks\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~AIVsCRIKo\n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-26T12:31:57Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
