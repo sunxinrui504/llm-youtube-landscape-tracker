@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T01:56:04Z",
+  "last_updated": "2026-08-28T17:55:36Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -839,6 +839,16 @@
         "video_id": "KL9_1GbmCic",
         "channel": "AI Explained",
         "title": "Sam Altman :‘AGI in 2026’, just as Models Start to [Mis]Train Themselves"
+      },
+      {
+        "video_id": "LBiNcdGNgrg",
+        "channel": "Two Minute Papers",
+        "title": "This Free AI Just Caught The Billion Dollar Giants"
+      },
+      {
+        "video_id": "QxVS86cDpho",
+        "channel": "IBM Technology",
+        "title": "IBM’s mainframe chip collab, NVIDIA’s Poolside deal & Ox Alpha’s reveal"
       }
     ],
     "Large Language Models": [
@@ -19998,6 +20008,118 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-28T01:56:03Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "LBiNcdGNgrg",
+      "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
+      "title": "This Free AI Just Caught The Billion Dollar Giants",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-08-28",
+      "duration_seconds": 267,
+      "metrics": {
+        "views": 65924,
+        "likes": 1472,
+        "comments": 147
+      },
+      "metadata": {
+        "description": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper and Qwen3.8-Flash-Next are available here:\nhttps://github.com/QwenLM/Qwen3.8-Flash-Next/blob/main/tech_report.pdf\nhttps://qwen.ai/blog?id=qwen3.8-flash-next\n\nSources:\nhttps://x.com/analogalok/status/2092697021790708148\nhttps://www.reddit.com/r/unsloth/comments/1vzf6j7/mind_blowing_qwen38flashnext_rtx_3090_128ddr5\nhttps://www.reddit.com/r/LocalLLM/comments/1vz1w00/first_gif_cooked_by_qwen38flashnext\nhttps://x.com/analogalok/status/2092781954529903078/video/1\nhttps://x.com/loktar00/status/2092719895729324224/video/1\n\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "chatgpt",
+          "openai",
+          "qwen",
+          "qwen3.8",
+          "qwen3-8 flash next"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-28T17:55:17Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "QxVS86cDpho",
+      "url": "https://www.youtube.com/watch?v=QxVS86cDpho",
+      "title": "IBM’s mainframe chip collab, NVIDIA’s Poolside deal & Ox Alpha’s reveal",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-28",
+      "duration_seconds": 1859,
+      "metrics": {
+        "views": 8168,
+        "likes": 80,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~j8AlVLp98\n\nOn episode 122 of Mixture of Experts, hosts Tim Hwang and Aili McConnon are joined by Gabe Goodhart, Ash Minhas, Skyler Speakman to talk hot chips, mystery models, and major money moves. \n\nWe open with IBM's Hot Chips conference reveal of its dual-architecture mainframe processor built with Arm that lets IBM Z and LinuxONE systems run Arm-native Linux workloads right alongside z/OS. We break down what this means for enterprises balancing legacy reliability with the fast-moving Arm software ecosystem.\n\nNext, we talk about NVIDIA and its $6 billion deal with Poolside to license its \"Model Factory\" software and hire over 100 of its staff. We unpack why NVIDIA keeps using this licensing structure instead of straightforward acquisitions and how it fits alongside its earlier deals. \n\nFinally, we dig into Ox Alpha, the anonymous \"stealth model\" that appeared on OpenRouter and was ultimately confirmed to be Z.ai’s open-source GLM-5.3-Flash, an efficient large language model built with sparse and linear attention techniques. But is the stealth launch the future of model releases? \n\nAll that and more on this week’s Mixture of Experts. \n\n00:00 – Intro\n1:18 - NVIDIA’s $6 billion Poolside deal\n13:10 - IBM’s new mainframe processor\n24:30 - Ox Alpha, Z.ai’s newest model\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~PX4y3khFW\n#aimodel #mainframe #nvidia \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-28T17:55:36Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
