@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-28T17:55:36Z",
+  "last_updated": "2026-08-30T15:45:05Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -849,6 +849,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "QxVS86cDpho",
         "channel": "IBM Technology",
         "title": "IBM’s mainframe chip collab, NVIDIA’s Poolside deal & Ox Alpha’s reveal"
+      },
+      {
+        "video_id": "7YQJsll4vqw",
+        "channel": "Sam Witteveen",
+        "title": "GLM 5.3 Flash vs GLM 5.3: When Cheaper Is the Right Call"
+      },
+      {
+        "video_id": "IRtSdLX_Obw",
+        "channel": "IBM Technology",
+        "title": "Why Does AI Need Access to the Web?"
       }
     ],
     "Large Language Models": [
@@ -20120,6 +20130,142 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-28T17:55:36Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "7YQJsll4vqw",
+      "url": "https://www.youtube.com/watch?v=7YQJsll4vqw",
+      "title": "GLM 5.3 Flash vs GLM 5.3: When Cheaper Is the Right Call",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-08-30",
+      "duration_seconds": 1010,
+      "metrics": {
+        "views": 250,
+        "likes": 19,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "In this video, I look at GLM 5.3 flash from ZAI.  We look at what it can do, how it was made and how it compares to its bigger sibling GLM 5.3.\n\n📖 Blog: https://z.ai/blog/glm-5.3-flash\n📖 Blog: https://z.ai/blog/glm-5.3\n🤗 HF: https://huggingface.co/collections/Qwen/qwen38\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:56 GLM 5.3 Blog\n01:35 GLM 5.2 Blog\n01:43 GLM 5.3 Benchmarks\n01:51 GLM 5.3-Flash Blog\n02:04 GLM 5.3 vs GLM 5.3-Flash Comparison\n03:49 GLM 5.3-Flash Price\n05:17 Architecture\n05:53 Benchmarks\n07:44 Artificial Analysis\n09:27 Demo",
+        "tags": [
+          "GLM-5.3",
+          "GLM-5.3-Flash",
+          "GLM-5.2",
+          "Z.ai",
+          "Zhipu AI",
+          "GLM-5",
+          "open source LLM",
+          "open weight AI model",
+          "mixture of experts",
+          "MoE model",
+          "AI model comparison",
+          "LLM pricing",
+          "AI coding agent",
+          "agentic AI",
+          "AI benchmarks",
+          "large language model",
+          "LLM parameters",
+          "multimodal AI",
+          "AI reasoning",
+          "reasoning effort",
+          "post training",
+          "reinforcement learning",
+          "AI news",
+          "new AI model",
+          "best coding LLM",
+          "AI for developers",
+          "Claude Opus",
+          "DeepSeek",
+          "Kimi K3",
+          "AI research"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-30T15:44:49Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "IRtSdLX_Obw",
+      "url": "https://www.youtube.com/watch?v=IRtSdLX_Obw",
+      "title": "Why Does AI Need Access to the Web?",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-30",
+      "duration_seconds": 1143,
+      "metrics": {
+        "views": 6690,
+        "likes": 141,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "Learn more about Knowledge Layers here → https://ibm.biz/~HPIDv0n6T\n\nAI models stop learning when training ends, but the world keeps changing. Bright Data Chief Product Officer Ariel Shulman explains why AI needs live access to the web, how knowledge layers provide real-time context, and how web data infrastructure helps AI agents stay grounded with fresh, reliable information.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~GQaDNjtfB\n\n#ai #llm #aiagents #realtimeai \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-30T15:45:05Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
