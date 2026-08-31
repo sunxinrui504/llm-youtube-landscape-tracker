@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T15:45:05Z",
+  "last_updated": "2026-08-31T12:12:22Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -859,6 +859,11 @@
         "video_id": "IRtSdLX_Obw",
         "channel": "IBM Technology",
         "title": "Why Does AI Need Access to the Web?"
+      },
+      {
+        "video_id": "c57vAe-mMLo",
+        "channel": "IBM Technology",
+        "title": "How AI Is Changing Code Reviews & Software Development"
       }
     ],
     "Large Language Models": [
@@ -20266,6 +20271,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-30T15:45:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "c57vAe-mMLo",
+      "url": "https://www.youtube.com/watch?v=c57vAe-mMLo",
+      "title": "How AI Is Changing Code Reviews & Software Development",
+      "channel": "IBM Technology",
+      "published_at": "2026-08-31",
+      "duration_seconds": 849,
+      "metrics": {
+        "views": 608,
+        "likes": 50,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Learn more about AI Code Review here → https://ibm.biz/~alHgF4FNQ\n\nCode reviews have evolved from line-by-line inspections to AI-assisted outcome validation. In this video, we explore how software reviews have progressed from Fagan inspections and pair programming to pull requests, CI/CD automation, and AI-powered development workflows. Learn why the future of code reviews is shifting away from implementation details and toward validating intent, requirements, outcomes, and business impact.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~jpjrTIXin\n\n#aicoding #ai #softwaredevelopment #softwareengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-31T12:12:22Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
