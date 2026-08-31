@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-08-31T12:12:22Z",
+  "last_updated": "2026-08-31T22:12:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -864,6 +864,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "c57vAe-mMLo",
         "channel": "IBM Technology",
         "title": "How AI Is Changing Code Reviews & Software Development"
+      },
+      {
+        "video_id": "xDHD09fDUkQ",
+        "channel": "Sam Witteveen",
+        "title": "BreezeTTS2 - 100% Local Real-Time Voice"
       }
     ],
     "Large Language Models": [
@@ -20325,6 +20330,79 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-08-31T12:12:22Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "xDHD09fDUkQ",
+      "url": "https://www.youtube.com/watch?v=xDHD09fDUkQ",
+      "title": "BreezeTTS2 - 100% Local Real-Time Voice",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-08-31",
+      "duration_seconds": 882,
+      "metrics": {
+        "views": 6631,
+        "likes": 207,
+        "comments": 21
+      },
+      "metadata": {
+        "description": "In this video, I look at BreezeTTS2, which is a 3B open weights model for doing TTS that can run 100% locally in real time.  \n\nThanks to Dell for Sponsoring the Compute\n#DellProPrecision #DellProMax #DellTech #NVIDIA\n\n📖 Blog: https://breezeblue.ai/breeze-tts-2\n🤗 HF: https://huggingface.co/BreezeBlue/Breeze-TTS-2\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:13 Breeze TTS 2\n00:36 Blog\n01:08 Voice Design\n02:52 Voice Direction\n04:24 Voice Events\n04:46 Multi-lingual\n05:23 Low Latency\n05:36 Breeze TTS 2 Hugging Face\n05:58 Benchmarks\n06:21 License\n07:03 Demo Voice Design\n08:11 Demo Voice Clone\n08:46 Demo Voice Direction\n09:15 Voice Events\n10:01 Demo Streaming Version",
+        "tags": [
+          "Breeze TTS 2",
+          "BreezeBlue",
+          "open source TTS",
+          "text to speech AI",
+          "voice cloning",
+          "voice design AI",
+          "AI voice generator",
+          "local TTS model",
+          "self hosted TTS",
+          "open weight AI model",
+          "best TTS 2026",
+          "AI voice cloning tutorial",
+          "real time voice AI",
+          "voice direction",
+          "TTS benchmark",
+          "Artificial Analysis leaderboard",
+          "run AI locally",
+          "Hugging Face TTS",
+          "AI voice agent",
+          "text to speech comparison",
+          "Dell"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-08-31T22:12:44Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
