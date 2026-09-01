@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-01T10:48:41Z",
+  "last_updated": "2026-09-01T15:47:31Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -874,6 +874,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "w9RDunJACkc",
         "channel": "Two Minute Papers",
         "title": "GLM 5.3: Powerful AI Is Becoming Almost Free"
+      },
+      {
+        "video_id": "Gj13NR35WU4",
+        "channel": "IBM Technology",
+        "title": "What Is Digital Sovereignty? AI, Data & Control Explained"
       }
     ],
     "Large Language Models": [
@@ -20461,6 +20466,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-01T10:48:40Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Gj13NR35WU4",
+      "url": "https://www.youtube.com/watch?v=Gj13NR35WU4",
+      "title": "What Is Digital Sovereignty? AI, Data & Control Explained",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-01",
+      "duration_seconds": 570,
+      "metrics": {
+        "views": 9591,
+        "likes": 194,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Learn more about Digital Sovereignty here → https://ibm.biz/~mOgbuLEbW\n\nAI is changing who controls modern digital systems. Sam Anthony explains digital sovereignty across data, operations, technology, and AI while exploring how modern AI systems reshape governance and accountability. Learn how organizations maintain control, trust, and flexibility as AI adoption accelerates.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~zeN5exhEz\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#digitalsovereignty #aisovereignty #datasovereignty #ai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-01T15:47:31Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
