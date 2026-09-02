@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T15:47:31Z",
+  "last_updated": "2026-09-02T10:13:18Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -879,6 +879,11 @@
         "video_id": "Gj13NR35WU4",
         "channel": "IBM Technology",
         "title": "What Is Digital Sovereignty? AI, Data & Control Explained"
+      },
+      {
+        "video_id": "-0p68wKEitE",
+        "channel": "IBM Technology",
+        "title": "Why OpenAI is calling for a ‘cyber defense surge.’ Plus: Find Evil! winners and TeamPCP losers"
       }
     ],
     "Large Language Models": [
@@ -20520,6 +20525,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-01T15:47:31Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "-0p68wKEitE",
+      "url": "https://www.youtube.com/watch?v=-0p68wKEitE",
+      "title": "Why OpenAI is calling for a ‘cyber defense surge.’ Plus: Find Evil! winners and TeamPCP losers",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-02",
+      "duration_seconds": 1749,
+      "metrics": {
+        "views": 75,
+        "likes": 5,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Explore the podcast → https://ibm.biz/~LR5oerBlh\n\nIBM, OpenAI and 100 other organizations released an open letter calling for collective action on cyber defense. On episode 49 of Security Intelligence, Michelle Alvarez, Nick Bradley and J.R. Rao join host Matt Kosinski to explore what a “global cyber defense surge” could—and should—look like.\n\nAnd speaking of collective action on cyber defense: The SANS Institute named the winners of its Find Evil! hackathon last week. The five autonomous incident response agents are now available on the SIFT Workstation. We discuss the results and what the hackathon’s success means for the future of autonomous agents in cybersecurity.\n\nFinally: Flare unmasked a couple of the alleged leaders of the notorious hacking gang TeamPCP. We look at how they did it, and what the rest of us can learn from it. \n\nAll that and more on Security Intelligence.\n\n00:00 - Intro\n1:19 - OpenAI’s open letter\n12:22 - Find Evil! winners\n22:03 - TeamPCP takedown\n\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~sri8e1bKr\n#openai #cybersecurity #cyberdefense \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-02T10:13:18Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
