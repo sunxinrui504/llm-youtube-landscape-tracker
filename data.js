@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-02T10:13:18Z",
+  "last_updated": "2026-09-03T10:25:15Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -884,6 +884,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "-0p68wKEitE",
         "channel": "IBM Technology",
         "title": "Why OpenAI is calling for a ‘cyber defense surge.’ Plus: Find Evil! winners and TeamPCP losers"
+      },
+      {
+        "video_id": "B3LXEW4Pc-w",
+        "channel": "Two Minute Papers",
+        "title": "Claude Fable AI Is Much Stranger Than The Headlines Suggest"
       }
     ],
     "Large Language Models": [
@@ -20579,6 +20584,63 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-02T10:13:18Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "B3LXEW4Pc-w",
+      "url": "https://www.youtube.com/watch?v=B3LXEW4Pc-w",
+      "title": "Claude Fable AI Is Much Stranger Than The Headlines Suggest",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-09-03",
+      "duration_seconds": 295,
+      "metrics": {
+        "views": 6107,
+        "likes": 393,
+        "comments": 55
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The Claude Fable 5.1 paper is available here:\nhttps://www.anthropic.com/claude-fable-and-mythos-5-1\nhttps://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20%26%20Claude%20Mythos%205.1%20System%20Card.pdf\n\nSources:\nhttps://x.com/alexalbert__/status/2094860187743986169?s=46\nhttps://x.com/holytrinity/status/2094866061212459130?s=46\nhttps://x.com/holytrinity/status/2094927984217985474?s=46\nhttps://x.com/omedvibecodes/status/2094887840848965845?s=46\nhttps://x.com/loktar00/status/2094951511742632168?s=46\nhttps://x.com/maxt3chno/status/2094798704385380762?s=46\nhttps://x.com/fabianofirmo/status/2094954495646035978?s=46\nhttps://x.com/fabianofirmo/status/2094954495646035978?s=46\nhttps://x.com/Rubzem/status/2094866225960493189?s=20\nhttps://x.com/atomicagent_io/status/2094895071304839400?s=20\nhttps://x.com/do_owne/status/2095054932466422125\nhttps://x.com/holytrinity/status/2095216452433313915\nhttps://x.com/vib3coded/status/2095329598472860011\nhttps://x.com/MaxForAI/status/2095270764979355651\nhttps://x.com/MengTo/status/2095104073590808644\nhttps://x.com/earthtojake/status/2095352925597884465\nhttps://x.com/alexalbert__/status/2094860187743986169\nhttps://x.com/adonis_singh/status/2095158753796497550\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "claude",
+          "claude fable",
+          "fable 5",
+          "fable 5.1"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-03T10:25:14Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
