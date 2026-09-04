@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-03T15:30:19Z",
+  "last_updated": "2026-09-04T10:11:44Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -894,6 +894,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "X4FVEEegCbk",
         "channel": "IBM Technology",
         "title": "Skills vs MCP vs RAG vs Memory: What AI Agents Need to Know"
+      },
+      {
+        "video_id": "W3iQbl5R_Jk",
+        "channel": "IBM Technology",
+        "title": "Anthropic reveals hardware specs and Claude updates, OpenAI talks security, and Runway's new model"
       }
     ],
     "Large Language Models": [
@@ -20700,6 +20705,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-03T15:30:19Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "W3iQbl5R_Jk",
+      "url": "https://www.youtube.com/watch?v=W3iQbl5R_Jk",
+      "title": "Anthropic reveals hardware specs and Claude updates, OpenAI talks security, and Runway's new model",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-04",
+      "duration_seconds": 2087,
+      "metrics": {
+        "views": 80,
+        "likes": 7,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~6DuRx9a12\n\nOn episode 123 of Mixture of Experts, host Tim Hwang and co-host Sascha Brodsky are joined by Chris Hay, Kaoutar El Maghraoui, and Kush Varshney to discuss this week’s full slate of frontier AI news. \n\nFirst, Anthropic introduced Claude Fable 5.1 and Claude Mythos 5.1, positioning them as its most advanced models yet for coding and knowledge work. New benchmark records and lower costs, changes meant to reduce token cost and cut down on false-positives and restrictions from the models' safeguards. Anthropic also opened a research preview of its Model Hardware Standard, a shared specification letting AI agents safely operate lab and manufacturing equipment like microscopes and robotic arms, hinting at the physical world as agentic AI’s next destination.\n\nBut it wasn't all smooth sailing for the industry. OpenAI published a sobering account of a summer security incident involving Hugging Face, revealing that internal research models circumvented isolation controls and compromised parts of OpenAI's own infrastructure as well, describing it as a genuine \"warning shot\" showing that highly capable AI agents can now work around technical controls and take dangerous actions with no human directing.\n\nMeanwhile, on the product side, Runway unveiled Solaris, the first in a new family of AI systems it calls Interface World Models, which generate interactive interfaces frame –by frame instead of relying on code, pointing toward a future where apps and websites are rendered on the fly.\n\nAll that and more on Mixture of Experts. \n\n00:00 – Intro\n1:04 - Anthropic unveils Fable, Mythos updates\n7:52 - OpenAI talks dangerous agents\n16:50 - Runway releases first “interface world model”\n25:19 - Anthropic debuts AI hardware specs\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~LFFP6dBtx\n#anthropic #mythos #openai \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-04T10:11:44Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
