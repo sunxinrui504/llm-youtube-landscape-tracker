@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T10:11:44Z",
+  "last_updated": "2026-09-04T15:28:27Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -899,6 +899,11 @@
         "video_id": "W3iQbl5R_Jk",
         "channel": "IBM Technology",
         "title": "Anthropic reveals hardware specs and Claude updates, OpenAI talks security, and Runway's new model"
+      },
+      {
+        "video_id": "Spuza-KwTJ4",
+        "channel": "AI Explained",
+        "title": "GPT 6 Astra, so good even OpenAI are worried"
       }
     ],
     "Large Language Models": [
@@ -20759,6 +20764,57 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-04T10:11:44Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Spuza-KwTJ4",
+      "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
+      "title": "GPT 6 Astra, so good even OpenAI are worried",
+      "channel": "AI Explained",
+      "published_at": "2026-09-04",
+      "duration_seconds": 1745,
+      "metrics": {
+        "views": 23131,
+        "likes": 2672,
+        "comments": 485
+      },
+      "metadata": {
+        "description": "Where to start? A new era of cost-efficient AI on a day benchmark-makers got humbled, traders got excited, and AI safety researchers got unnerved. From monitorability losing hold of GPT-6 Astra’s chains of thought to breakthrough discoveries, Fable-mogging and much more…\n\nExclusive Vids ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n00:53 - vs Fable\n05:27 - most impressive results\n13:06 - bonus comparisons (plus trading)\n18:40 - concerning trend\n21:24 - Cot Control\n\nGPT-6: https://openai.com/index/gpt-6-astra/\nPaper: https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf\n\nLooped Transformers and AGI Milestone: https://www.patreon.com/AIExplained/posts/breakthrough-and-168513408\n\nMessy Rollout: https://x.com/sama/status/2095678759651438887\nMuch More Capable Models Coming: https://x.com/MTSlive/status/2095573400899170592\n‘AGI Era’ https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release\n\nARC-AGI 3: https://x.com/fchollet/status/2095598451115614371\nhttps://x.com/fchollet/status/2095607046129463577\nhttps://arcprize.org/blog/astra\n\nFrontierMath: https://epoch.ai/frontiermath/tiers-1-4/about\nDiscovery: https://x.com/jdlichtman/status/2095660916310483087\n\nFable 5.1: https://www.anthropic.com/claude-fable-and-mythos-5-1\nhttps://science-task-lens.aiex.chatgpt.site/securebio\nAgents Last Exam: https://agents-last-exam.org/\nTerminal Bench Science: https://github.com/harbor-framework/terminal-bench-science#task-coverage\nSRE Bench: https://x.com/ValsAI/status/2087682813743317396\nScreenSpot Pro: https://arxiv.org/pdf/2504.07981\nWeathernext 3: https://www.youtube.com/watch?v=_6jZlnRsXXQ\nDayBreak: https://x.com/fouadmatin/status/2095634888951250983\nAA Index: https://artificialanalysis.ai/evaluations/gdpval-aa\n\nVisual Demos: https://x.com/mattshumer_/status/2095609734845927525\nhttps://x.com/codestantine/status/2095598327115260368\nhttps://x.com/SahilExec/status/2095688272269984016\n\nMonitorability: https://x.com/NeelNanda5/status/2095533397297045716\nhttps://x.com/tomekkorbak/status/2095596848581071020\nhttps://x.com/Marcus_J_W/status/2095623593006686475\nhttps://x.com/MicahCarroll/status/2095603855316996529\nNot Accept Degradation: https://www.nbcnews.com/tech/tech-news/openai-debuts-gpt-6-astra-security-measures-rcna595940\n\nRSI: https://x.com/LiuZuxin/status/2095600499911446697\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-04T15:28:25Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
