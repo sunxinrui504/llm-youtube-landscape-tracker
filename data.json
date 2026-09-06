@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T15:28:27Z",
+  "last_updated": "2026-09-06T14:39:49Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -904,6 +904,11 @@
         "video_id": "Spuza-KwTJ4",
         "channel": "AI Explained",
         "title": "GPT 6 Astra, so good even OpenAI are worried"
+      },
+      {
+        "video_id": "mUw27wG7uFA",
+        "channel": "IBM Technology",
+        "title": "AI Simplified: 6 Concepts You Need to Know About Modern AI"
       }
     ],
     "Large Language Models": [
@@ -20815,6 +20820,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-04T15:28:25Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "mUw27wG7uFA",
+      "url": "https://www.youtube.com/watch?v=mUw27wG7uFA",
+      "title": "AI Simplified: 6 Concepts You Need to Know About Modern AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-06",
+      "duration_seconds": 529,
+      "metrics": {
+        "views": 5246,
+        "likes": 285,
+        "comments": 23
+      },
+      "metadata": {
+        "description": "Learn more about Artificial Intelligence (AI) here → https://ibm.biz/~yBSrYFMHU\n\nAI is everywhere, but the terminology can be confusing. Jeff Crume explains six essential AI concepts including LLMs, RAG, AI agents, MCP, system prompts, and model training using simple human analogies. Learn how modern AI systems work and how the pieces fit together.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~iLvFV73wr\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aisimplified #ai #llm #generativeai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-06T14:39:49Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
