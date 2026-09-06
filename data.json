@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T14:39:49Z",
+  "last_updated": "2026-09-06T19:47:30Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -909,6 +909,11 @@
         "video_id": "mUw27wG7uFA",
         "channel": "IBM Technology",
         "title": "AI Simplified: 6 Concepts You Need to Know About Modern AI"
+      },
+      {
+        "video_id": "GUmsrJp-RwE",
+        "channel": "Sam Witteveen",
+        "title": "NVIDIA Doubles Down on Local AI With PAIR"
       }
     ],
     "Large Language Models": [
@@ -20874,6 +20879,85 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-06T14:39:49Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "GUmsrJp-RwE",
+      "url": "https://www.youtube.com/watch?v=GUmsrJp-RwE",
+      "title": "NVIDIA Doubles Down on Local AI With PAIR",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-06",
+      "duration_seconds": 1041,
+      "metrics": {
+        "views": 6968,
+        "likes": 339,
+        "comments": 58
+      },
+      "metadata": {
+        "description": "In this video, I cover a number of new announcements from NVIDIA, including the launch of NVIDIA Pair, a new form of local router. \n\n#nvidia  #nvidia-pair\n\n📖 Blog: https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/\nGithub: https://github.com/NVIDIA/Personal-AI-Router\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:56 NVIDIA Topping HF Repos\n02:44 NVIDIA's Acquiring Hugging Face\n04:47 2026 Year of Open Source Models\n05:40 Frontier Intelligence\n05:59 Frontier Video\n06:27 NVIDIA PAIR\n10:53 Personal AI Router Github\n13:20 Demo",
+        "tags": [
+          "NVIDIA PAIR",
+          "NVIDIA Personal AI Router",
+          "NVIDIA PAIR tutorial",
+          "NVIDIA PAIR setup",
+          "local AI",
+          "local LLM",
+          "home GPU cluster",
+          "multi GPU inference",
+          "DGX Spark",
+          "RTX 5090 AI",
+          "RTX AI PC",
+          "Apple M4 AI",
+          "Ollama",
+          "open source AI tools",
+          "AI inference router",
+          "local inference",
+          "IFA 2026 NVIDIA",
+          "NVIDIA AI announcement",
+          "AI news this week",
+          "Claude Fable 5.1",
+          "Claude Mythos 5.1",
+          "GPT-6 Astra",
+          "AGI news",
+          "AI agents local",
+          "self hosted AI",
+          "personal AI cluster",
+          "NVIDIA RTX PRO"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-06T19:47:30Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
