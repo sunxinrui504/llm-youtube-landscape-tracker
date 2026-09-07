@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-06T19:47:30Z",
+  "last_updated": "2026-09-07T11:05:09Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -914,6 +914,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "GUmsrJp-RwE",
         "channel": "Sam Witteveen",
         "title": "NVIDIA Doubles Down on Local AI With PAIR"
+      },
+      {
+        "video_id": "GRYZR2R20FI",
+        "channel": "IBM Technology",
+        "title": "Code Quality in the Age of AI: Why Great Code Isn't Enough"
       }
     ],
     "Large Language Models": [
@@ -20958,6 +20963,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-06T19:47:30Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "GRYZR2R20FI",
+      "url": "https://www.youtube.com/watch?v=GRYZR2R20FI",
+      "title": "Code Quality in the Age of AI: Why Great Code Isn't Enough",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-07",
+      "duration_seconds": 834,
+      "metrics": {
+        "views": 15,
+        "likes": 6,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Code Quality here → https://ibm.biz/~ypVg7mn8p\n\nAI can generate clean, working code in seconds. But software quality was never just about writing code. Meenakshi Kodati explores how AI is changing software engineering, why engineering judgment is becoming more valuable, and how testing, governance, architecture, and system-level thinking are redefining code quality. Learn why the future of software engineering isn't about generating better code—it's about making better decisions.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~D77K1IgGS\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#codequality #aicoding #softwareengineering #ai",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-07T11:05:09Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
