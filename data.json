@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T10:19:06Z",
+  "last_updated": "2026-09-08T15:41:40Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -924,6 +924,11 @@
         "video_id": "eVBJIUxv8N8",
         "channel": "Two Minute Papers",
         "title": "GPT-6 Astra Changes Everything"
+      },
+      {
+        "video_id": "kjoQPn--F7A",
+        "channel": "IBM Technology",
+        "title": "An Ancient Guide to Cybersecurity: 8 Lessons from The Art of War"
       }
     ],
     "Large Language Models": [
@@ -21080,6 +21085,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-08T10:19:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "kjoQPn--F7A",
+      "url": "https://www.youtube.com/watch?v=kjoQPn--F7A",
+      "title": "An Ancient Guide to Cybersecurity: 8 Lessons from The Art of War",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-08",
+      "duration_seconds": 843,
+      "metrics": {
+        "views": 6451,
+        "likes": 235,
+        "comments": 13
+      },
+      "metadata": {
+        "description": "Learn more about Cost of a Data Breach Report 2026 here → https://ibm.biz/~3LxDJ8rUK\n\nWhat can a 2,500-year-old military text teach us about cybersecurity? Jeff Crume explores eight cybersecurity lessons from Sun Tzu's The Art of War and connects them to modern cyber defense strategies. Learn how threat intelligence, deception, risk management, AI, and leadership help strengthen security today.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~IQ8cIIboI\n\n#cybersecurity #artofwar #cyberdefense #aisecurity",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-08T15:41:40Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
