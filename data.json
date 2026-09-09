@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T15:41:40Z",
+  "last_updated": "2026-09-09T10:26:25Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -929,6 +929,11 @@
         "video_id": "kjoQPn--F7A",
         "channel": "IBM Technology",
         "title": "An Ancient Guide to Cybersecurity: 8 Lessons from The Art of War"
+      },
+      {
+        "video_id": "6AuYLbHqirk",
+        "channel": "IBM Technology",
+        "title": "Why won’t AI agents just follow the rules?"
       }
     ],
     "Large Language Models": [
@@ -21139,6 +21144,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-08T15:41:40Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "6AuYLbHqirk",
+      "url": "https://www.youtube.com/watch?v=6AuYLbHqirk",
+      "title": "Why won’t AI agents just follow the rules?",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-09",
+      "duration_seconds": 2129,
+      "metrics": {
+        "views": 168,
+        "likes": 14,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Explore the podcast  → https://ibm.biz/~jShHVJwcb\n\nWhy bother giving your AI agents rules if they’re just gonna reason around them?\n\nOn episode 50 of Security Intelligence, Dustin “EvilMog” Heywood, Seth Glasgow and Nick Bradley join host Matt Kosinski to discuss why AI agents go off-script and whether we can stop them. \n\nDrawing on the HuggingFace hack and an op-ed from Dark Reading, we explore what ethics looks like for a piece of software that has no concept of right and wrong. Is there a way to balance the utility of probabilistic AI with the security of deterministic controls? \n\nThen: The OWASP Top 10 for agentic skills is here, and the list is full of some very basic security hygiene failures. We ask: Why are agentic skills hubs so bad at cybersecurity?\n\nPlus: As AI makes it easier than ever to find vulnerabilities and generate bug reports, bug bounty programs are struggling to keep up. Will AI slop spell the end of independent bug research?\n\nFinally, Itzhak Chimino stops by to show off ThreatXtension, a tool he helped create to detect malicious browser extensions.\n\nAll that and more on Security Intelligence.\n\n00:00 - Intro\n1:26 - Can we really control AI agents?\n11:49 - OWASP’s Top 10 for agentic skills\n20:37 - AI breaks bug bounties\n28:47 - ThreatXtension\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~pQM1a5CTJ\n#aiagents #aisecurity #vulnerabilitymanagement \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-09T10:26:25Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
