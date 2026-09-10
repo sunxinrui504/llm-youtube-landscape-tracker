@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T10:17:12Z",
+  "last_updated": "2026-09-10T15:32:10Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -939,6 +939,16 @@
         "video_id": "mOvtumfyjCs",
         "channel": "Two Minute Papers",
         "title": "The Equation That Might Destroy Itself"
+      },
+      {
+        "video_id": "CXvncR7v66o",
+        "channel": "Sam Witteveen",
+        "title": "MiniCPM5-2B: The Best Sub-Agent Model Yet?"
+      },
+      {
+        "video_id": "zqowMgMgSjA",
+        "channel": "IBM Technology",
+        "title": "How GPUs Accelerate Data & Analytics with AI"
       }
     ],
     "Large Language Models": [
@@ -21260,6 +21270,146 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-10T10:17:10Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "CXvncR7v66o",
+      "url": "https://www.youtube.com/watch?v=CXvncR7v66o",
+      "title": "MiniCPM5-2B: The Best Sub-Agent Model Yet?",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-10",
+      "duration_seconds": 870,
+      "metrics": {
+        "views": 1605,
+        "likes": 104,
+        "comments": 19
+      },
+      "metadata": {
+        "description": "Get Started with Runpod Serverless https://fandf.co/4zPczDz \n\nThis is simplest way to do serverless endpoints I have seen.\n\n🤗 HF: https://huggingface.co/openbmb/MiniCPM5-2B\nGithub: https://github.com/openbmb/minicpm\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:36 MiniCPM5-2B\n01:06 Benchmarks\n01:15 Training Recipe\n01:53 JustRL II\n04:28 MiniCPM5-2B Models\n04:48 MiniCPM5 Hugging Face\n07:22 Demo",
+        "tags": [
+          "MiniCPM",
+          "MiniCPM5",
+          "MiniCPM5-2B",
+          "MiniCPM 2B",
+          "MiniCPM 1B",
+          "MiniCPM 2B review",
+          "OpenBMB",
+          "small language model",
+          "SLM",
+          "on device LLM",
+          "local LLM",
+          "edge AI",
+          "function calling",
+          "tool calling",
+          "agentic AI",
+          "AI agents",
+          "agentic coding",
+          "open source LLM",
+          "open weights model",
+          "LLM benchmarks",
+          "best small LLM",
+          "Hugging Face",
+          "vLLM",
+          "RunPod",
+          "RunPod Serverless",
+          "serverless GPU",
+          "GPU cloud",
+          "deploy LLM",
+          "LLM inference",
+          "OpenAI compatible API",
+          "self host LLM",
+          "AI news",
+          "LLM",
+          "2B model"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-10T15:31:53Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "zqowMgMgSjA",
+      "url": "https://www.youtube.com/watch?v=zqowMgMgSjA",
+      "title": "How GPUs Accelerate Data & Analytics with AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-10",
+      "duration_seconds": 323,
+      "metrics": {
+        "views": 1450,
+        "likes": 77,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "Learn more about the difference between AI Accelerators & GPUs here → https://ibm.biz/~aQ0A1Q6sb\n\nLearn more about GPU Acceleration here → https://ibm.biz/~W5GlUS6Cb\n\nAnalytics workloads are growing faster than traditional CPU-based systems can efficiently support. Roy Derks explains how GPUs accelerate data analytics, why heterogeneous computing is becoming more common, and how AI workloads are driving a new generation of analytics platforms. Learn how CPUs and GPUs work together to improve performance, reduce infrastructure costs, and scale modern data processing.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~QyqoztM8T\n\n#gpu #ai #dataanalytics #dataengineering \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-10T15:32:10Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
