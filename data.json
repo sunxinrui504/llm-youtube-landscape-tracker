@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T10:26:25Z",
+  "last_updated": "2026-09-10T10:17:12Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -934,6 +934,11 @@
         "video_id": "6AuYLbHqirk",
         "channel": "IBM Technology",
         "title": "Why won’t AI agents just follow the rules?"
+      },
+      {
+        "video_id": "mOvtumfyjCs",
+        "channel": "Two Minute Papers",
+        "title": "The Equation That Might Destroy Itself"
       }
     ],
     "Large Language Models": [
@@ -21198,6 +21203,63 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-09T10:26:25Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "mOvtumfyjCs",
+      "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
+      "title": "The Equation That Might Destroy Itself",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-09-10",
+      "duration_seconds": 558,
+      "metrics": {
+        "views": 4727,
+        "likes": 514,
+        "comments": 76
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The Navier-Stokes solution paper is available here:\nhttps://openai.com/index/navier-stokes-solution/\n\nMy fluid simulations and papers:\nhttps://users.cg.tuwien.ac.at/zsolnai/gfx/fluid_control_msc_thesis/\nhttps://users.cg.tuwien.ac.at/zsolnai/gfx/real_time_fluid_control_eg/\nThe flow from simulation to reality: https://www.nature.com/articles/s41567-022-01788-5\nAll papers: https://users.cg.tuwien.ac.at/zsolnai/\n\nFull interview with Sir Demis Hassabis:\nhttps://www.youtube.com/watch?v=huAwz_BR8WM\n\nSources:\nhttps://www.youtube.com/watch?v=EURkO98VnKc\nhttps://www.youtube.com/watch?v=luOWq1Gdv8c\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "navier-stokes",
+          "openai",
+          "millennium problem",
+          "navier stokes ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-10T10:17:10Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
