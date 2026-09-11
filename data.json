@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T15:32:10Z",
+  "last_updated": "2026-09-11T10:15:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -949,6 +949,11 @@
         "video_id": "zqowMgMgSjA",
         "channel": "IBM Technology",
         "title": "How GPUs Accelerate Data & Analytics with AI"
+      },
+      {
+        "video_id": "XPReiOKCzFI",
+        "channel": "IBM Technology",
+        "title": "OpenAI talks GPT-6 Astra and Millenium Prize, researchers create WeWorm exploit & IBM’s US Open app"
       }
     ],
     "Large Language Models": [
@@ -21410,6 +21415,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-10T15:32:10Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "XPReiOKCzFI",
+      "url": "https://www.youtube.com/watch?v=XPReiOKCzFI",
+      "title": "OpenAI talks GPT-6 Astra and Millenium Prize, researchers create WeWorm exploit & IBM’s US Open app",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-11",
+      "duration_seconds": 1987,
+      "metrics": {
+        "views": 100,
+        "likes": 6,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~AHBoMt9Qu\n\nIt's been a week that proves AI is moving faster than anyone can fully keep up with, unless you’ve got a good backhand. On episode 124 of Mixture of Experts, host Tim Hwang and co-host David Zax are joined by Bri Kopecki, Aaron Baughman, and Olivia Buzek to talk about new advances from OpenAI, new cybersecurity threats, and new tools for US Open fans from IBM. \n\nFirst, OpenAI introduced GPT-6 Astra as the company's most intelligent and aligned model yet, reaching state-of-the-art results across computer use, software engineering, cybersecurity and science. Not missing a beat, the company dropped a second bit of news: an internal model produced a proof related to the 3-D Navier-Stokes equation, resolving one of mathematics' most famous unsolved problems. We dig into both the breakthrough and the conversation around the use of AI to solve these seemingly impossible problems.\n\nThen, IBM and the USTA unveiled new AI-powered fan features for the 2026 US Open, including a Serve Quality metric and personalized stats, designed to bring fans closer to the action than ever. \n\nFinally, we talk WeWorm, an AI-assisted exploit by California security firm built as a proof-of-concept self-spreading worm, capable of hijacking WeChat accounts before a victim even had a chance to answer a phone call. It's a sobering demonstration of what AI-assisted offensive security now looks like.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n0:54 - OpenAI talks Navier-Stokes and GPT-6 Astra\n14:30 - IBM's AI analysis at the US Open\n22:55 - What WeWorm means for exploits\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~Uc9A8pkUe\n#aimodel #openai #navier-stokes \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-11T10:15:55Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
