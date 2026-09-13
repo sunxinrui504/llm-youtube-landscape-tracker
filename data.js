@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-11T10:15:56Z",
+  "last_updated": "2026-09-13T15:20:42Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -954,6 +954,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "XPReiOKCzFI",
         "channel": "IBM Technology",
         "title": "OpenAI talks GPT-6 Astra and Millenium Prize, researchers create WeWorm exploit & IBM’s US Open app"
+      },
+      {
+        "video_id": "e5srAMM1amA",
+        "channel": "Sam Witteveen",
+        "title": "Managed Agents - Don't Get Locked In"
+      },
+      {
+        "video_id": "XN3xNJvWXsc",
+        "channel": "IBM Technology",
+        "title": "Essential Skills for Becoming an AI Engineer: RAG, AI Agents, & More"
       }
     ],
     "Large Language Models": [
@@ -21468,6 +21478,141 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-11T10:15:55Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "e5srAMM1amA",
+      "url": "https://www.youtube.com/watch?v=e5srAMM1amA",
+      "title": "Managed Agents - Don't Get Locked In",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-13",
+      "duration_seconds": 649,
+      "metrics": {
+        "views": 595,
+        "likes": 55,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "In this video, I look at the concept of managed agents that a lot of providers are currently rolling out. While they have a lot of advantages, you also want to ask yourself: do you really want to get locked in for these? \n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:09 Managed Agents\n00:16 Managed Agents Timeline\n01:31 Three Layers of Managed Agents\n02:46 Two kinds of Managed Agents\n04:13 Claude Managed Agents Concepts\n05:28 The Economics Behind\n08:35 Five Questions to Ask Before Choosing Which One to Choose",
+        "tags": [
+          "managed agents",
+          "claude managed agents",
+          "gemini managed agents",
+          "agentcore harness",
+          "foundry agent service",
+          "langchain deep agents",
+          "hosted agents",
+          "ai agents",
+          "agent harness",
+          "agent runtime",
+          "agent sandbox",
+          "mcp",
+          "agent orchestration",
+          "agentic ai",
+          "llm agents",
+          "building ai agents",
+          "ai agent development",
+          "vendor lock in",
+          "session runtime",
+          "antigravity",
+          "local ai agents",
+          "docker sandbox",
+          "self hosted agents",
+          "sam witteveen",
+          "ai engineering",
+          "anthropic",
+          "openai",
+          "aws bedrock agentcore",
+          "claude api"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-13T15:20:24Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "XN3xNJvWXsc",
+      "url": "https://www.youtube.com/watch?v=XN3xNJvWXsc",
+      "title": "Essential Skills for Becoming an AI Engineer: RAG, AI Agents, & More",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-13",
+      "duration_seconds": 655,
+      "metrics": {
+        "views": 4218,
+        "likes": 550,
+        "comments": 21
+      },
+      "metadata": {
+        "description": "Learn more about AI Agents here → https://ibm.biz/~ym64g2zF3\n\nWant to become an AI engineer but not sure where to start? Cedric Clyburn breaks down the essential skills for AI engineering, from Python and APIs to RAG, embeddings, AI agents, observability, and deployment. Learn the foundations, workflows, and practical skills used to build modern AI systems.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~AiKwflRto\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aiengineering #ai #aiagents #aiskills",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-13T15:20:41Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
