@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-14T11:17:23Z",
+  "last_updated": "2026-09-14T17:16:46Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -969,6 +969,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "X0UI0O8YzJM",
         "channel": "IBM Technology",
         "title": "How Developers Secure AI-Generated Code: 5 Security Best Practices"
+      },
+      {
+        "video_id": "3AdW345Jskk",
+        "channel": "Sam Witteveen",
+        "title": "The OpenSource Managed Agents"
       }
     ],
     "Large Language Models": [
@@ -21672,6 +21677,86 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-14T11:17:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "3AdW345Jskk",
+      "url": "https://www.youtube.com/watch?v=3AdW345Jskk",
+      "title": "The OpenSource Managed Agents",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-14",
+      "duration_seconds": 1223,
+      "metrics": {
+        "views": 2462,
+        "likes": 128,
+        "comments": 21
+      },
+      "metadata": {
+        "description": "In this video I checkout, TrueForge the open source managed agents solution from TrueFoundry. It allows you to build agents easily with out the forced model choices or vendor lock ins. \n\nCheck out the repo and leave a star\nGithub: https://github.com/truefoundry/trueforge\n\nDocs:https://trueforge.dev/introduction\nWebsite: https://www.truefoundry.com/trueforge\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:56 TrueForge: Open-source agent harness\n01:42 Harness\n03:43 TrueForge Runtime Harness\n04:22 Why it matters\n04:47 Agent Harness Architecture\n05:29 Benchmarks\n10:24 Demo\n11:03 Installing TrueForge\n11:19 Choosing a Model\n12:01 Connectors\n12:34 Skills\n12:28 Sandbox Providers\n17:33 Using Python",
+        "tags": [
+          "trueforge",
+          "trueforge tutorial",
+          "truefoundry",
+          "agent harness",
+          "open source agent harness",
+          "ai agent harness",
+          "claude managed agents",
+          "openai agent api",
+          "gemini agents",
+          "managed agents",
+          "ai agents",
+          "ai agent framework",
+          "self hosted ai agents",
+          "run ai agents locally",
+          "local ai agents",
+          "ollama",
+          "open source ai",
+          "agent runtime",
+          "llm agents",
+          "ai agent cost",
+          "token cost",
+          "open weights models",
+          "agentic ai",
+          "ai agent tutorial",
+          "mit license",
+          "glm 5.2",
+          "typescript agent",
+          "open source managed agents"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-14T17:16:45Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
