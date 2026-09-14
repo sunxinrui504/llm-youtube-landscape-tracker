@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T15:20:42Z",
+  "last_updated": "2026-09-14T11:17:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -964,6 +964,11 @@
         "video_id": "XN3xNJvWXsc",
         "channel": "IBM Technology",
         "title": "Essential Skills for Becoming an AI Engineer: RAG, AI Agents, & More"
+      },
+      {
+        "video_id": "X0UI0O8YzJM",
+        "channel": "IBM Technology",
+        "title": "How Developers Secure AI-Generated Code: 5 Security Best Practices"
       }
     ],
     "Large Language Models": [
@@ -21613,6 +21618,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-13T15:20:41Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "X0UI0O8YzJM",
+      "url": "https://www.youtube.com/watch?v=X0UI0O8YzJM",
+      "title": "How Developers Secure AI-Generated Code: 5 Security Best Practices",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-14",
+      "duration_seconds": 688,
+      "metrics": {
+        "views": 44,
+        "likes": 29,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Learn more about Shift-Left Testing here → https://ibm.biz/~GjS7OaN8v\n\nAI can generate software faster than ever, but speed alone doesn't create trust. Jeff Crume explains how developers secure AI-generated code using shift-left security, dependency validation, continuous testing, and outcome-based verification. Learn five key principles for building safer AI-assisted software development workflows.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~q0cz4suIE\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #aisecurity #devsecops #aicoding",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-14T11:17:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
