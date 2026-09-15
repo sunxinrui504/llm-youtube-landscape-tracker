@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-15T10:43:20Z",
+  "last_updated": "2026-09-15T15:56:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -979,6 +979,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "YoEWjZSwoys",
         "channel": "Two Minute Papers",
         "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text"
+      },
+      {
+        "video_id": "CKC47S92wA4",
+        "channel": "IBM Technology",
+        "title": "What Is Legacy Code? How AI Is Modernizing Legacy Systems"
       }
     ],
     "Large Language Models": [
@@ -21819,6 +21824,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-15T10:43:18Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "CKC47S92wA4",
+      "url": "https://www.youtube.com/watch?v=CKC47S92wA4",
+      "title": "What Is Legacy Code? How AI Is Modernizing Legacy Systems",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-15",
+      "duration_seconds": 551,
+      "metrics": {
+        "views": 7172,
+        "likes": 181,
+        "comments": 12
+      },
+      "metadata": {
+        "description": "Learn more about Legacy Code here → https://ibm.biz/~IGoAQN8Qn\n\nLegacy code powers some of the world's most important systems, but maintaining it is becoming increasingly difficult. Anna Gutowska explains what legacy code is, why modernization is so challenging, and how AI can accelerate software migration, documentation, testing, and modernization workflows. Learn how AI helps teams preserve critical business logic while reducing technical debt and modernization risk.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~OlLZDTEOh\n\n#legacycode #aicoding #softwareengineering #aiagents",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-15T15:56:23Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
