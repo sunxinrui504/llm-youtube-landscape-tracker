@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-14T17:16:46Z",
+  "last_updated": "2026-09-15T10:43:20Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -974,6 +974,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "3AdW345Jskk",
         "channel": "Sam Witteveen",
         "title": "The OpenSource Managed Agents"
+      },
+      {
+        "video_id": "YoEWjZSwoys",
+        "channel": "Two Minute Papers",
+        "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text"
       }
     ],
     "Large Language Models": [
@@ -21757,6 +21762,63 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-14T17:16:45Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "YoEWjZSwoys",
+      "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
+      "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-09-15",
+      "duration_seconds": 256,
+      "metrics": {
+        "views": 1202,
+        "likes": 111,
+        "comments": 28
+      },
+      "metadata": {
+        "description": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The papers and sources are available here:\nhttps://proceedings.mlr.press/v202/kirchenbauer23a.html\nhttps://www.nature.com/articles/s41586-024-08025-4\nhttps://www.anthropic.com/news/claude-text-watermark\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "claude",
+          "openai",
+          "claude watermark",
+          "ai watermark"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-15T10:43:18Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
