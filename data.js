@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-15T15:56:23Z",
+  "last_updated": "2026-09-16T10:30:57Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -984,6 +984,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "CKC47S92wA4",
         "channel": "IBM Technology",
         "title": "What Is Legacy Code? How AI Is Modernizing Legacy Systems"
+      },
+      {
+        "video_id": "t8Y-eqZ5_-0",
+        "channel": "IBM Technology",
+        "title": "The vulnpocalypse might not be so bad after all"
       }
     ],
     "Large Language Models": [
@@ -21878,6 +21883,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-15T15:56:23Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "t8Y-eqZ5_-0",
+      "url": "https://www.youtube.com/watch?v=t8Y-eqZ5_-0",
+      "title": "The vulnpocalypse might not be so bad after all",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-16",
+      "duration_seconds": 2038,
+      "metrics": {
+        "views": 135,
+        "likes": 11,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Explore the podcast → https://ibm.biz/~7vUKC9XTD\n\nDepending on who you ask, the AI-driven vulnpocalypse is either the end of cybersecurity as we know it or a lot of hot air.\n\nThis week on Security Intelligence, host Patrick Austin sits down with Giacomo Casoni, Brad Lair and Norman Dorsch to dig into a new report suggesting the AI vulnerability surge might be more manageable than feared—as long as organizations shift their focus from patching to validation.\n\nThen: Researchers caught AI agents secretly turning public wikis into makeshift message boards, apparently coordinating with each other to get around their own restrictions. How can we trust them with critical cybersecurity workflows?\n\nPlus, the ShinyHunters gang proves that old-school vishing can still beat multifactor authentication, no AI required.\n\nFinally, Shweta Jain, Head of Promontory at IBM Consulting, joins the show to talk about her new piece with Stephen Coraggio on why quantum computing and AI-powered threats are forcing banks to rethink cyber resilience. Read the article: https://ibm.biz/~AdRHYzoyX\n\nAll that and more, on Security Intelligence.\n\n00:00 - Intro\n1:36 - Rethinking the vulnpocalypse\n6:20 - AI agents’ secret message boards\n13:28 - ShinyHunters go vishing\n19:31 - What is cyber resilience, really?\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~n3w1gZb2I\n#vulnerabilitymanagement  #aiagentsecurity #cyberresilience \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-16T10:30:57Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
