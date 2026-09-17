@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-16T10:30:57Z",
+  "last_updated": "2026-09-17T02:31:43Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -989,6 +989,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "t8Y-eqZ5_-0",
         "channel": "IBM Technology",
         "title": "The vulnpocalypse might not be so bad after all"
+      },
+      {
+        "video_id": "J3ljHm57yU0",
+        "channel": "AI Explained",
+        "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI"
       }
     ],
     "Large Language Models": [
@@ -21936,6 +21941,57 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-16T10:30:57Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "J3ljHm57yU0",
+      "url": "https://www.youtube.com/watch?v=J3ljHm57yU0",
+      "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI",
+      "channel": "AI Explained",
+      "published_at": "2026-09-16",
+      "duration_seconds": 1493,
+      "metrics": {
+        "views": 22766,
+        "likes": 1772,
+        "comments": 444
+      },
+      "metadata": {
+        "description": "Why has it been the last few days that the calls to come to pace the frontier AI have come so loudly? The safety warnings, and lab leader messages? Let’s explore the six axes that the researchers are looking at, the incidence reports and trends, to get a better gauge on what has dominated the world’s headlines for over two weeks…\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n0:00 - The warnings that have gone omega-viral\n4:23 - Six axes the researchers saw\n9:32 - Why AI Might Be Becoming Harder to Control\n15:06 - Amodei, China and Cooperation\n18:42 - From AI Capabilities to Real-World Harm?\n23:22 - The upside and the warning\n\nWe Must Pace the Frontier\nhttps://darioamodei.com/post/we-must-pace-the-frontier\n\nAdam Majmudar on scaling and the internal/external perception gap\nhttps://x.com/MajmudarAdam/status/2098881885200081234\n\nAI Explained — What’s Behind the Sudden Talk of Pacing AI? (extended previous video)\nhttps://www.patreon.com/AIExplained/posts/whats-behind-of-169507775\n\nJacob Coxon resignation\nhttps://x.com/hilbertspaess/status/2097476196791709843\n\nDan Selsam — Personal Statement on AI Risk\nhttps://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub\n\nDemis Hassabis: A Framework for Frontier AI and the Dawning of a New Age\nhttps://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age\n\nOpenAI: The Hugging Face incident and the road ahead\nhttps://openai.com/index/hugging-face-incident-and-the-road-ahead/\n\nJakub Pachocki: An Alien Mind\nhttps://openai.com/index/an-alien-mind/\n\nAnthropic: Patterns and problems in multiagent systems\nhttps://www.anthropic.com/research/multiagent-systems\n\nOpenAI: Navier–Stokes Millennium Prize Problem\nhttps://openai.com/index/navier-stokes-solution/\n\nNoam Brown on reasons for AI-safety concern\nhttps://x.com/polynoamial/status/2099726370356314563\n\nNoam Brown — What Happens When AI Starts Improving AI? (The Information interview)\nhttps://www.youtube.com/watch?v=fqcy0xQATq0\n\nPaul Christiano: Personal statement on joining the OpenAI board\nhttps://x.com/paulfchristiano/status/2097733214303645729\n\nNeel Nanda: Astra can do a concerning amount with no chain of thought\nhttps://www.lesswrong.com/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought\n\nTomek Korbak on GPT-6 Astra monitorability\nhttps://x.com/tomekkorbak/status/2095596839886274689\n\nAnthropic: Detecting and countering misuse of AI—September 2026\nhttps://www.anthropic.com/threat-intelligence-report-september-2026\n\nDeepSeek engineer — I Have to Bury My Talent in Yesterday (Chinese original)\nhttps://mp.weixin.qq.com/s/zk0KxuLzhmMJ4LPYW_OHMA\n\nJacob Coxon on AI race and negotiation\nhttps://x.com/hilbertspaess/status/2099954626040905834\n\nMo Bavarian on responsibility and AI progress\nhttps://x.com/mobav0/status/2097507030080888864\n\nAddy Osmani on Anthropic engineering throughput\nhttps://x.com/addyosmani/status/2099577600159158765\n\nOpenAI: Jalapeño inference-chip results\nhttps://openai.com/index/jalapeno-first-results/\n\nNew York Times: For China, a Mock AI Attack on WeChat Signals a Dangerous New Era\nhttps://www.nytimes.com/2026/09/11/world/asia/china-ai-attack-wechat.html\n\nOpenAI: Accelerating antibiotic discovery with ChatGPT\nhttps://openai.com/index/accelerating-antibiotic-discovery/\n\nDavid Bellamy on wet-lab bottlenecks\nhttps://x.com/DavidRBellamy/status/2099197234772607026\n\nChris Rohlf on infrastructure and AI risk\nhttps://x.com/chrisrohlf/status/2099867580668215622\n\nBBC: Titan CEO dismissed safety warnings as baseless cries\nhttps://www.bbc.co.uk/news/world-us-canada-65998914\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-17T02:31:42Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
