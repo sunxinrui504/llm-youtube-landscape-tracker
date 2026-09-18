@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-18T10:16:56Z",
+  "last_updated": "2026-09-18T15:29:08Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1009,6 +1009,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "DtKEgRuq_00",
         "channel": "IBM Technology",
         "title": "Pacing the AI frontier, IBM Granite 4.2 & Meta’s Muse assistant"
+      },
+      {
+        "video_id": "X117w2Rark8",
+        "channel": "Sam Witteveen",
+        "title": "Jev - The Ultimate Classification Model?"
       }
     ],
     "Large Language Models": [
@@ -22167,6 +22172,88 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-18T10:16:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "X117w2Rark8",
+      "url": "https://www.youtube.com/watch?v=X117w2Rark8",
+      "title": "Jev - The Ultimate Classification Model?",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-18",
+      "duration_seconds": 979,
+      "metrics": {
+        "views": 360,
+        "likes": 36,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Jev by Typesafe AI is an interesting new model that focuses more on System 1 thinking with extremely high-speed results to be able to do a variety of different classification tasks.\n\nBlog: https://typesafe.ai/blog/introducing-system-one-models-and-jev\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:32 Kinds of Reasoning\n01:54 Jev by TypeSafe AI\n03:29 Kinds of Questions\n04:56 Demo\n05:31 Demo: Choice\n06:29 Demo: Score\n07:45 Demo: Noul\n09:18 Practical Demo\n11:50 Stringing Actions Together\n12:49 How it works",
+        "tags": [
+          "Jev",
+          "TypeSafe AI",
+          "System One model",
+          "System 1 model",
+          "Diogo Almeida",
+          "structured output",
+          "typed output",
+          "LLM classification",
+          "text classification",
+          "LLM latency",
+          "inference latency",
+          "low latency AI",
+          "LLM as a judge",
+          "chain of thought",
+          "reasoning models",
+          "InstructGPT",
+          "instruction tuning",
+          "RLHF",
+          "OpenAI",
+          "agent routing",
+          "function calling",
+          "tool calling",
+          "AI for developers",
+          "AI engineering",
+          "LLM API",
+          "decision model",
+          "calibrated probabilities",
+          "classifier",
+          "prompt engineering",
+          "structured generation"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-18T15:29:07Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
