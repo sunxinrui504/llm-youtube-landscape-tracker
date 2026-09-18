@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-17T15:54:56Z",
+  "last_updated": "2026-09-18T10:16:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -999,6 +999,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "iZX6d0OdZys",
         "channel": "IBM Technology",
         "title": "What Is MLflow? Tracing AI Agents & LLM Workflows"
+      },
+      {
+        "video_id": "vIHw_2VjSUw",
+        "channel": "Two Minute Papers",
+        "title": "The New DeepSeek Is Huge. And Somehow Tiny."
+      },
+      {
+        "video_id": "DtKEgRuq_00",
+        "channel": "IBM Technology",
+        "title": "Pacing the AI frontier, IBM Granite 4.2 & Meta’s Muse assistant"
       }
     ],
     "Large Language Models": [
@@ -22051,6 +22061,112 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-17T15:54:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "vIHw_2VjSUw",
+      "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
+      "title": "The New DeepSeek Is Huge. And Somehow Tiny.",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-09-18",
+      "duration_seconds": 311,
+      "metrics": {
+        "views": 7342,
+        "likes": 965,
+        "comments": 60
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The DeepSeek V4.1 Flash paper is available here:\nhttps://www.deepseek.com/en/news/deepseek-v4-1-flash/\n\nSources:\nhttps://x.com/flowith/status/2099446892174406055/video/1\nhttps://x.com/loktar00/status/2097761803291726137\nhttps://x.com/loktar00/status/2099171901746688079\nhttps://x.com/loktar00/status/2097557594239897837\nhttps://x.com/loktar00/status/2097342670620291430\nhttps://x.com/RealFedeURU/status/2097804481068941679\nhttps://x.com/ItsmeAjayKV/status/2099875889454739801\nhttps://x.com/ItsmeAjayKV/status/2100434059675709683/video/1\nhttps://x.com/DanielPPFW/status/2100016621251338732/video/1\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-18T10:16:39Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "DtKEgRuq_00",
+      "url": "https://www.youtube.com/watch?v=DtKEgRuq_00",
+      "title": "Pacing the AI frontier, IBM Granite 4.2 & Meta’s Muse assistant",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-18",
+      "duration_seconds": 2327,
+      "metrics": {
+        "views": 79,
+        "likes": 4,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~pXHrXz07k\n\nOn episode 125 of Mixture of Experts, host Tim Hwang and co-host David Zax are joined by Mihai Criveti and Abraham Daniels to discuss the back and forth of frontier AI development, IBM’s latest Granite news, and what’s next for personal agents. \n\nWe open with the biggest story in tech: Anthropic CEO Dario Amodei's call to pump the brakes on frontier AI development. In a widely discussed essay, Amodei argued the industry must slow the pace at which it improves AI model capabilities, warning that progress will still feel fast even so. But will independent evaluators and more enforcement really slow down the fastest moving companies? \n\nThen Abraham Daniels discusses the latest changes coming to IBM’s Granite 4.2 and its open enterprise-focused models in 3B, 8B, and 30B sizes built for reasoning, tool use, coding, and agentic workflows. \n\nFinally, we discuss Meta’s push into personal agents with Muse: a personal AI agent that runs on its own secure virtual machine, works across a person's daily apps, can make purchases on your behalf, and learns from conversations to get smarter the more you use it.\n\nSlowdown rhetoric, updates to Granite, and agents that shop for you. All that and more on this week’s Mixture of Experts.\n\n00:00 – Intro \n1:13 - Anthropic’s AI development dilemma\n15:29 - IBM releases Granite 4.2 \n25:44 - Meta launches Muse agentic AI assistant\n\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~oa9X8BcQx\n#anthropic #claude #aiagent \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-18T10:16:56Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
