@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-20T15:08:24Z",
+  "last_updated": "2026-09-21T11:29:53Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1029,6 +1029,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "jRMbbRdju7Q",
         "channel": "IBM Technology",
         "title": "When Should AI Systems Use Super Agents?"
+      },
+      {
+        "video_id": "FheRqx7DjbU",
+        "channel": "IBM Technology",
+        "title": "Goodbye Tokenmaxxing: From AI Usage to Agentic AI Outcomes"
       }
     ],
     "Large Language Models": [
@@ -22466,6 +22471,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-20T15:08:24Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "FheRqx7DjbU",
+      "url": "https://www.youtube.com/watch?v=FheRqx7DjbU",
+      "title": "Goodbye Tokenmaxxing: From AI Usage to Agentic AI Outcomes",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-21",
+      "duration_seconds": 506,
+      "metrics": {
+        "views": 487,
+        "likes": 51,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Learn more about Valuemaxxing here → https://ibm.biz/~XUdepadwq\n\nFor years, teams measured AI success through adoption and token consumption. Katie McDonald explains why AI usage metrics alone don't capture business value, how tokenmaxxing and token minimization both miss the point, and why successful organizations are shifting toward outcome-based AI strategies. Learn how AI efficiency, model orchestration, and value maxing are changing the next chapter of AI adoption.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~wJeleCn03\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#tokens #ai #agenticai #aitokens \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-21T11:29:52Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
