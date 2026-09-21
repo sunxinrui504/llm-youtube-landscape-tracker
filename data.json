@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T11:29:53Z",
+  "last_updated": "2026-09-21T17:28:26Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1034,6 +1034,11 @@
         "video_id": "FheRqx7DjbU",
         "channel": "IBM Technology",
         "title": "Goodbye Tokenmaxxing: From AI Usage to Agentic AI Outcomes"
+      },
+      {
+        "video_id": "ZR7anrL50xs",
+        "channel": "Sam Witteveen",
+        "title": "How to Build Things with Jev & OpenJevs"
       }
     ],
     "Large Language Models": [
@@ -22525,6 +22530,94 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-21T11:29:52Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "ZR7anrL50xs",
+      "url": "https://www.youtube.com/watch?v=ZR7anrL50xs",
+      "title": "How to Build Things with Jev & OpenJevs",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-21",
+      "duration_seconds": 1159,
+      "metrics": {
+        "views": 2719,
+        "likes": 186,
+        "comments": 16
+      },
+      "metadata": {
+        "description": "In this video, we build a model router using both the API-based original Jev and also using Semif. \n\n👨‍💻 Github: code will be up in the next day or so\n📺 2nd Channel: Coming Soon!!\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:45 Quick Recap on Jev\n05:59 Model Router Demo\n06:21 Models Used for both Local and Cloud\n07:18 Running using any Model\n07:37 Running using AutoJev\n11:47 Architecture\n15:06 Running using SemIf\n16:46 Stats",
+        "tags": [
+          "jev",
+          "jev router",
+          "llm router",
+          "ai router",
+          "model routing",
+          "llm routing",
+          "local llm",
+          "local ai",
+          "run llm locally",
+          "openai compatible api",
+          "lm studio",
+          "ollama",
+          "openrouter",
+          "minicpm",
+          "minicpm5 2b",
+          "deepseek",
+          "deepseek v4.1",
+          "qwen image",
+          "qwen image 2.1",
+          "typesafe ai",
+          "small language model",
+          "slm",
+          "llm cost optimization",
+          "cheap llm",
+          "llm privacy",
+          "pii",
+          "keep data local",
+          "self hosted ai",
+          "ai agents",
+          "agent routing",
+          "prompt routing",
+          "semantic router",
+          "python ai",
+          "ai tutorial",
+          "open source ai",
+          "sam witteveen"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-21T17:28:26Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
