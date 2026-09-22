@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T17:28:26Z",
+  "last_updated": "2026-09-22T10:37:12Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1039,6 +1039,11 @@
         "video_id": "ZR7anrL50xs",
         "channel": "Sam Witteveen",
         "title": "How to Build Things with Jev & OpenJevs"
+      },
+      {
+        "video_id": "qBBRRsH0rQc",
+        "channel": "Two Minute Papers",
+        "title": "Jev Just Made AI 200x Faster…But There’s A Catch"
       }
     ],
     "Large Language Models": [
@@ -22618,6 +22623,62 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-21T17:28:26Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "qBBRRsH0rQc",
+      "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
+      "title": "Jev Just Made AI 200x Faster…But There’s A Catch",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-09-22",
+      "duration_seconds": 316,
+      "metrics": {
+        "views": 4879,
+        "likes": 405,
+        "comments": 47
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 Jev:\nhttps://typesafe.ai/blog/introducing-system-one-models-and-jev\n\nFull song: https://www.youtube.com/watch?v=4RtUJkjrKMI\n\nPrevious papers, implementations, models:\nhttps://huggingface.co/convaiinnovations/laya\nhttps://arxiv.org/abs/2503.23303\nhttps://huggingface.co/DeepMostInnovations/sales-conversion-model-reinf-learning\nhttps://huggingface.co/datasets/DeepMostInnovations/saas-sales-conversations\nhttps://arxiv.org/abs/2510.01237\nhttps://huggingface.co/blog/setfit\nhttps://proceedings.iclr.cc/paper_files/paper/2025/hash/5503a7c69d48a2f86fc00b3dc09de686-Abstract-Conference.html\n\nSources:\nhttps://x.com/alexisgallagher/status/2100312082491322873?s=46\nhttps://x.com/tamarajtran/status/2100694549362553153?s=46\nhttps://x.com/maubaron/status/2100738237237002706?s=46\nhttps://x.com/elvissun/status/2100951347080421409?s=46\nhttps://x.com/completeskeptic/status/2099925684256899543?s=46\nhttps://x.com/completeskeptic/status/2099925685720760404?s=46\nhttps://x.com/filippkowalski/status/2100864984448147770?s=46\nhttps://x.com/egafni/status/2100770895325524242?s=46\nhttps://x.com/mizorewww/status/2101473552956555427\nhttps://x.com/miu21590/status/2101857866378362926?s=46\nhttps://x.com/atomic_chat_hq/status/2102160983409955244?s=46\nhttps://x.com/HugoDuprez/status/2100953089003921543?s=20\nhttps://x.com/heyxviraj/status/2102048070649405592?s=20\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "jev",
+          "typesafe ai",
+          "jev ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-22T10:37:10Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
