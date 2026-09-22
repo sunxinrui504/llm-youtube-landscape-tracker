@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T10:37:12Z",
+  "last_updated": "2026-09-22T15:58:48Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1044,6 +1044,11 @@
         "video_id": "qBBRRsH0rQc",
         "channel": "Two Minute Papers",
         "title": "Jev Just Made AI 200x Faster…But There’s A Catch"
+      },
+      {
+        "video_id": "XzL_vtYAO-4",
+        "channel": "IBM Technology",
+        "title": "AI Agents Aren't the Revolution. They're the Catalyst!"
       }
     ],
     "Large Language Models": [
@@ -22679,6 +22684,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-22T10:37:10Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "XzL_vtYAO-4",
+      "url": "https://www.youtube.com/watch?v=XzL_vtYAO-4",
+      "title": "AI Agents Aren't the Revolution. They're the Catalyst!",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-22",
+      "duration_seconds": 614,
+      "metrics": {
+        "views": 8506,
+        "likes": 339,
+        "comments": 46
+      },
+      "metadata": {
+        "description": "Learn more about AI Agents here → https://ibm.biz/~4btU3fpmZ\n\nEveryone is focused on AI agents, but that may not be the real story. Sam Anthony explains how AI agents are accelerating changes in data, software, systems, and digital literacy. Learn why the biggest impact of AI may be the ecosystem transformations happening around it.\n\n00:00 - Are AI Agents Really the Future?\n00:16 - Why Agents Are a Catalyst, Not the Revolution\n00:59 - How AI Adoption Is Modernizing the Data Layer\n01:48 - Breaking Down Silos and Building Trustworthy Data Foundations\n02:26 - Agents Expose System Weaknesses and Drive Standardization\n03:09 - The New API Requirements: Predictable, Documented, Machine‑Readable\n03:36 - Security, Governance, and Permission Boundaries Under Pressure\n04:18 - From Operable Software to Connected Digital Ecosystems\n05:07 - Interoperability by Default: MCP, A2A, and Cross‑System Workflows\n06:20 - Democratizing Technology and Expertise Through Agents\n07:08 - Digital Literacy and Accessible Learning at Scale\n08:32 - The Shift Toward Outcome‑Based Thinking\n09:29 - Why the Lasting Impact Isn’t Agents — It’s the Ecosystem They Improved\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~ms8PfJrVM\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #aiagents #agenticai #softwareengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-22T15:58:48Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
