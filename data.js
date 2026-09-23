@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-22T15:58:48Z",
+  "last_updated": "2026-09-23T10:29:53Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1049,6 +1049,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "XzL_vtYAO-4",
         "channel": "IBM Technology",
         "title": "AI Agents Aren't the Revolution. They're the Catalyst!"
+      },
+      {
+        "video_id": "GvPJY72WhoY",
+        "channel": "IBM Technology",
+        "title": "Are AI labs ignoring cybersecurity experts?"
       }
     ],
     "Large Language Models": [
@@ -22738,6 +22743,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-22T15:58:48Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "GvPJY72WhoY",
+      "url": "https://www.youtube.com/watch?v=GvPJY72WhoY",
+      "title": "Are AI labs ignoring cybersecurity experts?",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-23",
+      "duration_seconds": 2240,
+      "metrics": {
+        "views": 155,
+        "likes": 14,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more security content  → https://ibm.biz/~UfIWYEqFs\n\nLast week, some of the biggest names in AI coalesced around the need to pace development and strengthen security measures. Problem is, many of the biggest names in cybersecurity feel like they haven’t been invited to that conversation.\n\nOn episode 52 of Security Intelligence, Jeff Crume, Nikki Robinson and Omari Jones join hosts Matt Kosinski and Patrick Austin to talk about the rising tensions between frontier labs and cybersecurity pros. The former seem to be approaching AI safety as primarily an issue of alignment, while the latter thinks a few good old-fashioned security controls could go a long, long way.\n\nThen: Just as the frontier labs are locking their models down, their open-weight counterparts are letting people pull off sophisticated hacks—like hijacking TikTok users’ cameras—with relative ease. Should open models play a bigger role in our security conversations?\n\nFinally, CISA and the FBI are sick and tired of all the spin, and their latest advisory calls on breach victims to be much more transparent about incidents. We explore what good crisis communications look like and how we get more organizations on board.\n\nAll that and more on Security Intelligence\n\n00:00 - Intro\n1:30 - The AI cybersecurity shutout\n13:53 - Open models hack TikTok\n25:45 - CISA’s crisis comms advisory\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~sPxj28WWq\n#cybersecurity #aisecurity #aialignment \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-23T10:29:53Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
