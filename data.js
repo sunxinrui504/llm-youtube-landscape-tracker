@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-23T10:29:53Z",
+  "last_updated": "2026-09-23T15:48:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1054,6 +1054,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "GvPJY72WhoY",
         "channel": "IBM Technology",
         "title": "Are AI labs ignoring cybersecurity experts?"
+      },
+      {
+        "video_id": "PZuuOXNB3Vw",
+        "channel": "Sam Witteveen",
+        "title": "Nemotron 3 Diarization - Who Said That?"
       }
     ],
     "Large Language Models": [
@@ -22796,6 +22801,87 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-23T10:29:53Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "PZuuOXNB3Vw",
+      "url": "https://www.youtube.com/watch?v=PZuuOXNB3Vw",
+      "title": "Nemotron 3 Diarization - Who Said That?",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-23",
+      "duration_seconds": 790,
+      "metrics": {
+        "views": 148,
+        "likes": 12,
+        "comments": 3
+      },
+      "metadata": {
+        "description": "In this video, I look at a new model from NVIDIA for doing speaker diarization, both on batch processing and streaming.  Nemotron 3 Diarization massively outperforms many other models in establishing who said what? \n\n#NVIDIAAI #nemotron #nvidia \n\nBlog: https://huggingface.co/blog/nvidia/nemotron-diarization\nHF: https://huggingface.co/nvidia/Nemotron-3-Diarization \n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:27 NVIDIA Nemotron 3 Diarization\n02:30 The Nemotron Speech family\n04:09 So what is diarization?\n04:26 Agents & Voice\n05:41 How these models get scored (DER)\n06:26 Breaking Down  Nemotron 3 Diarization\n06:58 Demo: DGX Spark and NeMo\n10:52 Demo of a full podcast\n11:38 Exporting as text or SRT",
+        "tags": [
+          "nvidia nemotron 3 diarization",
+          "nemotron 3",
+          "nemotron speech",
+          "speaker diarization",
+          "diarization",
+          "who spoke when",
+          "speaker attributed transcript",
+          "asr",
+          "speech recognition",
+          "speech to text",
+          "sortformer",
+          "parakeet",
+          "canary",
+          "whisper alternative",
+          "diarization error rate",
+          "der",
+          "overlapping speech",
+          "multi speaker transcription",
+          "meeting transcription",
+          "podcast transcription",
+          "streaming asr",
+          "voice agents",
+          "open weights",
+          "hugging face",
+          "nvidia nemo",
+          "local ai",
+          "nvidia ai",
+          "speech ai",
+          "sam witteveen"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-23T15:48:45Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
