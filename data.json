@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T10:46:47Z",
+  "last_updated": "2026-09-24T16:10:31Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1064,6 +1064,11 @@
         "video_id": "SA9kdAX2Zj0",
         "channel": "Two Minute Papers",
         "title": "Claude Opus 5.5 AI: A Massive Leap Forward"
+      },
+      {
+        "video_id": "F3hlZSZc6UI",
+        "channel": "IBM Technology",
+        "title": "How AI Agents, LLMs & APIs Use Real-Time Data at the US Open"
       }
     ],
     "Large Language Models": [
@@ -22943,6 +22948,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-24T10:46:45Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "F3hlZSZc6UI",
+      "url": "https://www.youtube.com/watch?v=F3hlZSZc6UI",
+      "title": "How AI Agents, LLMs & APIs Use Real-Time Data at the US Open",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-24",
+      "duration_seconds": 586,
+      "metrics": {
+        "views": 6236,
+        "likes": 121,
+        "comments": 25
+      },
+      "metadata": {
+        "description": "Learn more about Serve Quality here → https://ibm.biz/~nrYtWf9BC\n\nAI is analyzing tennis serves at the US Open. Aaron Baughman explains how APIs give AI agents specialized, real-time data to reason over. Learn how APIs, tools, and LLMs turn complex tennis data into useful answers.\n\n 00:00 – See How AI Analyzes a US Open Serve\n 01:08 – Understand Why LLMs Need Real-Time Data\n 02:38 – Turn Tennis Video & Match Stats Into AI Context\n 04:30 – Process 1 Billion US Open Data Points\n 06:08 – Turn Complex Data Into LLM-Ready Insights\n 07:02 – Connect AI Agents to APIs & Tools\n 07:43 – Build the AI Agent Tool-Calling Loop\n 09:00 – Apply the AI Agent + API Pattern Anywhere\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~SAePe8hrL\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #api #usopen #llm #realtimedata \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-24T16:10:31Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
