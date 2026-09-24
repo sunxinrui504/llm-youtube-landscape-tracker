@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-24T16:10:31Z",
+  "last_updated": "2026-09-24T20:57:31Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1069,6 +1069,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "F3hlZSZc6UI",
         "channel": "IBM Technology",
         "title": "How AI Agents, LLMs & APIs Use Real-Time Data at the US Open"
+      },
+      {
+        "video_id": "GDUBXR-ql78",
+        "channel": "Sam Witteveen",
+        "title": "Gemini 3.8 Flash TTS  with Voice Cloning"
       }
     ],
     "Large Language Models": [
@@ -23001,6 +23006,87 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-24T16:10:31Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "GDUBXR-ql78",
+      "url": "https://www.youtube.com/watch?v=GDUBXR-ql78",
+      "title": "Gemini 3.8 Flash TTS  with Voice Cloning",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-24",
+      "duration_seconds": 1031,
+      "metrics": {
+        "views": 3735,
+        "likes": 145,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "In this video, I go through the latest TTS offering from Google with their Gemini 3.8 Flash TTS. \n\nBlog: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\nColab: https://colab.research.google.com/drive/1PN3XEXb5385W_V_2tNjXl468mqYGoNgl?usp=sharing\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:53 Flash TTS vs Flash-Lite TTS\n01:22 Voice design\n02:44 2,000+ voice library\n02:58 Voice cloning and guardrails\n04:02 Stage directions and non-verbal tags\n04:23 Multi-speaker and long-form audio\n04:48 Benchmarks\n06:53 Pricing\n07:19 AI Studio demo\n08:45 Colab: Flash vs Flash-Lite\n09:53 Colab: Style control\n11:05 Colab: Inline tags\n11:37 Colab: Voice design\n12:38 Colab: Multi-speaker dialogue\n13:50 Colab: Voice cloning",
+        "tags": [
+          "emini tts",
+          "gemini 3.8 flash tts",
+          "gemini 3.8 flash lite tts",
+          "gemini text to speech",
+          "google tts",
+          "google ai studio",
+          "ai voice design",
+          "voice cloning",
+          "ai voice cloning",
+          "text to speech ai",
+          "tts model",
+          "best tts model",
+          "ai voice generator",
+          "google deepmind",
+          "synthid",
+          "multi speaker tts",
+          "expressive tts",
+          "gemini api",
+          "colab tutorial",
+          "hume ai",
+          "artificial analysis",
+          "qwen tts",
+          "elevenlabs alternative",
+          "cartesia",
+          "voice agents",
+          "ai audiobook",
+          "ai podcast voice",
+          "inline audio tags",
+          "gemini voice"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-24T20:57:31Z"
       },
       "chapters": [],
       "speaker_type": "Solo",

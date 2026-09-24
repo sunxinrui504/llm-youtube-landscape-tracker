@@ -1288,5 +1288,10 @@
     "title": "How AI Agents, LLMs & APIs Use Real-Time Data at the US Open",
     "processed_at": "2026-09-24T16:10:31Z",
     "status": "ok"
+  },
+  "GDUBXR-ql78": {
+    "title": "Gemini 3.8 Flash TTS  with Voice Cloning",
+    "processed_at": "2026-09-24T20:57:31Z",
+    "status": "ok"
   }
 }
