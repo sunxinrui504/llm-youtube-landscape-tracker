@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-25T02:36:04Z",
+  "last_updated": "2026-09-25T10:51:44Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1079,6 +1079,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "R9momwXV9w4",
         "channel": "AI Explained",
         "title": "Opus 5.5: How Close Are We to Automated AI Research?"
+      },
+      {
+        "video_id": "O4n1jtWzt30",
+        "channel": "IBM Technology",
+        "title": "New frontier AI models, TypeSafe’s Jev AI, & NASA’s IBM collab"
       }
     ],
     "Large Language Models": [
@@ -23143,6 +23148,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-25T02:36:04Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "O4n1jtWzt30",
+      "url": "https://www.youtube.com/watch?v=O4n1jtWzt30",
+      "title": "New frontier AI models, TypeSafe’s Jev AI, & NASA’s IBM collab",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-25",
+      "duration_seconds": 2364,
+      "metrics": {
+        "views": 243,
+        "likes": 27,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~xURz3yfSz\n\nIt's been a wild week in AI, and on episode 126 of Mixture of Experts, host Tim Hwang and co-host David Zax talk to panelists Kaoutar El Maghraoui, Gabe Goodhart and Martin Keen to  discuss what all these releases have in common: efficiency. \n\nWe start with the model release pile-up. Anthropic shipped Claude Opus 5.5, and OpenAI launched GPT-6 Sol and Luna. Opus 5.5 is 20% cheaper than earlier Opus models, while GPT-6 Luna costs half what its predecessor did, at just 10 cents per million input tokens. We look at what a real price war means for developers building on these models and the companies racing to lower costs. \n\nNext, we look at a different idea altogether. TypeSafe AI has introduced \"System One\" models, starting with Jev, which give up the florid text generation in exchange for fast, structured decisions with calibrated probabilities. The pitch is frontier-level judgment on decision tasks, and responses in hundreds of milliseconds. We weigh the bold speed and cost claims against the company's own caveats about how its benchmarks were built.\n\nFinally, we leave the chat window entirely. NASA and IBM have released an open-source Lunar Foundation Model, free on Hugging Face and GitHub, and trained on roughly 2 million image tiles from the Lunar Reconnaissance Orbiter and other missions. Researchers can fine-tune it to map craters, spot young volcanic features and estimate where polar ice may be stable, proving models can do more than vibe code. \n\nAll that and more on this week’s Mixture of Experts. \n\n00:00 – Intro\n1:05 - Anthropic and OpenAI update AI models \n11:10 - TypeSafe AI unveils Jev AI model  \n29:29 - NASA and IBM build lunar AI model  \n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~76QkqMqYw\n#openai #anthropic #nasa \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-25T10:51:44Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
