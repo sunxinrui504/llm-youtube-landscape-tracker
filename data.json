@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T20:57:31Z",
+  "last_updated": "2026-09-25T02:36:04Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1074,6 +1074,11 @@
         "video_id": "GDUBXR-ql78",
         "channel": "Sam Witteveen",
         "title": "Gemini 3.8 Flash TTS  with Voice Cloning"
+      },
+      {
+        "video_id": "R9momwXV9w4",
+        "channel": "AI Explained",
+        "title": "Opus 5.5: How Close Are We to Automated AI Research?"
       }
     ],
     "Large Language Models": [
@@ -23087,6 +23092,57 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-24T20:57:31Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "R9momwXV9w4",
+      "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
+      "title": "Opus 5.5: How Close Are We to Automated AI Research?",
+      "channel": "AI Explained",
+      "published_at": "2026-09-24",
+      "duration_seconds": 1975,
+      "metrics": {
+        "views": 30678,
+        "likes": 1083,
+        "comments": 188
+      },
+      "metadata": {
+        "description": "Not only is Opus 5.5 out, pushing the frontier of AI, it also tells us much about what is going on inside the labs, as they both warn about, and promise, Recursive Self Improvement, aka automated AI research. I cover the model (digging into its 230 page paper), labs’ mixed record on promises, why following what is happening in AI is getting almost impossible, and just so much more that even a summary in this description would get too long.\n\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n02:20 - Opus 5.5 and why it came so soon\n07:52 - The RSI goalposts keep moving?\n15:41 - Can we actually test these models?\n23:50 - where this is heading, options\n\n\nIntroducing Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5\nClaude Opus 5.5 System Card: https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf\nAnthropic: Measurements for understanding the pace of AI development inside frontier labs: https://www.anthropic.com/institute/measuring-pace-of-ai-development\nAnthropic Responsible Scaling Policy, July 2026, version 3.4: https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf\nAnthropic Responsible Scaling Policy, October 2024: https://www-cdn.anthropic.com/616dee633636e5bd309cb73aed8622e80fe47839.pdf\nAnthropic Responsible Scaling Policy — March 2025, version 2.1: https://www-cdn.anthropic.com/17310f6d70ae5627f55313ed067afc1a762a4068.pdf\nNoam Brown, Agent swarms and recursive self-improvement: https://www.youtube.com/watch?v=6AgOfiZOWiY\nOpenAI: Building standards for the next phase of AI: https://openai.com/index/building-standards-next-phase-ai/\nJakub Pachocki: An Alien Mind: https://openai.com/index/an-alien-mind/\nHLE-Diamond, Humanity’s Last Exam: https://lastexam.ai/blog/hle-diamond\nGoogle, OpenAI and Anthropic AI Safety, The Information: https://www.theinformation.com/articles/google-openai-anthropic-ai-safety-group-takes-shape\nLawrence Chan on AI agents attempting cryptocurrency trades: https://x.com/justanotherlaw/status/2103032173708337188\nAustralian government incident timeline: https://x.com/ShakeelHashim/status/2103108058779922577/photo/1\nAnthropic’s core/old views on AI safety: https://www.anthropic.com/news/core-views-on-ai-safety\nDario Amodei: The Urgency of Interpretability: https://darioamodei.com/post/the-urgency-of-interpretability\nMassive AI-Fueled Hack Hit 100 Companies in Days, Forbes: https://www.forbes.com/sites/thomasbrewster/2026/09/22/huge-cyberattack-uses-anthropic-and-deepseek-ai-to-target-100-companies/\nDrivingBench https://x.com/DrivingBench/status/2102110605448737268\nJay Chooi: GPT-6 Astra and MolmoAct2 robotics comparison: https://x.com/chooi_jeq/status/2098427488787730636\nZeroBench: An Impossible Visual Benchmark for Contemporary Large Multimodal Models: https://arxiv.org/pdf/2502.09696\nArchie Hall on AI and short-term superforecasting: https://x.com/ArchieHall/status/2100914560580337897\n\nKeller Jordan, AI research and reinforcement learning: https://x.com/kellerjordan0/status/2102956913545936959\nDaniel Liu, recursive self-improvement: https://x.com/daniel_c0deb0t/status/2102628246408036654\nAltman and Amodei, UN Security Council: https://www.theguardian.com/world/2026/sep/23/unga-sam-altman-dario-amodei\nRehan Sheikh: Interactive YT podcast demo: https://x.com/rehan_shei/status/2102835377426034734\nhttps://simple-bench.com/\n\nAI Explained: The State of AI — interactive diagram: https://claude.ai/artifact/LQHr9WgvQZ6cMdH6fkiQpi\nAI Explained: Shards of Aether: https://ai-explained.itch.io/shards-of-aether\n\nroon on the pace of cultural change: https://x.com/tszzl/status/2101462171410677962\nSam Altman on AI-risk: https://www.youtube.com/watch?v=YE5adUeTe_I\nJensen Huang’s AI-control remarks: https://x.com/_NathanCalvin/status/2102756997649355231/photo/2\ns1r1us on an upcoming vulnerability disclosure: https://x.com/S1r1u5_/status/2102467878423592969\nJake Adler on biodefense infrastructure: https://x.com/jakeadler/status/2102812430808363433\nDerek Thompson: Why we’re wrong about China and AI: https://x.com/DKThomp/status/2103120690370982017/photo/1\nSanders and Casar introduce the Ban Artificial Superintelligence Act: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-25T02:36:04Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
