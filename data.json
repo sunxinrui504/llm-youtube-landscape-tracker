@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T10:51:44Z",
+  "last_updated": "2026-09-27T11:03:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1084,6 +1084,11 @@
         "video_id": "O4n1jtWzt30",
         "channel": "IBM Technology",
         "title": "New frontier AI models, TypeSafe’s Jev AI, & NASA’s IBM collab"
+      },
+      {
+        "video_id": "kyJ1vd7yEPc",
+        "channel": "IBM Technology",
+        "title": "AI Is Exposing Your Data: An AI Security Problem You Can't See"
       }
     ],
     "Large Language Models": [
@@ -23201,6 +23206,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-25T10:51:44Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "kyJ1vd7yEPc",
+      "url": "https://www.youtube.com/watch?v=kyJ1vd7yEPc",
+      "title": "AI Is Exposing Your Data: An AI Security Problem You Can't See",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-27",
+      "duration_seconds": 689,
+      "metrics": {
+        "views": 20,
+        "likes": 6,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Exposed Data here → https://ibm.biz/~DSFj8t9c9\n\nAI is exposing your data in ways most teams can't see. Jeff Crume explains how AI agents, RAG pipelines, prompts, tools, and models move sensitive data through modern AI systems. Learn how data lineage, AI security, and visibility help identify exposure risks before they become incidents.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~XFBzbXNlv\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aisecurity #datasecurity #aiagents #cybersecurity\n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-27T11:03:56Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
