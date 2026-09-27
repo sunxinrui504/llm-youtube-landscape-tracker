@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T11:03:56Z",
+  "last_updated": "2026-09-27T16:04:04Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1089,6 +1089,11 @@
         "video_id": "kyJ1vd7yEPc",
         "channel": "IBM Technology",
         "title": "AI Is Exposing Your Data: An AI Security Problem You Can't See"
+      },
+      {
+        "video_id": "U236OfO-spI",
+        "channel": "Sam Witteveen",
+        "title": "Gemini Live Avatars"
       }
     ],
     "Large Language Models": [
@@ -23260,6 +23265,90 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-27T11:03:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "U236OfO-spI",
+      "url": "https://www.youtube.com/watch?v=U236OfO-spI",
+      "title": "Gemini Live Avatars",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-27",
+      "duration_seconds": 622,
+      "metrics": {
+        "views": 721,
+        "likes": 48,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "In this video, I look at the latest multimodal offering from Google Gemini Live avatars. \n\nBlog: https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available\n\n\nMy 2nd Channel video with code walk through and links to the code: https://youtu.be/84v0uy-mboM\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Live avatar demo\n00:29 Blog\n01:17 Generally available\n01:48 97 languages\n03:22 Inside the avatar studio\n04:17 Talking to Vera\n05:38 Teaching me Japanese\n07:07 Two avatars debate\n09:15 Pricing",
+        "tags": [
+          "Gemini 3.8 Live",
+          "Gemini Live Avatar",
+          "Live Avatar",
+          "Google Gemini",
+          "Gemini API",
+          "AI avatars",
+          "conversational AI",
+          "AI agents",
+          "voice agents",
+          "realtime AI",
+          "multimodal AI",
+          "bidirectional API",
+          "lip sync",
+          "text to speech",
+          "speech to text",
+          "Gemini TTS",
+          "Google Cloud",
+          "Vertex AI",
+          "avatar studio",
+          "custom avatars",
+          "Sam Witteveen",
+          "Google AI",
+          "Gemini Live",
+          "AI voice assistant",
+          "generative AI",
+          "LLM",
+          "Gemini 3.8",
+          "extended thinking",
+          "AI demo",
+          "talking avatar",
+          "AI video",
+          "Gemini avatars"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-27T16:04:04Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
