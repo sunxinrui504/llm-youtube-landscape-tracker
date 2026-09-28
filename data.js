@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-09-27T16:04:04Z",
+  "last_updated": "2026-09-28T12:24:26Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1094,6 +1094,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "U236OfO-spI",
         "channel": "Sam Witteveen",
         "title": "Gemini Live Avatars"
+      },
+      {
+        "video_id": "bs1qPy_CWkM",
+        "channel": "IBM Technology",
+        "title": "Prompt to Production: The Future of AI Code Workflows"
       }
     ],
     "Large Language Models": [
@@ -23349,6 +23354,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-27T16:04:04Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "bs1qPy_CWkM",
+      "url": "https://www.youtube.com/watch?v=bs1qPy_CWkM",
+      "title": "Prompt to Production: The Future of AI Code Workflows",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-28",
+      "duration_seconds": 435,
+      "metrics": {
+        "views": 977,
+        "likes": 118,
+        "comments": 14
+      },
+      "metadata": {
+        "description": "Learn more about Agentic Coding here → https://ibm.biz/~eVuLdAOOj\n\nWriting code is becoming the easy part. Sam Anthony explains why planning, execution, validation, and verification matter more as AI coding systems become increasingly capable. Learn how prompt-to-production workflows are reshaping modern software engineering.\n\n00:00 - Why Prompt‑to‑Production Feels So Easy\n00:25 - Planning: The New Core Skill in AI‑Driven Engineering\n01:08 - Choosing the Right AI‑Driven Approach\n01:31 - Why Implementation Is No Longer the Hard Part\n02:18 - Designing the Solution Before AI Executes\n02:48 - The Hidden Complexity Behind Code Changes\n03:11 - Agentic Coding Systems and Self‑Correcting Workflows\n04:33 - The New Bottleneck: Human Verification at AI Scale\n05:07 - Evidence‑Driven Development and Trust\n06:16 - How AI Is Reshaping Developer Skills\n06:47 - The Future: Continuous Prompt‑to‑Production Workflows\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~oN8SSIkDR\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#agenticcoding #aicoding #aiagents #softwareengineering",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-28T12:24:25Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
