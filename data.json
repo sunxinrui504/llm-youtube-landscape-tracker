@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T12:24:26Z",
+  "last_updated": "2026-09-29T11:50:14Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1099,6 +1099,11 @@
         "video_id": "bs1qPy_CWkM",
         "channel": "IBM Technology",
         "title": "Prompt to Production: The Future of AI Code Workflows"
+      },
+      {
+        "video_id": "7jUcTG1eeTM",
+        "channel": "IBM Technology",
+        "title": "Ransomware Detection: Why Storage Finds the Attack First"
       }
     ],
     "Large Language Models": [
@@ -23408,6 +23413,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-28T12:24:25Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "7jUcTG1eeTM",
+      "url": "https://www.youtube.com/watch?v=7jUcTG1eeTM",
+      "title": "Ransomware Detection: Why Storage Finds the Attack First",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-29",
+      "duration_seconds": 657,
+      "metrics": {
+        "views": 303,
+        "likes": 41,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Cyber Resilience here → https://ibm.biz/~VtUoOk5oA\n\nRansomware rarely starts with a ransom note. Jeff Crume explains how storage systems detect ransomware early using entropy analysis, machine learning, monitoring, and cyber-resilient design. Learn how organizations can identify attacks faster and reduce data loss before ransomware spreads.\n\n00:00 - Understanding Modern Ransomware Threats\n00:22 - Why Ransomware Is a Data Problem\n01:13 - Essential First Steps: Patching, Training, and Endpoint Protection\n01:55 - How Ransomware Spreads Across Systems\n02:26 - Why Storage Is Your Earliest Line of Defense\n02:30 - The Four Rs of Reliable Backups\n04:14 - Detecting Ransomware Before the Pop Up Appears\n04:55 - Using Entropy, Compression, and Dedup Signals for Early Detection\n07:01 - Spotting Mass Overwrites, Renames, and Partial Encryption\n08:31 - Responding Fast: Isolation, Lockdown, and Recovery Points\n09:11 - Integrating Storage with SIEM and SOAR for Coordinated Defense\n10:11 - The Cyber Resilient Storage Mindset: Detect, Protect, Respond, Recover\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~9Mr0qMdhr\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ransomware #cybersecurity #datasecurity #storagesolutions \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-29T11:50:13Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
