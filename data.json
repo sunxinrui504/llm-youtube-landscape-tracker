@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T11:50:14Z",
+  "last_updated": "2026-09-29T17:18:44Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1104,6 +1104,11 @@
         "video_id": "7jUcTG1eeTM",
         "channel": "IBM Technology",
         "title": "Ransomware Detection: Why Storage Finds the Attack First"
+      },
+      {
+        "video_id": "zaLQ0AnY9dI",
+        "channel": "Sam Witteveen",
+        "title": "Using Jev In Your Agent Harness"
       }
     ],
     "Large Language Models": [
@@ -23467,6 +23472,89 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-29T11:50:13Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "zaLQ0AnY9dI",
+      "url": "https://www.youtube.com/watch?v=zaLQ0AnY9dI",
+      "title": "Using Jev In Your Agent Harness",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-29",
+      "duration_seconds": 1225,
+      "metrics": {
+        "views": 3761,
+        "likes": 207,
+        "comments": 22
+      },
+      "metadata": {
+        "description": "In this video I return to looking at how you can use Jev in an Agent Harness\n\n🤗 HF: https://huggingface.co/caiovicentino1/Eikos-27B\n\nSam's 2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:58 The Agent Loop\n02:35 The Cost of Full LLM Calls\n03:17 Jev as a Smart If Statement\n04:26 Model Routing\n04:52 Risk Gating\n05:43 Tool & Skill Selection\n06:16 Ranking & Judging\n06:36 Triage & Real-Time Filtering\n07:41 Wiring Jev Into the Loop\n08:35 Jev Runs the Loop\n09:15 Where Jev Doesn't Fit\n10:26 Compound Questions & Prompt Injection\n11:12 Decision Criteria & Local vs Cloud\n12:19 Demo: Skill Progressive Disclosure\n16:33 Demo: RAG Re-ranking with Jev\n19:18 Resources: OpenRouter & LangChain",
+        "tags": [
+          "Jev",
+          "TypeSafe Jev",
+          "TypeSafe AI",
+          "Jev AI",
+          "Jev Decision Model",
+          "Jev Tutorial",
+          "OpenJev",
+          "Open Decision Models",
+          "System One Model",
+          "Decision Models",
+          "Agent Harness",
+          "AI Agent Harness",
+          "Custom Agent Harness",
+          "LLM Agents",
+          "AI Agents",
+          "Progressive Disclosure",
+          "Agent Skills",
+          "Skill Routing",
+          "Cascade Classifier",
+          "RAG Reranking",
+          "LLM Routing",
+          "Model Routing",
+          "Tool Calling",
+          "LangChain Middleware",
+          "OpenRouter",
+          "Pydantic AI",
+          "Jev 2026",
+          "AI Agents 2026",
+          "Artificial Intelligence",
+          "Generative AI",
+          "AI News"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-29T17:18:43Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
