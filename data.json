@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T11:36:52Z",
+  "last_updated": "2026-09-30T17:16:51Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1114,6 +1114,11 @@
         "video_id": "dHn0qzSDMO0",
         "channel": "IBM Technology",
         "title": "Can you trust your chatbot? Inside three AI-powered cyberattacks"
+      },
+      {
+        "video_id": "n-xAzWZCq6w",
+        "channel": "Sam Witteveen",
+        "title": "OpenAI DevDay - What Actually Matters for Builders"
       }
     ],
     "Large Language Models": [
@@ -23613,6 +23618,82 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-30T11:36:52Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "n-xAzWZCq6w",
+      "url": "https://www.youtube.com/watch?v=n-xAzWZCq6w",
+      "title": "OpenAI DevDay - What Actually Matters for Builders",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-09-30",
+      "duration_seconds": 1126,
+      "metrics": {
+        "views": 2532,
+        "likes": 94,
+        "comments": 20
+      },
+      "metadata": {
+        "description": "In this video, I break down a lot of what was announced at the OpenAI DevDay on September 29. We look at what products show, not only what OpenAI is doing, but where the industry is perhaps going as a whole. \n\nBlog: https://openai.com/index/devday-2026-recap/\n\nSam's 2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:23 Dots: OpenAI's always-on personal agent\n02:43 Powered by Astra, and how usage is billed\n05:10 Agents API\n06:29 Decisions API\n06:58 Luna and image support\n07:45 GPT-6.1 Sol pricing\n08:58 Cache pricing for agents\n09:46 Codex in the cloud\n10:24 Voice in Codex\n10:47 Computer use and Codex Security\n11:06 Ultrafast\n13:58 Helping you find customers\n14:11 Plugins, GPTs and the Apps SDK so far\n14:52 Sign in with ChatGPT\n16:17 Plugin extensions\n16:52 OpenAI Marketplace",
+        "tags": [
+          "OpenAI DevDay 2026",
+          "OpenAI DevDay",
+          "DevDay 2026",
+          "OpenAI dots",
+          "ChatGPT dots",
+          "personal AI agent",
+          "GPT-6.1 Sol",
+          "GPT-6 Astra",
+          "OpenAI Ultrafast",
+          "Agents API",
+          "OpenAI Decisions API",
+          "decision models",
+          "Codex cloud",
+          "Codex CLI",
+          "ChatGPT Pro 500",
+          "Sign in with ChatGPT",
+          "plugin extensions",
+          "OpenAI Marketplace",
+          "managed agents",
+          "AI agents",
+          "OpenAI announcements",
+          "Sam Witteveen",
+          "LLM news",
+          "AI news"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-30T17:16:50Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
