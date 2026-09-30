@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T17:18:44Z",
+  "last_updated": "2026-09-30T11:36:52Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1109,6 +1109,11 @@
         "video_id": "zaLQ0AnY9dI",
         "channel": "Sam Witteveen",
         "title": "Using Jev In Your Agent Harness"
+      },
+      {
+        "video_id": "dHn0qzSDMO0",
+        "channel": "IBM Technology",
+        "title": "Can you trust your chatbot? Inside three AI-powered cyberattacks"
       }
     ],
     "Large Language Models": [
@@ -23555,6 +23560,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-29T17:18:43Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "dHn0qzSDMO0",
+      "url": "https://www.youtube.com/watch?v=dHn0qzSDMO0",
+      "title": "Can you trust your chatbot? Inside three AI-powered cyberattacks",
+      "channel": "IBM Technology",
+      "published_at": "2026-09-30",
+      "duration_seconds": 2094,
+      "metrics": {
+        "views": 291,
+        "likes": 20,
+        "comments": 3
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more cybersecurity content  → https://ibm.biz/~2mSWCqIG9\n\nAsk a chatbot for a customer service number, and you might get a scammer's.\n\nThat's the trick behind \"Dark Sourcery,\" a campaign that games AI answer engines into citing phishing links and fake support lines. It's SEO poisoning updated for an AEO world, and it works because so few of us verify what AI tells us before charging ahead.\n\nOn episode 53 of Security Intelligence, Kimmie Farrington, Curtis Pitts and Dave McGinnis join hosts Matt Kosinski and Patrick Austin to break down three AI-enabled cyberattacks and what they mean for defenders.\n\nFirst, the poisoned chatbots: How does Dark Sourcery work, and how do we rethink trust in the AI era?\n\nThen, a threat actor spends months tearing through Ubiquiti, WordPress and Zyxel gear, stealing thousands of government documents. GreyNoise suspects it had an LLM helping write its tools.\n\nFinally, an AI agent swarm breaches hundreds of PaperCut servers. It goes from an empty workspace to a real victim in about four hours, and then ignores its own rules of engagement.\n\nAll that and more on Security Intelligence.\n\n00:00 - Intro\n1:23 - Dark Sourcery\n13:00 - LLM-assisted hacking spree\n21:46 - Agent swarm attack\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~qXXQPWg3T\n#cyberattack #llm #cybersecurity \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-09-30T11:36:52Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
