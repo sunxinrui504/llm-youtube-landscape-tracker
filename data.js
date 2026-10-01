@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-01T12:05:39Z",
+  "last_updated": "2026-10-01T22:09:18Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1124,6 +1124,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "YGgNBcIgI4s",
         "channel": "IBM Technology",
         "title": "What Is Jev? The AI Model That Doesn't Generate Text"
+      },
+      {
+        "video_id": "_rtp1XzaP6Q",
+        "channel": "AI Explained",
+        "title": "OpenAI Security: Controlling Models is Now ‘Hell’"
+      },
+      {
+        "video_id": "5XTJRU9na3Y",
+        "channel": "Sam Witteveen",
+        "title": "Gemini 4 Argon"
       }
     ],
     "Large Language Models": [
@@ -23752,6 +23762,137 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-01T12:05:38Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "_rtp1XzaP6Q",
+      "url": "https://www.youtube.com/watch?v=_rtp1XzaP6Q",
+      "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
+      "channel": "AI Explained",
+      "published_at": "2026-10-01",
+      "duration_seconds": 2309,
+      "metrics": {
+        "views": 4157,
+        "likes": 299,
+        "comments": 40
+      },
+      "metadata": {
+        "description": "This video is hard to summarise. A cracked cipher, an OpenAI security warning, Gemini 4 Argon, RSI paper (co-authored by a who’s who of AI), Lab White House commitments, new hacks emerging, ‘deep personas’, biology Kasparov competitions, and so much more, ending with an epic Opus outro.\n\n\nPatreon Exclusives: https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:32 - Wrong about Opus 5.5? Deciphering 16th Century Text\n05:01 - Why the models keep breaking out\n11:40 - What the models aren't telling us\n15:36 - Gemini 4 and the race to release\n19:19 - What happens when AI improves AI?\n28:31 - Biology, consciousness, and what we still don't understand\n\n\nJoe Darrow: Not Just the Sandbox: https://x.com/joedaroo/status/2104335929293127851\n\nGPT-6.1 Sol System Card: https://cdn.openai.com/pdf/38e3efcf-545e-44cd-99ec-2b7eb395f4cc/oai_GPT_6_1_Sol.pdf\n\nIntelligence Explosion Paper: https://casp.ac/__l5e/assets-v1/5efd4b41-deb5-4513-a0a3-b4f82d2b79ea/intelligence-explosion.pdf\n\nOpenAI Research Acceleration: https://openai.com/index/research-acceleration-view-inside-openai/\n\nOpenAI Training Safety Cases: https://openai.com/index/towards-safety-cases-for-frontier-ai-training/\n\nCatherine de Medicis Cipher: https://cryptiana.web.fc2.com/code/henryiii.htm\n\nProposed du Croc Decipherment: https://claude.ai/artifact/1W7B3WxkTAEGzfv3TaKXb4\n\nRogue Agents Investigation: https://asymmetricsecurity.com/newsroom/rogue-agents-investigation/\n\nOpenAI Shelves GPT-6.1 Astra: https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/\n\nThe Case for Reasoning Transparency: https://institute.deepmind.com/essays/the-case-for-reasoning-transparency/\n\nGemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\n\nOpenAI–Anthropic Rivalry: https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/\n\nNYT: OpenAI Security Warnings: https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html\n\nNYT: Claude’s Morals: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html\n\nJasmine Wang on RSI: https://x.com/j_asminewang/status/2097840245786157432\n\nOpenAI Departures Roundup: https://x.com/Bayesian0_0/status/2105680470566686805\n\nWhite House AI Commitments: https://x.com/Danmar_here/status/2105168138392183146\n\nSarah Heck on Safety: https://x.com/SarahKHeck/status/2105058513370448280\n\nSam Altman on Alignment: https://x.com/tbpn/status/2105028992843833459\n\nSam Altman on Agent Logs: https://x.com/sama/status/2103567198690349362\n\nMicah Carroll: Misalignment Reports: https://x.com/MicahCarroll/status/2103665811051397256\n\nZuxin Liu on the Incident: https://x.com/LiuZuxin/status/2103699462648639645\n\nDeepa Seetharaman: User Images: https://x.com/dseetharaman/status/2103585482793943203\n\nOpenAI Revenue Chart: https://x.com/PaulBonnet/status/2105288259324567884/photo/1\n\nNvidia Agent Safety Platform: https://edition.cnn.com/2026/09/28/business/nvidia-ai-safety-system\n\nIntegrityBench: https://integrity-bench.com\n\nNeel Nanda on Interpretability: https://x.com/PalisadeAI/status/2104949061325652001\n\nBiology Contest: Humans and AI: https://www.theinformation.com/articles/inside-drama-behind-biology-contest-pits-openai-agents-humans\n\nPushmeet Kohli: SynthID Bio: https://x.com/pushmeet/status/2105314763148321102\n\nAtaraxos and Stratego: https://x.com/ssokota/status/2105362040328159526\n\nBenign Data and Hidden Personas: https://x.com/OwainEvans_UK/status/1999172949975392417\n\nAnthropic: Introspection: https://www.anthropic.com/research/introspection\n\nClaude Cheating Results: https://x.com/lukaspet/status/2104634759339298930\n\nRoon on Mathematics and Learning Theory: https://x.com/tszzl/status/2105619006488993898\n\nGPT-4 Research: https://openai.com/index/gpt-4-research/\n\nI.J. Good: Ultraintelligent Machine: https://incompleteideas.net/papers/Good65ultraintelligent.pdf\n\nTerence Tao’s 2024 Interview: https://www.scientificamerican.com/article/ai-will-become-mathematicians-co-pilot/\n\nHugging Face Incident: https://openai.com/index/hugging-face-incident-and-the-road-ahead/\n\nClaude and Suno Music Video: https://x.com/sevdeawesome/status/2104985610012504181\n\n\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-01T22:08:59Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "5XTJRU9na3Y",
+      "url": "https://www.youtube.com/watch?v=5XTJRU9na3Y",
+      "title": "Gemini 4 Argon",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-01",
+      "duration_seconds": 611,
+      "metrics": {
+        "views": 42330,
+        "likes": 592,
+        "comments": 68
+      },
+      "metadata": {
+        "description": "In this video, I look at the pre-announced Gemini 4 Argon. Well, I can't show outputs of this model currently because it's not officially released to the public yet. We can certainly see some of the interesting changes that Google's made to get back into the top 3 labs for frontier-level intelligence. \n\nBlog: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\nAA: https://artificialanalysis.ai/models/gemini-4-argon\n\nSam's 2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Gemini 4 Argon announced\n0:25 1M tokens in a single response\n1:16 What Argon is built for\n1:39 Artificial Analysis Intelligence Index score\n2:37 1M token output vs 64K and 128K caps\n3:32 Longer thinking\n4:44 Generation speed\n5:19 Simpler agent harnesses\n7:21 Cost per task vs GPT-6 Astra\n8:36 Agentic benchmarks",
+        "tags": [
+          "Gemini 4 Argon",
+          "Gemini 4",
+          "Google Gemini 4",
+          "Gemini Argon",
+          "Google DeepMind",
+          "Gemini 4 Argon benchmarks",
+          "Gemini 4 Argon pricing",
+          "Artificial Analysis",
+          "Intelligence Index",
+          "1M token output",
+          "million token output",
+          "long horizon coding",
+          "AI agents",
+          "agentic AI",
+          "GPT-6 Astra",
+          "GPT-6.1 Sol",
+          "Claude Opus 5.5",
+          "frontier AI model",
+          "new AI model",
+          "LLM benchmarks",
+          "AI hallucinations",
+          "cost per task",
+          "AutomationBench",
+          "Terminal Bench",
+          "DeepSWE",
+          "AI cybersecurity",
+          "Gemini API",
+          "Google AI"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-01T22:09:17Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
