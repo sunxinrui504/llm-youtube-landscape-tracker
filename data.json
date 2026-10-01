@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T17:16:51Z",
+  "last_updated": "2026-10-01T12:05:39Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1119,6 +1119,11 @@
         "video_id": "n-xAzWZCq6w",
         "channel": "Sam Witteveen",
         "title": "OpenAI DevDay - What Actually Matters for Builders"
+      },
+      {
+        "video_id": "YGgNBcIgI4s",
+        "channel": "IBM Technology",
+        "title": "What Is Jev? The AI Model That Doesn't Generate Text"
       }
     ],
     "Large Language Models": [
@@ -23694,6 +23699,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-09-30T17:16:50Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "YGgNBcIgI4s",
+      "url": "https://www.youtube.com/watch?v=YGgNBcIgI4s",
+      "title": "What Is Jev? The AI Model That Doesn't Generate Text",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-01",
+      "duration_seconds": 903,
+      "metrics": {
+        "views": 1240,
+        "likes": 130,
+        "comments": 8
+      },
+      "metadata": {
+        "description": "Learn more about New Frontier AI Models here → https://ibm.biz/~rGiO8LVz1\n\nWhat if an AI model didn't need to generate text? Martin Keen explains Jev, a System 1 AI model that makes fast decisions using calibrated probabilities. Learn how Jev can complement LLMs for routing, classification, and AI guardrails.\n\n 00:00 – Meet Jev and System 1 AI \n 01:29 – Compare Jev with LLMs and Reasoning Models \n 02:09 – See What Jev Is Built to Decide \n 04:04 – Understand How Jev Returns Probabilities \n 06:52 – Learn How AI Models Calibrate Confidence \n 09:18 – Train Jev with Calibrated Decisions \n 10:36 – Turn Jev Probabilities Into Software Decisions \n 12:24 – Use Jev for AI Guardrails \n 12:56 – Combine Jev with LLM Workflows \n 14:03 – Explore Where System 1 AI Could Go Next\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~pW19rmUKV\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aimodel #llm #ai #aidecisionmaking \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-01T12:05:38Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
