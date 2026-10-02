@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-01T22:09:18Z",
+  "last_updated": "2026-10-02T11:36:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1134,6 +1134,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "5XTJRU9na3Y",
         "channel": "Sam Witteveen",
         "title": "Gemini 4 Argon"
+      },
+      {
+        "video_id": "oBdLhD5nPYw",
+        "channel": "IBM Technology",
+        "title": "OpenAI cancels Astra release, Sonnet 5.5 & what Meta Muse means for work"
       }
     ],
     "Large Language Models": [
@@ -23893,6 +23898,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-01T22:09:17Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "oBdLhD5nPYw",
+      "url": "https://www.youtube.com/watch?v=oBdLhD5nPYw",
+      "title": "OpenAI cancels Astra release, Sonnet 5.5 & what Meta Muse means for work",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-02",
+      "duration_seconds": 1911,
+      "metrics": {
+        "views": 1007,
+        "likes": 25,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~g2OhVoI8Y\n\nWhat makes an AI company pull the plug on a model release? This week on Mixture of Experts, our newly minted full-time host David Zax is joined by Chris Hay, Madison Gooch, and Ash Minhas. First, OpenAI cancels the release of GPT-6.1 Astra, as the panel debates whether self-restraint is becoming a competitive advantage in AI or just good marketing. Then, Anthropic releases Sonnet 5.5, prompting a discussion about what happens when mid-tier models approach top-tier performance on some tasks. Finally, Meta Muse is making powerful AI agents more accessible to everyday users. We look at how these frictionless user experiences could shape what people expect from AI at work.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n01:18 – OpenAI cancels GPT-6.1 Astra release   \n11:44 – Anthropic releases Sonnet 5.5   \n23:07 – What Meta Muse means for enterprise AI\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~14Ef8tZjt\n#openai #anthropic #aiagents \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-02T11:36:45Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
