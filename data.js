@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-02T17:04:36Z",
+  "last_updated": "2026-10-04T11:32:48Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1144,6 +1144,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "L8YxigQoLaM",
         "channel": "Sam Witteveen",
         "title": "Image Decision Models for RPA: Forms, Scans and Screenshots"
+      },
+      {
+        "video_id": "83HMZrhL_Uw",
+        "channel": "IBM Technology",
+        "title": "AI & Music: How AI Is Changing Music Creation & Creativity"
       }
     ],
     "Large Language Models": [
@@ -24037,6 +24042,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-02T17:04:36Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "83HMZrhL_Uw",
+      "url": "https://www.youtube.com/watch?v=83HMZrhL_Uw",
+      "title": "AI & Music: How AI Is Changing Music Creation & Creativity",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-04",
+      "duration_seconds": 1038,
+      "metrics": {
+        "views": 323,
+        "likes": 31,
+        "comments": 8
+      },
+      "metadata": {
+        "description": "Learn more about AI & Music here → https://ibm.biz/~oRfHkXZzg\n\nCan AI create music, or is it simply remixing what already exists? Jeff Crume explores how artificial intelligence is changing music creation, from composition and lyric writing to performance, production, and collaboration. Learn how AI-generated music works, what it means for musicians, and why the future of music may be less about replacement and more about creative partnership.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~E5Y6jrO0B\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aimusic #ai #generativeai #aicreativity \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-04T11:32:48Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
