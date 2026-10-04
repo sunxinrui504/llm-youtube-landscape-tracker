@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-04T11:32:48Z",
+  "last_updated": "2026-10-04T20:40:21Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1149,6 +1149,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "83HMZrhL_Uw",
         "channel": "IBM Technology",
         "title": "AI & Music: How AI Is Changing Music Creation & Creativity"
+      },
+      {
+        "video_id": "2RA7jWJvQ1U",
+        "channel": "Sam Witteveen",
+        "title": "Which is The Best Qwen3.8-27B?"
       }
     ],
     "Large Language Models": [
@@ -24096,6 +24101,92 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-04T11:32:48Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "2RA7jWJvQ1U",
+      "url": "https://www.youtube.com/watch?v=2RA7jWJvQ1U",
+      "title": "Which is The Best Qwen3.8-27B?",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-04",
+      "duration_seconds": 1279,
+      "metrics": {
+        "views": 10435,
+        "likes": 337,
+        "comments": 31
+      },
+      "metadata": {
+        "description": "Which is the best fine-tune of Qwen3.8 27B that reduces the amount of thinking and reasoning tokens but still keeps the best accuracy for your particular use case? \n\nThanks to Dell for Sponsoring the Compute\n#NVIDIA #DellProPrecision #DellProMax\n\nThinkingCap: https://bottlecapai.com/post/thinkingcap-qwen3-8-27b/\nSwift 1.5: https://ukisai.com/swift-1-5-27b\nQwenPi: https://huggingface.co/bytkim/Qwen3.8-27B-pi\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 — Why Reasoning Models Think Too Long\n00:55 — Why AI Models Are Reducing Reasoning Tokens\n01:19 — Qwen3.8: ThinkingCap, Swift 1.5 & QwenPi\n02:05 — Qwen3.8 Reasoning Effort Explained\n04:01 — What These Fine-Tunes Are Trying to Solve\n04:51 — ThinkingCap\n09:17 — Swift 1.5\n11:39 — QwenPi\n15:07 — Demo\n17:20 — Coding, Logic, Math & SVG Results",
+        "tags": [
+          "Qwen3.8",
+          "Qwen3.8-27B",
+          "Qwen AI",
+          "Qwen reasoning",
+          "reasoning models",
+          "ThinkingCap",
+          "BottleCap AI",
+          "Swift 1.5",
+          "UkisAI",
+          "QwenPi",
+          "AI agents",
+          "coding agents",
+          "open source AI",
+          "open weight models",
+          "AI inference",
+          "LLM inference",
+          "reasoning tokens",
+          "token efficiency",
+          "speculative decoding",
+          "reinforcement learning",
+          "GRPO",
+          "on policy distillation",
+          "LLM efficiency",
+          "AI coding",
+          "local LLM",
+          "self hosted AI",
+          "open source LLM",
+          "Qwen Code",
+          "Terminal Bench",
+          "LiveCodeBench",
+          "GPQA",
+          "AI models",
+          "LLMs",
+          "AI research"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-04T20:40:20Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
