@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-06T12:27:37Z",
+  "last_updated": "2026-10-06T22:02:41Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1169,6 +1169,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "qZBibWYcKH4",
         "channel": "IBM Technology",
         "title": "How AI Models Scale Beyond a Single GPU Across LLM Workloads"
+      },
+      {
+        "video_id": "vKjnZAcimss",
+        "channel": "Sam Witteveen",
+        "title": "Holo4: A Model That Clicks, Codes and Calls Tools"
       }
     ],
     "Large Language Models": [
@@ -24366,6 +24371,90 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-06T12:27:37Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "vKjnZAcimss",
+      "url": "https://www.youtube.com/watch?v=vKjnZAcimss",
+      "title": "Holo4: A Model That Clicks, Codes and Calls Tools",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-06",
+      "duration_seconds": 1083,
+      "metrics": {
+        "views": 11578,
+        "likes": 212,
+        "comments": 22
+      },
+      "metadata": {
+        "description": "How one open-weight model click through a GUI, write and run code, and call MCP tools, and also work out which one to use at each step. Thats Holo4\n\nThanks to Dell for Sponsoring the Compute\n#NVIDIA #DellProPrecision #DellProMax\n\nHolo4 Blog: https://hcompany.ai/newsroom/holo4\nHolo4 27B: https://huggingface.co/Hcompany/Holo4-27B\nHolo4 35B-A3B: https://huggingface.co/Hcompany/Holo4-35B-A3B\nHolotron4 Nano: https://huggingface.co/Hcompany/Holotron4-30B-A3B\nTrajectory Viewer: https://trajectories.hcompany.ai\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:24 Holo4 from H Company\n02:08 Recap: how an agent loop works\n02:52 Three lanes: GUI, code and tools\n04:44 One model that works across interfaces\n06:01 H's harness: hai-agents, Claude Code and MCP\n06:23 The Holo4 model family\n07:07 Weights, quantizations and the 54GB model\n07:41 Benchmarks vs frontier models\n08:52 Dense vs MoE: the big gap\n09:35 The Agentic Task Factory\n10:56 Training recipe and harness rebuild\n12:07 Demo: GUI, MCP and code in action\n15:57 Trajectories and the license",
+        "tags": [
+          "Holo4",
+          "H Company",
+          "Holo4 27B",
+          "Holo4 35B-A3B",
+          "computer use agent",
+          "computer use model",
+          "open weight model",
+          "AI agents",
+          "GUI agent",
+          "browser agent",
+          "agent harness",
+          "MCP",
+          "MCP tools",
+          "tool calling",
+          "function calling",
+          "OSWorld",
+          "OSWorld 2.0",
+          "Agentic Task Factory",
+          "reinforcement learning",
+          "RL fine-tuning",
+          "Qwen 3.8",
+          "Qwen3.8 27B",
+          "mixture of experts",
+          "MoE vs dense",
+          "Holotron",
+          "Nemotron 3 Nano Omni",
+          "hai-agents",
+          "Claude Code",
+          "local LLM",
+          "Hugging Face",
+          "LLM benchmarks",
+          "agent trajectories"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-06T22:02:40Z"
       },
       "chapters": [],
       "speaker_type": "Solo",

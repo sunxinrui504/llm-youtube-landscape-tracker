@@ -1388,5 +1388,10 @@
     "title": "How AI Models Scale Beyond a Single GPU Across LLM Workloads",
     "processed_at": "2026-10-06T12:27:37Z",
     "status": "ok"
+  },
+  "vKjnZAcimss": {
+    "title": "Holo4: A Model That Clicks, Codes and Calls Tools",
+    "processed_at": "2026-10-06T22:02:40Z",
+    "status": "ok"
   }
 }
