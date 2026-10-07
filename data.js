@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-06T22:02:41Z",
+  "last_updated": "2026-10-07T22:27:17Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1174,6 +1174,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "vKjnZAcimss",
         "channel": "Sam Witteveen",
         "title": "Holo4: A Model That Clicks, Codes and Calls Tools"
+      },
+      {
+        "video_id": "Wkaw03p3BrM",
+        "channel": "Two Minute Papers",
+        "title": "DeepMind's New AI Just Cracked The Code Of Life"
       }
     ],
     "Large Language Models": [
@@ -24455,6 +24460,62 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-06T22:02:40Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Wkaw03p3BrM",
+      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
+      "title": "DeepMind's New AI Just Cracked The Code Of Life",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-10-07",
+      "duration_seconds": 1997,
+      "metrics": {
+        "views": 64234,
+        "likes": 1465,
+        "comments": 182
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nThank you Google DeepMind for the invite.\n\n📝 AlphaGenome Atlas is available here:\nhttps://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/\nhttps://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "deepmind",
+          "alphagenome",
+          "alphagenome atlas"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-07T22:27:16Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
