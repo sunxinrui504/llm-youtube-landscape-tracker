@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-07T22:27:17Z",
+  "last_updated": "2026-10-08T12:30:13Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1179,6 +1179,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "Wkaw03p3BrM",
         "channel": "Two Minute Papers",
         "title": "DeepMind's New AI Just Cracked The Code Of Life"
+      },
+      {
+        "video_id": "wZFseoVpSTM",
+        "channel": "IBM Technology",
+        "title": "Hiding in plain sight: Fake GPTs, SMTP malware and NetScaler zero-days"
       }
     ],
     "Large Language Models": [
@@ -24516,6 +24521,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-07T22:27:16Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "wZFseoVpSTM",
+      "url": "https://www.youtube.com/watch?v=wZFseoVpSTM",
+      "title": "Hiding in plain sight: Fake GPTs, SMTP malware and NetScaler zero-days",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-08",
+      "duration_seconds": 1243,
+      "metrics": {
+        "views": 960,
+        "likes": 35,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more cybersecurity content → https://ibm.biz/~u3JW3XeWL\n\nThat ChatGPT ad might not be from OpenAI.\n\nOn episode 54 of Security Intelligence, Michelle Alvarez, Giacomo Casoni and Norman Dorsch join our new host Patrick Austin for imposter week: three stories about attackers posing as something you trust. \n\nFirst, attackers bought sponsored search ads that led to a fake “Plus 5.6” Custom GPT, which steered at least 40 victims toward a ClickFix page and a remote access trojan. The panel digs into why ClickFix keeps working, and whether AI companies should police their GPT marketplaces the way app stores do.\n\nThen: Rapid7 found Linux backdoors, including a new BPFDoor variant and a RAT called AVERAT, hiding on the appliances that screen companies’ email. From there, attackers can see an organization's mail traffic, and their own traffic blends right in. How do you catch an imposter that looks exactly like your security tools?\n\nFinally, suspected state-linked hackers exploit two critical flaws in Citrix NetScaler, hitting dozens of organizations across government, healthcare and critical infrastructure. Some Dutch hospitals took patient portals offline. And patching won’t evict attackers who got in first, which makes a tested playbook essential.\n\nAll that and more In Security Intelligence.\n\n00:00 – Intro\n1:35 – Fake GPTs as malware lures\n7:37 – Backdoors disguised as email\n13:51 – Inside the NetScaler attacks\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~1DYPZX1Zr\n#aisecurity #customgpts #socialengineering \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-08T12:30:13Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
