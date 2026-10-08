@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-08T12:30:13Z",
+  "last_updated": "2026-10-08T22:40:28Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1184,6 +1184,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "wZFseoVpSTM",
         "channel": "IBM Technology",
         "title": "Hiding in plain sight: Fake GPTs, SMTP malware and NetScaler zero-days"
+      },
+      {
+        "video_id": "CH1ciacnazE",
+        "channel": "Sam Witteveen",
+        "title": "Microsoft Joins the Local AI Push"
       }
     ],
     "Large Language Models": [
@@ -24574,6 +24579,85 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-08T12:30:13Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "CH1ciacnazE",
+      "url": "https://www.youtube.com/watch?v=CH1ciacnazE",
+      "title": "Microsoft Joins the Local AI Push",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-08",
+      "duration_seconds": 809,
+      "metrics": {
+        "views": 10945,
+        "likes": 229,
+        "comments": 43
+      },
+      "metadata": {
+        "description": "Watching the Microsoft Windows and Surface laptop event turned out to be a lot more interesting than normal. Microsoft is clearly going all in on local AI running on your machine and working with cloud models only when it needs to use them. \n\nMicrosoft Blog https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/\nFull Live Event: https://www.youtube.com/live/ilmBGeGldrI?si=efkp_hpmAV8rI4Ka\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:17 Hybrid intelligence\n01:29 How the Copilot router picks local or cloud\n04:21 MAI Code 1.1 Flash at 3 bits\n05:07 A New Nemotron at 2 bits\n05:37 DeepSeek V4 Flash at 1.6 bits\n07:19 The memory cost of 256K context\n08:21 llama.cpp inside Windows ML\n10:02 MXC: sandboxing agents in Windows\n11:00 Surface Laptop Ultra and RTX Spark\n11:25 Specs and pricing\n11:58 Desktop and DGX Station for Windows\n12:15 Why this matters for local AI",
+        "tags": [
+          "Microsoft local AI",
+          "Windows hybrid intelligence",
+          "GitHub Copilot local model",
+          "HydraFusion",
+          "MAI Code 1.1 Flash",
+          "NVIDIA RTX Spark",
+          "Surface Laptop Ultra",
+          "Windows ML",
+          "llama.cpp",
+          "Microsoft Execution Containers",
+          "MXC",
+          "AI agent sandbox",
+          "DeepSeek V4 Flash",
+          "Nemotron",
+          "local LLM",
+          "run AI locally",
+          "AI PC",
+          "model routing",
+          "local vs cloud AI",
+          "low bit quantization",
+          "1.6 bit quantization",
+          "KV cache",
+          "DGX Station",
+          "DGX Spark",
+          "Microsoft Windows event 2026",
+          "Satya Nadella",
+          "Jensen Huang"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-08T22:40:27Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
