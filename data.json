@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T22:40:28Z",
+  "last_updated": "2026-10-09T12:18:54Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1189,6 +1189,11 @@
         "video_id": "CH1ciacnazE",
         "channel": "Sam Witteveen",
         "title": "Microsoft Joins the Local AI Push"
+      },
+      {
+        "video_id": "IO6Bhs2iNfk",
+        "channel": "IBM Technology",
+        "title": "OpenAI's always-on agents, 700+ math manuscripts & HackerRank's AI interviewer"
       }
     ],
     "Large Language Models": [
@@ -24658,6 +24663,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-08T22:40:27Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "IO6Bhs2iNfk",
+      "url": "https://www.youtube.com/watch?v=IO6Bhs2iNfk",
+      "title": "OpenAI's always-on agents, 700+ math manuscripts & HackerRank's AI interviewer",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-09",
+      "duration_seconds": 2083,
+      "metrics": {
+        "views": 755,
+        "likes": 24,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~qrhY7KEYZ\n\nCan AI take mathematics beyond human understanding? \n\nThis week on Mixture of Experts, host David Zax is joined by Kush Varshney, Skyler Speakman, and Utsav Dholakia. First, OpenAI introduces Dots at DevDay, and Utsav shares his firsthand impressions as the panel discusses whether persistent AI agents can truly work independently. Next, OpenAI releases more than 700 AI-generated math manuscripts, raising questions about the future of mathematics and whether humans can keep up with AI-generated math. Then, HackerRank’s Chakra brings AI to job interviews, prompting a debate about bias, access to opportunity, and how we evaluate candidates. \n\nFinally, Reflection AI unveils Beam, giving the panel an opportunity to explain mixture of experts models and the difference between open-weight and open-source AI.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n00:58 – Inside OpenAI DevDay and Dots \n9:08 – AI generates 700+ math manuscripts \n16:03 – HackerRank’s AI interviewer  \n24:18 – Mixture of experts models, explained\n\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~N4BiQb1qa\n#openai #aiagents #OpenAIDevDay\n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-09T12:18:54Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
