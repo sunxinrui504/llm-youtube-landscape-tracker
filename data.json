@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T11:50:30Z",
+  "last_updated": "2026-10-11T17:03:37Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1199,6 +1199,11 @@
         "video_id": "zRMAvMSSSII",
         "channel": "IBM Technology",
         "title": "Human in the Loop Is Not a Governance Strategy for Agentic AI"
+      },
+      {
+        "video_id": "4fLVq6HJsKc",
+        "channel": "Two Minute Papers",
+        "title": "Why DeepSeek Wants AI To Forget"
       }
     ],
     "Large Language Models": [
@@ -24775,6 +24780,61 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-11T11:50:30Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4fLVq6HJsKc",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "title": "Why DeepSeek Wants AI To Forget",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-10-11",
+      "duration_seconds": 338,
+      "metrics": {
+        "views": 1010,
+        "likes": 87,
+        "comments": 11
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The DeepSeek OCR paper is available here:\nhttps://github.com/deepseek-ai/DeepSeek-OCR\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "deepseek",
+          "deepseek ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-11T17:03:36Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
