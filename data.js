@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-09T12:18:54Z",
+  "last_updated": "2026-10-11T11:50:30Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1194,6 +1194,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "IO6Bhs2iNfk",
         "channel": "IBM Technology",
         "title": "OpenAI's always-on agents, 700+ math manuscripts & HackerRank's AI interviewer"
+      },
+      {
+        "video_id": "zRMAvMSSSII",
+        "channel": "IBM Technology",
+        "title": "Human in the Loop Is Not a Governance Strategy for Agentic AI"
       }
     ],
     "Large Language Models": [
@@ -24716,6 +24721,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-09T12:18:54Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "zRMAvMSSSII",
+      "url": "https://www.youtube.com/watch?v=zRMAvMSSSII",
+      "title": "Human in the Loop Is Not a Governance Strategy for Agentic AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-11",
+      "duration_seconds": 243,
+      "metrics": {
+        "views": 537,
+        "likes": 54,
+        "comments": 3
+      },
+      "metadata": {
+        "description": "Learn more about Responsible AI here → https://ibm.biz/~EYYcOfiMK\n\nHuman review doesn't automatically mean AI governance. Phaedra Boinodiris explains why human-in-the-loop AI requires transparency, explainability, observability, and accountability. Learn what makes human oversight meaningful in high-stakes AI decisions.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~XFpMhwoTU\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#humanintheloop #agenticai #aigovernance #responsibleai \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-11T11:50:30Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
