@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T17:03:37Z",
+  "last_updated": "2026-10-12T13:56:14Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1204,6 +1204,11 @@
         "video_id": "4fLVq6HJsKc",
         "channel": "Two Minute Papers",
         "title": "Why DeepSeek Wants AI To Forget"
+      },
+      {
+        "video_id": "hTAWHgQI4xg",
+        "channel": "IBM Technology",
+        "title": "5 Concepts to Know for Coding with AI Agents"
       }
     ],
     "Large Language Models": [
@@ -24835,6 +24840,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-11T17:03:36Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "hTAWHgQI4xg",
+      "url": "https://www.youtube.com/watch?v=hTAWHgQI4xg",
+      "title": "5 Concepts to Know for Coding with AI Agents",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-12",
+      "duration_seconds": 603,
+      "metrics": {
+        "views": 6325,
+        "likes": 252,
+        "comments": 7
+      },
+      "metadata": {
+        "description": "Learn more about AI Agents here → https://ibm.biz/~qNwedZihN\n\nAI coding is changing how software gets built. Cedric Clyburn breaks down five essential concepts for working effectively with AI agents, including spec-driven development, context engineering, loop engineering, and AI security. Learn how developers can move from implementation to orchestration as AI becomes part of every software workflow.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~UiJBNbzQ8\n\n#aiagents #aicoding #aidevelopment #softwareengineering \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-12T13:56:14Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
