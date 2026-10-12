@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T13:56:14Z",
+  "last_updated": "2026-10-12T23:58:31Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1209,6 +1209,11 @@
         "video_id": "hTAWHgQI4xg",
         "channel": "IBM Technology",
         "title": "5 Concepts to Know for Coding with AI Agents"
+      },
+      {
+        "video_id": "C4Sq3Rot8FU",
+        "channel": "AI Explained",
+        "title": "AI Labs Warn Race Makes Breach ‘Inevitable’"
       }
     ],
     "Large Language Models": [
@@ -24894,6 +24899,57 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-12T13:56:14Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "C4Sq3Rot8FU",
+      "url": "https://www.youtube.com/watch?v=C4Sq3Rot8FU",
+      "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
+      "channel": "AI Explained",
+      "published_at": "2026-10-12",
+      "duration_seconds": 1861,
+      "metrics": {
+        "views": 4025,
+        "likes": 256,
+        "comments": 83
+      },
+      "metadata": {
+        "description": "In the week that software got reverse engineered, Sam Altman warned 6.1 Astra ‘tipped toward [breach risk], and Muse Wonder showed the race isn’t slowing, I try to step back and show where it is all going, on current trends. Agree or disagree, it is certainly interesting times.\n\nExclusives, and ad-free early access vids ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n0:41 Part 1: The Forthcoming Breach\n8:43 Part 2: Why the Labs Keep Racing\n15:41 Part 3: Why the Next 18 Months Are Hard to Predict\n\n\nSam Altman: the accident risk, Vanity Fair: https://www.vanityfair.com/story/sam-altman-exclusive-interview-part-2\n\nDario Amodei: We Must Pace the Frontier: https://darioamodei.com/post/we-must-pace-the-frontier\n\nJakub Pachocki: An Alien Mind: https://openai.com/index/an-alien-mind/\n\nOpenAI: progress in mathematics: https://openai.com/index/sharing-ai-progress-in-mathematics/\n\nOpenAI mathematical manuscripts: https://github.com/openai/math\n\nAHM statement on OpenAI’s mathematics release: https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/\n\nTasteVal: research taste in AI systems: https://pzeroresearch.com/work/tasteval/\n\nTasteVal paper: https://arxiv.org/abs/2610.06824\n\nClaude Opus 5.5 system card: https://anthropic.com/claude-opus-5-5-system-card\n\nJack Clark: creativity and recursive self-improvement: https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/\n\nAndrej Karpathy: the widening AI perception gap: https://x.com/karpathy/status/2109361546505966046\n\nAxios: AI companies plan for a major incident: https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack\n\nAnthropic: investigating unintended model actions: https://www.anthropic.com/research/investigating-unintended-model-actions\n\nCIAware-Bench: detecting control interventions: https://arxiv.org/abs/2606.11063\n\nYoshua Bengio: prioritizing safety at frontier labs: https://www.transformernews.ai/p/yoshua-bengio-if-you-prioritize-safety-leave-frontier-ai-companies\n\nDavid Silver: Where are we going without AI?: https://www.ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828\n\nSatya Nadella: models as insider risks: https://x.com/satyanadella/status/2108931348857827686\n\nBeyond Owls: skills, hacking and backdoors: https://arxiv.org/abs/2610.10657\n\nOwain Evans: backdoors through number sequences: https://x.com/OwainEvans_UK/status/2108589303249166621\n\nThe Verge: mathematicians assess OpenAI’s release: https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos\n\nNew York Times: AI models and Hurricane Isaias: https://www.nytimes.com/2026/10/09/weather/ai-models-hurricane-isaias.html\n\nPolitico: AI agents and the law: https://www.politico.com/news/2026/10/12/AI-agents-hacking-cases\n\nThe Economist: liability law will not tame AI: https://www.economist.com/united-states/2026/10/08/liability-law-will-not-tame-ai\n\nOlivia Scharfman and David Bellamy: biosecurity and AI: https://writing.oliviahelens.com/p/biosecurity-ai-and-the-culture-war\n\nAlignment Engineering vs Misalignment Science: https://www.lesswrong.com/posts/FogmcDHA6AdMGukum/alignment-engineering-vs-misalignment-science\n\nSam Altman: the US lead in AI: https://x.com/sama/status/2080683363174945065\n\nThe Guardian: China and the AI race: https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei\n\nJoe on AI sandboxes and security: https://x.com/joedaroo/status/2104335929293127851\n\nREA: Reverse Engineer Anything: https://www.reddit.com/r/tech_x/comments/1x2d66l/github_project_called_rea_reverse_engineer/\n\nNikita Bier: AI-assisted fabrication: https://x.com/nikitabier/status/2106104189457952911\n\nSam Altman: how sci-fi will it get?: https://x.com/vikktorrrre/status/2107736059006050810\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-12T23:58:30Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
