@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-12T23:58:31Z",
+  "last_updated": "2026-10-13T13:13:14Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1214,6 +1214,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "C4Sq3Rot8FU",
         "channel": "AI Explained",
         "title": "AI Labs Warn Race Makes Breach ‘Inevitable’"
+      },
+      {
+        "video_id": "z_sXLlLVUls",
+        "channel": "Two Minute Papers",
+        "title": "OpenAI Just Changed What It Means To Do Math"
+      },
+      {
+        "video_id": "wSuWuPUTC10",
+        "channel": "IBM Technology",
+        "title": "Every Generation Thinks This Time Is Different: The AI Job Myth"
       }
     ],
     "Large Language Models": [
@@ -24950,6 +24960,113 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-12T23:58:30Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "z_sXLlLVUls",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "title": "OpenAI Just Changed What It Means To Do Math",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-10-13",
+      "duration_seconds": 529,
+      "metrics": {
+        "views": 41917,
+        "likes": 1209,
+        "comments": 215
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The papers are available here:\nhttps://openai.com/index/sharing-ai-progress-in-mathematics/\nhttps://github.com/openai/math\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "openai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-13T13:12:55Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "wSuWuPUTC10",
+      "url": "https://www.youtube.com/watch?v=wSuWuPUTC10",
+      "title": "Every Generation Thinks This Time Is Different: The AI Job Myth",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-13",
+      "duration_seconds": 766,
+      "metrics": {
+        "views": 2673,
+        "likes": 201,
+        "comments": 26
+      },
+      "metadata": {
+        "description": "Learn more about AI & the Future of Work here → https://ibm.biz/~9TPlzzY4X\n\nEvery generation thinks new technology will eliminate jobs. Jeff Crume and Bri Kopecki explore how cars, electricity, PCs, the internet, and now AI changed work throughout history. Learn why AI automates tasks, creates new opportunities, and may reshape jobs more than it replaces them.\n\n00:00 - Why Every Generation Thinks “This Time Is Different”\n00:23 - The Horse Economy: When Cars Replaced an Entire Industry\n01:32 - How New Technologies Create More Jobs Than They Destroy\n02:28 - Electricity, PCs, and the Internet: Repeating the Same Pattern\n03:48 - Smartphones and the Rise of Entirely New Economies\n04:45 - The ATM Example: When Automation Increases Jobs\n05:32 - Jevons Paradox: Why Efficiency Creates More Demand\n06:43 - AI and Software: Faster Development Means More to Build\n07:20 - Why Headlines Miss the Jobs on the Other Side of the Mountain\n08:35 - Technological Unemployment Myths Through History\n09:26 - Jobs Are Bundles of Tasks — AI Removes Tasks, Not Work\n10:55 - The Real Future: Learn the Tools, Invent the Jobs That Don’t Exist Yet\n11:58 - Despite Predictions, Unemployment Hasn’t Spiked from AI\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~dnD2PpLvP\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aijobs #futureofwork #aiagents #automation \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-13T13:13:14Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
