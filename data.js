@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-13T13:13:14Z",
+  "last_updated": "2026-10-13T22:06:27Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1224,6 +1224,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "wSuWuPUTC10",
         "channel": "IBM Technology",
         "title": "Every Generation Thinks This Time Is Different: The AI Job Myth"
+      },
+      {
+        "video_id": "4iK_UFzW6Zw",
+        "channel": "Sam Witteveen",
+        "title": "Gemini 4 Argon - Out and Tested!!"
       }
     ],
     "Large Language Models": [
@@ -25067,6 +25072,88 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-13T13:13:14Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4iK_UFzW6Zw",
+      "url": "https://www.youtube.com/watch?v=4iK_UFzW6Zw",
+      "title": "Gemini 4 Argon - Out and Tested!!",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-13",
+      "duration_seconds": 679,
+      "metrics": {
+        "views": 25551,
+        "likes": 421,
+        "comments": 53
+      },
+      "metadata": {
+        "description": "Gemini 4 Argon is out and in the video I go into how this compares to other models, what it is good at and look at testing some of the outputs it creates. \n\nGoogle blog post: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\nArtificial Analysis: https://artificialanalysis.ai/models/gemini-4-argon\nMy first video on Argon: https://www.youtube.com/watch?v=5XTJRU9na3Y\n\nSam's 2nd Channel:   https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro: Gemini 4 Argon is out\n00:47 Early access and where Argon is available\n01:32 Demo: a ReBirth-style music maker from one prompt\n03:02 Blender, games and Google's launch demos\n03:58 The code, render, look, fix loop\n05:11 Artificial Analysis Intelligence Index\n06:18 Why Google built Argon\n07:02 Argon under Google's products\n08:31 The 1M token output in practice\n10:21 Pricing",
+        "tags": [
+          "Gemini 4 Argon",
+          "Gemini 4",
+          "Google Gemini 4",
+          "Gemini Argon",
+          "Google DeepMind",
+          "Gemini 4 Argon review",
+          "Gemini 4 Argon demo",
+          "Gemini API",
+          "Google Antigravity",
+          "Gemini app",
+          "AI Studio",
+          "Artificial Analysis",
+          "Intelligence Index",
+          "1M token output",
+          "long reasoning",
+          "Blender AI",
+          "Three.js AI",
+          "AI music maker",
+          "frontier AI model",
+          "new AI model",
+          "LLM",
+          "AI agents",
+          "agentic coding",
+          "Claude Code",
+          "Codex",
+          "Muse Wonder",
+          "GPT-6 Astra",
+          "claude",
+          "fable",
+          "opus 5.5"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-13T22:06:26Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
