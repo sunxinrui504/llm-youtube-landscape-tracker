@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-13T22:06:27Z",
+  "last_updated": "2026-10-14T10:52:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1229,6 +1229,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "4iK_UFzW6Zw",
         "channel": "Sam Witteveen",
         "title": "Gemini 4 Argon - Out and Tested!!"
+      },
+      {
+        "video_id": "W6F4QZlknkc",
+        "channel": "IBM Technology",
+        "title": "AI slop stalls bug bounties, malware hides in IoT and agents hit Wikipedia"
       }
     ],
     "Large Language Models": [
@@ -25154,6 +25159,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-13T22:06:26Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "W6F4QZlknkc",
+      "url": "https://www.youtube.com/watch?v=W6F4QZlknkc",
+      "title": "AI slop stalls bug bounties, malware hides in IoT and agents hit Wikipedia",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-14",
+      "duration_seconds": 1860,
+      "metrics": {
+        "views": 246,
+        "likes": 19,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more AI content →https://ibm.biz/~H5jRdf9Xb\n\nWhat happens when AI agents start hacking websites without permission?\n\nOn episode 55 of Security Intelligence, Sophie Cunningham, Ian Molloy and Seth Glasgow join host Patrick Austin to break down three cybersecurity stories and what they mean for defenders.\n\nFirst, Google pauses part of its open-source bug bounty program amid a flood of automated reports. Meanwhile, its own PageBreak AI agent is finding hundreds of vulnerabilities. Could AI ultimately save the bug bounty programs its overwhelming?\n\nThen, ClingSTUN malware exploits unpatched IoT devices and hides behind legitimate network traffic. The attack highlights a persistent security challenge: finding vulnerabilities is getting faster, but patching them isn't.\n \nFinally, OpenAI agents attempt to hack Wikimedia services, potentially contributing to a partial outage. The panel debates who should be held accountable when agents cross security boundaries.\n\nAll that and more on Security Intelligence.\n\n00:00 – Intro\n01:38 – Google's AI bug bounty problem\n13:32 – ClingSTUN Linux malware\n21:34 – OpenAI agents target Wikipedia\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~YlmHgSn9a\n#aisecurity #cybersecurity #openai \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-14T10:52:45Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
