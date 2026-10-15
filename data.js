@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-14T10:52:45Z",
+  "last_updated": "2026-10-15T15:59:56Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1234,6 +1234,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "W6F4QZlknkc",
         "channel": "IBM Technology",
         "title": "AI slop stalls bug bounties, malware hides in IoT and agents hit Wikipedia"
+      },
+      {
+        "video_id": "BwXremQ-i6I",
+        "channel": "IBM Technology",
+        "title": "Context Engineering for AI Agents: 4 Failure Modes to Avoid"
       }
     ],
     "Large Language Models": [
@@ -25212,6 +25217,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-14T10:52:45Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "BwXremQ-i6I",
+      "url": "https://www.youtube.com/watch?v=BwXremQ-i6I",
+      "title": "Context Engineering for AI Agents: 4 Failure Modes to Avoid",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-15",
+      "duration_seconds": 621,
+      "metrics": {
+        "views": 16176,
+        "likes": 621,
+        "comments": 69
+      },
+      "metadata": {
+        "description": "Learn more about Context Engineering here → https://ibm.biz/~5YM1VAeG0\n\nMore context should make AI agents better. It often does the opposite. Martin Keen explains context rot, the four major context failure modes, and how context engineering improves long-running AI agents. Learn why better agents often require less context, not more.\n\n00:00 - Bigger Context Windows, Better AI Agents? Not So Fast\n00:45 - Context Rot: Why AI Models Become Less Reliable Over Time\n01:05 - What Is Context Engineering and Why Does It Matter?\n01:50 - Inside an AI Agent’s Context Window: What’s Taking Up Space?\n04:35  - Context Poisoning: When Bad Information Becomes ‘Truth’\n05:20  - Context Distraction: How Long Histories Derail Agent Performance\n06:03  - Context Confusion: Why Too Many Tools Hurt AI Accuracy\n06:55  - Context Clash: When Conflicting Information Breaks Reasoning\n07:32  - 4 Context Engineering Fixes: Validate, Compact, Curate & Prune\n09:50  - The Key Lesson: Why AI Agents Often Perform Better with Less Context\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~D9ApFMnpA\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aiagents #contextengineering #aiworkflows #ai \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-15T15:59:56Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
