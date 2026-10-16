@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-16T10:22:14Z",
+  "last_updated": "2026-10-16T20:16:42Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1244,6 +1244,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "0FBdWvkgNQE",
         "channel": "IBM Technology",
         "title": "Decision models take off & Anthropic bans cruelty to Claude"
+      },
+      {
+        "video_id": "LKrwhjOI8Nc",
+        "channel": "3Blue1Brown",
+        "title": "There's never been a better time to go into math"
       }
     ],
     "Large Language Models": [
@@ -25329,6 +25334,65 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-16T10:22:14Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "LKrwhjOI8Nc",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "title": "There's never been a better time to go into math",
+      "channel": "3Blue1Brown",
+      "published_at": "2026-10-16",
+      "duration_seconds": 2444,
+      "metrics": {
+        "views": 262594,
+        "likes": 10266,
+        "comments": 1415
+      },
+      "metadata": {
+        "description": "Sharing a few thoughts on the future of math\nThese videos are funded directly by viewers: https://3b1b.co/support\nAn equally valuable form of support is to simply share the videos.\nHome page: https://www.3blue1brown.com\n\nIf you want a finger on the pulse of how mathematicians are feeling right now, take a look at this post on Proofs and Prompt: \nhttps://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/\n\nTimestamps\n0:00 - Math student angst\n3:10 - How does math work?\n11:24 - A proof machine\n25:12 - A conjecture machine\n26:59 - A theory machine\n31:31 - If AI is better at everything\n34:58 - The best time to enter math\n\nSecret Endscreen Vlog: https://youtu.be/4GV1qlv_3qU\n\n------------------\n\nThese animations are largely made using a custom Python library, manim.  See the FAQ comments here:\nhttps://3b1b.co/faq#manim\n\nMusic by Vincent Rubinetti.\nhttps://vincerubinetti.bandcamp.com/album/the-music-of-3blue1brown\nhttps://open.spotify.com/album/1dVyjwS8FBqXhRunaG5W5u\n\n------------------\n\n3blue1brown is a channel about animating math, in all senses of the word animate. If you're reading the bottom of a video description, I'm guessing you're more interested than the average viewer in lessons here. It would mean a lot to me if you chose to stay up to date on new ones, either by subscribing here on YouTube or otherwise following on whichever platform below you check most regularly.\n\nMailing list: https://3blue1brown.substack.com\nTwitter: https://twitter.com/3blue1brown\nBluesky: https://bsky.app/profile/3blue1brown.com\nInstagram: https://www.instagram.com/3blue1brown\nReddit: https://www.reddit.com/r/3blue1brown\nFacebook: https://www.facebook.com/3blue1brown\nPatreon: https://patreon.com/3blue1brown\nWebsite: https://www.3blue1brown.com",
+        "tags": [
+          "Mathematics",
+          "three blue one brown",
+          "3 blue 1 brown",
+          "3b1b",
+          "3brown1blue",
+          "3 brown 1 blue",
+          "three brown one blue"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-16T20:16:40Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
