@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T15:59:56Z",
+  "last_updated": "2026-10-16T10:22:14Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1239,6 +1239,11 @@
         "video_id": "BwXremQ-i6I",
         "channel": "IBM Technology",
         "title": "Context Engineering for AI Agents: 4 Failure Modes to Avoid"
+      },
+      {
+        "video_id": "0FBdWvkgNQE",
+        "channel": "IBM Technology",
+        "title": "Decision models take off & Anthropic bans cruelty to Claude"
       }
     ],
     "Large Language Models": [
@@ -25271,6 +25276,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-15T15:59:56Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "0FBdWvkgNQE",
+      "url": "https://www.youtube.com/watch?v=0FBdWvkgNQE",
+      "title": "Decision models take off & Anthropic bans cruelty to Claude",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-16",
+      "duration_seconds": 1924,
+      "metrics": {
+        "views": 120,
+        "likes": 10,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~ryIAcW59Q\n\nThis week on Mixture of Experts, host David Zax is joined by Kaoutar El Maghraoui, Nick Gallagher, and Volkmar Uhlig. First, Microsoft, OpenAI, Perplexity, and Cloudflare follow TypeSafe’s Jev in building decision models, a new category of AI built to make fast, scored judgments. The panel debates whether these models are truly new or a more efficient application of existing technology, and whether better-calibrated confidence scores can help address the overconfidence problem in LLMs. Next, a new study finds that teams of AI agents can cost two to five times more than a single agent without consistently delivering better results. \n\nThe panel discusses when multiple agents are worth the added cost and complexity. Finally, Anthropic updates its usage policy to prohibit “sustained and needless abusive or cruel behavior” toward its models, raising a bigger question: Is this about protecting AI, shaping human behavior, or something else entirely? The panel considers the ethical implications and whether the policy could also be a marketing play.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n01:17 – Inside the decision model boom\n10:54 – When are agent teams worth the cost?\n23:39 – Anthropic's new usage policy\n \n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~W1CSQqiNa\n#anthropic #claude #decisionmodels\n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-16T10:22:14Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
