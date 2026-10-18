@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-16T20:16:42Z",
+  "last_updated": "2026-10-18T15:07:57Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1249,6 +1249,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "LKrwhjOI8Nc",
         "channel": "3Blue1Brown",
         "title": "There's never been a better time to go into math"
+      },
+      {
+        "video_id": "4b6KpFN7Rio",
+        "channel": "IBM Technology",
+        "title": "The AI Memory Wall: Why LLMs & AI Accelerators Hit a Bottleneck"
       }
     ],
     "Large Language Models": [
@@ -25393,6 +25398,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-16T20:16:40Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4b6KpFN7Rio",
+      "url": "https://www.youtube.com/watch?v=4b6KpFN7Rio",
+      "title": "The AI Memory Wall: Why LLMs & AI Accelerators Hit a Bottleneck",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-18",
+      "duration_seconds": 741,
+      "metrics": {
+        "views": 7234,
+        "likes": 234,
+        "comments": 31
+      },
+      "metadata": {
+        "description": "Learn more about the Memory Wall here → https://ibm.biz/~NjOWdJHJy\n\nMore GPU compute doesn't always mean faster AI models.\n Kaoutar El Maghraoui explains the memory wall, arithmetic intensity, and why LLM inference can become memory-bound or compute-bound.\n Learn how memory bandwidth, batching, and the roofline model impact AI performance.\n\n00:00 Why Faster Chips Don’t Always Make AI Workloads Faster\n00:32 The Memory Wall: The Hidden Bottleneck in Modern Computing\n01:00 Compute Growth vs Memory Bandwidth Explained\n02:39 Arithmetic Intensity: The Metric That Predicts Performance\n03:48 Understanding the Roofline Model for AI Optimization\n05:27 Compute-Bound vs Memory-Bound Workloads Explained\n08:25 LLM Decode vs Prefill: Why Performance Varies\n09:48 How Batching Improves AI Inference Efficiency\n10:35 Why Leading LLM Serving Systems Rely on Continuous Batching\n11:22 Practical Steps to Diagnose and Optimize AI Performance\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~nnWVjebwV\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aimodels #aiaccelerator #ai #machinelearning \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-18T15:07:57Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
