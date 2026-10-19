@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T11:37:17Z",
+  "last_updated": "2026-10-19T17:59:08Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1264,6 +1264,11 @@
         "video_id": "DQBqh6gcx7U",
         "channel": "IBM Technology",
         "title": "What Is Loop Engineering? Building Better AI Agents"
+      },
+      {
+        "video_id": "aKVfjG7_R4g",
+        "channel": "Sam Witteveen",
+        "title": "Meta's New Models & Agent"
       }
     ],
     "Large Language Models": [
@@ -25571,6 +25576,78 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-19T11:37:17Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "aKVfjG7_R4g",
+      "url": "https://www.youtube.com/watch?v=aKVfjG7_R4g",
+      "title": "Meta's New Models & Agent",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-19",
+      "duration_seconds": 1366,
+      "metrics": {
+        "views": 1755,
+        "likes": 51,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "Muse Spark Open is Meta's new 816B open-weights model. In the video I go into what Meta actually released versus what they kept closed, and test it side by side with Muse Wonder.\n\nMeta's Muse Spark Open blog: https://research.meta.ai/blog/muse-spark-open\nReflection's Beam blog: https://reflection.ai/blog/introducing-beam\nDavid Senra podcast with Alexandr Wang: https://www.youtube.com/watch?v=S6l3aRsecuE\n\nSam's 2nd Channel:   https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:53 Meta's 816B open model\n1:24 Muse Spark Open: the specs\n2:18 How it ranks against the open field\n3:13 Reflection's Beam\n3:37 Spark Open vs Beam benchmarks\n4:08 Size and licence: Beam vs the Muse license\n5:47 Muse Wonder and Wonder Full (closed)\n7:01 Pricing and access\n8:17 LM Arena results\n10:17 How Meta built Muse (Alexandr Wang on David Senra)\n11:14 The eval spreadsheet method\n13:05 Demo\n20:09 Who should use Spark Open",
+        "tags": [
+          "Muse Spark Open",
+          "Meta Muse Spark Open",
+          "Muse Spark Open review",
+          "Muse Spark Open weights",
+          "Meta open weights model",
+          "Muse Wonder",
+          "Muse Wonder Full",
+          "Muse Spark 1.3",
+          "Meta Muse",
+          "Muse app",
+          "Meta Superintelligence Labs",
+          "Reflection Beam",
+          "Beam 1.0",
+          "open weights LLM",
+          "open source AI model",
+          "Alexandr Wang",
+          "David Senra",
+          "AI agent evals",
+          "LM Arena",
+          "Artificial Analysis"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-19T17:59:07Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
