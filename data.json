@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T17:59:08Z",
+  "last_updated": "2026-10-20T16:03:47Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1269,6 +1269,16 @@
         "video_id": "aKVfjG7_R4g",
         "channel": "Sam Witteveen",
         "title": "Meta's New Models & Agent"
+      },
+      {
+        "video_id": "bEO_QeJU7U0",
+        "channel": "Sam Witteveen",
+        "title": "Do Diffusion LLMs Scale? Testing Mercury 3 + Decide"
+      },
+      {
+        "video_id": "_yO_Q7qo0HQ",
+        "channel": "IBM Technology",
+        "title": "The Problem with Jev: Can You Trust AI Decisions?"
       }
     ],
     "Large Language Models": [
@@ -25648,6 +25658,134 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-19T17:59:07Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "bEO_QeJU7U0",
+      "url": "https://www.youtube.com/watch?v=bEO_QeJU7U0",
+      "title": "Do Diffusion LLMs Scale? Testing Mercury 3 + Decide",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-20",
+      "duration_seconds": 1314,
+      "metrics": {
+        "views": 1346,
+        "likes": 90,
+        "comments": 15
+      },
+      "metadata": {
+        "description": "Inception's Mercury 3 is a diffusion LLM running at 1,000+ tokens/sec, and Mercury Decide is a decision model that can now read images. Here's how they compare, what the independent evals say, and how fast they really are.\n\nThanks to Inception for sponsoring this video.\n\nLinks:\nTry Mercury Decide free on OpenRouter: https://openrouter.ai/inception/mercury-decide:free\nMercury 3 playground: https://chat.inceptionlabs.ai/\nInception API platform + docs: http://platform.inceptionlabs.ai/\nMercury 3 launch post: https://www.inceptionlabs.ai/blog/introducing-mercury-3\n\nSam's 2nd Channel:   https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:23 Diffusion LLMs\n0:41 Mercury 3 Model\n1:38 How diffusion LLMs work\n4:35 Benchmarks vs GPT-6 Luna & Claude Haiku 5.5\n5:06 Swarms of sub-agents\n5:39 Speed: 1,068 tokens per second\n6:15 OcTen: search on smart glasses\n7:07 TinyFish, OpenAI compatibility & 1M context\n7:48 Mercury Decide Model\n8:38 Independent evals\n9:39 Vision + the System 1 / System 2 pattern\n9:58 Demo: watching diffusion generate text\n12:29 Real-time speed test\n12:52 5,000-word essay test\n13:50 Agentic tool-calling tests\n14:49 RAG test\n16:13 Mercury Decide with images\n19:28 Pipeline: Mercury Decide + Mercury 3\n21:21 Launch pricing",
+        "tags": [
+          "Inception Mercury 3",
+          "Mercury 3",
+          "Mercury 3 AI",
+          "Mercury 3 diffusion",
+          "Inception Labs",
+          "Inception Labs Mercury",
+          "diffusion LLM",
+          "diffusion language model",
+          "diffusion large language models",
+          "Mercury diffusion LLM",
+          "Mercury Decide",
+          "decision model",
+          "fastest LLM",
+          "1000 tokens per second",
+          "dLLM",
+          "Mercury Decide vision",
+          "OpenRouter",
+          "subagents",
+          "AI agents",
+          "GPT-6 Luna",
+          "Claude Haiku 5.5",
+          "Jev decision model",
+          "Mercury 2.5"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-20T16:03:30Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "_yO_Q7qo0HQ",
+      "url": "https://www.youtube.com/watch?v=_yO_Q7qo0HQ",
+      "title": "The Problem with Jev: Can You Trust AI Decisions?",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-20",
+      "duration_seconds": 793,
+      "metrics": {
+        "views": 32,
+        "likes": 5,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about New Frontier AI Models here → https://ibm.biz/~QV9RAqelj\n\nA confident AI decision isn't necessarily a trustworthy one. Jeff Crume examines Jev through a cybersecurity lens, from attack surfaces and poisoned inputs to observability and verification. Learn why AI decisions need evidence, auditability, and human oversight.\n\n 00:00 – Question Whether AI Confidence Can Be Trusted\n 00:26 – Understand the Problem with Jev\n 01:47 – Compare Jev Decisions with LLM Outputs\n 02:48 – Separate AI Confidence from Evidence\n 03:37 – See How Jev Changes the AI Attack Surface\n 05:54 – Build Observability Around AI Decisions\n 07:00 – Break AI Decisions Into Verifiable Steps\n 08:30 – Understand Why AI Predictions Are Hard to Verify\n 10:38 – Secure Jev with Independent Controls\n 11:29 – Verify AI Decisions Before You Trust Them\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~hldgvLLwI\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aisecurity #cybersecurity #aiobservability #aitrust \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@ibmdeveloperadvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-20T16:03:47Z"
       },
       "chapters": [],
       "speaker_type": "Solo",

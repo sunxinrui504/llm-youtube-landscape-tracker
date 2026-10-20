@@ -1488,5 +1488,15 @@
     "title": "Meta's New Models & Agent",
     "processed_at": "2026-10-19T17:59:07Z",
     "status": "ok"
+  },
+  "bEO_QeJU7U0": {
+    "title": "Do Diffusion LLMs Scale? Testing Mercury 3 + Decide",
+    "processed_at": "2026-10-20T16:03:30Z",
+    "status": "ok"
+  },
+  "_yO_Q7qo0HQ": {
+    "title": "The Problem with Jev: Can You Trust AI Decisions?",
+    "processed_at": "2026-10-20T16:03:47Z",
+    "status": "ok"
   }
 }
