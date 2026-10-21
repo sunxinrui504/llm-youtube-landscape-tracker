@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T16:03:47Z",
+  "last_updated": "2026-10-21T10:51:43Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1279,6 +1279,11 @@
         "video_id": "_yO_Q7qo0HQ",
         "channel": "IBM Technology",
         "title": "The Problem with Jev: Can You Trust AI Decisions?"
+      },
+      {
+        "video_id": "qV36V-WOsDo",
+        "channel": "IBM Technology",
+        "title": "The patching gap: Hacked fridges, AI ransomware and Mythos finds"
       }
     ],
     "Large Language Models": [
@@ -25786,6 +25791,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-20T16:03:47Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "qV36V-WOsDo",
+      "url": "https://www.youtube.com/watch?v=qV36V-WOsDo",
+      "title": "The patching gap: Hacked fridges, AI ransomware and Mythos finds",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-21",
+      "duration_seconds": 1768,
+      "metrics": {
+        "views": 148,
+        "likes": 17,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "That melted ice cream might not be the freezer’s fault. \n\nOn episode 56 of Security Intelligence, Claire Nunez and MJ Vaidya join host Patrick Austin to break down three cybersecurity stories and what they mean for defenders. \n\nFirst, attackers hijack refrigeration controllers from Danfoss, Copeland and Dixell at French supermarkets, pushing cases to 50°C. Team82 flagged the flaws and Danfoss shipped a fix, yet thousands of controllers remain exposed online. Is planned downtime the price of staying patched? \n\nThen, a Semperis survey of 1,200 IT professionals links AI to 84% of ransomware attacks. Many of those attacks abuse companies’ own AI agents and identity systems. Should your agents be part of your insider threat model? \n\nFinally, Bank of America brings on 1,000 contractors to patch vulnerabilities found by Anthropic’s Mythos and other AI security models. The panel debates whether AI can fix what it finds, and why patching can’t be a one-time push. \n\nAll that and more on Security Intelligence. \n\n00:00 – Intro \n\n01:00 – Hackers hijack supermarket fridges \n\n10:11 – AI linked to 84% of ransomware attacks \n\n19:31 – Bank of America hires 1,000 patchers \n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\" \n\n- Subscribe for Security updates → https://www.ibm.com/subscribe \n\n- Learn more about artificial intelligence → https://www.ibm.com/think/topics/cybersecurity \n\n- Visit Security Intelligence podcast page → https://www.ibm.com/think/podcasts/security-intelligence \n\n- Watch the latest episode of Security Intelligence → https://www.ibm.com/think/podcasts/mixture-of-experts  \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@ibmdeveloperadvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-21T10:51:43Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
