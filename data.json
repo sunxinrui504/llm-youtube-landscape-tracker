@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T10:51:43Z",
+  "last_updated": "2026-10-22T16:19:34Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1284,6 +1284,11 @@
         "video_id": "qV36V-WOsDo",
         "channel": "IBM Technology",
         "title": "The patching gap: Hacked fridges, AI ransomware and Mythos finds"
+      },
+      {
+        "video_id": "615-yWyS1n0",
+        "channel": "IBM Technology",
+        "title": "What Is LLM Inference? How AI Models Generate Responses"
       }
     ],
     "Large Language Models": [
@@ -25844,6 +25849,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-21T10:51:43Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "615-yWyS1n0",
+      "url": "https://www.youtube.com/watch?v=615-yWyS1n0",
+      "title": "What Is LLM Inference? How AI Models Generate Responses",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-22",
+      "duration_seconds": 466,
+      "metrics": {
+        "views": 20272,
+        "likes": 514,
+        "comments": 56
+      },
+      "metadata": {
+        "description": "Learn more about LLM Inference here → https://ibm.biz/~CCvvB5TvB\n\nEvery LLM response starts with much more than a prompt. Grace Ableidinger explains LLM inference, from tokenization and GPU batching to KV cache, prefill, and decode. Learn how AI models turn static weights into real-time responses.\n\n 00:00 – Understand What LLM Inference Actually Does\n 01:15 – See How LLM Inference Engines Serve AI Models\n 01:43 – Follow an LLM Request from API to Model\n 02:15 – Turn Prompts Into Tokens with Tokenization\n 02:59 – Route LLM Requests to GPU Hardware\n 03:30 – Increase LLM Throughput with Continuous Batching\n 04:23 – Understand LLM Prefill and KV Cache\n 05:24 – See How Decode Generates Tokens\n 06:18 – Measure LLM Latency with TTFT and ITL\n 06:59 – Connect the Full LLM Inference Pipeline\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~LqLIqIARH\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#llm #aimodels #aiinference #ai #aiengineering \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-22T16:19:34Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
