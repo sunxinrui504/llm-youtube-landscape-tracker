@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T10:44:07Z",
+  "last_updated": "2026-10-23T16:09:10Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1294,6 +1294,11 @@
         "video_id": "WLhh5FeLpy0",
         "channel": "IBM Technology",
         "title": "Self-replicating AI, your doctor’s chatbot & agents at dinner"
+      },
+      {
+        "video_id": "BsfjQDSeTwI",
+        "channel": "Sam Witteveen",
+        "title": "Flint - The First RSI Coding Model?"
       }
     ],
     "Large Language Models": [
@@ -25960,6 +25965,81 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-23T10:44:06Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "BsfjQDSeTwI",
+      "url": "https://www.youtube.com/watch?v=BsfjQDSeTwI",
+      "title": "Flint - The First RSI Coding Model?",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-23",
+      "duration_seconds": 1133,
+      "metrics": {
+        "views": 4879,
+        "likes": 211,
+        "comments": 34
+      },
+      "metadata": {
+        "description": "In this video, I look at an interesting model from Recursive AI called Flint, which is their first public attempt at building a very fast mixture-of-experts model specifically for taking on the Qwen3.8 and similar coding models. They are using an RSI system to do this. \n\nBlog: https://recursive.com/updates/introducing-recursive-flint\nHF: https://huggingface.co/RecursiveSI/flint\nNVFP4: https://huggingface.co/RecursiveSI/flint-nvfp4-gguf\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:33 Flint\n1:04 Built by the Eureka Machine in under 4 months\n1:34 Why it's fast\n3:02 Open weights: four official versions\n3:22 Benchmarks vs Qwen 3.6 and Laguna XS\n3:56 Flint vs Qwen 3.8 27B\n4:22 The speed vs score chart\n4:34 How to run it: Ollama, LM Studio, llama.cpp, vLLM\n5:48 Who's behind Recursive\n8:01 What the Eureka Machine actually is\n10:45 How it built Flint: architecture search\n13:08 Demo: NVFP4 on an RTX PRO 6000\n16:13 Agent tasks and tool use\n17:10 Which GPUs can run Flint\n18:02 Takeaways",
+        "tags": [
+          "Recursive Flint",
+          "Flint 40B",
+          "Flint coding model",
+          "Recursive AI",
+          "local coding model",
+          "local LLM",
+          "Qwen 3.8 27B",
+          "Eureka Machine",
+          "Richard Socher",
+          "mixture of experts",
+          "MoE vs dense",
+          "fastest local coding model",
+          "NVFP4",
+          "RTX PRO 6000",
+          "M4 MacBook Pro",
+          "Ollama",
+          "LM Studio",
+          "llama.cpp",
+          "vLLM",
+          "open weights",
+          "AI coding agent",
+          "automated AI research",
+          "recursive self-improvement"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-23T16:09:09Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
