@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-22T16:19:34Z",
+  "last_updated": "2026-10-23T10:44:07Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1289,6 +1289,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "615-yWyS1n0",
         "channel": "IBM Technology",
         "title": "What Is LLM Inference? How AI Models Generate Responses"
+      },
+      {
+        "video_id": "WLhh5FeLpy0",
+        "channel": "IBM Technology",
+        "title": "Self-replicating AI, your doctor’s chatbot & agents at dinner"
       }
     ],
     "Large Language Models": [
@@ -25902,6 +25907,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-22T16:19:34Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "WLhh5FeLpy0",
+      "url": "https://www.youtube.com/watch?v=WLhh5FeLpy0",
+      "title": "Self-replicating AI, your doctor’s chatbot & agents at dinner",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-23",
+      "duration_seconds": 2170,
+      "metrics": {
+        "views": 166,
+        "likes": 17,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~orPNK02xR\n\nWhat happens when an AI model can copy itself onto the devices in yout hoome? \n\nThis week on Mixture of Experts, host David Zax is joined by Aili McConnon, Sandhya Iyer and Jacob Repp. First, Anthropic research suggests small AI models may be months away from copying themselves across cheap smart devices without a data center. The panel debates whether the bigger risk is the model itself or the poorly secured devices already in our homes. \n\nNext, a JAMA study finds that about half of US doctors use OpenEvidence, a clinical chatbot, more often for treatment decisions than for diagnosis. The panel discusses whether faster, less-vetted answers are a trade worth making. Finally, 22 founders let AI agents book their seats at a Manhattan dinner, and the agents networked with each other in a chat room. The panel considers how much autonomy agents should get when they deal with other agents.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n01:17 – AI models approach self-replication\n14:22 – Study reveals how doctors are using AI\n26:38 – Agents network at a founders’ dinner\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~Tic8uKc5V\n#anthropic #aiagents #selfreplicatingai\n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-23T10:44:06Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
