@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T16:09:10Z",
+  "last_updated": "2026-10-25T15:17:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1299,6 +1299,11 @@
         "video_id": "BsfjQDSeTwI",
         "channel": "Sam Witteveen",
         "title": "Flint - The First RSI Coding Model?"
+      },
+      {
+        "video_id": "UgEA5ictENM",
+        "channel": "IBM Technology",
+        "title": "The One-Line Slowdown: Why AI Models Get Slower"
       }
     ],
     "Large Language Models": [
@@ -26040,6 +26045,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-23T16:09:09Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "UgEA5ictENM",
+      "url": "https://www.youtube.com/watch?v=UgEA5ictENM",
+      "title": "The One-Line Slowdown: Why AI Models Get Slower",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-25",
+      "duration_seconds": 259,
+      "metrics": {
+        "views": 5425,
+        "likes": 65,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Learn more about model collapse here → https://ibm.biz/~bs0HZQOH7\n\nYour AI model runs, but the output is wrong. Antoni Viros i Martin explains how hidden synchronization and graph breaks can quietly slow AI training and reduce compiler optimizations. Learn a practical debugging mindset for improving AI model performance in PyTorch and compiled workloads.\n\n00:00 - The Hidden Cost of Reading a Single Tensor Value\n00:13 - How Torch.compile Optimizes Your Model\n00:35 - Why Accelerators Work Ahead of Python\n00:48 - The .item() Problem: Python Scalar Reads\n01:12 - How Graph Breaks Fragment Optimized Regions\n01:56 - Synchronization: When Python Forces the Chip to Wait\n02:55 - The Real Performance Penalty: Empty Accelerator Queues\n03:03 - How to Avoid These Slowdowns in Compiled Models\n\nContinue your education in the course Compilation for Dataflow on Coursera here → https://ibm.biz/~yeC2veTHU\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~6cdGktmYf\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aimodels #aitraining #pytorch #ai \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-25T15:17:45Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
