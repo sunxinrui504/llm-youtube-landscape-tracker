@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-25T15:17:45Z",
+  "last_updated": "2026-10-26T11:54:51Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1304,6 +1304,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "UgEA5ictENM",
         "channel": "IBM Technology",
         "title": "The One-Line Slowdown: Why AI Models Get Slower"
+      },
+      {
+        "video_id": "SIZsFGvtClM",
+        "channel": "IBM Technology",
+        "title": "Agentic Engineering: 5 Terms Every AI Developer Should Know"
       }
     ],
     "Large Language Models": [
@@ -26099,6 +26104,60 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-25T15:17:45Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "SIZsFGvtClM",
+      "url": "https://www.youtube.com/watch?v=SIZsFGvtClM",
+      "title": "Agentic Engineering: 5 Terms Every AI Developer Should Know",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-26",
+      "duration_seconds": 701,
+      "metrics": {
+        "views": 815,
+        "likes": 67,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Learn more about Agentic Engineering here → https://ibm.biz/~Tlo2yQJqq\n\nAI engineering is becoming more than writing code. Cedric Clyburn breaks down five essential concepts behind agentic engineering, including prompt engineering, context engineering, AI agents, and software factories. Learn the ideas shaping the future of AI-assisted software development.\n\n00:00 - AI‑Written Code and the Rise of Agentic Engineering\n00:37 - Five Core Concepts Every AI Builder Should Know\n00:56 - Prompt Engineering: Communicating Clearly With Models\n01:42 - Why Domain Expertise Matters More Than Model Size\n02:29 - Few‑Shot Prompts and Chain‑of‑Thought for Smaller Models\n03:22 - Context Engineering: Managing the Model’s Entire Input Window\n04:45 - Sub‑Agents, Summaries, and Efficient Context Management\n05:41 - Harness Engineering: Execution, Verification, and Sandboxing\n06:34 - Loop Engineering: Autonomous Agent Action and Triggers\n08:48 - Graph Engineering: Parallel Agents Working Toward One Goal\n09:37 - Software Factories: Task‑Based Agents for Full SDLC Automation\n10:55 - Why These Concepts Matter for Everyone, Not Just Developers\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~0GmuEtvwj\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#agenticengineering #aiengineering #aiagents #developerskills \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-26T11:54:51Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
