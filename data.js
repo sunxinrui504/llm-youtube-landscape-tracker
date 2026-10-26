@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-26T11:54:51Z",
+  "last_updated": "2026-10-26T17:57:31Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1309,6 +1309,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "SIZsFGvtClM",
         "channel": "IBM Technology",
         "title": "Agentic Engineering: 5 Terms Every AI Developer Should Know"
+      },
+      {
+        "video_id": "VhrtlfTyqp4",
+        "channel": "Sam Witteveen",
+        "title": "100% Open Image Model Lets You Place Text With JSON"
       }
     ],
     "Large Language Models": [
@@ -26158,6 +26163,83 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-26T11:54:51Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "VhrtlfTyqp4",
+      "url": "https://www.youtube.com/watch?v=VhrtlfTyqp4",
+      "title": "100% Open Image Model Lets You Place Text With JSON",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-26",
+      "duration_seconds": 824,
+      "metrics": {
+        "views": 3312,
+        "likes": 106,
+        "comments": 9
+      },
+      "metadata": {
+        "description": "In this video I look at MOSS Image. A 5B diffusion transformer, which has an Apache 2 license, allowing you to create images and do whatever you want with it. It also allows you to use JSON to layout the image\n\nBlog: https://openmoss.ai/MOSS-Image/\nHF: https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n00:29 What MOSS Image\n01:58 Where to run it: Hugging Face, ComfyUI, SGLang, vLLM-Omni\n02:11 General images\n02:38 Lighting, styles and aspect ratios\n03:21 Text rendering\n04:01 Long-text benchmark scores\n04:29 Where the text breaks down\n04:50 JSON layout control\n06:08 What it can't do\n07:53 Demo\n09:00 Editing the layout\n10:07 Styles and inpainting\n10:44 8-step LoRA\n11:21 Custom LoRA",
+        "tags": [
+          "MOSS Image",
+          "MOSS-Image",
+          "OpenMOSS",
+          "open source image model",
+          "open weights image model",
+          "text to image",
+          "local image generation",
+          "AI image generator",
+          "AI text rendering",
+          "JSON layout",
+          "layout control",
+          "bounding boxes",
+          "Apache 2.0",
+          "ComfyUI",
+          "SGLang",
+          "vLLM",
+          "LoRA",
+          "8-step LoRA",
+          "custom LoRA",
+          "diffusion transformer",
+          "Qwen 3.5",
+          "Nano Banana alternative",
+          "FLUX.3 Klein alternative",
+          "Qwen Image alternative",
+          "image generation tutorial"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-26T17:57:30Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
