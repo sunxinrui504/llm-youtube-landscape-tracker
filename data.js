@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-26T17:57:31Z",
+  "last_updated": "2026-10-27T11:17:42Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1314,6 +1314,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "VhrtlfTyqp4",
         "channel": "Sam Witteveen",
         "title": "100% Open Image Model Lets You Place Text With JSON"
+      },
+      {
+        "video_id": "5WlmyncEcNM",
+        "channel": "IBM Technology",
+        "title": "Open Source Security in the Age of AI"
       }
     ],
     "Large Language Models": [
@@ -26240,6 +26245,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-26T17:57:30Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "5WlmyncEcNM",
+      "url": "https://www.youtube.com/watch?v=5WlmyncEcNM",
+      "title": "Open Source Security in the Age of AI",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-27",
+      "duration_seconds": 617,
+      "metrics": {
+        "views": 180,
+        "likes": 25,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Learn more about Open Source Security here → https://ibm.biz/~PzvauipSt\n\nAI is finding open-source vulnerabilities faster than ever before. Jeff Crume explains why discovery is only the start, as teams still need to remediate, test, validate, and deploy fixes safely. Learn what securing open source looks like when AI accelerates both sides of the race.\n\n 00:00 – Understand the Open Source Security Risk\n 01:02 – See How AI Accelerates Vulnerability Discovery\n 01:42 – Race Attackers from Discovery to Remediation\n 02:09 – Understand Why Fixing Vulnerabilities Is Hard\n 04:02 – Scale Open Source Vulnerability Remediation\n 04:42 – Move Security Fixes Upstream\n 05:28 – Coordinate Open Source Security at Scale\n 06:48 – Follow the Vulnerability Remediation Workflow\n 08:18 – Coordinate Discovery, Remediation & Disclosure\n 09:17 – Shift the AI Security Race from Finding to Fixing\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~qMvWMJjqe\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#opensourcesecurity #aisecurity #cybersecurity #opensource \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-27T11:17:41Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
