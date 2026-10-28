@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-27T11:17:42Z",
+  "last_updated": "2026-10-28T11:51:59Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1319,6 +1319,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "5WlmyncEcNM",
         "channel": "IBM Technology",
         "title": "Open Source Security in the Age of AI"
+      },
+      {
+        "video_id": "VoSQZBguB1A",
+        "channel": "IBM Technology",
+        "title": "The PHP bug threatening the web. Plus, who's auditing AI?"
       }
     ],
     "Large Language Models": [
@@ -26298,6 +26303,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-27T11:17:41Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "VoSQZBguB1A",
+      "url": "https://www.youtube.com/watch?v=VoSQZBguB1A",
+      "title": "The PHP bug threatening the web. Plus, who's auditing AI?",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-28",
+      "duration_seconds": 1222,
+      "metrics": {
+        "views": 352,
+        "likes": 34,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more AI content  → https://ibm.biz/~G9cZuMJdW\n\nAn AI model helped researchers find two decade-old bugs in the code behind up to 70% of the web. Then the exploit details leaked before the patch did.\n \nThis week on Security Intelligence, Nick Bradley, Don Cowan and Jim Guinn join host Patrick Austin to unpack three major cybersecurity stories.\n \nFirst, PHP2Shell could let attackers take over vulnerable servers without logging in. But you can't patch what you can't find, and PHP is buried in more systems than most teams realize.\n \nThen, Anthropic gives six outside evaluators employee-like access to test its AI models. Should frontier AI labs go further and let their competitors inspect their models?\n \nFinally, attackers hijack 333 Tor exit relays, rerouting traffic to harvest credentials. The way in? A reused password. A reminder that even attackers aren't immune to bad security hygiene.\n\nAll that and more on Security Intelligence.\n\n0:00 – Intro\n01:14 – The PHP bug putting the web at risk\n08:50 – Anthropic invites outside AI evaluators\n16:10 – Hijacked Tor relays steal passwords\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~PadbSocBp\n#aiauditing #PHPvulnerability #anthropic \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-28T11:51:59Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
