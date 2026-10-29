@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T17:40:56Z",
+  "last_updated": "2026-10-29T11:59:32Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1329,6 +1329,11 @@
         "video_id": "pryCaGv8wuo",
         "channel": "Two Minute Papers",
         "title": "Deepseek's New AI Has A Secret"
+      },
+      {
+        "video_id": "mmns33BsBcY",
+        "channel": "IBM Technology",
+        "title": "What Is Quantization? How AI Models Get Smaller & Faster"
       }
     ],
     "Large Language Models": [
@@ -26414,6 +26419,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-28T17:40:54Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "mmns33BsBcY",
+      "url": "https://www.youtube.com/watch?v=mmns33BsBcY",
+      "title": "What Is Quantization? How AI Models Get Smaller & Faster",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-29",
+      "duration_seconds": 481,
+      "metrics": {
+        "views": 803,
+        "likes": 93,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Learn more about Quantization here → https://ibm.biz/~NdqpU881V\n\nHuge AI models come with huge memory requirements.Grace Ableidinger explains how quantization compresses LLMs using lower-precision formats like INT8 and INT4. Learn how model size, GPU memory, speed, and accuracy trade off during AI inference.\n\n 00:00 – Understand What Quantization Does\n 00:23 – See Why LLMs Need Quantization\n 00:51 – Connect AI Parameters to Memory Requirements\n 01:31 – Calculate the Memory Cost of a 70B LLM\n 02:13 – See How Quantization Reduces Precision\n 02:53 – Follow Quantization Layer by Layer\n 04:21 – Compare FP16, FP8, INT8 & INT4\n 05:34 – Balance Memory Savings with Model Accuracy\n 06:33 – Compare PTQ vs Quantization-Aware Training\n 07:17 – Choose the Right Quantization Tradeoff\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~SLKUNTFaQ\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#llm #aimodels #aiinference #machinelearning #aiengineering \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-29T11:59:32Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
