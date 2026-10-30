@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-30T11:53:26Z",
+  "last_updated": "2026-10-30T17:29:38Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1339,6 +1339,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "K8NgeOuZmWU",
         "channel": "IBM Technology",
         "title": "AI exposes a major web security flaw, plus a new kind of voice model"
+      },
+      {
+        "video_id": "CWdTBLsbaQs",
+        "channel": "Two Minute Papers",
+        "title": "OpenAI Claims It Just Did The Impossible"
+      },
+      {
+        "video_id": "lEFFa0Z5BIE",
+        "channel": "Sam Witteveen",
+        "title": "3,000 Tokens/Sec Locally: Testing the ZGX Fury"
       }
     ],
     "Large Language Models": [
@@ -26530,6 +26540,144 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-30T11:53:26Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "CWdTBLsbaQs",
+      "url": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
+      "title": "OpenAI Claims It Just Did The Impossible",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-10-30",
+      "duration_seconds": 442,
+      "metrics": {
+        "views": 17697,
+        "likes": 1324,
+        "comments": 107
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 OpenAI's paper is available here:\nhttps://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf\n\nOur paper with the cherry splash ray tracing simulation at 0:17 https://users.cg.tuwien.ac.at/zsolnai/gfx/adaptive_metropolis/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "openai",
+          "chatgpt"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-30T17:29:18Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "lEFFa0Z5BIE",
+      "url": "https://www.youtube.com/watch?v=lEFFa0Z5BIE",
+      "title": "3,000 Tokens/Sec Locally: Testing the ZGX Fury",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-10-30",
+      "duration_seconds": 838,
+      "metrics": {
+        "views": 9686,
+        "likes": 257,
+        "comments": 80
+      },
+      "metadata": {
+        "description": "In this video, I look at the ZGX Fury which is the big brother of the ZGX Nano (DGX Spark). While many people know the GB10s, most people haven't seen the power of what a machine like HP's ZGX Fury can do. With 748 GB of memory and NVIDIA's GB300 chipset, this is a mini data center your whole team can use\n\nHP ZGX Fury : https://www.hp.com/us-en/workstations/ai-stations/zgx-fury-ai-station.html\nHP Z LinkedIn Page: https://www.linkedin.com/showcase/zbyhp/home/\nQuickSpecs: https://h20195.www2.hp.com/v2/GetPDF.aspx/c09307810?jumpid=va_ctk9ni875y\nDatasheet: https://h20195.www2.hp.com/v2/GetPDF.aspx/c09307810?jumpid=va_ctk9ni875y\n\nHP ZGX Fury Sizzle Video: https://www.youtube.com/watch?v=9hwxLrkR1p0\n\nSam's 2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n⏱️Time Stamps:\n00:00 Intro: HP ZGX Fury\n01:05 What is the HP ZGX Fury?\n01:17 GB300, 20 petaflops and 748GB of memory\n02:09 How the Fury's memory works\n03:16 What makes HP's DGX Station different\n03:38 HP ZGX Runtime (ZRT)\n05:24 HP Z Toolkit\n05:35 Red Hat Enterprise Certified\n06:57 Benchmarks\n08:25 Who is this for?\n09:11 Running agentic systems locally\n10:29 On-prem AI\n11:26 Data-center hardware next to your desk\n12:39 Final thoughts",
+        "tags": [
+          "HP ZGX Fury",
+          "ZGX Fury",
+          "HP ZGX Fury AI Station",
+          "HP ZGX Fury G1N",
+          "DGX Station",
+          "NVIDIA DGX Station",
+          "GB300",
+          "Blackwell Ultra",
+          "GB300 desktop",
+          "DGX Spark",
+          "HP ZGX Nano",
+          "local AI",
+          "on-prem AI",
+          "local LLM",
+          "AI workstation",
+          "HP Z Runtime",
+          "ZRT",
+          "HP Z Toolkit",
+          "Red Hat Enterprise Linux",
+          "RHEL AI",
+          "Nemotron 3 Super",
+          "Infinity AI",
+          "Qwen 3.8",
+          "vLLM",
+          "LLM inference",
+          "concurrent users",
+          "AI for teams",
+          "run LLMs locally",
+          "AI agents",
+          "private AI",
+          "HP sponsored"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-30T17:29:37Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
