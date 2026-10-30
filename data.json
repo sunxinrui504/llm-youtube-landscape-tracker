@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T11:59:32Z",
+  "last_updated": "2026-10-30T11:53:26Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1334,6 +1334,11 @@
         "video_id": "mmns33BsBcY",
         "channel": "IBM Technology",
         "title": "What Is Quantization? How AI Models Get Smaller & Faster"
+      },
+      {
+        "video_id": "K8NgeOuZmWU",
+        "channel": "IBM Technology",
+        "title": "AI exposes a major web security flaw, plus a new kind of voice model"
       }
     ],
     "Large Language Models": [
@@ -26472,6 +26477,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-29T11:59:32Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "K8NgeOuZmWU",
+      "url": "https://www.youtube.com/watch?v=K8NgeOuZmWU",
+      "title": "AI exposes a major web security flaw, plus a new kind of voice model",
+      "channel": "IBM Technology",
+      "published_at": "2026-10-30",
+      "duration_seconds": 2365,
+      "metrics": {
+        "views": 494,
+        "likes": 35,
+        "comments": 3
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content → https://ibm.biz/~7OaIQxINM\n\nThis week on Mixture of Experts, host David Zax is joined by Ash Minhas, Judith Aquino and Jessica Nahulan to discuss how AI is testing the systems we rely on, from cybersecurity to model evaluation.\n\nFirst, the panel examines PHP2Shell and what happens when AI can find vulnerabilities faster than organizations can fix them. Can our aging software infrastructure keep up?\n\nNext, Block's Dessa introduces a voice model trained entirely on speech that can listen and talk simultaneously. The panel discusses what makes this approach different and how to evaluate a model designed to converse more like a human.\n\nThen, a new cultural riddles benchmark reveals gaps in how language models interpret cultural context, prompting a broader debate about whether today's benchmarks reward guessing over admitting uncertainty.\n \nPlus, IBM Field CTO Kiyu Gabriel joins from IBM TechXchange 2026 to discuss Streamhouse and how AI agents are changing the demands on enterprise data infrastructure.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n01:18 – AI discovers major PHP2Shell flaws\n14:30 – Dessa: An AI model trained on speech\n22:38 – Cultural riddles reveal model blind spots\n30:22 – IBM TechXchange: Data for the agent era\n \n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~z5xHzLfpb\n#aicybersecurity #ibmtechexchange2026 #aiagents \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-10-30T11:53:26Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
