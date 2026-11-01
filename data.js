@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-10-30T17:29:38Z",
+  "last_updated": "2026-11-01T12:21:13Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1349,6 +1349,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "lEFFa0Z5BIE",
         "channel": "Sam Witteveen",
         "title": "3,000 Tokens/Sec Locally: Testing the ZGX Fury"
+      },
+      {
+        "video_id": "QUZ4KEDxhCM",
+        "channel": "IBM Technology",
+        "title": "What Is torch.compile? Dynamo, PyTorch & Faster AI Models Explained"
       }
     ],
     "Large Language Models": [
@@ -26678,6 +26683,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-10-30T17:29:37Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "QUZ4KEDxhCM",
+      "url": "https://www.youtube.com/watch?v=QUZ4KEDxhCM",
+      "title": "What Is torch.compile? Dynamo, PyTorch & Faster AI Models Explained",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-01",
+      "duration_seconds": 413,
+      "metrics": {
+        "views": 160,
+        "likes": 13,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Learn more about Faster AI Models here → https://ibm.biz/~9RJjTpaDF\n\nOne line can change how your AI model runs. Avery Blanchard explains how torch.compile, Dynamo, AOT Autograd, and Inductor optimize PyTorch models. Learn how graph breaks, recompilation, and kernel fusion affect AI performance.\n\n 00:00 – See What torch.compile Does to PyTorch Models\n 00:20 – Understand the Three torch.compile Stages\n 01:09 – See How PyTorch Starts Lazy Compilation\n 01:44 – Capture AI Model Operations with Dynamo\n 02:42 – Prepare PyTorch Graphs with AOT Autograd\n 03:32 – Generate Optimized Code with Inductor\n 04:35 – Understand Graph Breaks in torch.compile\n 05:21 – Avoid Recompilation & Benchmark Correctly\n 05:53 – Connect Dynamo, AOT Autograd & Inductor\n 06:10 – Diagnose Why torch.compile Isn't Faster\n\nContinue your education in the course Compilation for Dataflow on Coursera here → ibm.biz/~E46ZY0koj\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~j9Ety2SXE\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#pytorch #aimodels #machinelearning #aiengineering \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-01T12:21:12Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
