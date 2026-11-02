@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-01T12:21:13Z",
+  "last_updated": "2026-11-02T14:16:37Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1354,6 +1354,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "QUZ4KEDxhCM",
         "channel": "IBM Technology",
         "title": "What Is torch.compile? Dynamo, PyTorch & Faster AI Models Explained"
+      },
+      {
+        "video_id": "vSCYL8ySh9g",
+        "channel": "Sam Witteveen",
+        "title": "Dory - NVIDIA's Looped Transformer"
+      },
+      {
+        "video_id": "EkdIZXDnRK8",
+        "channel": "IBM Technology",
+        "title": "Context-Aware Coding: Give AI Agents the Right Context"
       }
     ],
     "Large Language Models": [
@@ -26736,6 +26746,180 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-01T12:21:12Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "vSCYL8ySh9g",
+      "url": "https://www.youtube.com/watch?v=vSCYL8ySh9g",
+      "title": "Dory - NVIDIA's Looped Transformer",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-02",
+      "duration_seconds": 904,
+      "metrics": {
+        "views": 1192,
+        "likes": 89,
+        "comments": 19
+      },
+      "metadata": {
+        "description": "In this video, I look at a research release from NVIDIA called Dory, which is a 4B looped transformer. \n\nHF: https://huggingface.co/collections/nvidia/nemotron-labs-dory\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:38 What is NVIDIA's Dory?\n02:25 Specs\n03:06 How a loop transformer works\n06:24 The KV cache: per-loop vs last-loop\n07:33 Loop Race demo\n09:03 Chatting with Dory at 1, 2 and 4 loops\n11:13 Benchmarks vs Gemma 4 26B\n11:33 Where Dory wins and where it loses\n13:06 Deploying Dory\n14:26 Takeaways",
+        "tags": [
+          "NVIDIA Dory",
+          "Dory 4B",
+          "Dory1.0-4B",
+          "Nemotron Labs",
+          "NVIDIA Nemotron",
+          "loop transformer",
+          "looped transformer",
+          "latent recurrent transformer",
+          "recurrent depth",
+          "elastic inference compute",
+          "test-time compute",
+          "NVFP4",
+          "Gemma 4 26B",
+          "small language model",
+          "4B model",
+          "open model",
+          "OpenMDW",
+          "vLLM",
+          "KV cache",
+          "local LLM",
+          "run LLMs locally",
+          "LLM reasoning",
+          "AI agents",
+          "GPT-6"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "yt_dlp",
+        "has_manual_sub": true,
+        "has_auto_sub": true,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-02T14:16:19Z"
+      },
+      "chapters": [
+        {
+          "title": "Intro",
+          "start_time": 0
+        },
+        {
+          "title": "What is NVIDIA's Dory?",
+          "start_time": 98
+        },
+        {
+          "title": "Specs",
+          "start_time": 145
+        },
+        {
+          "title": "How a loop transformer works",
+          "start_time": 186
+        },
+        {
+          "title": "The KV cache: per-loop vs last-loop",
+          "start_time": 384
+        },
+        {
+          "title": "Loop Race demo",
+          "start_time": 453
+        },
+        {
+          "title": "Chatting with Dory at 1, 2 and 4 loops",
+          "start_time": 543
+        },
+        {
+          "title": "Benchmarks vs Gemma 4 26B",
+          "start_time": 673
+        },
+        {
+          "title": "Where Dory wins and where it loses",
+          "start_time": 693
+        },
+        {
+          "title": "Deploying Dory",
+          "start_time": 786
+        },
+        {
+          "title": "Takeaways",
+          "start_time": 866
+        }
+      ],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "EkdIZXDnRK8",
+      "url": "https://www.youtube.com/watch?v=EkdIZXDnRK8",
+      "title": "Context-Aware Coding: Give AI Agents the Right Context",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-02",
+      "duration_seconds": 394,
+      "metrics": {
+        "views": 2252,
+        "likes": 147,
+        "comments": 14
+      },
+      "metadata": {
+        "description": "Learn more about Agentic Coding here → https://ibm.biz/~YeRLqinv2\n\nA good prompt isn't enough for good AI code. Legare Kerrison explains how context helps AI coding agents understand your repository, dependencies, tests, and intent. Learn how to give agents the right context without overwhelming them.\n\n 00:00 – Give AI Coding Agents Better Context\n 00:37 – See Why One Prompt Isn't Enough\n 01:23 – Give Agents the Right Code & Repository Structure\n 02:17 – Ground AI Coding with Dependency Versions\n 02:43 – Use Tests as an Agent Feedback Loop\n 03:00 – Add Documentation & Developer Intent\n 03:42 – Let AI Agents Ask for Missing Context\n 04:02 – Interview, Explore & Plan Before Coding\n 04:58 – Avoid Overloading the AI Context Window\n 05:45 – Keep Agentic Coding Context Focused\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~G97V5h6dy\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aicodingagent #agenticcoding #aicoding #aiagents \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-02T14:16:37Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
