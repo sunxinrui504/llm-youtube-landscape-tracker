@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T14:16:37Z",
+  "last_updated": "2026-11-03T00:13:17Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1364,6 +1364,11 @@
         "video_id": "EkdIZXDnRK8",
         "channel": "IBM Technology",
         "title": "Context-Aware Coding: Give AI Agents the Right Context"
+      },
+      {
+        "video_id": "0Kw6_DTZPrY",
+        "channel": "AI Explained",
+        "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon"
       }
     ],
     "Large Language Models": [
@@ -26920,6 +26925,57 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-02T14:16:37Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "0Kw6_DTZPrY",
+      "url": "https://www.youtube.com/watch?v=0Kw6_DTZPrY",
+      "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
+      "channel": "AI Explained",
+      "published_at": "2026-11-02",
+      "duration_seconds": 1675,
+      "metrics": {
+        "views": 48159,
+        "likes": 1223,
+        "comments": 223
+      },
+      "metadata": {
+        "description": "You know what, by AI standards, it might not have been the craziest week, but that doesn’t mean several headline-worthy things happened - from Altman and Anthropic implying they would release models they can’t control, with behavior they cannot verify, to Gemini 4 Carbon bursting onto the scene, some Amodei rationalization, de-tokenization and more…\n\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\n\nChapters:\n00:00 - Introduction\n00:00 - Introduction\n01:26 - Anthropic Staff Survey\n04:32 - Amodei's Five Rationalisations\n11:43 - Altman: Only Alignment Will Work\n18:41 - Gemini 4 Carbon and Why Models Keep Impressing\n\nAnthropic: The AI expectations gap: https://www.anthropic.com/research/ai-expectations-gap\n\nDario Amodei responds to Nathan Calvin: https://x.com/DarioAmodei/status/2112732230124818891\n\nAnthropic Responsible Scaling Policy v3.0: https://www-cdn.anthropic.com/e670587677525f28df69b59e5fb4c22cc5461a17.pdf\n\nResponsible Scaling Policy v3 discussion: https://www.lesswrong.com/posts/HzKuzrKfaDJvQqmjh/responsible-scaling-policy-v3\n\nAnthropic's core views on AI safety: https://www.anthropic.com/news/core-views-on-ai-safety\n\nNathan Calvin on Anthropic's IPO risk disclosures: https://x.com/_NathanCalvin/status/2114720411413819410/photo/1\n\nOpenAI: Securing frontier model training: https://openai.com/index/securing-our-frontier-model-training-environment/\n\nGoogle: Introducing Gemini 4 Carbon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\n\nSemiAnalysis: GDPx benchmark: https://x.com/SemiAnalysis_/status/2117075900575477855\n\nThe Information: OpenAI's next flagship and safety issues: https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model\n\nAI Explained: Understanding Models — Impossible, Solved, or Not Needed?: https://www.patreon.com/AIExplained/posts/exclusive-models-172917747\n\nDario Amodei: We Must Pace the Frontier: https://darioamodei.com/post/we-must-pace-the-frontier\n\nDario Amodei: The Adolescence of Technology: https://darioamodei.com/essay/the-adolescence-of-technology\n\nEvan Hubinger on recursive self-improvement risks: https://x.com/EvanHub/status/2097528891846074828\n\nLeo Gao on AI lab employees' shrinking influence: https://x.com/nabla_theta/status/2115922100204810594\n\nJack Clark on superintelligence risks, BBC interview: https://x.com/aleshu_ber/status/2116988191597060409\n\nJack Clark: Import AI: https://jack-clark.net/\n\nDylan Patel's apology to Google over Gemini Carbon: https://x.com/dylan522p/status/2117092550842683671\n\nSemiAnalysis: Gemini Is Cooked but GCP Is Cooking: https://newsletter.semianalysis.com/p/gemini-is-cooked-but-gcp-is-cooking\n\nVivek Natarajan on Gemini Carbon and RSI: https://x.com/vivnat/status/2115497643216707621\n\nAlbert Gu on learning directly from raw data: https://x.com/_albertgu/status/2115502110578290900\n\nGarrison Lovely: Screenshots of Tony Feng's model claims: https://x.com/GarrisonLovely/status/2116226357101199369/photo/1\n\nJason Clinton on worsening cyber threats: https://x.com/JasonDClinton/status/2113325263157395456\n\nJason Clinton: \"We tried to warn the world\": https://x.com/JasonDClinton/status/2113363809629020374\n\nMustafa Suleyman: Don't build conscious superintelligence: https://x.com/mustafasuleyman/status/2116913722878820528\n\nStockfish chess engine: https://en.wikipedia.org/wiki/Stockfish_(chess)\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-03T00:13:16Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
