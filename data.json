@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T00:13:17Z",
+  "last_updated": "2026-11-03T13:17:24Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1369,6 +1369,11 @@
         "video_id": "0Kw6_DTZPrY",
         "channel": "AI Explained",
         "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon"
+      },
+      {
+        "video_id": "jnP9AgtX0qo",
+        "channel": "IBM Technology",
+        "title": "Can Your AI Use Sensitive Data Safely? 5 Capabilities You Need"
       }
     ],
     "Large Language Models": [
@@ -26976,6 +26981,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-03T00:13:16Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "jnP9AgtX0qo",
+      "url": "https://www.youtube.com/watch?v=jnP9AgtX0qo",
+      "title": "Can Your AI Use Sensitive Data Safely? 5 Capabilities You Need",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-03",
+      "duration_seconds": 695,
+      "metrics": {
+        "views": 697,
+        "likes": 78,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Learn more about Digital Sovereignty here → https://ibm.biz/~Wxx0y9d9w\n\nSensitive data makes AI powerful, but also risky. Jeff Crume explains five essential capabilities for using sensitive data safely across AI systems, agents, tools, and RAG pipelines. Learn how visibility, classification, governance, access controls, and evidence help secure AI-driven workflows.\n\n00:00 - Why AI Requires Machine‑Speed Data Controls\n00:18 - The Sensitive Data Conundrum: Useful but Risky\n01:02 - Five Foundational Controls for Safe AI Adoption\n01:13 - Visibility: You Can’t Protect What You Can’t See\n02:16 - Automated Classification and Sensitivity Tagging\n03:59 - Data Residency, Sovereignty, and Localization Explained\n05:46 - Jurisdictional Complexity in Cloud Environments\n07:12 - Access Control and the Four As of IAM\n08:53 - Audit Trails and Continuous Evidence for Regulators\n10:27 - Trustworthy AI Requires Trustworthy Data\n11:06 - Turning Sensitive Data Into a Strategic AI Advantage\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~OuRghwRQo\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aisecurity #digitalsovereignty #aidata #cybersecurity \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-03T13:17:24Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
