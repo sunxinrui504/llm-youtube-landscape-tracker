@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-03T13:17:24Z",
+  "last_updated": "2026-11-03T22:42:52Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1374,6 +1374,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "jnP9AgtX0qo",
         "channel": "IBM Technology",
         "title": "Can Your AI Use Sensitive Data Safely? 5 Capabilities You Need"
+      },
+      {
+        "video_id": "OrcsMi2-IcM",
+        "channel": "Sam Witteveen",
+        "title": "NEW DeepSeek Harness -  Super Agent!"
       }
     ],
     "Large Language Models": [
@@ -27035,6 +27040,80 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-03T13:17:24Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "OrcsMi2-IcM",
+      "url": "https://www.youtube.com/watch?v=OrcsMi2-IcM",
+      "title": "NEW DeepSeek Harness -  Super Agent!",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-03",
+      "duration_seconds": 1073,
+      "metrics": {
+        "views": 29273,
+        "likes": 676,
+        "comments": 44
+      },
+      "metadata": {
+        "description": "In this video, I look at the new announcement about the DeepSeek harness and the introduction of their super agent add-on for their harness. \n\nGH: https://github.com/deepseek-ai/dsh-superagent-prototype\nX post: https://x.com/DeepSeekHarness/status/2116857257245987236\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:39 DeepSeek Harness recap\n1:15 What Super Agent is\n2:49 Model or harness: what matters more?\n3:53 Frontier Harness benchmark\n5:52 DeepSeek Harness: everything is a plugin\n6:49 Cordis\n10:53 Agent teams vs Super Agent\n15:30 Limits: prototype, GitHub only, synthetic tests\n17:23 Will harnesses become all plugins?",
+        "tags": [
+          "DeepSeek Super Agent",
+          "DeepSeek SuperAgent",
+          "DeepSeek Harness",
+          "DeepSeek Harness Super Agent",
+          "DeepSeek Harness plugins",
+          "DeepSeek coding agent",
+          "Claude Code alternative",
+          "DeepSeek vs Claude Code",
+          "agent harness",
+          "agent harness design",
+          "AI agent harness",
+          "router worker agents",
+          "multi agent system",
+          "Frontier Harness benchmark",
+          "Cordis plugins",
+          "composable plugins",
+          "AI coding agent",
+          "GitHub AI agent",
+          "open source coding agent",
+          "Claude Code",
+          "Codex",
+          "DeepSeek"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-03T22:42:52Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
