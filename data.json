@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T22:42:52Z",
+  "last_updated": "2026-11-04T13:30:06Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1379,6 +1379,11 @@
         "video_id": "OrcsMi2-IcM",
         "channel": "Sam Witteveen",
         "title": "NEW DeepSeek Harness -  Super Agent!"
+      },
+      {
+        "video_id": "c5n94VqXZAw",
+        "channel": "IBM Technology",
+        "title": "Did the Knicks’ phishing test go too far? Plus, hackers pose as IT in Teams"
       }
     ],
     "Large Language Models": [
@@ -27114,6 +27119,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-03T22:42:52Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "c5n94VqXZAw",
+      "url": "https://www.youtube.com/watch?v=c5n94VqXZAw",
+      "title": "Did the Knicks’ phishing test go too far? Plus, hackers pose as IT in Teams",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-04",
+      "duration_seconds": 1822,
+      "metrics": {
+        "views": 1710,
+        "likes": 24,
+        "comments": 0
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more AI content  → https://ibm.biz/~vrweMGEy6\n\nClick to claim your free Knicks championship ring, and you might end up in security training.\n\nFirst, MSG sends staff an offer to pick their own championship ring, and everyone who clicks lands in mandatory security training. Timely lures catch real behavior, but the panel debates whether a test this real makes employees wary of the emails they actually need.\n\nThen, Arctic Wolf traces more than 400 incidents of attackers flooding inboxes with sign-up emails, then posing as IT support in Teams chats. As one panelist points out, real IT already has access to your machine, so it should never need you to open a remote session.\n\nFinally, CISA confirms attackers are exploiting two critical PHP flaws, and 263,000 end-of-life instances in the US alone will never get a patch. Do you know which versions you’re running?\n\nAll that and more on Security Intelligence. \n\n0:00 – Intro\n1:04 – MSG's championship ring phishing test \n8:34 – Hackers pose as IT in Microsoft Teams  \n19:21 – PHP2Shell flaws exploited in the wild\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~9IfKz4JuD\n#phishingsimulation #cybersecurity #vulnerabilitymanagement \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-04T13:30:06Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
