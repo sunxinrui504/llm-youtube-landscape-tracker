@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T23:00:36Z",
+  "last_updated": "2026-11-05T13:44:25Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1389,6 +1389,11 @@
         "video_id": "I5VxMzaBD6s",
         "channel": "Sam Witteveen",
         "title": "What is the Future of IDEs"
+      },
+      {
+        "video_id": "rXFV1ivDe6c",
+        "channel": "IBM Technology",
+        "title": "Are Vector Databases Still Needed? RAG, AI Agents & Search"
       }
     ],
     "Large Language Models": [
@@ -27256,6 +27261,60 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-04T23:00:36Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "rXFV1ivDe6c",
+      "url": "https://www.youtube.com/watch?v=rXFV1ivDe6c",
+      "title": "Are Vector Databases Still Needed? RAG, AI Agents & Search",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-05",
+      "duration_seconds": 601,
+      "metrics": {
+        "views": 2225,
+        "likes": 180,
+        "comments": 19
+      },
+      "metadata": {
+        "description": "Learn more about Vector Databases here → https://ibm.biz/~aHY62ka9p\n\nDo AI applications still need vector databases? Martin Keen explores RAG, AI agents, embeddings, semantic search, and context windows to explain when vector databases matter and when simpler retrieval approaches work just as well. Learn how to choose the right retrieval architecture for your workload.\n\n00:00 - Are Vector Databases Still Needed in the Age of AI Agents?\n00:29 - What Vector Databases Actually Do: Embeddings & Semantic Search\n01:15 - The Retrieval Pyramid: Choosing the Right Search Strategy\n01:49 - 3 Reasons You Might Not Need a Vector Database\n02:01 - Agentic Search vs Vector Search: Can Keyword Search Win?\n03:08 - Do Long Context Windows Make Retrieval Obsolete?\n03:33 - The Hidden Costs of Embeddings and Vector Indexes\n05:27 - When Vector Search Outperforms Keyword Search\n07:22 - Vector Index vs Vector Database: What's the Difference?\n08:18 - How to Decide the Right Retrieval Approach for Your AI System\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~YCTMzkcZz\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#vectordatabases #retrievalaugmentedgeneration #aiagents #vectorsearch #ai \n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM",
+          "IBM Cloud"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-05T13:44:25Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
