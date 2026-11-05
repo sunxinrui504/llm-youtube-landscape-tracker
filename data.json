@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T13:44:25Z",
+  "last_updated": "2026-11-05T23:02:40Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1394,6 +1394,11 @@
         "video_id": "rXFV1ivDe6c",
         "channel": "IBM Technology",
         "title": "Are Vector Databases Still Needed? RAG, AI Agents & Search"
+      },
+      {
+        "video_id": "2dD4HXg-YJ4",
+        "channel": "Sam Witteveen",
+        "title": "Ripple 65B: A Chip Design Lab Just Beat Every US Open Model"
       }
     ],
     "Large Language Models": [
@@ -27315,6 +27320,80 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-05T13:44:25Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "2dD4HXg-YJ4",
+      "url": "https://www.youtube.com/watch?v=2dD4HXg-YJ4",
+      "title": "Ripple 65B: A Chip Design Lab Just Beat Every US Open Model",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-05",
+      "duration_seconds": 1202,
+      "metrics": {
+        "views": 33273,
+        "likes": 720,
+        "comments": 69
+      },
+      "metadata": {
+        "description": "In this video, I go through a new model that has come out from an interesting company that wasn't focused on making LLM models but is focused on creating models that can be used for chip design. \n\nBlog: https://www.ricursive.com/ripple\nHF: https://huggingface.co/ricursiveAI\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Ripple 65B\n00:55 Who is Ricursive?\n02:23 What they released\n03:15 Apache 2.0 License\n04:43 How it stacks up against Chinese open models\n07:03 How they did it for $32M\n08:31 A thin and deep architecture\n11:41 Demo\n12:07 Takeaways",
+        "tags": [
+          "Ripple 65B",
+          "Ripple-65B-Preview",
+          "Ripple 65B Preview",
+          "Ricursive",
+          "Ricursive Intelligence",
+          "Ricursive AI",
+          "Recursive Ripple",
+          "open weight model",
+          "open coding model",
+          "best local coding model",
+          "best local model for agentic coding",
+          "agentic coding",
+          "local LLM",
+          "dense model",
+          "Terminal Bench 2.1",
+          "DeepSeek Harness",
+          "Apache 2.0",
+          "Reflection Beam",
+          "Qwen 3.8 27B",
+          "AlphaChip",
+          "NVFP4",
+          "ZGX Fury"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-05T23:02:40Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
