@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-05T23:02:40Z",
+  "last_updated": "2026-11-06T13:29:05Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1399,6 +1399,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "2dD4HXg-YJ4",
         "channel": "Sam Witteveen",
         "title": "Ripple 65B: A Chip Design Lab Just Beat Every US Open Model"
+      },
+      {
+        "video_id": "XgC1QTs6A2U",
+        "channel": "Two Minute Papers",
+        "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)"
+      },
+      {
+        "video_id": "x_5JijpzprU",
+        "channel": "IBM Technology",
+        "title": "AI fixes AI in MIT study, Mistral's open model & Google Genie 4"
       }
     ],
     "Large Language Models": [
@@ -27394,6 +27404,115 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-05T23:02:40Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "XgC1QTs6A2U",
+      "url": "https://www.youtube.com/watch?v=XgC1QTs6A2U",
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-06",
+      "duration_seconds": 2779,
+      "metrics": {
+        "views": 6170,
+        "likes": 190,
+        "comments": 28
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "jensen huang",
+          "spencer huang",
+          "nvidia"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-06T13:28:46Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "x_5JijpzprU",
+      "url": "https://www.youtube.com/watch?v=x_5JijpzprU",
+      "title": "AI fixes AI in MIT study, Mistral's open model & Google Genie 4",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-06",
+      "duration_seconds": 2155,
+      "metrics": {
+        "views": 437,
+        "likes": 50,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~Rz77ywquX\n\nHow close are we to AI that can improve itself?\n\nThis week on Mixture of Experts, guest host Aili McConnon is joined by Chris Hay, Sascha Brodsky and Kiyu Gabriel tackle that question and more from the latest AI headlines.\n\nFirst, MIT researchers demonstrate a technique that uses AI to modify another model's weights. The panel considers how close this brings us to recursive self-improvement and whether reward hacking poses a more immediate risk.\n\nNext, Mistral releases a trillion-parameter open-weight model while NVIDIA expands its open model offerings. With open models approaching frontier-level capabilities, will developers still need to rely on proprietary AI?\n\nFinally, Google DeepMind introduces Genie 4, its new world model. The panel debates how much these models actually understand about physics and what happens when a convincing simulation gets the real world wrong.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n01:08 - AI self-improvement and MIT's research\n16:28 - New open models from Mistral and NVIDIA \n25:27 - Google’s Genie 4 simulates 3D worlds\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~AUQOseCFm\n#aiselfimprovement #openweightsAImodels #AIworldmodels\n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-06T13:29:05Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
