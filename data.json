@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T13:29:05Z",
+  "last_updated": "2026-11-06T22:32:22Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1409,6 +1409,11 @@
         "video_id": "x_5JijpzprU",
         "channel": "IBM Technology",
         "title": "AI fixes AI in MIT study, Mistral's open model & Google Genie 4"
+      },
+      {
+        "video_id": "C9HS3zMrGo0",
+        "channel": "Sam Witteveen",
+        "title": "AREX-2 - The Harness in the Model"
       }
     ],
     "Large Language Models": [
@@ -27513,6 +27518,83 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-06T13:29:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "C9HS3zMrGo0",
+      "url": "https://www.youtube.com/watch?v=C9HS3zMrGo0",
+      "title": "AREX-2 - The Harness in the Model",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-06",
+      "duration_seconds": 988,
+      "metrics": {
+        "views": 16578,
+        "likes": 426,
+        "comments": 26
+      },
+      "metadata": {
+        "description": "In this video, I go through AREX-2, a new 27B open-weights model from BAAI, fine-tuned from Qwen3.8-27B built to run the try, check and retry loop itself rather than leaving it all to your harness. \n\nPaper: https://arxiv.org/abs/2609.38288\nHF Link: https://huggingface.co/BAAI/AREX-2\nGitHub: https://github.com/VectorSpaceLab/AREX-2\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:52 AREX-2: a 27B Qwen fine-tune\n1:38 Who built it\n2:24 Core idea\n2:44 Reflection and long horizon\n5:41 The three-step data pipeline\n7:08 Benchmarks\n8:35 Skills vs training\n11:30 Is this really RSI?\n12:32 Testing it: Round Lab\n14:42 Takeaways",
+        "tags": [
+          "agent harness",
+          "AI agent harness",
+          "self improving agent harness",
+          "AREX-2",
+          "BAAI AREX-2",
+          "AREX 2 model",
+          "Qwen3.8-27B",
+          "Qwen3.8 27B",
+          "Qwen 3.8 27B",
+          "Qwen3.8-27B fine-tune",
+          "self improving agent",
+          "self improving AI",
+          "AI agent loop",
+          "loop engineering",
+          "recursive self improvement",
+          "test-time scaling",
+          "long horizon agents",
+          "long running AI agent",
+          "agent skills",
+          "open weights model",
+          "local AI agent",
+          "MLE-bench",
+          "GPT-5.6 Sol",
+          "DeepSeek harness",
+          "HP ZGX Fury"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-06T22:32:21Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
