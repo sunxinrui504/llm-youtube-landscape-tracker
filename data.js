@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-06T22:32:22Z",
+  "last_updated": "2026-11-07T21:15:00Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1414,6 +1414,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "C9HS3zMrGo0",
         "channel": "Sam Witteveen",
         "title": "AREX-2 - The Harness in the Model"
+      },
+      {
+        "video_id": "GJ6PMUm5oTA",
+        "channel": "Two Minute Papers",
+        "title": "OpenAI's Astra Just Opened The Black Box Of AI"
       }
     ],
     "Large Language Models": [
@@ -27595,6 +27600,64 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-06T22:32:21Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "GJ6PMUm5oTA",
+      "url": "https://www.youtube.com/watch?v=GJ6PMUm5oTA",
+      "title": "OpenAI's Astra Just Opened The Black Box Of AI",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-07",
+      "duration_seconds": 349,
+      "metrics": {
+        "views": 58883,
+        "likes": 1569,
+        "comments": 119
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers\n\n📝 The Weight Space Programming work is available here:\nhttps://rikiyat.github.io/blog/weight-space-programming/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "openai",
+          "openai astra",
+          "gpt-6",
+          "gpt",
+          "chatgpt"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-07T21:14:58Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
