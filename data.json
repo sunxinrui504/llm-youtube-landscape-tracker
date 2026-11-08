@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T21:15:00Z",
+  "last_updated": "2026-11-08T12:28:55Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1419,6 +1419,11 @@
         "video_id": "GJ6PMUm5oTA",
         "channel": "Two Minute Papers",
         "title": "OpenAI's Astra Just Opened The Black Box Of AI"
+      },
+      {
+        "video_id": "H_GJapsoLyU",
+        "channel": "IBM Technology",
+        "title": "Why AI Models Run Faster on Some Chips: The KV Cache Effect"
       }
     ],
     "Large Language Models": [
@@ -27658,6 +27663,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-07T21:14:58Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "H_GJapsoLyU",
+      "url": "https://www.youtube.com/watch?v=H_GJapsoLyU",
+      "title": "Why AI Models Run Faster on Some Chips: The KV Cache Effect",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-08",
+      "duration_seconds": 601,
+      "metrics": {
+        "views": 237,
+        "likes": 21,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "Learn more about KV Cache here → https://ibm.biz/~6LPSw4Y8N\n\nThe same AI model can run differently across chips. Kaoutar El Maghraoui explains how GPUs, TPUs, and AI accelerators store and move KV cache during LLM inference. Learn why memory architecture and data movement can shape AI performance.\n\n 00:00 – Understand Why LLMs Need a KV Cache\n 00:46 – See How KV Cache Reuses Keys and Values\n 01:39 – Balance KV Cache Capacity and Fast Memory\n 02:41 – Follow KV Cache Through GPU Memory\n 04:41 – Compare TPU Memory and Compiler Orchestration\n 06:44 – Explore Dataflow Accelerator Memory\n 08:34 – Compare How AI Accelerators Move KV Cache\n 09:05 – Connect KV Cache Movement to LLM Performance\n\nContinue your education in the course Memory Systems in Dataflow Architectures on Coursera here → https://ibm.biz/~I7KAjOCAb\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~modQneKWV\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#kvcache #llm #aimodels #aiaccelerator \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-08T12:28:55Z"
       },
       "chapters": [],
       "speaker_type": "Solo",

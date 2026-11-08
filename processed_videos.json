@@ -1638,5 +1638,10 @@
     "title": "OpenAI's Astra Just Opened The Black Box Of AI",
     "processed_at": "2026-11-07T21:14:58Z",
     "status": "ok"
+  },
+  "H_GJapsoLyU": {
+    "title": "Why AI Models Run Faster on Some Chips: The KV Cache Effect",
+    "processed_at": "2026-11-08T12:28:55Z",
+    "status": "ok"
   }
 }
