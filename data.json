@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T12:28:55Z",
+  "last_updated": "2026-11-09T14:44:21Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1424,6 +1424,16 @@
         "video_id": "H_GJapsoLyU",
         "channel": "IBM Technology",
         "title": "Why AI Models Run Faster on Some Chips: The KV Cache Effect"
+      },
+      {
+        "video_id": "WJpeW9lCSUM",
+        "channel": "Sam Witteveen",
+        "title": "NVIDIA's Secret 2 Bit Model"
+      },
+      {
+        "video_id": "GpZ5T51jE4U",
+        "channel": "IBM Technology",
+        "title": "Spec-Driven Development vs. Waterfall: What's Different for AI Coding?"
       }
     ],
     "Large Language Models": [
@@ -27716,6 +27726,136 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-08T12:28:55Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "WJpeW9lCSUM",
+      "url": "https://www.youtube.com/watch?v=WJpeW9lCSUM",
+      "title": "NVIDIA's Secret 2 Bit Model",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-09",
+      "duration_seconds": 1394,
+      "metrics": {
+        "views": 780,
+        "likes": 60,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "In this video, I look at a new model and a set of techniques that NVIDIA has used to make this 2-bit model perform at a level much better than expected. \n\nResearch Report: https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-24GB/\nHF: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB\nParetoQ: https://arxiv.org/pdf/2502.02631\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:14 Microsoft’s secret 2-bit model\n1:02 Nemotron 3.5 Bolt 74B-A9B\n1:54 Why the recipe matters\n3:00 How normal quantization works\n3:43 Why going below 4-bit breaks\n4:38 ParetoQ\n5:31 Why 2-bit matters\n7:04 Mixed precision\n8:02 Stage 1: Pruning\n9:23 Stage 2: Post-training\n9:40 Stage 3: Quantization-aware training\n11:48 NVIDIA’s twist: QAD\n14:29 Demo on the ZGX Fury\n16:00 Pelican SVG test\n17:55 Agentic tool-calling tests\n19:42 Concurrency tests\n20:47 Which hardware Bolt is for\n22:04 Conclusion",
+        "tags": [
+          "Nemotron 3.5 Bolt",
+          "NVIDIA Nemotron Bolt",
+          "Nemotron Bolt 2-bit",
+          "NVIDIA 2-bit model",
+          "2-bit quantization",
+          "2-bit LLM",
+          "quantization aware training",
+          "QAT",
+          "quantization aware distillation",
+          "QAD",
+          "LLM quantization explained",
+          "4-bit vs 2-bit",
+          "Nemotron 3.5 Bolt 74B",
+          "74B in 24GB",
+          "run LLM locally",
+          "RTX Spark",
+          "Star Elastic",
+          "GGUF",
+          "IQ2_XXS",
+          "1-bit LLM",
+          "BitNet",
+          "REAP expert pruning",
+          "Gemma 4 QAT",
+          "Nemotron Bolt",
+          "Sam Witteveen"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-09T14:44:04Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "GpZ5T51jE4U",
+      "url": "https://www.youtube.com/watch?v=GpZ5T51jE4U",
+      "title": "Spec-Driven Development vs. Waterfall: What's Different for AI Coding?",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-09",
+      "duration_seconds": 458,
+      "metrics": {
+        "views": 4197,
+        "likes": 212,
+        "comments": 16
+      },
+      "metadata": {
+        "description": "Learn more about Spec-Driven Development here → https://ibm.biz/~zVL5K4NRM\n\nAI coding is making software specifications relevant again. Cedric Clyburn compares Spec-Driven Development with Waterfall and explains how evolving specs give AI agents better context. Learn why clearer specs can mean fewer prompts, faster iterations, and better code\n\n 00:00 – See Why AI Coding Needs Better Specs\n 00:43 – Define Spec-Driven Development\n 01:06 – Understand the Waterfall Development Model\n 01:38 – See Why Waterfall Specs Go Stale\n 02:47 – Ask If Spec-Driven Development Is Just Waterfall\n 03:09 – Build with an Iterative Spec-Driven Loop\n 03:39 – Refine an AI Coding Spec as You Build\n 04:18 – Keep Specifications Version-Controlled with Code\n 05:05 – Give AI Agents Better Context & Less Ambiguity\n 06:36 – Add Security, Compliance & Governance to Specs\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~lsxtAZPcw\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#specdrivendevelopment #aicoding #aiagents #waterfall #softwareengineering \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-09T14:44:21Z"
       },
       "chapters": [],
       "speaker_type": "Solo",

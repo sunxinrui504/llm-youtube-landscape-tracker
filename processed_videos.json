@@ -1643,5 +1643,15 @@
     "title": "Why AI Models Run Faster on Some Chips: The KV Cache Effect",
     "processed_at": "2026-11-08T12:28:55Z",
     "status": "ok"
+  },
+  "WJpeW9lCSUM": {
+    "title": "NVIDIA's Secret 2 Bit Model",
+    "processed_at": "2026-11-09T14:44:04Z",
+    "status": "ok"
+  },
+  "GpZ5T51jE4U": {
+    "title": "Spec-Driven Development vs. Waterfall: What's Different for AI Coding?",
+    "processed_at": "2026-11-09T14:44:21Z",
+    "status": "ok"
   }
 }
