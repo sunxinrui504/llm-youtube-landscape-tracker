@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T22:40:22Z",
+  "last_updated": "2026-11-11T03:50:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1449,6 +1449,11 @@
         "video_id": "l32KKNKdpIk",
         "channel": "Sam Witteveen",
         "title": "Gemini 4 Carbon is Live!"
+      },
+      {
+        "video_id": "583ThJIqQ7k",
+        "channel": "AI Explained",
+        "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)"
       }
     ],
     "Large Language Models": [
@@ -28056,6 +28061,82 @@
         "processed_at": "2026-11-10T22:40:22Z"
       },
       "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "583ThJIqQ7k",
+      "url": "https://www.youtube.com/watch?v=583ThJIqQ7k",
+      "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
+      "channel": "AI Explained",
+      "published_at": "2026-11-10",
+      "duration_seconds": 1901,
+      "metrics": {
+        "views": 27540,
+        "likes": 1073,
+        "comments": 131
+      },
+      "metadata": {
+        "description": "I’ve read the full Fable 5.2 report at 264 pages, the 30 page METR RSI report, and tested Gemini Carbon and Fable 5.2 hundreds of times. There’s too much to cover in one video, but let’s explore everything from how fast AI is accelerating AI, five benchmarks few others will talk about, why Simple Bench got saturated but meta-simple bench might not have, Internal model 4, remote labour automation and much more\n\nhttps://www.assemblyai.com/aiexplained\n\nExclusive Vids($9!): https://www.patreon.com/AIExplained\n\n00:00 - Introduction\n00:49 - how good are Fable 5.2 and Carbon?\n09:01 - smarter, but still missing some common sense\n15:49 - how fast is AI improving itself?\n23:51 - small gains, big consequences\n26:33 - it knows when you're watching\n\n\n\nIntroducing Claude Fable 5.2 and Mythos 5.2: https://www.anthropic.com/claude-fable-and-mythos-5-2\n\nClaude Fable 5.2 and Mythos 5.2 System Card: https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf\n\nMETR: AI R&D acceleration at Anthropic: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/\n\nEpoch AI: Fable 5.2 sets a new capabilities record: https://x.com/EpochAIResearch/status/2119903415363113088\n\nSemiAnalysis: Fable 5.2's coding gains and RSI plateau: https://x.com/SemiAnalysis_/status/2119961452496756926\n\nSemiAnalysis GDPx: https://gdpx.semianalysis.com/\n\nRemote Labor Index: https://www.remotelabor.ai/\n\nRemote Labor Index paper: https://arxiv.org/pdf/2510.26787\n\nGreg Burnham on Fable 5.2's Remote Labor Index score: https://x.com/GregHBurnham/status/2120155251240292619/photo/1\n\nAgents' Last Exam leaderboard: https://agents-last-exam.org/leaderboard\n\nAA-Omniscience: Knowledge and hallucination benchmark: https://artificialanalysis.ai/evaluations/omniscience\n\nExploitGym leaderboard: https://benchlm.ai/benchmarks/exploitgym\n\nExploitGym: Turning vulnerabilities into real attacks: https://arxiv.org/pdf/2605.11086\n\nBenchCAD leaderboard: https://benchcad.com/leaderboard\n\nBenchCAD paper: https://arxiv.org/pdf/2605.10865\n\nOpenAI: Accelerating engineering for the physical world: https://openai.com/index/accelerating-engineering-for-the-physical-world/\n\nGoogle: Gemini 4 Carbon is now available: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\n\nJustin Lo: MaxxBench tests coding robustness: https://x.com/loresjpg/status/2118880329490637049/photo/1\n\nClaude: Fable 5.2 and Mythos 5.2 capabilities and speed: https://x.com/claudeai/status/2119867117642146270/photo/1\n\nWashington Post: Cathedral researchers got inside Anthropic: https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/\n\nMax Winga: Dario Amodei's testimony on AI extinction risk: https://x.com/maxwinga/status/2119034229983986049/photo/2\n\nJared Kaplan's testimony on Anthropic's commercial structure: https://x.com/_smitop/status/2119870258919969066/photo/2\n\nAnthropic: AI-driven R&D risk disclosure excerpt: https://pbs.twimg.com/media/HWxojYda4AAu5c9?format=jpg&name=900x900\n\nMrinank Sharma's Anthropic resignation letter: https://x.com/MrinankSharma/status/2020881722003583421/photo/1\n\nChris Olah on Pope Leo XIV's encyclical: https://www.anthropic.com/news/chris-olah-pope-leo-encyclical\n\nLessWrong: Claude 3's launch and GPT-4 performance claims: https://www.lesswrong.com/posts/JbE7KynwshwkXPJAJ/anthropic-release-claude-3-claims-gpt-4-performance\n\nAlex Albert: Bringing Leonardo da Vinci's notebooks to life: https://x.com/alexalbert__/status/2119916954337349737\n\nClaude: Watching subagents work inside a project: https://x.com/claudeai/status/2120174853856821549\n\nIntegrityBench: https://integrity-bench.com/\n\nSimpleBench: https://simple-bench.com/\n\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "yt_dlp",
+        "has_manual_sub": false,
+        "has_auto_sub": true,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-11T03:50:44Z"
+      },
+      "chapters": [
+        {
+          "title": "Introduction",
+          "start_time": 0
+        },
+        {
+          "title": "how good are Fable 5.2 and Carbon?",
+          "start_time": 49
+        },
+        {
+          "title": "smarter, but still missing some common sense",
+          "start_time": 541
+        },
+        {
+          "title": "how fast is AI improving itself?",
+          "start_time": 949
+        },
+        {
+          "title": "small gains, big consequences",
+          "start_time": 1431
+        },
+        {
+          "title": "it knows when you're watching",
+          "start_time": 1593
+        }
+      ],
       "speaker_type": "Solo",
       "speakers": [
         "Speaker A"
