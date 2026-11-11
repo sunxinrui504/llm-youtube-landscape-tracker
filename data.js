@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-11T03:50:45Z",
+  "last_updated": "2026-11-11T13:14:19Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1454,6 +1454,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "583ThJIqQ7k",
         "channel": "AI Explained",
         "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)"
+      },
+      {
+        "video_id": "NuL5VFS8Prs",
+        "channel": "IBM Technology",
+        "title": "The $6B Binance heist, Meta’s AI bug tests and looming quantum deadlines"
       }
     ],
     "Large Language Models": [
@@ -28135,6 +28140,76 @@ window.__TRACKER_DATA__ = {
         {
           "title": "it knows when you're watching",
           "start_time": 1593
+        }
+      ],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "NuL5VFS8Prs",
+      "url": "https://www.youtube.com/watch?v=NuL5VFS8Prs",
+      "title": "The $6B Binance heist, Meta’s AI bug tests and looming quantum deadlines",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-11",
+      "duration_seconds": 1946,
+      "metrics": {
+        "views": 2433,
+        "likes": 28,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more AI content  → https://ibm.biz/~93M8GNpAP\n\nHackers spent months planning a $6 billion cryptocurrency heist. How did they get past security controls, and what can defenders learn from the attack?\n\nThis week on Security Intelligence, Seth Glasgow, Dimple Ahluwalia and Suja Viswesan join host Patrick Austin to unpack three major cybersecurity stories.\n\nFirst, the Binance heist reveals how attackers exploited employees and internal systems to steal billions in cryptocurrency. The panel examines the sophisticated tactics behind the attack and what security teams can learn.\n\nNext, Meta is using AI to catch software bugs before they reach production. As AI takes on more of the testing process, how much human oversight is enough?\n\nFinally, IBM introduces Quantum Safe to help organizations prepare for post-quantum cryptography. With attackers potentially harvesting encrypted data today to decrypt later, the panel discusses the challenges of identifying risks and prioritizing migration.\n\nAll that and more on Security Intelligence. \n\n00:00 - Intro\n01:05 - Inside the $6B Binance crypto heist\n12:56 - Meta's AI tests catch bugs early\n22:25 - IBM introduces Quantum Safe suite\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~T4vJnnCuG\n#socialengineering #aisecurity #incidentresponse \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "yt_dlp",
+        "has_manual_sub": false,
+        "has_auto_sub": true,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-11T13:14:19Z"
+      },
+      "chapters": [
+        {
+          "title": "Intro",
+          "start_time": 0
+        },
+        {
+          "title": "Inside the $6B Binance crypto heist",
+          "start_time": 65
+        },
+        {
+          "title": "Meta's AI tests catch bugs early",
+          "start_time": 776
+        },
+        {
+          "title": "IBM introduces Quantum Safe suite",
+          "start_time": 1345
         }
       ],
       "speaker_type": "Solo",
