@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T13:14:19Z",
+  "last_updated": "2026-11-12T14:18:01Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1459,6 +1459,16 @@
         "video_id": "NuL5VFS8Prs",
         "channel": "IBM Technology",
         "title": "The $6B Binance heist, Meta’s AI bug tests and looming quantum deadlines"
+      },
+      {
+        "video_id": "gPNiuyYirfw",
+        "channel": "Two Minute Papers",
+        "title": "DeepMind’s AI Just Did The Impossible"
+      },
+      {
+        "video_id": "hvnPWgfmvyI",
+        "channel": "IBM Technology",
+        "title": "Why AI Agents Need RAG + Observability"
       }
     ],
     "Large Language Models": [
@@ -28212,6 +28222,117 @@
           "start_time": 1345
         }
       ],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "gPNiuyYirfw",
+      "url": "https://www.youtube.com/watch?v=gPNiuyYirfw",
+      "title": "DeepMind’s AI Just Did The Impossible",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-12",
+      "duration_seconds": 326,
+      "metrics": {
+        "views": 5359,
+        "likes": 334,
+        "comments": 26
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers\n\n📝 The DeepMind paper AlphaProof Code is available here:\nhttps://deepmind.google/blog/introducing-alphaproof-code/\nhttps://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "deepmind",
+          "google deepmind",
+          "alphacode",
+          "alphaproof code",
+          "gemini"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-12T14:17:43Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "hvnPWgfmvyI",
+      "url": "https://www.youtube.com/watch?v=hvnPWgfmvyI",
+      "title": "Why AI Agents Need RAG + Observability",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-12",
+      "duration_seconds": 544,
+      "metrics": {
+        "views": 2178,
+        "likes": 125,
+        "comments": 10
+      },
+      "metadata": {
+        "description": "Learn more about Why Observability Is Essential for AI Agents here → https://ibm.biz/~MBafoTJOL\n\nYour AI agent knows the system, but what about now? Matt Aiken explains how RAG and observability give AI agents documented knowledge plus live metrics, logs, and traces. Learn how better operational context helps teams investigate issues with evidence.\n\n 00:00 – See What AI Agents Still Don't Know\n 00:37 – Give AI Agents Two Types of Context\n 00:46 – Ground AI Agents with RAG\n 01:47 – Add Live Context with Observability\n 03:06 – Investigate a Hybrid Transaction with AI\n 04:12 – Add Logs, Metrics & Traces to the Investigation\n 05:23 – Connect RAG Knowledge to Live Evidence\n 06:22 – Turn AI Context into Evidence, Impact & Next Steps\n 07:35 – Keep Human Operators in Control\n 08:09 – Combine RAG + Observability for Better AI Agents\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~9KyFFw5rY\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aiagents #retrievalaugmentedgeneration #observability #devops \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-12T14:18:01Z"
+      },
+      "chapters": [],
       "speaker_type": "Solo",
       "speakers": [
         "Speaker A"
