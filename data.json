@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T14:18:01Z",
+  "last_updated": "2026-11-13T13:40:05Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1469,6 +1469,11 @@
         "video_id": "hvnPWgfmvyI",
         "channel": "IBM Technology",
         "title": "Why AI Agents Need RAG + Observability"
+      },
+      {
+        "video_id": "Az2aRR51fDU",
+        "channel": "IBM Technology",
+        "title": "Jensen Huang exits NVIDIA & does Claude Fable 5.2 count as AGI?"
       }
     ],
     "Large Language Models": [
@@ -28331,6 +28336,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-12T14:18:01Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Az2aRR51fDU",
+      "url": "https://www.youtube.com/watch?v=Az2aRR51fDU",
+      "title": "Jensen Huang exits NVIDIA & does Claude Fable 5.2 count as AGI?",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-13",
+      "duration_seconds": 2155,
+      "metrics": {
+        "views": 3469,
+        "likes": 54,
+        "comments": 3
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~MikQp78Aa\n\nWho can replace a founder like Jensen Huang?\n\nThis week on Mixture of Experts, host David Zax is joined by Derek Robertson, Bri Kopecki and Kiyu Gabriel.\n\nFirst, NVIDIA CEO Jensen Huang resigns after more than three decades leading a company whose long-term investments helped shape the AI industry. The panel discusses whether the long-term bets Huang made, from CUDA to high-bandwidth networking, can keep NVIDIA ahead without him.\n\nNext, Anthropic releases Claude Fable 5.2, renewing questions about artificial general intelligence (AGI). A surprising demonstration of the model leads the panel into a debate about human creativity. If AI-generated art makes you feel something, does it matter who—or what—created it?\n\nFinally, a special one-on-one conversation examines Confluent's Streamhouse announcement and what access to real-time business data could mean for AI agents.\n\nAll that and more on Mixture of Experts.\n\n0:00 – Intro\n01:02 – Jensen Huang resigns from NVIDIA  \n09:57 – Claude Fable 5.2 & what counts as AGI  \n28:16 – What is a Streamhouse & why it matters\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~WVEDzwD8N\n#nvidia #claudefable  #agi \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-13T13:40:05Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
