@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-13T13:40:05Z",
+  "last_updated": "2026-11-14T12:44:12Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1474,6 +1474,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "Az2aRR51fDU",
         "channel": "IBM Technology",
         "title": "Jensen Huang exits NVIDIA & does Claude Fable 5.2 count as AGI?"
+      },
+      {
+        "video_id": "x7iwI6WfWS0",
+        "channel": "Two Minute Papers",
+        "title": "Funkiest Teams meeting EVER (Surprise video)"
       }
     ],
     "Large Language Models": [
@@ -28389,6 +28394,57 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-13T13:40:05Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "x7iwI6WfWS0",
+      "url": "https://www.youtube.com/watch?v=x7iwI6WfWS0",
+      "title": "Funkiest Teams meeting EVER (Surprise video)",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-14",
+      "duration_seconds": 363,
+      "metrics": {
+        "views": 9224,
+        "likes": 498,
+        "comments": 86
+      },
+      "metadata": {
+        "description": "After finishing this song, it took me 3 months to gather the courage to stand in front of the camera to record it. Hope you Fellow Scholars enjoy it! Thank you so much for the amazing musicians for their help!\n- Vocals: Carolina Padrón\n- Drums: Federico Gucciardo\n- Bass: Phil Gonnand\n- Saxophone: Dima Faustov\n- Guitar: Jens Ambrosch\n- Guitar: Dr. Károly Zsolnai-Fehér\n\nIf you wish to play a cover, the guitar tab is available here for free: https://www.dropbox.com/scl/fi/2x2v6etorp2psnieg4ka6/two-minute-papers-not-perfect.gp?rlkey=kr6n0hhawzhm4xupqalsvfn66&st=kv5igisa&e=1&dl=1",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-14T12:44:11Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
