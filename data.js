@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-14T12:44:12Z",
+  "last_updated": "2026-11-15T13:11:33Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1479,6 +1479,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "x7iwI6WfWS0",
         "channel": "Two Minute Papers",
         "title": "Funkiest Teams meeting EVER (Surprise video)"
+      },
+      {
+        "video_id": "K6ffYKrlPdU",
+        "channel": "IBM Technology",
+        "title": "AI Model Debugging: Find the First Divergence Across AI Accelerators"
       }
     ],
     "Large Language Models": [
@@ -28445,6 +28450,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-14T12:44:11Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "K6ffYKrlPdU",
+      "url": "https://www.youtube.com/watch?v=K6ffYKrlPdU",
+      "title": "AI Model Debugging: Find the First Divergence Across AI Accelerators",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-15",
+      "duration_seconds": 870,
+      "metrics": {
+        "views": 300,
+        "likes": 29,
+        "comments": 2
+      },
+      "metadata": {
+        "description": "Learn more about AI Debugging here → https://ibm.biz/~i26jCJsKx\n\nThe same AI model can produce different results across accelerators. Kaoutar El Maghraoui explains AI model debugging by finding the first observed divergence between executions. Learn how tensor comparisons, tolerances, and minimal tests help isolate failures.\n\n 00:00 – Debug Different AI Model Results Across Accelerators\n 00:53 – Trace Errors Through the AI Software Stack\n 02:40 – Separate Expected Variation from Correctness Bugs\n 03:05 – See How Small Differences Propagate Through Models\n 04:45 – Localize the Difference Before Diagnosing It\n 05:52 – Build a Validated Reference Execution\n 06:50 – Find the First Observed Divergence\n 08:42 – Compare Tensors with Numerical Tolerances\n 10:23 – Isolate the Operation with a Minimal Test\n 12:32 – Turn the Fix into a Regression Test\n\nContinue your education in the course Debugging Across the Dataflow Stack on Coursera here → https://ibm.biz/~NdKCGTusI\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~Tsdh7IC6m\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aimodel #aiaccelerator #aiengineering #machinelearning \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-15T13:11:33Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
