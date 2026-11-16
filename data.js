@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-15T13:11:33Z",
+  "last_updated": "2026-11-16T14:20:23Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1484,6 +1484,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "K6ffYKrlPdU",
         "channel": "IBM Technology",
         "title": "AI Model Debugging: Find the First Divergence Across AI Accelerators"
+      },
+      {
+        "video_id": "JVu2KicZACg",
+        "channel": "Sam Witteveen",
+        "title": "ZGX Fury - How Fast Can it Go?"
       }
     ],
     "Large Language Models": [
@@ -28503,6 +28508,87 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-15T13:11:33Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "JVu2KicZACg",
+      "url": "https://www.youtube.com/watch?v=JVu2KicZACg",
+      "title": "ZGX Fury - How Fast Can it Go?",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-16",
+      "duration_seconds": 1211,
+      "metrics": {
+        "views": 132,
+        "likes": 8,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "In this video, I return the ZGX Fury to put it through it's paces on just what it can run,  how fast it runs it and how people can use it for various tasks. \n\nThis video is sponsored by HP and NVIDIA\n\nHP ZGX Fury : https://bit.ly/4j9Ra1q\nHP Z LinkedIn Page: https://bit.ly/4iCmC8k\nQuickSpecs: https://bit.ly/3VfBq3S\nDatasheet: https://bit.ly/4C05Mbe\n\nHP ZGX Fury Sizzle Video: https://bit.ly/4iQGCmx\n\nX.com: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:44 Will It Fit? Memory Math\n02:26 HBM vs Unified Memory\n04:53 Prefill vs Decode\n06:39 Speculative Decoding\n07:05 Concurrent Users\n07:57 Why Agents Need Faster Tokens\n09:00 Dense vs Mixture of Experts\n11:57 Model Speeds\n12:26 Offline Coding Agents\n14:28 Private Local RAG\n16:46 Audio and Video Transcription\n17:40 Video Generation\n19:19 Takeaways",
+        "tags": [
+          "HP ZGX Fury",
+          "ZGX Fury",
+          "HP ZGX",
+          "Offline AI Agents",
+          "AI Without Internet",
+          "Local LLM Inference",
+          "LLM Inference Explained",
+          "Run Large Models Locally",
+          "Local AI Hardware",
+          "GB300",
+          "Blackwell",
+          "NVFP4",
+          "Speculative Decoding",
+          "vLLM",
+          "KV Cache",
+          "Mixture of Experts",
+          "Prefill vs Decode",
+          "Concurrent Users",
+          "Local Coding Agents",
+          "DeepSeek Harness",
+          "Local RAG",
+          "Private AI",
+          "GLM 5.3 Flash",
+          "DeepSeek 4.1 Flash",
+          "Nemotron 3 Nano",
+          "Qwen 3.8",
+          "Embedding Gemma 2",
+          "Local Video Generation",
+          "NVIDIA"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-16T14:20:22Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
