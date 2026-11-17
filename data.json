@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T01:18:36Z",
+  "last_updated": "2026-11-17T15:12:45Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1494,6 +1494,16 @@
         "video_id": "iv32wI3MBpw",
         "channel": "IBM Technology",
         "title": "Software Supply Chain Security: What AI Coding Changes"
+      },
+      {
+        "video_id": "gl2U4fGTr6g",
+        "channel": "Two Minute Papers",
+        "title": "OpenAI's New Breakthrough Is... Utter Chaos"
+      },
+      {
+        "video_id": "0MvcuIrects",
+        "channel": "IBM Technology",
+        "title": "Is AI Really Superintelligence? ANI, AGI & ASI Explained"
       }
     ],
     "Large Language Models": [
@@ -28649,6 +28659,155 @@
         "processed_at": "2026-11-17T01:18:36Z"
       },
       "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "gl2U4fGTr6g",
+      "url": "https://www.youtube.com/watch?v=gl2U4fGTr6g",
+      "title": "OpenAI's New Breakthrough Is... Utter Chaos",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-17",
+      "duration_seconds": 373,
+      "metrics": {
+        "views": 23976,
+        "likes": 1187,
+        "comments": 131
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers\n\n📝 The paper is available here:\nhttps://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf\nhttps://openai.com/index/building-scientific-understanding-with-academic-communities/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "openai",
+          "chatgpt"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "yt_dlp",
+        "has_manual_sub": false,
+        "has_auto_sub": true,
+        "transcription_source": "auto_caption",
+        "processed_at": "2026-11-17T15:12:40Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (all_map_failed).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "0MvcuIrects",
+      "url": "https://www.youtube.com/watch?v=0MvcuIrects",
+      "title": "Is AI Really Superintelligence? ANI, AGI & ASI Explained",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-17",
+      "duration_seconds": 806,
+      "metrics": {
+        "views": 4795,
+        "likes": 178,
+        "comments": 46
+      },
+      "metadata": {
+        "description": "Learn more about Artificial Superintelligence? here → https://ibm.biz/~ma2KWmdlF\n\nIs today’s AI truly superintelligent, or are we overstating its capabilities? Jeff Crume explains intelligence through perception, thinking, learning, and action, then compares ANI, AGI, and ASI. Learn why current AI remains narrow and why greater capability demands security, governance, testing, and human control.\n\n 00:00 – Ask If AI Is Really Superintelligence\n 00:29 – Define What Intelligence Actually Means\n 02:23 – Understand Perception in Intelligent Systems\n 03:31 – Explore AI Thinking and Reasoning\n 04:28 – See How Intelligent Systems Learn\n 05:29 – Turn Intelligence into Action\n 06:41 – Define Artificial Intelligence\n 07:27 – Compare ANI, AGI & ASI\n 10:21 – See Why Today’s AI Is Not Superintelligent\n 11:01 – Control AI Capability with Safety and Governance\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~zn1XTTn5G\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#ai #agi #aialignment #superintelligence \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "yt_dlp",
+        "has_manual_sub": true,
+        "has_auto_sub": true,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-17T15:12:45Z"
+      },
+      "chapters": [
+        {
+          "title": "Ask If AI Is Really Superintelligence",
+          "start_time": 0
+        },
+        {
+          "title": "Define What Intelligence Actually Means",
+          "start_time": 29
+        },
+        {
+          "title": "Understand Perception in Intelligent Systems",
+          "start_time": 143
+        },
+        {
+          "title": "Explore AI Thinking and Reasoning",
+          "start_time": 211
+        },
+        {
+          "title": "See How Intelligent Systems Learn",
+          "start_time": 268
+        },
+        {
+          "title": "Turn Intelligence into Action",
+          "start_time": 329
+        },
+        {
+          "title": "Define Artificial Intelligence",
+          "start_time": 401
+        },
+        {
+          "title": "Compare ANI, AGI & ASI",
+          "start_time": 447
+        },
+        {
+          "title": "See Why Today’s AI Is Not Superintelligent",
+          "start_time": 621
+        },
+        {
+          "title": "Control AI Capability with Safety and Governance",
+          "start_time": 661
+        }
+      ],
       "speaker_type": "Solo",
       "speakers": [
         "Speaker A"
