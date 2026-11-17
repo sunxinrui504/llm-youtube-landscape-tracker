@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16T14:20:23Z",
+  "last_updated": "2026-11-17T01:18:36Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1489,6 +1489,11 @@
         "video_id": "JVu2KicZACg",
         "channel": "Sam Witteveen",
         "title": "ZGX Fury - How Fast Can it Go?"
+      },
+      {
+        "video_id": "iv32wI3MBpw",
+        "channel": "IBM Technology",
+        "title": "Software Supply Chain Security: What AI Coding Changes"
       }
     ],
     "Large Language Models": [
@@ -28589,6 +28594,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-16T14:20:22Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "iv32wI3MBpw",
+      "url": "https://www.youtube.com/watch?v=iv32wI3MBpw",
+      "title": "Software Supply Chain Security: What AI Coding Changes",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-16",
+      "duration_seconds": 579,
+      "metrics": {
+        "views": 16346,
+        "likes": 234,
+        "comments": 20
+      },
+      "metadata": {
+        "description": "Learn more about Supply Chain Security here → https://ibm.biz/~k518Rj9sC\n\nYour code is only part of what reaches production. Cedric Clyburn explains how dependencies, CI/CD pipelines, open source, and AI-generated code expand the software supply chain. Learn how SBOMs, automated checks, independent review, and provenance reduce risk.\n\n 00:00 – See What Really Enters Your Application\n 01:00 – Define the Modern Software Supply Chain\n 02:02 – Understand Dependency Risk with Log4j\n 03:03 – Protect Package Registries from Ecosystem Poisoning\n 04:00 – See How Build Pipelines Become Attack Vectors\n 04:47 – Treat AI Coding Agents as Software Suppliers\n 06:01 – Shift Software Supply Chain Security Left\n 06:31 – Build an SBOM for Every Application\n 07:04 – Automate Security Checks and Verify AI Code\n 08:08 – Prove Software Provenance Before Production\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~rqEKFmJiG\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#supplychainsecurity #softwaresecurity #aicodingagent #aicoding \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-17T01:18:36Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
