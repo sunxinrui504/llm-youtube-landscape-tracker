@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T00:15:25Z",
+  "last_updated": "2026-11-18T14:50:17Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1514,6 +1514,11 @@
         "video_id": "IRZqAdKcNTE",
         "channel": "Sam Witteveen",
         "title": "RAON-1 Nano: The Tiny LLM for AI Game Characters"
+      },
+      {
+        "video_id": "Bn8DhYpy-qI",
+        "channel": "IBM Technology",
+        "title": "Grok Build leaks apps and Outlook goes dark worldwide"
       }
     ],
     "Large Language Models": [
@@ -28957,6 +28962,59 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-18T00:15:24Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Bn8DhYpy-qI",
+      "url": "https://www.youtube.com/watch?v=Bn8DhYpy-qI",
+      "title": "Grok Build leaks apps and Outlook goes dark worldwide",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-18",
+      "duration_seconds": 1572,
+      "metrics": {
+        "views": 3848,
+        "likes": 63,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more AI content  →https://ibm.biz/~NqgBKzBGg\n\nWhat happens when your private AI app isn't so private?\n\nThis week on Security Intelligence, Austin Zeizel, Sophie Cunningham and Bryan Clark join host Patrick Austin to unpack this week's cybersecurity news.\n\nFirst, Claroc finds tens of thousands of Grok Build apps open to anyone who knew where to look, exposing business plans, medical results and employee IDs. The panel asks why secure defaults still aren’t the default.\n\nThen, a Microsoft 365 outage takes Outlook offline for users around the world. You can’t control when a major provider goes down, but you can control what happens next.\n\nFinally, Shinobi Security researchers rebuild a real wind farm attack and turn two AI models loose on it. The original attackers needed 11 days. The models needed two hours, and one threatened to do more damage if it learned the test wasn't real.\n\n00:00 – Intro\n1:10 – Grok Build exposes shared apps\n10:02 – The global Microsoft 365 outage\n15:28 – AI agents hack a simulated wind farm\n\nAll that and more on Security Intelligence.\n \n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~B00NhA7OS\n#aisecurity #cybersecurity #GrokBuild\n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-18T14:50:17Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
