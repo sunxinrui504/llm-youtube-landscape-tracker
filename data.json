@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T14:50:17Z",
+  "last_updated": "2026-11-19T14:56:50Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1519,6 +1519,16 @@
         "video_id": "Bn8DhYpy-qI",
         "channel": "IBM Technology",
         "title": "Grok Build leaks apps and Outlook goes dark worldwide"
+      },
+      {
+        "video_id": "Cy7Wz6Z4TWU",
+        "channel": "Two Minute Papers",
+        "title": "DeepMind Just Did Something Extraordinary For Humanity"
+      },
+      {
+        "video_id": "4LINhsEZEDI",
+        "channel": "IBM Technology",
+        "title": "4 Types of AI Agent Loops: From Human-Led to Autonomous"
       }
     ],
     "Large Language Models": [
@@ -29015,6 +29025,112 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-18T14:50:17Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Cy7Wz6Z4TWU",
+      "url": "https://www.youtube.com/watch?v=Cy7Wz6Z4TWU",
+      "title": "DeepMind Just Did Something Extraordinary For Humanity",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-19",
+      "duration_seconds": 386,
+      "metrics": {
+        "views": 51046,
+        "likes": 1762,
+        "comments": 183
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers\n\n📝 The DeepMind AlphaGenome 2paper is available here:\nhttps://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n\nInterview with creator Dr. Pushmeet Kohli:\nhttps://www.youtube.com/watch?v=Wkaw03p3BrM\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-19T14:56:31Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4LINhsEZEDI",
+      "url": "https://www.youtube.com/watch?v=4LINhsEZEDI",
+      "title": "4 Types of AI Agent Loops: From Human-Led to Autonomous",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-19",
+      "duration_seconds": 548,
+      "metrics": {
+        "views": 4344,
+        "likes": 179,
+        "comments": 14
+      },
+      "metadata": {
+        "description": "Learn more about Loop Engineering here → https://ibm.biz/~o7OvraY9S\n\nNot every AI agent should have the same autonomy. Martin Keen explains four AI agent loops: interactive, delegated, scheduled, and event-driven. Learn how goals, triggers, stopping conditions, and human review shape each agentic workflow.\n\n 00:00 – Understand How AI Agent Loops Work\n 00:19 – Follow the Goal, Act, Observe & Adjust Cycle\n 01:12 – Decide Who Controls the AI Agent Loop\n 01:31 – Use Interactive Loops for Human-Led Tasks\n 03:30 – Delegate Stopping Conditions to AI\n 05:17 – Schedule Recurring AI Agent Workflows\n 06:40 – Trigger AI Agent Loops with Events\n 07:15 – Review AI Work with a Second Agent\n 08:01 – Escalate Agent Exceptions to Humans\n 08:32 – Compare the 4 Types of AI Agent Loops\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~Urdqp6qQ4\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#aiagents #agenticai #aiautomation #humanintheloop \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-19T14:56:50Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
