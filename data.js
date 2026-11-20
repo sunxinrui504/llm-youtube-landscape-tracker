@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-20T00:02:22Z",
+  "last_updated": "2026-11-20T14:38:02Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1534,6 +1534,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "KGA7B_c_S4s",
         "channel": "AI Explained",
         "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story"
+      },
+      {
+        "video_id": "Y6npte_lEKU",
+        "channel": "IBM Technology",
+        "title": "Anthropic goes public, ChatGPT gets a wallet & AI designs new drugs"
       }
     ],
     "Large Language Models": [
@@ -29187,6 +29192,59 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-20T00:02:21Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "Y6npte_lEKU",
+      "url": "https://www.youtube.com/watch?v=Y6npte_lEKU",
+      "title": "Anthropic goes public, ChatGPT gets a wallet & AI designs new drugs",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-20",
+      "duration_seconds": 1673,
+      "metrics": {
+        "views": 3361,
+        "likes": 32,
+        "comments": 5
+      },
+      "metadata": {
+        "description": "Visit Mixture of Experts podcast page to get more AI content  → https://ibm.biz/~ute2Pt4qM\n\nGrand Theft Auto VI and Anthropic's trillion-dollar IPO have one thing in common: November 19. The internet has dubbed it “Grandthropic.” But beyond the memes, what does Anthropic's public debut mean for the AI chip market?\n\nThis week on Mixture of Experts, host David Zax is joined by Alexis Zamkow, Sridhar Rajagopalan and Kush Varshney to discuss this and more.\n\nNext, OpenAI introduces ChatGPT Wallet, allowing AI agents to make purchases on your behalf. David shares how he let Claude buy an $850 projector, while Kush isn't quite ready to hand over his wallet. What will it take for consumers to trust AI with their money?\n\nFinally, Isomorphic Labs raises $5 billion to advance AI-powered drug discovery. The panel discusses how AI can narrow down promising drug candidates and why predicting toxicity may be just as important as finding molecules that work.\n\nAll that and more on Mixture of Experts.\n\n00:00 – Intro\n00:58 – What Anthropic’s IPO means for AI chips\n10:50 – ChatGPT Wallet and agentic commerce\n19:45 – What AI speeds up in drug discovery\n \n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~OfgjF1fUS\n#aichips #anthropicipo #chatgpt \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-20T14:38:02Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
