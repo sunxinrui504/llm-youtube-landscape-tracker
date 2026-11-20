@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-19T14:56:50Z",
+  "last_updated": "2026-11-20T00:02:22Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1529,6 +1529,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "4LINhsEZEDI",
         "channel": "IBM Technology",
         "title": "4 Types of AI Agent Loops: From Human-Led to Autonomous"
+      },
+      {
+        "video_id": "KGA7B_c_S4s",
+        "channel": "AI Explained",
+        "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story"
       }
     ],
     "Large Language Models": [
@@ -29131,6 +29136,57 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-19T14:56:50Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "KGA7B_c_S4s",
+      "url": "https://www.youtube.com/watch?v=KGA7B_c_S4s",
+      "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
+      "channel": "AI Explained",
+      "published_at": "2026-11-19",
+      "duration_seconds": 1842,
+      "metrics": {
+        "views": 34883,
+        "likes": 970,
+        "comments": 98
+      },
+      "metadata": {
+        "description": "GPT 6.2 Astra is OpenAI’s best model, so for each of the last 4 years this would have been the only headline. But now Gemini is catching up fast, with 4 Carbon and Neon, and Anthropic are IPO-ing after promising imminent RSI. And even all this isn’t quite the main story, is it? We now have data on what drives model improvement, how close AI is to automating AI, and whether, as Dario Amodei of Anthropic promised, we are witnessing a ‘race to the top’...\n\nhttps://www.assemblyai.com/aiexplained\n\n\nExtra Vids ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n00:44 - Part 1: Data Dependent Progress\n07:52 - Part 2: Predictable Progress on Aggregate Benchmarks,\n10:27 - How Much Is AI Speeding Up AI Research?\n14:23 - Part 3: Anthropic Promised a Race to the Top\n17:24 - Why Models Are Getting Harder to Monitor\n22:46 - Is OpenAI Now the More Transparent Lab?\n27:50 - Last Word to Anthropic Staff\n\nAnthropic IPO roadshow video (Dario Amodei, Tom Brown): https://ipo.anthropic.com/us/#roadshow-video\n\nGreg Brockman and Sam Altman at the NYT DealBook Summit: https://www.youtube.com/watch?v=J5EA7QeBm8k\n\nPaul Christiano, AI Alignment: What's Working and What's Not (Hinton Lectures 2026): https://www.youtube.com/watch?v=-Ef0ocEoBCs\n\nTao Lin interviewed by Palisade Research: https://www.youtube.com/watch?v=OPZCQk8jF-I\n\nOpenAI report on research acceleration (The jagged frontier): https://openai.com/index/research-acceleration-jagged-frontier/\n\nGPT-6.2 Astra and Sol announcement: https://openai.com/index/introducing-gpt-6-2-astra-sol/\n\nGPT-6.2 Astra and Sol system card (PDF): https://deploymentsafety.openai.com/gpt-6-2-astra-sol/gpt-6-2-astra-sol.pdf\n\nGemini 4 Neon announcement: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\n\nOpenAI paper on chain-of-thought monitorability: https://alignment.openai.com/cot-monitorability-model-lifecycle\n\nMETR assessment of AI R&D acceleration at Anthropic: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/\n\nChain of Thought Monitorability paper (arXiv): https://arxiv.org/pdf/2507.11473\n\nOpenAI on safety cases for frontier AI training: https://openai.com/index/towards-safety-cases-for-frontier-ai-training/\n\nGemini 4 Argon Safety & Security Report (PDF): https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf\n\nOpenAI on embedded assessments: https://openai.com/index/our-first-phase-of-embedded-assessments/\n\nAnthropic and Accenture on embedded evaluation: https://www.anthropic.com/news/accenture-embedded-evaluation\n\nOpenAI Cyber at the Frontier: https://openai.com/cyber-at-the-frontier/\n\nThe Information on Brockman and OpenAI cyber: https://www.theinformation.com/articles/brockman-pushes-openai-toward-cybersecurity-and-showdown-ai-safety\n\nEpoch Capabilities Index: https://epoch.ai/eci?view=graph&tab=release-date\n\nArtificial Analysis: https://artificialanalysis.ai/#evaluations\n\nVals RSI Index: https://www.vals.ai/benchmarks/rsi_index\n\nSimpleBench: https://simple-bench.com/\n\nIntegrityBench: https://integrity-bench.com/\n\nClaude and protein sequences (Xinming Tu post): https://x.com/TuXinming/status/2122737418864664618\n\nClaude and protein sequences (full write-up): https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/\n\nDrivingBench v2 results (Aditya Ramabadran): https://x.com/a_ramabadran/status/2122797260924923975\n\nBlender demo comparison (Teknium): https://x.com/Teknium/status/2122753724129145188\n\nUpdated time-horizon graph (Benjamin Todd): https://x.com/ben_j_todd/status/2122318704260403562\n\nCapability index trend break (roon): https://x.com/tszzl/status/2122924317935898701\n\nFrontierRSI leaderboard (Kevin Lin): https://x.com/quasicoh/status/2123114502065627580\n\nDario Amodei on the race to the top: https://x.com/DarioAmodei/status/2112732230124818891\n\nDan Hendrycks on AI safety groups and Anthropic: https://x.com/hendrycks/status/2123070133522350176\n\nJason Wolfe on evaluator access at OpenAI: https://x.com/w01fe/status/2122536841677283784\n\nEpoch AI on reasoning steps without chain of thought: https://x.com/EpochAIResearch/status/2122762411287748696\n\nJakub Pachocki on chain-of-thought faithfulness: https://x.com/merettm/status/1945157403315724547\n\nJacob Coxon on the Anthropic roadshow slide: https://x.com/hilbertspaess/status/2121331333654086124\n\nAssemblyAI STT-3.7 (sponsor): https://www.assemblyai.com/blog/introducing-assemblyai-stt-3-7\n\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "tags": []
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-20T00:02:21Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
