@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-20T14:38:02Z",
+  "last_updated": "2026-11-20T23:30:19Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1539,6 +1539,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "Y6npte_lEKU",
         "channel": "IBM Technology",
         "title": "Anthropic goes public, ChatGPT gets a wallet & AI designs new drugs"
+      },
+      {
+        "video_id": "iVm3lsgxH64",
+        "channel": "Sam Witteveen",
+        "title": "Microsoft’s Best AI Isn’t a Model — It’s a Harness"
       }
     ],
     "Large Language Models": [
@@ -29245,6 +29250,86 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-20T14:38:02Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "iVm3lsgxH64",
+      "url": "https://www.youtube.com/watch?v=iVm3lsgxH64",
+      "title": "Microsoft’s Best AI Isn’t a Model — It’s a Harness",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-20",
+      "duration_seconds": 852,
+      "metrics": {
+        "views": 12768,
+        "likes": 258,
+        "comments": 25
+      },
+      "metadata": {
+        "description": "In this video I breakdown the new announcements from Microsoft and look at how their focus is on the \"harness\" not the \"models\"\n\nIgnite 2026 Keynote - https://microsoft.ai/news/microsoft-ignite-2026/\nIgnite 2026 keynote (YouTube) https://www.youtube.com/watch?v=ZR4v1c4CClc\nGithub - https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot\nFoundry blog- https://devblogs.microsoft.com/foundry/?p=3100\nGithub - https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:22 7 new models\n1:11 Fusion is a router, not a model\n1:42 Why Microsoft built coding-only models\n2:10 Model or harness?\n2:33 What a harness actually is\n2:55 Copilot is a harness\n7:33 Where the MAI models fit\n9:52 Microsoft Decision 1.1\n12:17 Takeaways",
+        "tags": [
+          "Microsoft Ignite 2026",
+          "Microsoft Ignite",
+          "Copilot Fusion",
+          "GitHub Copilot",
+          "Microsoft Copilot",
+          "agent harness",
+          "model vs harness",
+          "AI harness",
+          "MAI Code 2",
+          "Microsoft AI models",
+          "Microsoft Decision 1.1",
+          "Gemma 4",
+          "Microsoft Foundry",
+          "Foundry Agent Service",
+          "Copilot harness",
+          "Terminal-Bench",
+          "Claude Opus 5.5",
+          "Claude Sonnet 5.5",
+          "GPT-6.1",
+          "Satya Nadella",
+          "Microsoft IQ",
+          "model router",
+          "context engineering",
+          "Hermes agent",
+          "Nous Research",
+          "AI agents",
+          "open weights",
+          "Sam Witteveen"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-20T23:30:18Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
