@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-22T13:48:37Z",
+  "last_updated": "2026-11-23T16:53:57Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1554,6 +1554,21 @@ window.__TRACKER_DATA__ = {
         "video_id": "IYVqarjWO2g",
         "channel": "IBM Technology",
         "title": "AI Accelerators vs. CPUs: Why They Think Differently"
+      },
+      {
+        "video_id": "1jPdehG3Hms",
+        "channel": "Two Minute Papers",
+        "title": "Claude AI Solved The Secret Of Black Holes"
+      },
+      {
+        "video_id": "4nnFw0TPDKM",
+        "channel": "Sam Witteveen",
+        "title": "Harness Adapters - Fit Your Model to Your  Harness"
+      },
+      {
+        "video_id": "h4tHDFCPmQE",
+        "channel": "IBM Technology",
+        "title": "Vibe Coding vs. Agentic Coding: Which Should You Use?"
       }
     ],
     "Large Language Models": [
@@ -29452,6 +29467,192 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-22T13:48:37Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "1jPdehG3Hms",
+      "url": "https://www.youtube.com/watch?v=1jPdehG3Hms",
+      "title": "Claude AI Solved The Secret Of Black Holes",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-23",
+      "duration_seconds": 375,
+      "metrics": {
+        "views": 108048,
+        "likes": 2987,
+        "comments": 321
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/claude-black-hole-physics\nhttps://hexagonmath.org/2611.00175v1\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "anthropic",
+          "claude",
+          "black hole"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-23T16:53:22Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4nnFw0TPDKM",
+      "url": "https://www.youtube.com/watch?v=4nnFw0TPDKM",
+      "title": "Harness Adapters - Fit Your Model to Your  Harness",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-23",
+      "duration_seconds": 983,
+      "metrics": {
+        "views": 255,
+        "likes": 17,
+        "comments": 1
+      },
+      "metadata": {
+        "description": "In this video I look at a recent research project from HuggingFace to train a set of LoRA adapters for the Qwen3.8-27B to make the model better for using with open coding harnesses.\n\nBlog post: https://huggingface.co/blog/harness-adapters-at-scale\nHarness Hub: https://huggingface.co/harness-hub\nSuper-adapter : https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter\nPi: https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted\nHermes Agent: https://huggingface.co/harness-hub/Qwen3.8-27B-hermes-adapted\nOpenCode: https://huggingface.co/harness-hub/Qwen3.8-27B-opencode-adapted\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n00:00 Intro\n01:19 Hugging Face’s harness adapters\n02:44 Why fit a model to a harness?\n03:58 Higher score, half the tokens\n07:38 What is a harness adapter?\n08:50 Training inside the real harness\n11:02 Reward and compute\n11:35 The super-adapter\n13:39 The Pi adapter under OpenCode\n14:52 Caveats\n15:09 Wrap-up",
+        "tags": [
+          "harness adapters",
+          "hugging face harness adapters",
+          "Qwen3.8-27B",
+          "qwen 3.8 27b",
+          "qwen3.8 27b pi adapter",
+          "harness adapter",
+          "agent harness",
+          "coding agent",
+          "pi coding agent",
+          "oh-my-pi",
+          "opencode",
+          "hermes agent",
+          "lora adapter",
+          "lora fine tuning",
+          "reinforcement learning",
+          "GRPO",
+          "TRL",
+          "vLLM",
+          "SWE-bench Pro",
+          "Terminal-Bench",
+          "open models",
+          "local AI",
+          "local coding agent",
+          "model harness",
+          "fewer tokens"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-23T16:53:39Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "h4tHDFCPmQE",
+      "url": "https://www.youtube.com/watch?v=h4tHDFCPmQE",
+      "title": "Vibe Coding vs. Agentic Coding: Which Should You Use?",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-23",
+      "duration_seconds": 517,
+      "metrics": {
+        "views": 19451,
+        "likes": 490,
+        "comments": 72
+      },
+      "metadata": {
+        "description": "Learn more about Agentic Coding here → https://ibm.biz/~6fQmfF0jA\n\nNot every AI coding task needs the same workflow. Grace Ableidinger compares Vibe Coding with Agentic Coding across context, planning, testing, validation, and security. Learn which approach fits prototypes, production features, and complex code changes.\n\n 00:00 – Define Vibe Coding vs. Agentic Coding\n 01:23 – Understand How Vibe Coding Works\n 01:51 – Use Vibe Coding for Rapid Prototypes\n 02:12 – Identify Risks in AI-Generated Code\n 02:41 – Build with Agentic Coding Workflows\n 03:38 – Compare Vibe and Agentic Coding Side by Side\n 04:46 – Give AI Coding Agents Focused Context\n 06:04 – Secure Agentic Coding with Guardrails\n 07:17 – Choose the Right AI Coding Approach\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~OctbwIDxa\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#vibecoding #agenticcoding #aicoding #agenticai \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-23T16:53:57Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
