@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T16:53:57Z",
+  "last_updated": "2026-11-24T16:44:31Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1569,6 +1569,16 @@
         "video_id": "h4tHDFCPmQE",
         "channel": "IBM Technology",
         "title": "Vibe Coding vs. Agentic Coding: Which Should You Use?"
+      },
+      {
+        "video_id": "4MVd6DYZGO0",
+        "channel": "Sam Witteveen",
+        "title": "ZGX Fury - Train Your Own AI No Cloud Needed"
+      },
+      {
+        "video_id": "OX9-zSfT4xI",
+        "channel": "IBM Technology",
+        "title": "What Is Sovereign AI? Data, Models & AI Agents Explained"
       }
     ],
     "Large Language Models": [
@@ -29653,6 +29663,140 @@
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-23T16:53:57Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "4MVd6DYZGO0",
+      "url": "https://www.youtube.com/watch?v=4MVd6DYZGO0",
+      "title": "ZGX Fury - Train Your Own AI No Cloud Needed",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-24",
+      "duration_seconds": 1312,
+      "metrics": {
+        "views": 958,
+        "likes": 76,
+        "comments": 10
+      },
+      "metadata": {
+        "description": "In this video, I return the ZGX Fury to put it through it's paces for training and fine-tuning models, including with RL and multi-lora serving.\n\nThis video is sponsored by HP and NVIDIA\n\nHP ZGX Fury : https://bit.ly/4j9Ra1q\nHP Z LinkedIn Page: https://bit.ly/4iCmC8k\nQuickSpecs: https://bit.ly/3VfBq3S\nDatasheet: https://bit.ly/4C05Mbe\n\nHP ZGX Fury Sizzle Video: https://bit.ly/4iQGCmx\n\nPrevious Fury Vids:\nIntro To the ZGX Fury:  https://youtu.be/lEFFa0Z5BIE\nInference Video:  https://youtu.be/JVu2KicZACg\n\nX.com: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n1:25 Why Train Locally\n2:41 Customer Support Example\n3:10 Fine-Tuning Memory Math\n3:46 LoRA and QLoRA\n5:00 Fine-Tuning a 120B Model\n5:16 Training Data\n6:38 LoRA vs RAG\n7:12 Multi-LoRA\n8:56 Decision Model Router\n11:07 Pruning and Distillation\n13:05 NVFP4 Quantization\n13:54 Base vs Fine-Tuned vs RAG\n14:33 Reinforcement Learning with GRPO\n15:39 Reward Hacking\n16:54 Training a Model from Scratch",
+        "tags": [
+          "HP ZGX Fury",
+          "ZGX Fury",
+          "HP ZGX",
+          "Offline AI Agents",
+          "AI Without Internet",
+          "Local LLM Inference",
+          "LLM Inference Explained",
+          "Run Large Models Locally",
+          "Local AI Hardware",
+          "GB300",
+          "Blackwell",
+          "NVFP4",
+          "Speculative Decoding",
+          "vLLM",
+          "KV Cache",
+          "Mixture of Experts",
+          "Prefill vs Decode",
+          "Concurrent Users",
+          "Local Coding Agents",
+          "DeepSeek Harness",
+          "Local RAG",
+          "Private AI",
+          "GLM 5.3 Flash",
+          "DeepSeek 4.1 Flash",
+          "Nemotron 3 Nano",
+          "Qwen 3.8",
+          "Embedding Gemma 2",
+          "Local Video Generation",
+          "NVIDIA"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-24T16:44:14Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "OX9-zSfT4xI",
+      "url": "https://www.youtube.com/watch?v=OX9-zSfT4xI",
+      "title": "What Is Sovereign AI? Data, Models & AI Agents Explained",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-24",
+      "duration_seconds": 522,
+      "metrics": {
+        "views": 4896,
+        "likes": 124,
+        "comments": 16
+      },
+      "metadata": {
+        "description": "Learn more about AI Sovereignty here → https://ibm.biz/~6CDCav44a\n\nSovereign AI goes far beyond controlling where data lives. Sam Anthony explains how sovereignty extends across AI models, infrastructure, inference, governance, and AI agents. Learn how visibility, continuous controls, and hybrid deployment help teams use AI on their own terms.\n\n 00:00 – See Why AI Growth Creates a Control Problem\n 00:42 – Understand What Sovereign AI Prevents\n 01:27 – Go Beyond Data Sovereignty\n 02:08 – Govern the Full AI Lifecycle\n 02:42 – Control Where AI Inference Runs\n 03:27 – Treat AI Sovereignty as a Spectrum\n 04:51 – Make AI Explainable, Governed & Auditable\n 05:29 – Turn AI Policies into Continuous Controls\n 06:06 – Govern AI Agents and Autonomous Actions\n 07:12 – Scale AI with Built-In Sovereignty\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~a45k0ZJZA\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#sovereignai #aisovereignty #data #aiagents \n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-24T16:44:30Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
