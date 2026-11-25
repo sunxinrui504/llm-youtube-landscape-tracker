@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-24T16:44:31Z",
+  "last_updated": "2026-11-25T16:30:11Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1579,6 +1579,16 @@ window.__TRACKER_DATA__ = {
         "video_id": "OX9-zSfT4xI",
         "channel": "IBM Technology",
         "title": "What Is Sovereign AI? Data, Models & AI Agents Explained"
+      },
+      {
+        "video_id": "hwWlEuI359w",
+        "channel": "Two Minute Papers",
+        "title": "Claude AI’s Biggest Math Breakthrough Has A Problem."
+      },
+      {
+        "video_id": "51rbs_HA3m4",
+        "channel": "IBM Technology",
+        "title": "OpenAI's $1.2M bug hunt, Grok Bot after dark & Optimizely malware"
       }
     ],
     "Large Language Models": [
@@ -29797,6 +29807,115 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-24T16:44:30Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "hwWlEuI359w",
+      "url": "https://www.youtube.com/watch?v=hwWlEuI359w",
+      "title": "Claude AI’s Biggest Math Breakthrough Has A Problem.",
+      "channel": "Two Minute Papers",
+      "published_at": "2026-11-25",
+      "duration_seconds": 487,
+      "metrics": {
+        "views": 74141,
+        "likes": 1662,
+        "comments": 254
+      },
+      "metadata": {
+        "description": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers\n\n📝 The paper is available here:\nhttps://nasqret.github.io/riemann-rev/guide/proof-guide.pdf\nhttps://alpo.ge/remark.pdf\n\nCompression and building in public:\nhttps://x.com/altryne/status/2124585496013926707\nhttps://x.com/slimer48484/status/2124414071349104804\nhttps://riemann.verifytask.cn/\nhttps://pequalnp.com/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "tags": [
+          "ai",
+          "riemann hypothesis",
+          "claude",
+          "anthropic"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-25T16:29:53Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "51rbs_HA3m4",
+      "url": "https://www.youtube.com/watch?v=51rbs_HA3m4",
+      "title": "OpenAI's $1.2M bug hunt, Grok Bot after dark & Optimizely malware",
+      "channel": "IBM Technology",
+      "published_at": "2026-11-25",
+      "duration_seconds": 1664,
+      "metrics": {
+        "views": 4522,
+        "likes": 39,
+        "comments": 4
+      },
+      "metadata": {
+        "description": "Visit Security Intelligence podcast page to get more AI content  → https://ibm.biz/~NbOgTyIYe\n\nWhat does a $1.2 million AI bug hunt get you? For OpenAI, 948 working Linux kernel exploits.\n \nOn episode 61 of Security Intelligence, Nick Bradley, San Sanda Htyte and Kimmie Farrington join host Patrick Austin to break down three cybersecurity stories and what they mean for defenders.\n \nFirst, OpenAI’s agents hunt for Linux kernel vulnerabilities and draft patches. Finding a bug and fixing it safely are two different jobs. What happens when AI finds more bugs than engineers have time to fix?\n \nThen, NewCore researchers catch two Grok Bot agents making 31 unapproved attempts to access employees’ email, Slack and GitHub accounts, some while their owners slept. The panel digs into why a chat prompt isn’t a security control.\n \nFinally, an attacker slips malicious JavaScript into Optimizely snippets served to 178 organizations, swapping crypto wallet addresses and skimming card details. The third-party code you vetted yesterday may not be safe today.\n\nAll that and more on Security Intelligence.\n\n00:00 – Intro\n01:11 – OpenAI agents hunt Linux kernel bugs\n10:05 – Grok Bot acts without approval\n16:44 – Optimizely scripts deliver malware\n\n\n\"The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity. AI tools may be used to transcribe this episode and support selected stages of the production process. All AI-assisted content is reviewed by the production team before publication.\"\n\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~aD3yBFFFQ\n#aisecurity #aiagent #grok \n\nAI was used in the creation of the transcript and metadata for this video.",
+        "tags": [
+          "IBM"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-25T16:30:11Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
