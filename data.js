@@ -1,5 +1,5 @@
 window.__TRACKER_DATA__ = {
-  "last_updated": "2026-11-27T15:52:31Z",
+  "last_updated": "2026-11-28T14:46:47Z",
   "themes_matrix": {
     "LLMs": [
       {
@@ -1609,6 +1609,11 @@ window.__TRACKER_DATA__ = {
         "video_id": "8zo0sFIhTPI",
         "channel": "IBM Technology",
         "title": "Is AI too pessimistic? Plus, Jensen Huang returns to NVIDIA"
+      },
+      {
+        "video_id": "rOOG2O3GrpE",
+        "channel": "Sam Witteveen",
+        "title": "HARU-4B The Mini Bidirectional Voice Model"
       }
     ],
     "Large Language Models": [
@@ -30171,6 +30176,84 @@ window.__TRACKER_DATA__ = {
         "has_auto_sub": false,
         "transcription_source": "unavailable",
         "processed_at": "2026-11-27T15:52:31Z"
+      },
+      "chapters": [],
+      "speaker_type": "Solo",
+      "speakers": [
+        "Speaker A"
+      ],
+      "ai_topics": [
+        "LLM"
+      ],
+      "summary": "Unavailable (empty_text).",
+      "dialogue_script": [],
+      "related_videos": [
+        {
+          "video_id": "zduSFxRajkE",
+          "title": "Let's build the GPT Tokenizer",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        },
+        {
+          "video_id": "t3YJ5hKiMQ0",
+          "title": "Building makemore Part 5: Building a WaveNet",
+          "reason": "Shared profile overlap (100% tag similarity)."
+        }
+      ]
+    },
+    {
+      "video_id": "rOOG2O3GrpE",
+      "url": "https://www.youtube.com/watch?v=rOOG2O3GrpE",
+      "title": "HARU-4B The Mini Bidirectional Voice Model",
+      "channel": "Sam Witteveen",
+      "published_at": "2026-11-28",
+      "duration_seconds": 736,
+      "metrics": {
+        "views": 601,
+        "likes": 54,
+        "comments": 6
+      },
+      "metadata": {
+        "description": "Thanks to Dell for Sponsoring the Compute\n#DellProPrecision #DellTech #NVIDIA #DellProMax \n\nIn this video I look at HARU-4B a local Bidirectional voice model, which you can run locally and can be fine tuned for assistants.\n\nBlog: https://blog.higurashi.ai/melte/haru4b/\nHF: https://huggingface.co/higurashi-ai/Haru-4B\nCommunity GGUF: https://huggingface.co/sakasegawa/Haru-4B-GGUF\n\n2nd Channel:  https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:\n0:00 Intro\n0:42 Why most voice agents feel like a walkie-talkie\n1:50 Haru 4B from higurashi\n2:24 How they built it on Qwen 3.5 4B\n2:55 What full duplex means\n3:48 40M hours of speech, 160+ languages\n4:44 Haru vs Moshi: 3 key differences\n6:16 How to try it and run it\n7:33 Demo\n11:29 Takeaways",
+        "tags": [
+          "Haru 4B",
+          "Haru-4B",
+          "higurashi",
+          "higurashi AI",
+          "full duplex voice model",
+          "full duplex AI",
+          "bidirectional voice AI",
+          "real-time voice AI",
+          "local voice AI",
+          "open source voice AI",
+          "speech to speech model",
+          "voice agent",
+          "Moshi",
+          "Kyutai Moshi",
+          "Qwen3.5-4B",
+          "VibeVoice",
+          "speech.cpp",
+          "GGUF",
+          "MLX",
+          "Apache 2.0",
+          "Gemini Live alternative",
+          "ChatGPT voice mode alternative",
+          "conversational AI",
+          "Japanese AI model",
+          "local LLM",
+          "Sam Witteveen"
+        ]
+      },
+      "processing_info": {
+        "source_engine": "api_v3",
+        "has_manual_sub": false,
+        "has_auto_sub": false,
+        "transcription_source": "unavailable",
+        "processed_at": "2026-11-28T14:46:46Z"
       },
       "chapters": [],
       "speaker_type": "Solo",
